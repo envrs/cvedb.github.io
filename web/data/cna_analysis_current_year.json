@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-09T01:03:59.741957",
+  "generated_at": "2025-12-09T06:34:35.904789",
   "source": "CVE V5 List (Authoritative)",
   "year": 2025,
   "total_cnas": 359,
@@ -27,10 +27,10 @@
     {
       "name": "VulDB",
       "assigner_org_id": "1af790b2-7ee1-4545-860a-a788eba489b5",
-      "count": 5562,
+      "count": 5564,
       "rank": 2,
       "first_cve_date": "2025-01-01T13:31:05.466Z",
-      "last_cve_date": "2025-12-08T21:32:08.167Z",
+      "last_cve_date": "2025-12-09T01:32:07.198Z",
       "years_active": 21,
       "is_official": true,
       "activity_status": "Active",
@@ -43,10 +43,10 @@
     {
       "name": "Linux",
       "assigner_org_id": "416baaa9-dc9f-4396-8d5f-8c081fb06d67",
-      "count": 5053,
+      "count": 5141,
       "rank": 3,
       "first_cve_date": "2025-01-02T14:38:04.604Z",
-      "last_cve_date": "2025-12-09T00:01:17.936Z",
+      "last_cve_date": "2025-12-09T04:10:03.253Z",
       "years_active": 7,
       "is_official": true,
       "activity_status": "Active",
@@ -75,10 +75,10 @@
     {
       "name": "Wordfence",
       "assigner_org_id": "b15e7b5b-3da4-40ae-a43c-f7aa60e62599",
-      "count": 3250,
+      "count": 3251,
       "rank": 5,
       "first_cve_date": "2025-01-03T08:22:21.179Z",
-      "last_cve_date": "2025-12-06T09:25:58.467Z",
+      "last_cve_date": "2025-12-09T04:36:24.520Z",
       "years_active": 13,
       "is_official": true,
       "activity_status": "Active",
@@ -91,10 +91,10 @@
     {
       "name": "GitHub_M",
       "assigner_org_id": "a0819718-46f1-4df5-94e2-005712e83aaa",
-      "count": 2684,
+      "count": 2696,
       "rank": 6,
       "first_cve_date": "2025-01-02T14:26:19.958Z",
-      "last_cve_date": "2025-12-09T00:38:39.208Z",
+      "last_cve_date": "2025-12-09T03:35:58.257Z",
       "years_active": 7,
       "is_official": true,
       "activity_status": "Active",
@@ -203,10 +203,10 @@
     {
       "name": "WPScan",
       "assigner_org_id": "1bfdd5d7-9bf6-4a53-96ea-42e2716d7a81",
-      "count": 572,
+      "count": 575,
       "rank": 13,
       "first_cve_date": "2025-01-01T06:00:08.702Z",
-      "last_cve_date": "2025-12-03T06:00:05.630Z",
+      "last_cve_date": "2025-12-09T06:00:08.538Z",
       "years_active": 10,
       "is_official": true,
       "activity_status": "Active",
@@ -473,10 +473,26 @@
       "top_cwe_types": {}
     },
     {
+      "name": "sap",
+      "assigner_org_id": "e4686d1a-f260-4930-ac4c-2f5c992778dd",
+      "count": 212,
+      "rank": 30,
+      "first_cve_date": "2025-01-14T00:08:21.600Z",
+      "last_cve_date": "2025-12-09T02:15:45.247Z",
+      "years_active": 9,
+      "is_official": true,
+      "activity_status": "Active",
+      "cna_types": [
+        "Vendor"
+      ],
+      "severity_distribution": {},
+      "top_cwe_types": {}
+    },
+    {
       "name": "apache",
       "assigner_org_id": "f0158376-9dc2-43b6-827c-5f631a4d8d09",
       "count": 206,
-      "rank": 30,
+      "rank": 31,
       "first_cve_date": "2025-01-08T08:40:03.705Z",
       "last_cve_date": "2025-12-05T13:40:39.772Z",
       "years_active": 16,
@@ -484,22 +500,6 @@
       "activity_status": "Active",
       "cna_types": [
         "Open Source"
-      ],
-      "severity_distribution": {},
-      "top_cwe_types": {}
-    },
-    {
-      "name": "sap",
-      "assigner_org_id": "e4686d1a-f260-4930-ac4c-2f5c992778dd",
-      "count": 200,
-      "rank": 31,
-      "first_cve_date": "2025-01-14T00:08:21.600Z",
-      "last_cve_date": "2025-11-11T00:20:44.455Z",
-      "years_active": 9,
-      "is_official": true,
-      "activity_status": "Active",
-      "cna_types": [
-        "Vendor"
       ],
       "severity_distribution": {},
       "top_cwe_types": {}
@@ -1420,10 +1420,10 @@
     {
       "name": "snyk",
       "assigner_org_id": "bae035ff-b466-4ff4-94d0-fc9efd9e1730",
-      "count": 35,
+      "count": 36,
       "rank": 89,
       "first_cve_date": "2025-02-05T05:00:01.940Z",
-      "last_cve_date": "2025-11-27T05:00:01.916Z",
+      "last_cve_date": "2025-12-09T05:00:03.409Z",
       "years_active": 8,
       "is_official": true,
       "activity_status": "Active",
@@ -2186,10 +2186,26 @@
       "top_cwe_types": {}
     },
     {
+      "name": "GoogleCloud",
+      "assigner_org_id": "f45cbf4e-4146-4068-b7e1-655ffc2c548c",
+      "count": 17,
+      "rank": 137,
+      "first_cve_date": "2025-08-25T07:05:31.047Z",
+      "last_cve_date": "2025-12-09T06:28:08.928Z",
+      "years_active": 1,
+      "is_official": true,
+      "activity_status": "Active",
+      "cna_types": [
+        "Vendor"
+      ],
+      "severity_distribution": {},
+      "top_cwe_types": {}
+    },
+    {
       "name": "ASRG",
       "assigner_org_id": "c15abc07-96a9-4d11-a503-5d621bfe42ba",
       "count": 16,
-      "rank": 137,
+      "rank": 138,
       "first_cve_date": "2025-06-13T14:25:50.597Z",
       "last_cve_date": "2025-09-04T14:13:22.348Z",
       "years_active": 3,
@@ -2205,7 +2221,7 @@
       "name": "Zyxel",
       "assigner_org_id": "96e50032-ad0d-4058-a115-4d2c13821f9f",
       "count": 16,
-      "rank": 138,
+      "rank": 139,
       "first_cve_date": "2025-01-14T01:39:04.348Z",
       "last_cve_date": "2025-11-18T01:25:05.406Z",
       "years_active": 5,
@@ -2221,7 +2237,7 @@
       "name": "Zabbix",
       "assigner_org_id": "72de3e22-0555-4a0d-ae81-9249e0f0a1e8",
       "count": 16,
-      "rank": 139,
+      "rank": 140,
       "first_cve_date": "2025-04-02T06:11:26.928Z",
       "last_cve_date": "2025-12-01T13:05:33.613Z",
       "years_active": 4,
@@ -2237,7 +2253,7 @@
       "name": "GRAFANA",
       "assigner_org_id": "57da9224-a3e2-4646-9d0e-c4dc2e05e7da",
       "count": 16,
-      "rank": 140,
+      "rank": 141,
       "first_cve_date": "2025-01-31T15:12:29.122Z",
       "last_cve_date": "2025-11-21T14:25:38.945Z",
       "years_active": 3,
@@ -2253,26 +2269,10 @@
       "name": "facebook",
       "assigner_org_id": "4fc57720-52fe-4431-a0fb-3d2c8747b827",
       "count": 16,
-      "rank": 141,
+      "rank": 142,
       "first_cve_date": "2025-03-11T13:28:31.705Z",
       "last_cve_date": "2025-12-03T15:40:56.894Z",
       "years_active": 8,
-      "is_official": true,
-      "activity_status": "Active",
-      "cna_types": [
-        "Vendor"
-      ],
-      "severity_distribution": {},
-      "top_cwe_types": {}
-    },
-    {
-      "name": "GoogleCloud",
-      "assigner_org_id": "f45cbf4e-4146-4068-b7e1-655ffc2c548c",
-      "count": 16,
-      "rank": 142,
-      "first_cve_date": "2025-08-25T07:05:31.047Z",
-      "last_cve_date": "2025-12-06T05:05:51.597Z",
-      "years_active": 1,
       "is_official": true,
       "activity_status": "Active",
       "cna_types": [
@@ -5774,10 +5774,10 @@
     {
       "name": "VulDB",
       "assigner_org_id": "1af790b2-7ee1-4545-860a-a788eba489b5",
-      "count": 5562,
+      "count": 5564,
       "rank": 2,
       "first_cve_date": "2025-01-01T13:31:05.466Z",
-      "last_cve_date": "2025-12-08T21:32:08.167Z",
+      "last_cve_date": "2025-12-09T01:32:07.198Z",
       "years_active": 21,
       "is_official": true,
       "activity_status": "Active",
@@ -5790,10 +5790,10 @@
     {
       "name": "Linux",
       "assigner_org_id": "416baaa9-dc9f-4396-8d5f-8c081fb06d67",
-      "count": 5053,
+      "count": 5141,
       "rank": 3,
       "first_cve_date": "2025-01-02T14:38:04.604Z",
-      "last_cve_date": "2025-12-09T00:01:17.936Z",
+      "last_cve_date": "2025-12-09T04:10:03.253Z",
       "years_active": 7,
       "is_official": true,
       "activity_status": "Active",
@@ -5822,10 +5822,10 @@
     {
       "name": "Wordfence",
       "assigner_org_id": "b15e7b5b-3da4-40ae-a43c-f7aa60e62599",
-      "count": 3250,
+      "count": 3251,
       "rank": 5,
       "first_cve_date": "2025-01-03T08:22:21.179Z",
-      "last_cve_date": "2025-12-06T09:25:58.467Z",
+      "last_cve_date": "2025-12-09T04:36:24.520Z",
       "years_active": 13,
       "is_official": true,
       "activity_status": "Active",
@@ -5838,10 +5838,10 @@
     {
       "name": "GitHub_M",
       "assigner_org_id": "a0819718-46f1-4df5-94e2-005712e83aaa",
-      "count": 2684,
+      "count": 2696,
       "rank": 6,
       "first_cve_date": "2025-01-02T14:26:19.958Z",
-      "last_cve_date": "2025-12-09T00:38:39.208Z",
+      "last_cve_date": "2025-12-09T03:35:58.257Z",
       "years_active": 7,
       "is_official": true,
       "activity_status": "Active",
@@ -5950,10 +5950,10 @@
     {
       "name": "WPScan",
       "assigner_org_id": "1bfdd5d7-9bf6-4a53-96ea-42e2716d7a81",
-      "count": 572,
+      "count": 575,
       "rank": 13,
       "first_cve_date": "2025-01-01T06:00:08.702Z",
-      "last_cve_date": "2025-12-03T06:00:05.630Z",
+      "last_cve_date": "2025-12-09T06:00:08.538Z",
       "years_active": 10,
       "is_official": true,
       "activity_status": "Active",
@@ -6220,10 +6220,26 @@
       "top_cwe_types": {}
     },
     {
+      "name": "sap",
+      "assigner_org_id": "e4686d1a-f260-4930-ac4c-2f5c992778dd",
+      "count": 212,
+      "rank": 30,
+      "first_cve_date": "2025-01-14T00:08:21.600Z",
+      "last_cve_date": "2025-12-09T02:15:45.247Z",
+      "years_active": 9,
+      "is_official": true,
+      "activity_status": "Active",
+      "cna_types": [
+        "Vendor"
+      ],
+      "severity_distribution": {},
+      "top_cwe_types": {}
+    },
+    {
       "name": "apache",
       "assigner_org_id": "f0158376-9dc2-43b6-827c-5f631a4d8d09",
       "count": 206,
-      "rank": 30,
+      "rank": 31,
       "first_cve_date": "2025-01-08T08:40:03.705Z",
       "last_cve_date": "2025-12-05T13:40:39.772Z",
       "years_active": 16,
@@ -6231,22 +6247,6 @@
       "activity_status": "Active",
       "cna_types": [
         "Open Source"
-      ],
-      "severity_distribution": {},
-      "top_cwe_types": {}
-    },
-    {
-      "name": "sap",
-      "assigner_org_id": "e4686d1a-f260-4930-ac4c-2f5c992778dd",
-      "count": 200,
-      "rank": 31,
-      "first_cve_date": "2025-01-14T00:08:21.600Z",
-      "last_cve_date": "2025-11-11T00:20:44.455Z",
-      "years_active": 9,
-      "is_official": true,
-      "activity_status": "Active",
-      "cna_types": [
-        "Vendor"
       ],
       "severity_distribution": {},
       "top_cwe_types": {}
@@ -7167,10 +7167,10 @@
     {
       "name": "snyk",
       "assigner_org_id": "bae035ff-b466-4ff4-94d0-fc9efd9e1730",
-      "count": 35,
+      "count": 36,
       "rank": 89,
       "first_cve_date": "2025-02-05T05:00:01.940Z",
-      "last_cve_date": "2025-11-27T05:00:01.916Z",
+      "last_cve_date": "2025-12-09T05:00:03.409Z",
       "years_active": 8,
       "is_official": true,
       "activity_status": "Active",
@@ -7933,10 +7933,26 @@
       "top_cwe_types": {}
     },
     {
+      "name": "GoogleCloud",
+      "assigner_org_id": "f45cbf4e-4146-4068-b7e1-655ffc2c548c",
+      "count": 17,
+      "rank": 137,
+      "first_cve_date": "2025-08-25T07:05:31.047Z",
+      "last_cve_date": "2025-12-09T06:28:08.928Z",
+      "years_active": 1,
+      "is_official": true,
+      "activity_status": "Active",
+      "cna_types": [
+        "Vendor"
+      ],
+      "severity_distribution": {},
+      "top_cwe_types": {}
+    },
+    {
       "name": "ASRG",
       "assigner_org_id": "c15abc07-96a9-4d11-a503-5d621bfe42ba",
       "count": 16,
-      "rank": 137,
+      "rank": 138,
       "first_cve_date": "2025-06-13T14:25:50.597Z",
       "last_cve_date": "2025-09-04T14:13:22.348Z",
       "years_active": 3,
@@ -7952,7 +7968,7 @@
       "name": "Zyxel",
       "assigner_org_id": "96e50032-ad0d-4058-a115-4d2c13821f9f",
       "count": 16,
-      "rank": 138,
+      "rank": 139,
       "first_cve_date": "2025-01-14T01:39:04.348Z",
       "last_cve_date": "2025-11-18T01:25:05.406Z",
       "years_active": 5,
@@ -7968,7 +7984,7 @@
       "name": "Zabbix",
       "assigner_org_id": "72de3e22-0555-4a0d-ae81-9249e0f0a1e8",
       "count": 16,
-      "rank": 139,
+      "rank": 140,
       "first_cve_date": "2025-04-02T06:11:26.928Z",
       "last_cve_date": "2025-12-01T13:05:33.613Z",
       "years_active": 4,
@@ -7984,7 +8000,7 @@
       "name": "GRAFANA",
       "assigner_org_id": "57da9224-a3e2-4646-9d0e-c4dc2e05e7da",
       "count": 16,
-      "rank": 140,
+      "rank": 141,
       "first_cve_date": "2025-01-31T15:12:29.122Z",
       "last_cve_date": "2025-11-21T14:25:38.945Z",
       "years_active": 3,
@@ -8000,26 +8016,10 @@
       "name": "facebook",
       "assigner_org_id": "4fc57720-52fe-4431-a0fb-3d2c8747b827",
       "count": 16,
-      "rank": 141,
+      "rank": 142,
       "first_cve_date": "2025-03-11T13:28:31.705Z",
       "last_cve_date": "2025-12-03T15:40:56.894Z",
       "years_active": 8,
-      "is_official": true,
-      "activity_status": "Active",
-      "cna_types": [
-        "Vendor"
-      ],
-      "severity_distribution": {},
-      "top_cwe_types": {}
-    },
-    {
-      "name": "GoogleCloud",
-      "assigner_org_id": "f45cbf4e-4146-4068-b7e1-655ffc2c548c",
-      "count": 16,
-      "rank": 142,
-      "first_cve_date": "2025-08-25T07:05:31.047Z",
-      "last_cve_date": "2025-12-06T05:05:51.597Z",
-      "years_active": 1,
       "is_official": true,
       "activity_status": "Active",
       "cna_types": [
