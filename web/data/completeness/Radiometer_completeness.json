@@ -63,15 +63,6 @@
     "cna_scorecard_category": null
   },
   {
-    "field": "containers.cna.datePublic",
-    "percent": 100.0,
-    "cve_count": 3,
-    "total_cves": 3,
-    "importance": "Medium",
-    "description": "",
-    "cna_scorecard_category": null
-  },
-  {
     "field": "containers.cna.descriptions",
     "percent": 100.0,
     "cve_count": 3,
@@ -216,9 +207,18 @@
     "cna_scorecard_category": null
   },
   {
-    "field": "references.advisory",
-    "percent": 33.3,
-    "cve_count": 1,
+    "field": "containers.adp",
+    "percent": 66.7,
+    "cve_count": 2,
+    "total_cves": 3,
+    "importance": "Medium",
+    "description": "",
+    "cna_scorecard_category": null
+  },
+  {
+    "field": "containers.cna.datePublic",
+    "percent": 66.7,
+    "cve_count": 2,
     "total_cves": 3,
     "importance": "Medium",
     "description": "",
@@ -262,15 +262,6 @@
   },
   {
     "field": "affected.repo",
-    "percent": 0.0,
-    "cve_count": 0,
-    "total_cves": 3,
-    "importance": "Medium",
-    "description": "",
-    "cna_scorecard_category": null
-  },
-  {
-    "field": "containers.adp",
     "percent": 0.0,
     "cve_count": 0,
     "total_cves": 3,
@@ -343,6 +334,15 @@
   },
   {
     "field": "problemTypes.type",
+    "percent": 0.0,
+    "cve_count": 0,
+    "total_cves": 3,
+    "importance": "Medium",
+    "description": "",
+    "cna_scorecard_category": null
+  },
+  {
+    "field": "references.advisory",
     "percent": 0.0,
     "cve_count": 0,
     "total_cves": 3,
