@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "hackerone",
-    "total_cves": 42,
-    "total_cves_scored": 42,
+    "total_cves": 46,
+    "total_cves_scored": 46,
     "organizationName": "HackerOne",
     "scope": "Provides CVE IDs for its customers as part of its bug bounty and vulnerability coordination platform.",
     "advisories": [
@@ -28,24 +28,24 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 303,
-  "active_cna_count": 317,
+  "rank": 302,
+  "active_cna_count": 316,
   "percentile": 4.7,
   "cna_scoring": [
     {
-      "total_cves": 42,
-      "total_cves_scored": 42,
-      "recent_cves_count": 42,
-      "overall_average_score": 58.93,
+      "total_cves": 46,
+      "total_cves_scored": 46,
+      "recent_cves_count": 46,
+      "overall_average_score": 59.46,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 0.0,
       "average_software_identification": 0.0,
-      "average_severity_context": 8.93,
+      "average_severity_context": 9.46,
       "average_patchinfo": 0.0,
       "percent_foundational_completeness": 100.0,
       "percent_root_cause_analysis": 0.0,
       "percent_software_identification": 0.0,
-      "percent_severity_and_impact": 59.52,
+      "percent_severity_and_impact": 63.04,
       "percent_patchinfo": 0.0,
       "trend_direction": "steady",
       "trend_description": "No significant change",
@@ -96,6 +96,19 @@
       "cveId": "CVE-2024-38648",
       "assigningCna": "hackerone",
       "datePublished": "2025-07-12",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-59467",
+      "assigningCna": "hackerone",
+      "datePublished": "2026-01-05",
       "totalCveScore": 65,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -590,6 +603,45 @@
       "cveId": "CVE-2025-55126",
       "assigningCna": "hackerone",
       "datePublished": "2025-11-20",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-21633",
+      "assigningCna": "hackerone",
+      "datePublished": "2026-01-05",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-21635",
+      "assigningCna": "hackerone",
+      "datePublished": "2026-01-05",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-21634",
+      "assigningCna": "hackerone",
+      "datePublished": "2026-01-05",
       "totalCveScore": 65,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
