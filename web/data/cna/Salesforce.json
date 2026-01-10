@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "Salesforce",
-    "total_cves": 20,
-    "total_cves_scored": 20,
+    "total_cves": 21,
+    "total_cves_scored": 21,
     "organizationName": "Salesforce, Inc.",
     "scope": "<a href='https://trust.salesforce.com/en/trust-and-compliance-documentation/' target='_blank'>Salesforce products</a> only.",
     "advisories": [
@@ -33,14 +33,14 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 278,
-  "active_cna_count": 315,
-  "percentile": 12.1,
+  "rank": 279,
+  "active_cna_count": 316,
+  "percentile": 12.0,
   "cna_scoring": [
     {
-      "total_cves": 20,
-      "total_cves_scored": 20,
-      "recent_cves_count": 20,
+      "total_cves": 21,
+      "total_cves_scored": 21,
+      "recent_cves_count": 21,
       "overall_average_score": 65.0,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
@@ -309,6 +309,19 @@
       "cveId": "CVE-2025-64320",
       "assigningCna": "Salesforce",
       "datePublished": "2025-11-04",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-22584",
+      "assigningCna": "Salesforce",
+      "datePublished": "2026-01-09",
       "totalCveScore": 65,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
