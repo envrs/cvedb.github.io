@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "google_android",
-    "total_cves": 223,
-    "total_cves_scored": 223,
+    "total_cves": 224,
+    "total_cves_scored": 224,
     "organizationName": "Android (associated with Google Inc. or Open Handset Alliance)",
     "scope": "Android issues, as well as vulnerabilities in third-party software discovered by Android that are not in another CNA’s scope.",
     "advisories": [
@@ -40,9 +40,9 @@
   "percentile": 3.2,
   "cna_scoring": [
     {
-      "total_cves": 223,
-      "total_cves_scored": 223,
-      "recent_cves_count": 223,
+      "total_cves": 224,
+      "total_cves_scored": 224,
+      "recent_cves_count": 224,
       "overall_average_score": 50.0,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 0.0,
@@ -1806,6 +1806,19 @@
       "cveId": "CVE-2025-48638",
       "assigningCna": "google_android",
       "datePublished": "2025-12-08",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-48647",
+      "assigningCna": "google_android",
+      "datePublished": "2026-01-16",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
