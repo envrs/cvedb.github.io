@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "INCIBE",
-    "total_cves": 248,
-    "total_cves_scored": 248,
+    "total_cves": 255,
+    "total_cves_scored": 255,
     "organizationName": "Spanish National Cybersecurity Institute, S.A. (INCIBE)",
     "scope": "<strong>Root Scope:</strong> Spain organizations.<br/><strong>CNA Scope:</strong> Vulnerability assignment related to its vulnerability coordination role for Industrial Control Systems (ICS), Information Technologies (IT), and Internet of Things (IoT) systems issues at the national level, and vulnerabilities reported to INCIBE by Spain organizations and researchers that are not in another CNA’s scope.",
     "advisories": [
@@ -42,25 +42,25 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 34,
+  "rank": 35,
   "active_cna_count": 316,
-  "percentile": 89.6,
+  "percentile": 89.2,
   "cna_scoring": [
     {
-      "total_cves": 248,
-      "total_cves_scored": 248,
-      "recent_cves_count": 248,
-      "overall_average_score": 80.4,
+      "total_cves": 255,
+      "total_cves_scored": 255,
+      "recent_cves_count": 255,
+      "overall_average_score": 80.33,
       "average_foundational_completeness": 50.0,
-      "average_root_cause_analysis": 15.0,
+      "average_root_cause_analysis": 14.94,
       "average_software_identification": 0.0,
       "average_severity_context": 15.0,
-      "average_patchinfo": 0.4,
+      "average_patchinfo": 0.39,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 100.0,
+      "percent_root_cause_analysis": 99.61,
       "percent_software_identification": 0.0,
       "percent_severity_and_impact": 100.0,
-      "percent_patchinfo": 4.03,
+      "percent_patchinfo": 3.92,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -731,6 +731,19 @@
       }
     },
     {
+      "cveId": "CVE-2025-41081",
+      "assigningCna": "INCIBE",
+      "datePublished": "2026-01-20",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2025-41021",
       "assigningCna": "INCIBE",
       "datePublished": "2025-10-16",
@@ -1004,6 +1017,19 @@
       }
     },
     {
+      "cveId": "CVE-2025-41024",
+      "assigningCna": "INCIBE",
+      "datePublished": "2026-01-20",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2025-41091",
       "assigningCna": "INCIBE",
       "datePublished": "2025-09-30",
@@ -1085,6 +1111,19 @@
       "cveId": "CVE-2025-41373",
       "assigningCna": "INCIBE",
       "datePublished": "2025-08-01",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-41084",
+      "assigningCna": "INCIBE",
+      "datePublished": "2026-01-20",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -1625,6 +1664,19 @@
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2025-41025",
+      "assigningCna": "INCIBE",
+      "datePublished": "2026-01-20",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
       }
     },
     {
@@ -2603,6 +2655,19 @@
       }
     },
     {
+      "cveId": "CVE-2025-40679",
+      "assigningCna": "INCIBE",
+      "datePublished": "2026-01-20",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2025-40687",
       "assigningCna": "INCIBE",
       "datePublished": "2025-09-11",
@@ -2645,6 +2710,19 @@
       "cveId": "CVE-2025-40681",
       "assigningCna": "INCIBE",
       "datePublished": "2025-11-13",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-40644",
+      "assigningCna": "INCIBE",
+      "datePublished": "2026-01-20",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -3282,6 +3360,19 @@
       "cveId": "CVE-2025-11783",
       "assigningCna": "INCIBE",
       "datePublished": "2025-12-02",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-1183",
+      "assigningCna": "INCIBE",
+      "datePublished": "2026-01-20",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
