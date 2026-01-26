@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "TPLink",
-    "total_cves": 29,
-    "total_cves_scored": 29,
+    "total_cves": 30,
+    "total_cves_scored": 30,
     "organizationName": "TP-Link Systems Inc.",
     "scope": "TP-Link issues only.",
     "advisories": [
@@ -35,24 +35,24 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 27,
-  "active_cna_count": 314,
+  "active_cna_count": 313,
   "percentile": 91.7,
   "cna_scoring": [
     {
-      "total_cves": 29,
-      "total_cves_scored": 29,
-      "recent_cves_count": 29,
-      "overall_average_score": 81.55,
+      "total_cves": 30,
+      "total_cves_scored": 30,
+      "recent_cves_count": 30,
+      "overall_average_score": 81.83,
       "average_foundational_completeness": 50.0,
-      "average_root_cause_analysis": 13.45,
+      "average_root_cause_analysis": 13.5,
       "average_software_identification": 0.0,
       "average_severity_context": 15.0,
-      "average_patchinfo": 3.1,
+      "average_patchinfo": 3.33,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 89.66,
+      "percent_root_cause_analysis": 90.0,
       "percent_software_identification": 0.0,
       "percent_severity_and_impact": 100.0,
-      "percent_patchinfo": 31.03,
+      "percent_patchinfo": 33.33,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -252,6 +252,19 @@
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-14756",
+      "assigningCna": "TPLink",
+      "datePublished": "2026-01-26",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
       }
     },
     {
