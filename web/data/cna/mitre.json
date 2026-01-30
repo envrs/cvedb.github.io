@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "mitre",
-    "total_cves": 2555,
-    "total_cves_scored": 2555,
+    "total_cves": 2557,
+    "total_cves_scored": 2557,
     "organizationName": "MITRE Corporation",
     "scope": "All vulnerabilities, and Open Source software product vulnerabilities, not already covered by a CNA listed on this website.",
     "advisories": [
@@ -33,19 +33,19 @@
   "percentile": 3.5,
   "cna_scoring": [
     {
-      "total_cves": 2555,
-      "total_cves_scored": 2555,
-      "recent_cves_count": 2555,
-      "overall_average_score": 53.05,
+      "total_cves": 2557,
+      "total_cves_scored": 2557,
+      "recent_cves_count": 2557,
+      "overall_average_score": 53.07,
       "average_foundational_completeness": 50.0,
-      "average_root_cause_analysis": 1.44,
+      "average_root_cause_analysis": 1.45,
       "average_software_identification": 0.0,
-      "average_severity_context": 1.61,
+      "average_severity_context": 1.62,
       "average_patchinfo": 0.0,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 9.59,
+      "percent_root_cause_analysis": 9.66,
       "percent_software_identification": 0.0,
-      "percent_severity_and_impact": 10.76,
+      "percent_severity_and_impact": 10.83,
       "percent_patchinfo": 0.0,
       "trend_direction": "steady",
       "trend_description": "No significant change",
@@ -33233,6 +33233,32 @@
       "cveId": "CVE-2026-24515",
       "assigningCna": "mitre",
       "datePublished": "2026-01-23",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-25210",
+      "assigningCna": "mitre",
+      "datePublished": "2026-01-30",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-25211",
+      "assigningCna": "mitre",
+      "datePublished": "2026-01-30",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
