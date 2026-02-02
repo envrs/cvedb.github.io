@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "Patchstack",
-    "total_cves": 3012,
-    "total_cves_scored": 3012,
+    "total_cves": 3013,
+    "total_cves_scored": 3013,
     "organizationName": "Patchstack",
     "scope": "Vulnerabilities in third-party products discovered by Patchstack and Patchstack Bug Bounty program unless covered by the scope of another CNA.",
     "advisories": [
@@ -46,10 +46,10 @@
   "percentile": 14.1,
   "cna_scoring": [
     {
-      "total_cves": 3012,
-      "total_cves_scored": 3012,
-      "recent_cves_count": 3012,
-      "overall_average_score": 71.51,
+      "total_cves": 3013,
+      "total_cves_scored": 3013,
+      "recent_cves_count": 3013,
+      "overall_average_score": 71.52,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 14.99,
       "average_software_identification": 0.0,
@@ -58,7 +58,7 @@
       "percent_foundational_completeness": 100.0,
       "percent_root_cause_analysis": 99.9,
       "percent_software_identification": 0.0,
-      "percent_severity_and_impact": 43.53,
+      "percent_severity_and_impact": 43.54,
       "percent_patchinfo": 0.0,
       "trend_direction": "steady",
       "trend_description": "No significant change",
@@ -447,6 +447,19 @@
       "cveId": "CVE-2024-37945",
       "assigningCna": "Patchstack",
       "datePublished": "2025-08-14",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2024-54263",
+      "assigningCna": "Patchstack",
+      "datePublished": "2026-02-02",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
