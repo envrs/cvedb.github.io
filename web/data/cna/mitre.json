@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "mitre",
-    "total_cves": 2504,
-    "total_cves_scored": 2504,
+    "total_cves": 2505,
+    "total_cves_scored": 2505,
     "organizationName": "MITRE Corporation",
     "scope": "All vulnerabilities, and Open Source software product vulnerabilities, not already covered by a CNA listed on this website.",
     "advisories": [
@@ -28,14 +28,14 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 306,
-  "active_cna_count": 315,
+  "rank": 307,
+  "active_cna_count": 316,
   "percentile": 3.2,
   "cna_scoring": [
     {
-      "total_cves": 2504,
-      "total_cves_scored": 2504,
-      "recent_cves_count": 2504,
+      "total_cves": 2505,
+      "total_cves_scored": 2505,
+      "recent_cves_count": 2505,
       "overall_average_score": 52.9,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 1.36,
@@ -43,7 +43,7 @@
       "average_severity_context": 1.54,
       "average_patchinfo": 0.0,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 9.07,
+      "percent_root_cause_analysis": 9.06,
       "percent_software_identification": 0.0,
       "percent_severity_and_impact": 10.26,
       "percent_patchinfo": 0.0,
@@ -9924,6 +9924,19 @@
       "cveId": "CVE-2025-70985",
       "assigningCna": "mitre",
       "datePublished": "2026-01-23",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-70963",
+      "assigningCna": "mitre",
+      "datePublished": "2026-02-06",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
