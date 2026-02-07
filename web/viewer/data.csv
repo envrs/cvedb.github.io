@@ -6358,6 +6358,9 @@ CVE-2023-4451,6.1,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N,0.60612,Cross-sit
 CVE-2023-44812,6.1,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N,0.49696,Cross Site Scripting (XSS) vulnerability in mooSocial v.3.1.8 allows a remote attacker to execute arbitrary code via a crafted payload to the admin_redirect_url parameter of the user login function.,2023-10-09,Nuclei,cpe:2.3:a:moosocial:moosocial:3.1.8:*:*:*:*:*:*:*
 CVE-2023-44813,6.1,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N,0.37798,Cross Site Scripting (XSS) vulnerability in mooSocial v.3.1.8 allows a remote attacker to execute arbitrary code via a crafted payload to the mode parameter of the invite friend login function.,2023-10-09,Nuclei,cpe:2.3:a:moosocial:moosocial:3.1.8:*:*:*:*:*:*:*
 CVE-2023-4490,9.8,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,0.47698,"The WP Job Portal WordPress plugin before 2.0.6 does not sanitise and escape a parameter before using it in a SQL statement, leading to a SQL injection exploitable by unauthenticated users",2023-09-25,Nuclei,cpe:2.3:a:wpjobportal:wp_job_portal:*:*:*:*:*:wordpress:*:*
+CVE-2023-44982,5.3,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N,0.00296,"Exposure of Sensitive Information to an Unauthorized Actor vulnerability in Jordy Meow Perfect Images (Manage Image Sizes, Thumbnails, Replace, Retina).This issue affects Perfect Images (Manage Image Sizes, Thumbnails, Replace, Retina): from n/a through 6.4.5.
+
+",2023-12-19,Nuclei,cpe:2.3:a:meowapps:perfect_images:*:*:*:*:*:wordpress:*:*
 CVE-2023-45038,4.3,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N,0.06473,"An improper authentication vulnerability has been reported to affect Music Station. If exploited, the vulnerability could allow users to compromise the security of the system via a network.
 
 We have already fixed the vulnerability in the following version:
