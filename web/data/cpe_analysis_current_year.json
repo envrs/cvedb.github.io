@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-02-09T12:57:25.902951",
+  "generated_at": "2026-02-10T01:29:16.141681",
   "year": 2026,
-  "total_unique_cpes": 2651,
-  "total_cpe_entries": 14674,
-  "total_cves_with_cpes": 1942,
-  "total_unique_vendors": 492,
-  "total_unique_products": 1360,
+  "total_unique_cpes": 2702,
+  "total_cpe_entries": 14855,
+  "total_cves_with_cpes": 2014,
+  "total_unique_vendors": 512,
+  "total_unique_products": 1402,
   "top_cpes": [
     {
       "cpe": "cpe:2.3:o:microsoft:windows_server_2025:*:*:*:*:*:*:*:*",
@@ -162,6 +162,13 @@
       "type": "Application"
     },
     {
+      "cpe": "cpe:2.3:a:discourse:discourse:*:*:*:*:stable:*:*:*",
+      "count": 28,
+      "vendor": "discourse",
+      "product": "discourse",
+      "type": "Application"
+    },
+    {
       "cpe": "cpe:2.3:o:google:android:15.0:*:*:*:*:*:*:*",
       "count": 26,
       "vendor": "google",
@@ -174,13 +181,6 @@
       "vendor": "microsoft",
       "product": "windows_server_2008",
       "type": "Operating System"
-    },
-    {
-      "cpe": "cpe:2.3:a:discourse:discourse:*:*:*:*:stable:*:*:*",
-      "count": 26,
-      "vendor": "discourse",
-      "product": "discourse",
-      "type": "Application"
     },
     {
       "cpe": "cpe:2.3:o:qnap:quts_hero:h5.2.0.2737:build_20240417:*:*:*:*:*:*",
@@ -233,7 +233,7 @@
     },
     {
       "vendor": "microsoft",
-      "count": 1321
+      "count": 1322
     },
     {
       "vendor": "juniper",
@@ -245,7 +245,7 @@
     },
     {
       "vendor": "rustfs",
-      "count": 276
+      "count": 355
     },
     {
       "vendor": "oracle",
@@ -276,8 +276,8 @@
       "count": 72
     },
     {
-      "vendor": "mozilla",
-      "count": 65
+      "vendor": "huawei",
+      "count": 68
     }
   ],
   "top_products": [
@@ -307,7 +307,7 @@
     },
     {
       "product": "rustfs",
-      "count": 276
+      "count": 355
     },
     {
       "product": "windows_10_1809",
@@ -345,13 +345,13 @@
   "cpe_type_distribution": [
     {
       "type": "Operating System",
-      "count": 7693,
-      "percentage": 52.4
+      "count": 7732,
+      "percentage": 52.0
     },
     {
       "type": "Application",
-      "count": 6980,
-      "percentage": 47.6
+      "count": 7122,
+      "percentage": 47.9
     },
     {
       "type": "Hardware",
@@ -441,5 +441,5 @@
       "cpe_count": 132
     }
   ],
-  "average_cpes_per_cve": 7.6
+  "average_cpes_per_cve": 7.4
 }
