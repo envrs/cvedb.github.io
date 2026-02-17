@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "VulDB",
-    "total_cves": 2689,
-    "total_cves_scored": 2689,
+    "total_cves": 2690,
+    "total_cves_scored": 2690,
     "organizationName": "VulDB",
     "scope": "Vulnerabilities in VulDB products and vulnerabilities discovered by, or reported to, the VulDB vulnerability database that are not in another CNA’s scope.",
     "advisories": [
@@ -38,9 +38,9 @@
   "percentile": 89.0,
   "cna_scoring": [
     {
-      "total_cves": 2689,
-      "total_cves_scored": 2689,
-      "recent_cves_count": 2689,
+      "total_cves": 2690,
+      "total_cves_scored": 2690,
+      "recent_cves_count": 2690,
       "overall_average_score": 80.64,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 14.97,
@@ -33043,6 +33043,19 @@
       "cveId": "CVE-2026-2560",
       "assigningCna": "VulDB",
       "datePublished": "2026-02-16",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-2615",
+      "assigningCna": "VulDB",
+      "datePublished": "2026-02-17",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
