@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "TPLink",
-    "total_cves": 67,
-    "total_cves_scored": 67,
+    "total_cves": 69,
+    "total_cves_scored": 69,
     "organizationName": "TP-Link Systems Inc.",
     "scope": "TP-Link issues only.",
     "advisories": [
@@ -39,20 +39,20 @@
   "percentile": 93.5,
   "cna_scoring": [
     {
-      "total_cves": 67,
-      "total_cves_scored": 67,
-      "recent_cves_count": 67,
-      "overall_average_score": 87.16,
+      "total_cves": 69,
+      "total_cves_scored": 69,
+      "recent_cves_count": 69,
+      "overall_average_score": 87.25,
       "average_foundational_completeness": 50.0,
-      "average_root_cause_analysis": 14.55,
+      "average_root_cause_analysis": 14.57,
       "average_software_identification": 0.0,
       "average_severity_context": 15.0,
-      "average_patchinfo": 7.61,
+      "average_patchinfo": 7.68,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 97.01,
+      "percent_root_cause_analysis": 97.1,
       "percent_software_identification": 0.0,
       "percent_severity_and_impact": 100.0,
-      "percent_patchinfo": 76.12,
+      "percent_patchinfo": 76.81,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -853,6 +853,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-0654",
+      "assigningCna": "TPLink",
+      "datePublished": "2026-03-02",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
       "cveId": "CVE-2026-0919",
       "assigningCna": "TPLink",
       "datePublished": "2026-01-27",
@@ -908,6 +921,19 @@
       "cveId": "CVE-2026-0629",
       "assigningCna": "TPLink",
       "datePublished": "2026-01-16",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-0655",
+      "assigningCna": "TPLink",
+      "datePublished": "2026-03-02",
       "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
