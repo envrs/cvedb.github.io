@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "VulDB",
-    "total_cves": 2585,
-    "total_cves_scored": 2585,
+    "total_cves": 2586,
+    "total_cves_scored": 2586,
     "organizationName": "VulDB",
     "scope": "Vulnerabilities in VulDB products and vulnerabilities discovered by, or reported to, the VulDB vulnerability database that are not in another CNA’s scope.",
     "advisories": [
@@ -34,13 +34,13 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 27,
-  "active_cna_count": 322,
+  "active_cna_count": 321,
   "percentile": 91.9,
   "cna_scoring": [
     {
-      "total_cves": 2585,
-      "total_cves_scored": 2585,
-      "recent_cves_count": 2585,
+      "total_cves": 2586,
+      "total_cves_scored": 2586,
+      "recent_cves_count": 2586,
       "overall_average_score": 83.25,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 14.98,
@@ -49,7 +49,7 @@
       "average_patchinfo": 0.74,
       "percent_foundational_completeness": 100.0,
       "percent_root_cause_analysis": 99.88,
-      "percent_software_identification": 25.3,
+      "percent_software_identification": 25.29,
       "percent_severity_and_impact": 100.0,
       "percent_patchinfo": 7.39,
       "trend_direction": "steady",
@@ -14947,6 +14947,19 @@
       "cveId": "CVE-2025-12335",
       "assigningCna": "VulDB",
       "datePublished": "2025-10-27",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-12345",
+      "assigningCna": "VulDB",
+      "datePublished": "2026-03-03",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
