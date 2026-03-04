@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "talos",
-    "total_cves": 83,
-    "total_cves_scored": 83,
+    "total_cves": 86,
+    "total_cves_scored": 86,
     "organizationName": "Talos",
     "scope": "Third-party products it researches.",
     "advisories": [
@@ -38,9 +38,9 @@
   "percentile": 86.9,
   "cna_scoring": [
     {
-      "total_cves": 83,
-      "total_cves_scored": 83,
-      "recent_cves_count": 83,
+      "total_cves": 86,
+      "total_cves_scored": 86,
+      "recent_cves_count": 86,
       "overall_average_score": 80.0,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
@@ -335,6 +335,19 @@
       "cveId": "CVE-2025-52582",
       "assigningCna": "talos",
       "datePublished": "2025-12-16",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-64736",
+      "assigningCna": "talos",
+      "datePublished": "2026-03-03",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -1128,6 +1141,32 @@
       "cveId": "CVE-2025-44005",
       "assigningCna": "talos",
       "datePublished": "2025-12-17",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-22891",
+      "assigningCna": "talos",
+      "datePublished": "2026-03-03",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-20777",
+      "assigningCna": "talos",
+      "datePublished": "2026-03-03",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,

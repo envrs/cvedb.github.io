@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "icscert",
-    "total_cves": 199,
-    "total_cves_scored": 199,
+    "total_cves": 200,
+    "total_cves_scored": 200,
     "organizationName": "Cybersecurity and Infrastructure Security Agency (CISA) Industrial Control Systems (ICS)",
     "scope": "Vulnerabilities that are (1) reported to or observed by CISA, (2) affect industrial control systems or medical devices, and (3) are not covered by another CNA’s scope.",
     "advisories": [
@@ -37,12 +37,12 @@
   "percentile": 26.2,
   "cna_scoring": [
     {
-      "total_cves": 199,
-      "total_cves_scored": 199,
-      "recent_cves_count": 199,
+      "total_cves": 200,
+      "total_cves_scored": 200,
+      "recent_cves_count": 200,
       "overall_average_score": 79.92,
       "average_foundational_completeness": 50.0,
-      "average_root_cause_analysis": 14.92,
+      "average_root_cause_analysis": 14.93,
       "average_software_identification": 0.0,
       "average_severity_context": 15.0,
       "average_patchinfo": 0.0,
@@ -1319,19 +1319,6 @@
       }
     },
     {
-      "cveId": "CVE-2025-9365",
-      "assigningCna": "icscert",
-      "datePublished": "2025-09-03",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2025-9317",
       "assigningCna": "icscert",
       "datePublished": "2025-11-14",
@@ -2242,6 +2229,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-3437",
+      "assigningCna": "icscert",
+      "datePublished": "2026-03-03",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-3037",
       "assigningCna": "icscert",
       "datePublished": "2026-02-27",
@@ -2258,6 +2258,19 @@
       "cveId": "CVE-2026-1670",
       "assigningCna": "icscert",
       "datePublished": "2026-02-17",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-1775",
+      "assigningCna": "icscert",
+      "datePublished": "2026-03-03",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
