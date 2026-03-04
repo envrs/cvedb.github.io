@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-03-03T12:49:08.795188",
+  "generated_at": "2026-03-04T01:18:24.706703",
   "year": 2026,
-  "total_unique_cpes": 4915,
-  "total_cpe_entries": 23257,
-  "total_cves_with_cpes": 4811,
-  "total_unique_vendors": 1115,
-  "total_unique_products": 2621,
+  "total_unique_cpes": 5007,
+  "total_cpe_entries": 23859,
+  "total_cves_with_cpes": 5044,
+  "total_unique_vendors": 1151,
+  "total_unique_products": 2695,
   "top_cpes": [
     {
       "cpe": "cpe:2.3:o:linux:linux_kernel:*:*:*:*:*:*:*:*",
@@ -64,10 +64,24 @@
       "type": "Operating System"
     },
     {
+      "cpe": "cpe:2.3:o:google:android:15.0:*:*:*:*:*:*:*",
+      "count": 81,
+      "vendor": "google",
+      "product": "android",
+      "type": "Operating System"
+    },
+    {
       "cpe": "cpe:2.3:o:microsoft:windows_10_1809:*:*:*:*:*:*:x86:*",
       "count": 81,
       "vendor": "microsoft",
       "product": "windows_10_1809",
+      "type": "Operating System"
+    },
+    {
+      "cpe": "cpe:2.3:o:google:android:16.0:-:*:*:*:*:*:*",
+      "count": 80,
+      "vendor": "google",
+      "product": "android",
       "type": "Operating System"
     },
     {
@@ -162,6 +176,13 @@
       "type": "Operating System"
     },
     {
+      "cpe": "cpe:2.3:o:google:android:14.0:*:*:*:*:*:*:*",
+      "count": 66,
+      "vendor": "google",
+      "product": "android",
+      "type": "Operating System"
+    },
+    {
       "cpe": "cpe:2.3:o:microsoft:windows_10_1607:*:*:*:*:*:*:x86:*",
       "count": 63,
       "vendor": "microsoft",
@@ -195,27 +216,6 @@
       "vendor": "mozilla",
       "product": "thunderbird",
       "type": "Application"
-    },
-    {
-      "cpe": "cpe:2.3:o:microsoft:windows_server_2012:r2:*:*:*:*:*:*:*",
-      "count": 50,
-      "vendor": "microsoft",
-      "product": "windows_server_2012",
-      "type": "Operating System"
-    },
-    {
-      "cpe": "cpe:2.3:o:microsoft:windows_server_2012:-:*:*:*:*:*:*:*",
-      "count": 47,
-      "vendor": "microsoft",
-      "product": "windows_server_2012",
-      "type": "Operating System"
-    },
-    {
-      "cpe": "cpe:2.3:a:google:chrome:*:*:*:*:*:*:*:*",
-      "count": 45,
-      "vendor": "google",
-      "product": "chrome",
-      "type": "Application"
     }
   ],
   "top_vendors": [
@@ -225,11 +225,11 @@
     },
     {
       "vendor": "qualcomm",
-      "count": 2879
+      "count": 3043
     },
     {
       "vendor": "microsoft",
-      "count": 1956
+      "count": 1957
     },
     {
       "vendor": "samsung",
@@ -260,6 +260,10 @@
       "count": 363
     },
     {
+      "vendor": "google",
+      "count": 362
+    },
+    {
       "vendor": "linux",
       "count": 343
     },
@@ -273,11 +277,7 @@
     },
     {
       "vendor": "sap",
-      "count": 227
-    },
-    {
-      "vendor": "gitlab",
-      "count": 197
+      "count": 234
     }
   ],
   "top_products": [
@@ -287,7 +287,7 @@
     },
     {
       "product": "android",
-      "count": 1292
+      "count": 1531
     },
     {
       "product": "junos",
@@ -345,13 +345,13 @@
   "cpe_type_distribution": [
     {
       "type": "Application",
-      "count": 12202,
-      "percentage": 52.5
+      "count": 12371,
+      "percentage": 51.9
     },
     {
       "type": "Operating System",
-      "count": 11054,
-      "percentage": 47.5
+      "count": 11487,
+      "percentage": 48.1
     },
     {
       "type": "Hardware",
@@ -429,17 +429,17 @@
       "cpe_count": 164
     },
     {
+      "cve": "CVE-2025-59600",
+      "cpe_count": 164
+    },
+    {
       "cve": "CVE-2025-47366",
       "cpe_count": 159
     },
     {
       "cve": "CVE-2025-47398",
       "cpe_count": 153
-    },
-    {
-      "cve": "CVE-2025-59960",
-      "cpe_count": 152
     }
   ],
-  "average_cpes_per_cve": 4.8
+  "average_cpes_per_cve": 4.7
 }
