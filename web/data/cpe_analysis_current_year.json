@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-03-04T18:50:44.625000",
+  "generated_at": "2026-03-05T01:21:37.712940",
   "year": 2026,
-  "total_unique_cpes": 5040,
-  "total_cpe_entries": 24142,
-  "total_cves_with_cpes": 5078,
-  "total_unique_vendors": 1158,
-  "total_unique_products": 2722,
+  "total_unique_cpes": 5145,
+  "total_cpe_entries": 25396,
+  "total_cves_with_cpes": 5179,
+  "total_unique_vendors": 1178,
+  "total_unique_products": 2779,
   "top_cpes": [
     {
       "cpe": "cpe:2.3:o:linux:linux_kernel:*:*:*:*:*:*:*:*",
@@ -220,12 +220,12 @@
   ],
   "top_vendors": [
     {
-      "vendor": "coollabs",
-      "count": 4211
+      "vendor": "qualcomm",
+      "count": 4314
     },
     {
-      "vendor": "qualcomm",
-      "count": 3280
+      "vendor": "coollabs",
+      "count": 4211
     },
     {
       "vendor": "microsoft",
@@ -233,7 +233,7 @@
     },
     {
       "vendor": "samsung",
-      "count": 1391
+      "count": 1416
     },
     {
       "vendor": "juniper",
@@ -248,12 +248,12 @@
       "count": 610
     },
     {
-      "vendor": "parseplatform",
-      "count": 546
+      "vendor": "ibm",
+      "count": 558
     },
     {
-      "vendor": "ibm",
-      "count": 501
+      "vendor": "parseplatform",
+      "count": 546
     },
     {
       "vendor": "apple",
@@ -344,14 +344,14 @@
   ],
   "cpe_type_distribution": [
     {
-      "type": "Application",
-      "count": 12416,
-      "percentage": 51.4
+      "type": "Operating System",
+      "count": 12821,
+      "percentage": 50.5
     },
     {
-      "type": "Operating System",
-      "count": 11725,
-      "percentage": 48.6
+      "type": "Application",
+      "count": 12574,
+      "percentage": 49.5
     },
     {
       "type": "Hardware",
@@ -417,8 +417,16 @@
       "cpe_count": 223
     },
     {
+      "cve": "CVE-2025-47383",
+      "cpe_count": 206
+    },
+    {
       "cve": "CVE-2025-47348",
       "cpe_count": 204
+    },
+    {
+      "cve": "CVE-2025-47373",
+      "cpe_count": 188
     },
     {
       "cve": "CVE-2025-47339",
@@ -429,17 +437,9 @@
       "cpe_count": 175
     },
     {
-      "cve": "CVE-2025-55423",
-      "cpe_count": 164
-    },
-    {
-      "cve": "CVE-2025-59600",
-      "cpe_count": 164
-    },
-    {
-      "cve": "CVE-2025-47366",
-      "cpe_count": 159
+      "cve": "CVE-2025-47376",
+      "cpe_count": 170
     }
   ],
-  "average_cpes_per_cve": 4.8
+  "average_cpes_per_cve": 4.9
 }
