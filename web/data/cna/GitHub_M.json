@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "GitHub_M",
-    "total_cves": 2863,
-    "total_cves_scored": 2863,
+    "total_cves": 2883,
+    "total_cves_scored": 2883,
     "organizationName": "GitHub, Inc.",
     "scope": "CVEs requested by code owners using the GitHub Security Advisories feature and vulnerabilities affecting open source projects discovered by security researchers at GitHub or Microsoft not covered by another CNA’s scope.",
     "advisories": [
@@ -35,14 +35,14 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 44,
-  "active_cna_count": 326,
-  "percentile": 86.8,
+  "rank": 43,
+  "active_cna_count": 323,
+  "percentile": 87.0,
   "cna_scoring": [
     {
-      "total_cves": 2863,
-      "total_cves_scored": 2863,
-      "recent_cves_count": 2863,
+      "total_cves": 2883,
+      "total_cves_scored": 2883,
+      "recent_cves_count": 2883,
       "overall_average_score": 80.0,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
@@ -363,6 +363,19 @@
       "cveId": "CVE-2025-62379",
       "assigningCna": "GitHub_M",
       "datePublished": "2025-10-15",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-62166",
+      "assigningCna": "GitHub_M",
+      "datePublished": "2026-03-09",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -2453,19 +2466,6 @@
       }
     },
     {
-      "cveId": "CVE-2025-55727",
-      "assigningCna": "GitHub_M",
-      "datePublished": "2025-09-09",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2025-55208",
       "assigningCna": "GitHub_M",
       "datePublished": "2026-03-05",
@@ -2482,45 +2482,6 @@
       "cveId": "CVE-2025-55749",
       "assigningCna": "GitHub_M",
       "datePublished": "2025-12-01",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-55730",
-      "assigningCna": "GitHub_M",
-      "datePublished": "2025-09-09",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-55729",
-      "assigningCna": "GitHub_M",
-      "datePublished": "2025-09-09",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-55728",
-      "assigningCna": "GitHub_M",
-      "datePublished": "2025-09-09",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -10409,6 +10370,19 @@
       }
     },
     {
+      "cveId": "CVE-2025-68402",
+      "assigningCna": "GitHub_M",
+      "datePublished": "2026-03-09",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2025-68142",
       "assigningCna": "GitHub_M",
       "datePublished": "2025-12-16",
@@ -13464,32 +13438,6 @@
       }
     },
     {
-      "cveId": "CVE-2025-58762",
-      "assigningCna": "GitHub_M",
-      "datePublished": "2025-09-09",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-58435",
-      "assigningCna": "GitHub_M",
-      "datePublished": "2025-09-09",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2025-58764",
       "assigningCna": "GitHub_M",
       "datePublished": "2025-09-10",
@@ -13516,35 +13464,9 @@
       }
     },
     {
-      "cveId": "CVE-2025-58758",
-      "assigningCna": "GitHub_M",
-      "datePublished": "2025-09-09",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2025-58364",
       "assigningCna": "GitHub_M",
       "datePublished": "2025-09-11",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-58753",
-      "assigningCna": "GitHub_M",
-      "datePublished": "2025-09-09",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -13659,35 +13581,9 @@
       }
     },
     {
-      "cveId": "CVE-2025-58761",
-      "assigningCna": "GitHub_M",
-      "datePublished": "2025-09-09",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2025-58045",
       "assigningCna": "GitHub_M",
       "datePublished": "2025-09-15",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-58768",
-      "assigningCna": "GitHub_M",
-      "datePublished": "2025-09-09",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -13724,35 +13620,9 @@
       }
     },
     {
-      "cveId": "CVE-2025-58063",
-      "assigningCna": "GitHub_M",
-      "datePublished": "2025-09-09",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2025-58053",
       "assigningCna": "GitHub_M",
       "datePublished": "2025-12-19",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-58759",
-      "assigningCna": "GitHub_M",
-      "datePublished": "2025-09-09",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -13776,48 +13646,9 @@
       }
     },
     {
-      "cveId": "CVE-2025-58180",
-      "assigningCna": "GitHub_M",
-      "datePublished": "2025-09-09",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-58750",
-      "assigningCna": "GitHub_M",
-      "datePublished": "2025-09-09",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2025-58177",
       "assigningCna": "GitHub_M",
       "datePublished": "2025-09-15",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-58760",
-      "assigningCna": "GitHub_M",
-      "datePublished": "2025-09-09",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -13867,19 +13698,6 @@
       }
     },
     {
-      "cveId": "CVE-2025-58448",
-      "assigningCna": "GitHub_M",
-      "datePublished": "2025-09-09",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2025-58748",
       "assigningCna": "GitHub_M",
       "datePublished": "2025-09-15",
@@ -13896,19 +13714,6 @@
       "cveId": "CVE-2025-58055",
       "assigningCna": "GitHub_M",
       "datePublished": "2025-10-01",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-58447",
-      "assigningCna": "GitHub_M",
-      "datePublished": "2025-09-09",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -13945,19 +13750,6 @@
       }
     },
     {
-      "cveId": "CVE-2025-58430",
-      "assigningCna": "GitHub_M",
-      "datePublished": "2025-09-09",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2025-58052",
       "assigningCna": "GitHub_M",
       "datePublished": "2025-12-19",
@@ -13974,45 +13766,6 @@
       "cveId": "CVE-2025-58046",
       "assigningCna": "GitHub_M",
       "datePublished": "2025-09-15",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-58765",
-      "assigningCna": "GitHub_M",
-      "datePublished": "2025-09-09",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-58442",
-      "assigningCna": "GitHub_M",
-      "datePublished": "2025-09-09",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-58763",
-      "assigningCna": "GitHub_M",
-      "datePublished": "2025-09-09",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -14387,19 +14140,6 @@
       }
     },
     {
-      "cveId": "CVE-2025-59036",
-      "assigningCna": "GitHub_M",
-      "datePublished": "2025-09-09",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2025-59152",
       "assigningCna": "GitHub_M",
       "datePublished": "2025-10-06",
@@ -14725,19 +14465,6 @@
       }
     },
     {
-      "cveId": "CVE-2025-59039",
-      "assigningCna": "GitHub_M",
-      "datePublished": "2025-09-09",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2025-59534",
       "assigningCna": "GitHub_M",
       "datePublished": "2025-09-23",
@@ -14933,19 +14660,6 @@
       }
     },
     {
-      "cveId": "CVE-2025-59046",
-      "assigningCna": "GitHub_M",
-      "datePublished": "2025-09-09",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2025-59947",
       "assigningCna": "GitHub_M",
       "datePublished": "2025-12-15",
@@ -15040,19 +14754,6 @@
       "cveId": "CVE-2025-59343",
       "assigningCna": "GitHub_M",
       "datePublished": "2025-09-24",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-59044",
-      "assigningCna": "GitHub_M",
-      "datePublished": "2025-09-09",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -15687,35 +15388,9 @@
       }
     },
     {
-      "cveId": "CVE-2025-59037",
-      "assigningCna": "GitHub_M",
-      "datePublished": "2025-09-09",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2025-59429",
       "assigningCna": "GitHub_M",
       "datePublished": "2025-10-14",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-59038",
-      "assigningCna": "GitHub_M",
-      "datePublished": "2025-09-09",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -15833,19 +15508,6 @@
       "cveId": "CVE-2025-59415",
       "assigningCna": "GitHub_M",
       "datePublished": "2025-09-17",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-59042",
-      "assigningCna": "GitHub_M",
-      "datePublished": "2025-09-09",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -19691,6 +19353,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-25041",
+      "assigningCna": "GitHub_M",
+      "datePublished": "2026-03-09",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-25740",
       "assigningCna": "GitHub_M",
       "datePublished": "2026-02-09",
@@ -20107,9 +19782,35 @@
       }
     },
     {
+      "cveId": "CVE-2026-25045",
+      "assigningCna": "GitHub_M",
+      "datePublished": "2026-03-09",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-25635",
       "assigningCna": "GitHub_M",
       "datePublished": "2026-02-06",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-25960",
+      "assigningCna": "GitHub_M",
+      "datePublished": "2026-03-09",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -20786,6 +20487,19 @@
       "cveId": "CVE-2026-25140",
       "assigningCna": "GitHub_M",
       "datePublished": "2026-02-04",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-25737",
+      "assigningCna": "GitHub_M",
+      "datePublished": "2026-03-09",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -23958,6 +23672,19 @@
       "cveId": "CVE-2026-29081",
       "assigningCna": "GitHub_M",
       "datePublished": "2026-03-05",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-29773",
+      "assigningCna": "GitHub_M",
+      "datePublished": "2026-03-09",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -31339,6 +31066,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-30862",
+      "assigningCna": "GitHub_M",
+      "datePublished": "2026-03-09",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-30827",
       "assigningCna": "GitHub_M",
       "datePublished": "2026-03-07",
@@ -31443,6 +31183,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-30926",
+      "assigningCna": "GitHub_M",
+      "datePublished": "2026-03-09",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-30823",
       "assigningCna": "GitHub_M",
       "datePublished": "2026-03-07",
@@ -31472,6 +31225,32 @@
       "cveId": "CVE-2026-30822",
       "assigningCna": "GitHub_M",
       "datePublished": "2026-03-07",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-30936",
+      "assigningCna": "GitHub_M",
+      "datePublished": "2026-03-09",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-30883",
+      "assigningCna": "GitHub_M",
+      "datePublished": "2026-03-09",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -31547,6 +31326,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-30935",
+      "assigningCna": "GitHub_M",
+      "datePublished": "2026-03-09",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-30858",
       "assigningCna": "GitHub_M",
       "datePublished": "2026-03-07",
@@ -31589,6 +31381,19 @@
       "cveId": "CVE-2026-30847",
       "assigningCna": "GitHub_M",
       "datePublished": "2026-03-06",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-30927",
+      "assigningCna": "GitHub_M",
+      "datePublished": "2026-03-09",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -31651,6 +31456,58 @@
       }
     },
     {
+      "cveId": "CVE-2026-30870",
+      "assigningCna": "GitHub_M",
+      "datePublished": "2026-03-09",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-30921",
+      "assigningCna": "GitHub_M",
+      "datePublished": "2026-03-09",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-30917",
+      "assigningCna": "GitHub_M",
+      "datePublished": "2026-03-09",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-30240",
+      "assigningCna": "GitHub_M",
+      "datePublished": "2026-03-09",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-30832",
       "assigningCna": "GitHub_M",
       "datePublished": "2026-03-07",
@@ -31680,6 +31537,19 @@
       "cveId": "CVE-2026-30831",
       "assigningCna": "GitHub_M",
       "datePublished": "2026-03-06",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-30919",
+      "assigningCna": "GitHub_M",
+      "datePublished": "2026-03-09",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -31729,9 +31599,35 @@
       }
     },
     {
+      "cveId": "CVE-2026-30937",
+      "assigningCna": "GitHub_M",
+      "datePublished": "2026-03-09",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-30244",
       "assigningCna": "GitHub_M",
       "datePublished": "2026-03-06",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-30916",
+      "assigningCna": "GitHub_M",
+      "datePublished": "2026-03-09",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -31768,6 +31664,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-30885",
+      "assigningCna": "GitHub_M",
+      "datePublished": "2026-03-09",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-30833",
       "assigningCna": "GitHub_M",
       "datePublished": "2026-03-06",
@@ -31784,6 +31693,19 @@
       "cveId": "CVE-2026-30230",
       "assigningCna": "GitHub_M",
       "datePublished": "2026-03-06",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-30920",
+      "assigningCna": "GitHub_M",
+      "datePublished": "2026-03-09",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -31849,6 +31771,32 @@
       "cveId": "CVE-2026-30843",
       "assigningCna": "GitHub_M",
       "datePublished": "2026-03-06",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-30913",
+      "assigningCna": "GitHub_M",
+      "datePublished": "2026-03-09",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-30925",
+      "assigningCna": "GitHub_M",
+      "datePublished": "2026-03-09",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -31963,9 +31911,48 @@
       }
     },
     {
+      "cveId": "CVE-2026-30869",
+      "assigningCna": "GitHub_M",
+      "datePublished": "2026-03-09",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-30929",
+      "assigningCna": "GitHub_M",
+      "datePublished": "2026-03-09",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-30842",
       "assigningCna": "GitHub_M",
       "datePublished": "2026-03-07",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-30931",
+      "assigningCna": "GitHub_M",
+      "datePublished": "2026-03-09",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -31989,9 +31976,35 @@
       }
     },
     {
+      "cveId": "CVE-2026-30887",
+      "assigningCna": "GitHub_M",
+      "datePublished": "2026-03-09",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-30841",
       "assigningCna": "GitHub_M",
       "datePublished": "2026-03-07",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-30918",
+      "assigningCna": "GitHub_M",
+      "datePublished": "2026-03-09",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -32886,6 +32899,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-26982",
+      "assigningCna": "GitHub_M",
+      "datePublished": "2026-03-09",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-26327",
       "assigningCna": "GitHub_M",
       "datePublished": "2026-02-19",
@@ -33731,6 +33757,32 @@
       }
     },
     {
+      "cveId": "CVE-2026-31802",
+      "assigningCna": "GitHub_M",
+      "datePublished": "2026-03-09",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-31816",
+      "assigningCna": "GitHub_M",
+      "datePublished": "2026-03-09",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-28216",
       "assigningCna": "GitHub_M",
       "datePublished": "2026-02-26",
@@ -33760,6 +33812,19 @@
       "cveId": "CVE-2026-28397",
       "assigningCna": "GitHub_M",
       "datePublished": "2026-03-02",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-28692",
+      "assigningCna": "GitHub_M",
+      "datePublished": "2026-03-09",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -33981,6 +34046,19 @@
       "cveId": "CVE-2026-28414",
       "assigningCna": "GitHub_M",
       "datePublished": "2026-02-27",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-28494",
+      "assigningCna": "GitHub_M",
+      "datePublished": "2026-03-09",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -34264,6 +34342,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-28686",
+      "assigningCna": "GitHub_M",
+      "datePublished": "2026-03-09",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-28219",
       "assigningCna": "GitHub_M",
       "datePublished": "2026-02-26",
@@ -34358,6 +34449,19 @@
       "cveId": "CVE-2026-28697",
       "assigningCna": "GitHub_M",
       "datePublished": "2026-03-04",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-28433",
+      "assigningCna": "GitHub_M",
+      "datePublished": "2026-03-09",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -34524,6 +34628,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-28691",
+      "assigningCna": "GitHub_M",
+      "datePublished": "2026-03-09",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-28351",
       "assigningCna": "GitHub_M",
       "datePublished": "2026-02-27",
@@ -34605,6 +34722,19 @@
       "cveId": "CVE-2026-28424",
       "assigningCna": "GitHub_M",
       "datePublished": "2026-02-27",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-28431",
+      "assigningCna": "GitHub_M",
+      "datePublished": "2026-03-09",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -34732,6 +34862,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-28281",
+      "assigningCna": "GitHub_M",
+      "datePublished": "2026-03-09",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-28420",
       "assigningCna": "GitHub_M",
       "datePublished": "2026-02-27",
@@ -34748,6 +34891,19 @@
       "cveId": "CVE-2026-28350",
       "assigningCna": "GitHub_M",
       "datePublished": "2026-03-05",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-28687",
+      "assigningCna": "GitHub_M",
+      "datePublished": "2026-03-09",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -34852,6 +35008,19 @@
       "cveId": "CVE-2026-28277",
       "assigningCna": "GitHub_M",
       "datePublished": "2026-03-05",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-28493",
+      "assigningCna": "GitHub_M",
+      "datePublished": "2026-03-09",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -34992,6 +35161,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-28513",
+      "assigningCna": "GitHub_M",
+      "datePublished": "2026-03-09",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-28225",
       "assigningCna": "GitHub_M",
       "datePublished": "2026-02-26",
@@ -35008,6 +35190,19 @@
       "cveId": "CVE-2026-28438",
       "assigningCna": "GitHub_M",
       "datePublished": "2026-03-06",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-28512",
+      "assigningCna": "GitHub_M",
+      "datePublished": "2026-03-09",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -35125,6 +35320,19 @@
       "cveId": "CVE-2026-28211",
       "assigningCna": "GitHub_M",
       "datePublished": "2026-02-26",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-28693",
+      "assigningCna": "GitHub_M",
+      "datePublished": "2026-03-09",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -35304,6 +35512,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-28690",
+      "assigningCna": "GitHub_M",
+      "datePublished": "2026-03-09",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-28402",
       "assigningCna": "GitHub_M",
       "datePublished": "2026-02-27",
@@ -35330,9 +35551,48 @@
       }
     },
     {
+      "cveId": "CVE-2026-28688",
+      "assigningCna": "GitHub_M",
+      "datePublished": "2026-03-09",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-28680",
       "assigningCna": "GitHub_M",
       "datePublished": "2026-03-06",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-28689",
+      "assigningCna": "GitHub_M",
+      "datePublished": "2026-03-09",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-28432",
+      "assigningCna": "GitHub_M",
+      "datePublished": "2026-03-09",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
