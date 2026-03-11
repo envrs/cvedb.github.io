@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "microsoft",
-    "total_cves": 592,
-    "total_cves_scored": 592,
+    "total_cves": 593,
+    "total_cves_scored": 593,
     "organizationName": "Microsoft Corporation",
     "scope": "Microsoft issues only, excluding end-of-life (EOL) as listed in the <a href='https://learn.microsoft.com/en-US/lifecycle/' target='_blank'>Microsoft Lifecycle Policy</a>.",
     "advisories": [
@@ -34,13 +34,13 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 5,
-  "active_cna_count": 324,
+  "active_cna_count": 323,
   "percentile": 98.8,
   "cna_scoring": [
     {
-      "total_cves": 592,
-      "total_cves_scored": 592,
-      "recent_cves_count": 592,
+      "total_cves": 593,
+      "total_cves_scored": 593,
+      "recent_cves_count": 593,
       "overall_average_score": 90.0,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
@@ -5728,6 +5728,19 @@
     },
     {
       "cveId": "CVE-2026-26148",
+      "assigningCna": "microsoft",
+      "datePublished": "2026-03-10",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-26123",
       "assigningCna": "microsoft",
       "datePublished": "2026-03-10",
       "totalCveScore": 90,
