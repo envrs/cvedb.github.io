@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "ibm",
-    "total_cves": 250,
-    "total_cves_scored": 250,
+    "total_cves": 255,
+    "total_cves_scored": 255,
     "organizationName": "IBM Corporation",
     "scope": "All IBM branded products (IBM will confirm support status and notify researcher).",
     "advisories": [
@@ -35,24 +35,24 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 3,
-  "active_cna_count": 324,
+  "active_cna_count": 323,
   "percentile": 99.4,
   "cna_scoring": [
     {
-      "total_cves": 250,
-      "total_cves_scored": 250,
-      "recent_cves_count": 250,
-      "overall_average_score": 99.32,
+      "total_cves": 255,
+      "total_cves_scored": 255,
+      "recent_cves_count": 255,
+      "overall_average_score": 99.27,
       "average_foundational_completeness": 50.0,
-      "average_root_cause_analysis": 14.88,
+      "average_root_cause_analysis": 14.82,
       "average_software_identification": 9.76,
       "average_severity_context": 14.88,
       "average_patchinfo": 9.8,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 99.2,
-      "percent_software_identification": 97.6,
-      "percent_severity_and_impact": 99.2,
-      "percent_patchinfo": 98.0,
+      "percent_root_cause_analysis": 98.82,
+      "percent_software_identification": 97.65,
+      "percent_severity_and_impact": 99.22,
+      "percent_patchinfo": 98.04,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -419,6 +419,19 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 15,
         "severityAndImpactContext": 0,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2025-14811",
+      "assigningCna": "ibm",
+      "datePublished": "2026-03-13",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
         "softwareIdentification": 10,
         "patchinfo": 10
       }
@@ -931,9 +944,35 @@
       }
     },
     {
+      "cveId": "CVE-2025-13702",
+      "assigningCna": "ibm",
+      "datePublished": "2026-03-13",
+      "totalCveScore": 85,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
       "cveId": "CVE-2025-13481",
       "assigningCna": "ibm",
       "datePublished": "2025-12-11",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2025-13718",
+      "assigningCna": "ibm",
+      "datePublished": "2026-03-13",
       "totalCveScore": 100,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -1061,9 +1100,35 @@
       }
     },
     {
+      "cveId": "CVE-2025-13723",
+      "assigningCna": "ibm",
+      "datePublished": "2026-03-13",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
       "cveId": "CVE-2025-13686",
       "assigningCna": "ibm",
       "datePublished": "2026-03-03",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2025-13726",
+      "assigningCna": "ibm",
+      "datePublished": "2026-03-13",
       "totalCveScore": 100,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
