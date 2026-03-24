@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "palo_alto",
-    "total_cves": 17,
-    "total_cves_scored": 17,
+    "total_cves": 16,
+    "total_cves_scored": 16,
     "organizationName": "Palo Alto Networks, Inc.",
     "scope": "All Palo Alto Networks products, and vulnerabilities discovered by Palo Alto Networks that are not in another CNA’s scope.",
     "advisories": [
@@ -34,23 +34,23 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 29,
-  "active_cna_count": 325,
-  "percentile": 91.4,
+  "rank": 28,
+  "active_cna_count": 326,
+  "percentile": 91.7,
   "cna_scoring": [
     {
-      "total_cves": 17,
-      "total_cves_scored": 17,
-      "recent_cves_count": 17,
-      "overall_average_score": 82.65,
+      "total_cves": 16,
+      "total_cves_scored": 16,
+      "recent_cves_count": 16,
+      "overall_average_score": 82.81,
       "average_foundational_completeness": 50.0,
-      "average_root_cause_analysis": 14.12,
-      "average_software_identification": 3.53,
+      "average_root_cause_analysis": 14.06,
+      "average_software_identification": 3.75,
       "average_severity_context": 15.0,
       "average_patchinfo": 0.0,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 94.12,
-      "percent_software_identification": 35.29,
+      "percent_root_cause_analysis": 93.75,
+      "percent_software_identification": 37.5,
       "percent_severity_and_impact": 100.0,
       "percent_patchinfo": 0.0,
       "trend_direction": "steady",
@@ -59,19 +59,6 @@
     }
   ],
   "recent_cves": [
-    {
-      "cveId": "CVE-2025-52905",
-      "assigningCna": "palo_alto",
-      "datePublished": "2025-09-23",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
     {
       "cveId": "CVE-2025-52906",
       "assigningCna": "palo_alto",
