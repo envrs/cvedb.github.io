@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "HCL",
-    "total_cves": 83,
-    "total_cves_scored": 83,
+    "total_cves": 85,
+    "total_cves_scored": 85,
     "organizationName": "HCL Software",
     "scope": "All HCL products only.",
     "advisories": [
@@ -33,22 +33,22 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 260,
+  "rank": 259,
   "active_cna_count": 325,
-  "percentile": 20.3,
+  "percentile": 20.6,
   "cna_scoring": [
     {
-      "total_cves": 83,
-      "total_cves_scored": 83,
-      "recent_cves_count": 83,
-      "overall_average_score": 77.11,
+      "total_cves": 85,
+      "total_cves_scored": 85,
+      "recent_cves_count": 85,
+      "overall_average_score": 77.18,
       "average_foundational_completeness": 50.0,
-      "average_root_cause_analysis": 12.11,
+      "average_root_cause_analysis": 12.18,
       "average_software_identification": 0.0,
       "average_severity_context": 15.0,
       "average_patchinfo": 0.0,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 80.72,
+      "percent_root_cause_analysis": 81.18,
       "percent_software_identification": 0.0,
       "percent_severity_and_impact": 100.0,
       "percent_patchinfo": 0.0,
@@ -1128,6 +1128,32 @@
       "cveId": "CVE-2026-21786",
       "assigningCna": "HCL",
       "datePublished": "2026-03-05",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-21783",
+      "assigningCna": "HCL",
+      "datePublished": "2026-03-24",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-21790",
+      "assigningCna": "HCL",
+      "datePublished": "2026-03-24",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
