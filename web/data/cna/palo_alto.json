@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "palo_alto",
-    "total_cves": 14,
-    "total_cves_scored": 14,
+    "total_cves": 13,
+    "total_cves_scored": 13,
     "organizationName": "Palo Alto Networks, Inc.",
     "scope": "All Palo Alto Networks products, and vulnerabilities discovered by Palo Alto Networks that are not in another CNA’s scope.",
     "advisories": [
@@ -35,22 +35,22 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 28,
-  "active_cna_count": 327,
+  "active_cna_count": 326,
   "percentile": 91.7,
   "cna_scoring": [
     {
-      "total_cves": 14,
-      "total_cves_scored": 14,
-      "recent_cves_count": 14,
-      "overall_average_score": 83.21,
+      "total_cves": 13,
+      "total_cves_scored": 13,
+      "recent_cves_count": 13,
+      "overall_average_score": 83.46,
       "average_foundational_completeness": 50.0,
-      "average_root_cause_analysis": 13.93,
-      "average_software_identification": 4.29,
+      "average_root_cause_analysis": 13.85,
+      "average_software_identification": 4.62,
       "average_severity_context": 15.0,
       "average_patchinfo": 0.0,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 92.86,
-      "percent_software_identification": 42.86,
+      "percent_root_cause_analysis": 92.31,
+      "percent_software_identification": 46.15,
       "percent_severity_and_impact": 100.0,
       "percent_patchinfo": 0.0,
       "trend_direction": "steady",
@@ -73,15 +73,15 @@
       }
     },
     {
-      "cveId": "CVE-2025-4616",
+      "cveId": "CVE-2025-4614",
       "assigningCna": "palo_alto",
-      "datePublished": "2025-11-14",
-      "totalCveScore": 80,
+      "datePublished": "2025-10-09",
+      "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 15,
         "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
+        "softwareIdentification": 10,
         "patchinfo": 0
       }
     },
@@ -95,19 +95,6 @@
         "rootCauseAnalysis": 15,
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-4614",
-      "assigningCna": "palo_alto",
-      "datePublished": "2025-10-09",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
         "patchinfo": 0
       }
     },
@@ -138,9 +125,9 @@
       }
     },
     {
-      "cveId": "CVE-2025-11005",
+      "cveId": "CVE-2025-4616",
       "assigningCna": "palo_alto",
-      "datePublished": "2025-09-25",
+      "datePublished": "2025-11-14",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -164,22 +151,22 @@
       }
     },
     {
-      "cveId": "CVE-2026-2914",
+      "cveId": "CVE-2026-0230",
       "assigningCna": "palo_alto",
-      "datePublished": "2026-02-25",
-      "totalCveScore": 65,
+      "datePublished": "2026-03-11",
+      "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
+        "rootCauseAnalysis": 15,
         "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
+        "softwareIdentification": 10,
         "patchinfo": 0
       }
     },
     {
-      "cveId": "CVE-2026-0230",
+      "cveId": "CVE-2026-0227",
       "assigningCna": "palo_alto",
-      "datePublished": "2026-03-11",
+      "datePublished": "2026-01-15",
       "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -203,19 +190,6 @@
       }
     },
     {
-      "cveId": "CVE-2026-0228",
-      "assigningCna": "palo_alto",
-      "datePublished": "2026-02-11",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2026-0229",
       "assigningCna": "palo_alto",
       "datePublished": "2026-02-11",
@@ -229,15 +203,28 @@
       }
     },
     {
-      "cveId": "CVE-2026-0227",
+      "cveId": "CVE-2026-0228",
       "assigningCna": "palo_alto",
-      "datePublished": "2026-01-15",
+      "datePublished": "2026-02-11",
       "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 15,
         "severityAndImpactContext": 15,
         "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-2914",
+      "assigningCna": "palo_alto",
+      "datePublished": "2026-02-25",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
         "patchinfo": 0
       }
     }

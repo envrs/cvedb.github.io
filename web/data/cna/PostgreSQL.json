@@ -33,9 +33,9 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 274,
-  "active_cna_count": 327,
-  "percentile": 16.5,
+  "rank": 272,
+  "active_cna_count": 326,
+  "percentile": 16.9,
   "cna_scoring": [
     {
       "total_cves": 17,
@@ -59,20 +59,7 @@
   ],
   "recent_cves": [
     {
-      "cveId": "CVE-2025-12819",
-      "assigningCna": "PostgreSQL",
-      "datePublished": "2025-12-03",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-12763",
+      "cveId": "CVE-2025-12764",
       "assigningCna": "PostgreSQL",
       "datePublished": "2025-11-13",
       "totalCveScore": 65,
@@ -111,9 +98,22 @@
       }
     },
     {
-      "cveId": "CVE-2025-12817",
+      "cveId": "CVE-2025-12763",
       "assigningCna": "PostgreSQL",
       "datePublished": "2025-11-13",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-12819",
+      "assigningCna": "PostgreSQL",
+      "datePublished": "2025-12-03",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -137,13 +137,13 @@
       }
     },
     {
-      "cveId": "CVE-2025-12764",
+      "cveId": "CVE-2025-12817",
       "assigningCna": "PostgreSQL",
       "datePublished": "2025-11-13",
-      "totalCveScore": 65,
+      "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
+        "rootCauseAnalysis": 15,
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 0
@@ -163,6 +163,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-3172",
+      "assigningCna": "PostgreSQL",
+      "datePublished": "2026-02-25",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-1707",
       "assigningCna": "PostgreSQL",
       "datePublished": "2026-02-05",
@@ -170,6 +183,32 @@
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-2360",
+      "assigningCna": "PostgreSQL",
+      "datePublished": "2026-02-11",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-2003",
+      "assigningCna": "PostgreSQL",
+      "datePublished": "2026-02-12",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 0
@@ -190,19 +229,6 @@
     },
     {
       "cveId": "CVE-2026-2006",
-      "assigningCna": "PostgreSQL",
-      "datePublished": "2026-02-12",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-2004",
       "assigningCna": "PostgreSQL",
       "datePublished": "2026-02-12",
       "totalCveScore": 80,
@@ -241,35 +267,9 @@
       }
     },
     {
-      "cveId": "CVE-2026-2360",
-      "assigningCna": "PostgreSQL",
-      "datePublished": "2026-02-11",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-2003",
+      "cveId": "CVE-2026-2004",
       "assigningCna": "PostgreSQL",
       "datePublished": "2026-02-12",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-3172",
-      "assigningCna": "PostgreSQL",
-      "datePublished": "2026-02-25",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
