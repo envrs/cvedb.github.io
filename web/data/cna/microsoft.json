@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "microsoft",
-    "total_cves": 598,
-    "total_cves_scored": 598,
+    "total_cves": 599,
+    "total_cves_scored": 599,
     "organizationName": "Microsoft Corporation",
     "scope": "Microsoft issues only, excluding end-of-life (EOL) as listed in the <a href='https://learn.microsoft.com/en-US/lifecycle/' target='_blank'>Microsoft Lifecycle Policy</a>.",
     "advisories": [
@@ -34,21 +34,21 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 13,
-  "active_cna_count": 325,
+  "active_cna_count": 326,
   "percentile": 96.3,
   "cna_scoring": [
     {
-      "total_cves": 598,
-      "total_cves_scored": 598,
-      "recent_cves_count": 598,
-      "overall_average_score": 89.95,
+      "total_cves": 599,
+      "total_cves_scored": 599,
+      "recent_cves_count": 599,
+      "overall_average_score": 89.92,
       "average_foundational_completeness": 50.0,
-      "average_root_cause_analysis": 14.95,
+      "average_root_cause_analysis": 14.92,
       "average_software_identification": 0.0,
       "average_severity_context": 15.0,
       "average_patchinfo": 10.0,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 99.67,
+      "percent_root_cause_analysis": 99.5,
       "percent_software_identification": 0.0,
       "percent_severity_and_impact": 100.0,
       "percent_patchinfo": 100.0,
@@ -6657,6 +6657,19 @@
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-32187",
+      "assigningCna": "microsoft",
+      "datePublished": "2026-03-27",
+      "totalCveScore": 75,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 10
