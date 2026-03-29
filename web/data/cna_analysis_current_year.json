@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-29T12:42:49.186435",
+  "generated_at": "2026-03-29T18:42:40.676413",
   "source": "CVE V5 List (Authoritative)",
   "year": 2026,
   "total_cnas": 271,
@@ -27,10 +27,10 @@
     {
       "name": "VulnCheck",
       "assigner_org_id": "83251b91-4cc7-4094-a5c7-464a1b83ea10",
-      "count": 2179,
+      "count": 2198,
       "rank": 2,
       "first_cve_date": "2026-01-02T16:20:23.066Z",
-      "last_cve_date": "2026-03-28T12:00:07.748Z",
+      "last_cve_date": "2026-03-29T12:44:32.407Z",
       "years_active": 20,
       "is_official": true,
       "activity_status": "Active",
@@ -59,10 +59,10 @@
     {
       "name": "VulDB",
       "assigner_org_id": "1af790b2-7ee1-4545-860a-a788eba489b5",
-      "count": 1375,
+      "count": 1377,
       "rank": 4,
       "first_cve_date": "2026-01-01T09:02:10.684Z",
-      "last_cve_date": "2026-03-29T12:15:10.537Z",
+      "last_cve_date": "2026-03-29T14:15:12.643Z",
       "years_active": 22,
       "is_official": true,
       "activity_status": "Active",
@@ -91,10 +91,10 @@
     {
       "name": "mitre",
       "assigner_org_id": "8254265b-2729-46b6-b9e3-3dfca2d5bfca",
-      "count": 865,
+      "count": 866,
       "rank": 6,
       "first_cve_date": "2026-01-01T04:39:48.140Z",
-      "last_cve_date": "2026-03-27T19:40:28.397Z",
+      "last_cve_date": "2026-03-29T17:02:15.445Z",
       "years_active": 28,
       "is_official": true,
       "activity_status": "Active",
@@ -107,10 +107,10 @@
     {
       "name": "Linux",
       "assigner_org_id": "416baaa9-dc9f-4396-8d5f-8c081fb06d67",
-      "count": 650,
+      "count": 651,
       "rank": 7,
       "first_cve_date": "2026-01-05T09:32:25.534Z",
-      "last_cve_date": "2026-03-28T07:16:09.888Z",
+      "last_cve_date": "2026-03-29T12:55:50.660Z",
       "years_active": 8,
       "is_official": true,
       "activity_status": "Active",
@@ -1002,10 +1002,26 @@
       "top_cwe_types": {}
     },
     {
+      "name": "@huntr_ai",
+      "assigner_org_id": "c09c270a-b464-47c1-9133-acb35b22c19a",
+      "count": 21,
+      "rank": 63,
+      "first_cve_date": "2026-01-01T07:03:57.277Z",
+      "last_cve_date": "2026-03-29T17:53:08.003Z",
+      "years_active": 6,
+      "is_official": true,
+      "activity_status": "Active",
+      "cna_types": [
+        "Other"
+      ],
+      "severity_distribution": {},
+      "top_cwe_types": {}
+    },
+    {
       "name": "YokogawaGroup",
       "assigner_org_id": "7168b535-132a-4efe-a076-338f829b2eb9",
       "count": 21,
-      "rank": 63,
+      "rank": 64,
       "first_cve_date": "2026-02-09T03:06:00.996Z",
       "last_cve_date": "2026-02-13T05:00:05.985Z",
       "years_active": 3,
@@ -1021,7 +1037,7 @@
       "name": "Google_Devices",
       "assigner_org_id": "83238938-5644-45f0-9007-c0392bcf6222",
       "count": 21,
-      "rank": 64,
+      "rank": 65,
       "first_cve_date": "2026-01-15T17:41:57.504Z",
       "last_cve_date": "2026-03-10T20:46:53.444Z",
       "years_active": 4,
@@ -1037,7 +1053,7 @@
       "name": "Gridware",
       "assigner_org_id": "b7efe717-a805-47cf-8e9a-921fca0ce0ce",
       "count": 21,
-      "rank": 65,
+      "rank": 66,
       "first_cve_date": "2026-02-05T06:33:02.766Z",
       "last_cve_date": "2026-03-05T05:12:35.774Z",
       "years_active": 3,
@@ -1053,7 +1069,7 @@
       "name": "lenovo",
       "assigner_org_id": "da227ddf-6e25-4b41-b023-0f976dcaca4b",
       "count": 20,
-      "rank": 66,
+      "rank": 67,
       "first_cve_date": "2026-01-14T22:16:13.569Z",
       "last_cve_date": "2026-03-11T20:23:12.942Z",
       "years_active": 11,
@@ -1061,22 +1077,6 @@
       "activity_status": "Active",
       "cna_types": [
         "Vendor"
-      ],
-      "severity_distribution": {},
-      "top_cwe_types": {}
-    },
-    {
-      "name": "@huntr_ai",
-      "assigner_org_id": "c09c270a-b464-47c1-9133-acb35b22c19a",
-      "count": 18,
-      "rank": 67,
-      "first_cve_date": "2026-01-01T07:03:57.277Z",
-      "last_cve_date": "2026-03-27T16:17:30.328Z",
-      "years_active": 6,
-      "is_official": true,
-      "activity_status": "Active",
-      "cna_types": [
-        "Other"
       ],
       "severity_distribution": {},
       "top_cwe_types": {}
@@ -4366,10 +4366,10 @@
     {
       "name": "VulnCheck",
       "assigner_org_id": "83251b91-4cc7-4094-a5c7-464a1b83ea10",
-      "count": 2179,
+      "count": 2198,
       "rank": 2,
       "first_cve_date": "2026-01-02T16:20:23.066Z",
-      "last_cve_date": "2026-03-28T12:00:07.748Z",
+      "last_cve_date": "2026-03-29T12:44:32.407Z",
       "years_active": 20,
       "is_official": true,
       "activity_status": "Active",
@@ -4398,10 +4398,10 @@
     {
       "name": "VulDB",
       "assigner_org_id": "1af790b2-7ee1-4545-860a-a788eba489b5",
-      "count": 1375,
+      "count": 1377,
       "rank": 4,
       "first_cve_date": "2026-01-01T09:02:10.684Z",
-      "last_cve_date": "2026-03-29T12:15:10.537Z",
+      "last_cve_date": "2026-03-29T14:15:12.643Z",
       "years_active": 22,
       "is_official": true,
       "activity_status": "Active",
@@ -4430,10 +4430,10 @@
     {
       "name": "mitre",
       "assigner_org_id": "8254265b-2729-46b6-b9e3-3dfca2d5bfca",
-      "count": 865,
+      "count": 866,
       "rank": 6,
       "first_cve_date": "2026-01-01T04:39:48.140Z",
-      "last_cve_date": "2026-03-27T19:40:28.397Z",
+      "last_cve_date": "2026-03-29T17:02:15.445Z",
       "years_active": 28,
       "is_official": true,
       "activity_status": "Active",
@@ -4446,10 +4446,10 @@
     {
       "name": "Linux",
       "assigner_org_id": "416baaa9-dc9f-4396-8d5f-8c081fb06d67",
-      "count": 650,
+      "count": 651,
       "rank": 7,
       "first_cve_date": "2026-01-05T09:32:25.534Z",
-      "last_cve_date": "2026-03-28T07:16:09.888Z",
+      "last_cve_date": "2026-03-29T12:55:50.660Z",
       "years_active": 8,
       "is_official": true,
       "activity_status": "Active",
@@ -5341,10 +5341,26 @@
       "top_cwe_types": {}
     },
     {
+      "name": "@huntr_ai",
+      "assigner_org_id": "c09c270a-b464-47c1-9133-acb35b22c19a",
+      "count": 21,
+      "rank": 63,
+      "first_cve_date": "2026-01-01T07:03:57.277Z",
+      "last_cve_date": "2026-03-29T17:53:08.003Z",
+      "years_active": 6,
+      "is_official": true,
+      "activity_status": "Active",
+      "cna_types": [
+        "Other"
+      ],
+      "severity_distribution": {},
+      "top_cwe_types": {}
+    },
+    {
       "name": "YokogawaGroup",
       "assigner_org_id": "7168b535-132a-4efe-a076-338f829b2eb9",
       "count": 21,
-      "rank": 63,
+      "rank": 64,
       "first_cve_date": "2026-02-09T03:06:00.996Z",
       "last_cve_date": "2026-02-13T05:00:05.985Z",
       "years_active": 3,
@@ -5360,7 +5376,7 @@
       "name": "Google_Devices",
       "assigner_org_id": "83238938-5644-45f0-9007-c0392bcf6222",
       "count": 21,
-      "rank": 64,
+      "rank": 65,
       "first_cve_date": "2026-01-15T17:41:57.504Z",
       "last_cve_date": "2026-03-10T20:46:53.444Z",
       "years_active": 4,
@@ -5376,7 +5392,7 @@
       "name": "Gridware",
       "assigner_org_id": "b7efe717-a805-47cf-8e9a-921fca0ce0ce",
       "count": 21,
-      "rank": 65,
+      "rank": 66,
       "first_cve_date": "2026-02-05T06:33:02.766Z",
       "last_cve_date": "2026-03-05T05:12:35.774Z",
       "years_active": 3,
@@ -5392,7 +5408,7 @@
       "name": "lenovo",
       "assigner_org_id": "da227ddf-6e25-4b41-b023-0f976dcaca4b",
       "count": 20,
-      "rank": 66,
+      "rank": 67,
       "first_cve_date": "2026-01-14T22:16:13.569Z",
       "last_cve_date": "2026-03-11T20:23:12.942Z",
       "years_active": 11,
@@ -5400,22 +5416,6 @@
       "activity_status": "Active",
       "cna_types": [
         "Vendor"
-      ],
-      "severity_distribution": {},
-      "top_cwe_types": {}
-    },
-    {
-      "name": "@huntr_ai",
-      "assigner_org_id": "c09c270a-b464-47c1-9133-acb35b22c19a",
-      "count": 18,
-      "rank": 67,
-      "first_cve_date": "2026-01-01T07:03:57.277Z",
-      "last_cve_date": "2026-03-27T16:17:30.328Z",
-      "years_active": 6,
-      "is_official": true,
-      "activity_status": "Active",
-      "cna_types": [
-        "Other"
       ],
       "severity_distribution": {},
       "top_cwe_types": {}
