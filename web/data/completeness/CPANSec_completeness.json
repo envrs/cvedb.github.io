@@ -36,15 +36,6 @@
     "cna_scorecard_category": null
   },
   {
-    "field": "containers.adp",
-    "percent": 100.0,
-    "cve_count": 31,
-    "total_cves": 31,
-    "importance": "Medium",
-    "description": "",
-    "cna_scorecard_category": null
-  },
-  {
     "field": "containers.cna.affected",
     "percent": 100.0,
     "cve_count": 31,
@@ -117,16 +108,25 @@
     "cna_scorecard_category": null
   },
   {
-    "field": "containers.cna.solutions",
-    "percent": 83.9,
-    "cve_count": 26,
+    "field": "containers.adp",
+    "percent": 96.8,
+    "cve_count": 30,
     "total_cves": 31,
     "importance": "Medium",
     "description": "",
     "cna_scorecard_category": null
   },
   {
-    "field": "affected.programFiles",
+    "field": "containers.cna.solutions",
+    "percent": 87.1,
+    "cve_count": 27,
+    "total_cves": 31,
+    "importance": "Medium",
+    "description": "",
+    "cna_scorecard_category": null
+  },
+  {
+    "field": "affected.repo",
     "percent": 77.4,
     "cve_count": 24,
     "total_cves": 31,
@@ -135,7 +135,7 @@
     "cna_scorecard_category": null
   },
   {
-    "field": "affected.repo",
+    "field": "affected.programFiles",
     "percent": 74.2,
     "cve_count": 23,
     "total_cves": 31,
@@ -144,9 +144,9 @@
     "cna_scorecard_category": null
   },
   {
-    "field": "affected.programRoutines",
-    "percent": 45.2,
-    "cve_count": 14,
+    "field": "references.patch",
+    "percent": 48.4,
+    "cve_count": 15,
     "total_cves": 31,
     "importance": "Medium",
     "description": "",
@@ -162,9 +162,9 @@
     "cna_scorecard_category": null
   },
   {
-    "field": "references.patch",
-    "percent": 45.2,
-    "cve_count": 14,
+    "field": "affected.programRoutines",
+    "percent": 41.9,
+    "cve_count": 13,
     "total_cves": 31,
     "importance": "Medium",
     "description": "",
@@ -181,8 +181,8 @@
   },
   {
     "field": "containers.cna.workarounds",
-    "percent": 32.3,
-    "cve_count": 10,
+    "percent": 35.5,
+    "cve_count": 11,
     "total_cves": 31,
     "importance": "Medium",
     "description": "",
@@ -190,8 +190,8 @@
   },
   {
     "field": "containers.cna.timeline",
-    "percent": 22.6,
-    "cve_count": 7,
+    "percent": 25.8,
+    "cve_count": 8,
     "total_cves": 31,
     "importance": "Medium",
     "description": "",
@@ -199,8 +199,8 @@
   },
   {
     "field": "references.advisory",
-    "percent": 12.9,
-    "cve_count": 4,
+    "percent": 16.1,
+    "cve_count": 5,
     "total_cves": 31,
     "importance": "Medium",
     "description": "",
