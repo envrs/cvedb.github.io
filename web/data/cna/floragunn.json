@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "floragunn",
-    "total_cves": 4,
-    "total_cves_scored": 4,
+    "total_cves": 7,
+    "total_cves_scored": 7,
     "organizationName": "floragunn GmbH",
     "scope": "All issues related to Search Guard only.",
     "advisories": [
@@ -35,13 +35,13 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 43,
-  "active_cna_count": 328,
-  "percentile": 87.2,
+  "active_cna_count": 326,
+  "percentile": 87.1,
   "cna_scoring": [
     {
-      "total_cves": 4,
-      "total_cves_scored": 4,
-      "recent_cves_count": 4,
+      "total_cves": 7,
+      "total_cves_scored": 7,
+      "recent_cves_count": 7,
       "overall_average_score": 80.0,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
@@ -102,6 +102,45 @@
       "cveId": "CVE-2025-13653",
       "assigningCna": "floragunn",
       "datePublished": "2025-12-01",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-4799",
+      "assigningCna": "floragunn",
+      "datePublished": "2026-03-31",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-4819",
+      "assigningCna": "floragunn",
+      "datePublished": "2026-03-31",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-4818",
+      "assigningCna": "floragunn",
+      "datePublished": "2026-03-31",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
