@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "VulnCheck",
-    "total_cves": 2276,
-    "total_cves_scored": 2276,
+    "total_cves": 2277,
+    "total_cves_scored": 2277,
     "organizationName": "VulnCheck",
     "scope": "Vulnerabilities observed by, discovered by, or reported to VulnCheck that are not in another CNA’s scope.",
     "advisories": [
@@ -35,13 +35,13 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 30,
-  "active_cna_count": 327,
+  "active_cna_count": 326,
   "percentile": 91.1,
   "cna_scoring": [
     {
-      "total_cves": 2276,
-      "total_cves_scored": 2276,
-      "recent_cves_count": 2276,
+      "total_cves": 2277,
+      "total_cves_scored": 2277,
+      "recent_cves_count": 2277,
       "overall_average_score": 82.68,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 14.89,
@@ -52,7 +52,7 @@
       "percent_root_cause_analysis": 99.25,
       "percent_software_identification": 0.09,
       "percent_severity_and_impact": 100.0,
-      "percent_patchinfo": 27.81,
+      "percent_patchinfo": 27.8,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -25647,6 +25647,19 @@
       "cveId": "CVE-2026-29520",
       "assigningCna": "VulnCheck",
       "datePublished": "2026-03-16",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-29014",
+      "assigningCna": "VulnCheck",
+      "datePublished": "2026-04-01",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
