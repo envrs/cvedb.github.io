@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "Linux",
-    "total_cves": 2469,
-    "total_cves_scored": 2469,
+    "total_cves": 2300,
+    "total_cves_scored": 2300,
     "organizationName": "kernel.org",
     "scope": "Any vulnerabilities in the Linux kernel as listed on kernel.org, excluding end-of-life (EOL) versions.",
     "advisories": [
@@ -34,14 +34,14 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 321,
-  "active_cna_count": 327,
+  "rank": 320,
+  "active_cna_count": 326,
   "percentile": 2.1,
   "cna_scoring": [
     {
-      "total_cves": 2469,
-      "total_cves_scored": 2469,
-      "recent_cves_count": 2469,
+      "total_cves": 2300,
+      "total_cves_scored": 2300,
+      "recent_cves_count": 2300,
       "overall_average_score": 50.0,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 0.0,
@@ -59,19 +59,6 @@
     }
   ],
   "recent_cves": [
-    {
-      "cveId": "CVE-2021-4460",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
     {
       "cveId": "CVE-2022-50768",
       "assigningCna": "Linux",
@@ -281,19 +268,6 @@
       }
     },
     {
-      "cveId": "CVE-2022-50436",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2022-50528",
       "assigningCna": "Linux",
       "datePublished": "2025-10-07",
@@ -453,19 +427,6 @@
       "cveId": "CVE-2022-50513",
       "assigningCna": "Linux",
       "datePublished": "2025-10-07",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2022-50420",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -710,19 +671,6 @@
       }
     },
     {
-      "cveId": "CVE-2022-50464",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2022-50821",
       "assigningCna": "Linux",
       "datePublished": "2025-12-30",
@@ -788,35 +736,9 @@
       }
     },
     {
-      "cveId": "CVE-2022-50462",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2022-50557",
       "assigningCna": "Linux",
       "datePublished": "2025-10-22",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2022-50435",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -892,48 +814,9 @@
       }
     },
     {
-      "cveId": "CVE-2022-50423",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2022-50427",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2022-50556",
       "assigningCna": "Linux",
       "datePublished": "2025-10-22",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2022-50467",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -1012,19 +895,6 @@
       "cveId": "CVE-2022-50628",
       "assigningCna": "Linux",
       "datePublished": "2025-12-08",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2022-50443",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -1607,19 +1477,6 @@
       }
     },
     {
-      "cveId": "CVE-2022-50446",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2022-50541",
       "assigningCna": "Linux",
       "datePublished": "2025-10-07",
@@ -1714,19 +1571,6 @@
       "cveId": "CVE-2022-50560",
       "assigningCna": "Linux",
       "datePublished": "2025-10-22",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2022-50433",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -1958,19 +1802,6 @@
       }
     },
     {
-      "cveId": "CVE-2022-50445",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2022-50815",
       "assigningCna": "Linux",
       "datePublished": "2025-12-30",
@@ -1997,19 +1828,6 @@
       }
     },
     {
-      "cveId": "CVE-2022-50463",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2022-50812",
       "assigningCna": "Linux",
       "datePublished": "2025-12-30",
@@ -2026,19 +1844,6 @@
       "cveId": "CVE-2022-50856",
       "assigningCna": "Linux",
       "datePublished": "2025-12-30",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2022-50466",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -2270,48 +2075,9 @@
       }
     },
     {
-      "cveId": "CVE-2022-50469",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2022-50720",
       "assigningCna": "Linux",
       "datePublished": "2025-12-24",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2022-50432",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2022-50461",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -2400,48 +2166,9 @@
       }
     },
     {
-      "cveId": "CVE-2022-50437",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2022-50576",
       "assigningCna": "Linux",
       "datePublished": "2025-10-22",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2022-50424",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2022-50451",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -2468,32 +2195,6 @@
       "cveId": "CVE-2022-50563",
       "assigningCna": "Linux",
       "datePublished": "2025-10-22",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2022-50429",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2022-50440",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -2764,19 +2465,6 @@
       }
     },
     {
-      "cveId": "CVE-2022-50422",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2022-50573",
       "assigningCna": "Linux",
       "datePublished": "2025-10-22",
@@ -2793,19 +2481,6 @@
       "cveId": "CVE-2022-50572",
       "assigningCna": "Linux",
       "datePublished": "2025-10-22",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2022-50448",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -2884,32 +2559,6 @@
       "cveId": "CVE-2022-50671",
       "assigningCna": "Linux",
       "datePublished": "2025-12-09",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2022-50434",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2022-50468",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -3115,19 +2764,6 @@
       }
     },
     {
-      "cveId": "CVE-2022-50421",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2022-50668",
       "assigningCna": "Linux",
       "datePublished": "2025-12-09",
@@ -3183,19 +2819,6 @@
       "cveId": "CVE-2022-50704",
       "assigningCna": "Linux",
       "datePublished": "2025-12-24",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2022-50453",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -3375,19 +2998,6 @@
       }
     },
     {
-      "cveId": "CVE-2022-50444",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2022-50855",
       "assigningCna": "Linux",
       "datePublished": "2025-12-30",
@@ -3557,19 +3167,6 @@
       }
     },
     {
-      "cveId": "CVE-2022-50428",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2022-50626",
       "assigningCna": "Linux",
       "datePublished": "2025-12-08",
@@ -3586,19 +3183,6 @@
       "cveId": "CVE-2022-50755",
       "assigningCna": "Linux",
       "datePublished": "2025-12-24",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2022-50457",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -3687,19 +3271,6 @@
       }
     },
     {
-      "cveId": "CVE-2022-50452",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2022-50524",
       "assigningCna": "Linux",
       "datePublished": "2025-10-07",
@@ -3778,19 +3349,6 @@
       }
     },
     {
-      "cveId": "CVE-2022-50449",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2022-50883",
       "assigningCna": "Linux",
       "datePublished": "2025-12-30",
@@ -3856,19 +3414,6 @@
       }
     },
     {
-      "cveId": "CVE-2022-50438",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2022-50638",
       "assigningCna": "Linux",
       "datePublished": "2025-12-09",
@@ -3898,19 +3443,6 @@
       "cveId": "CVE-2022-50853",
       "assigningCna": "Linux",
       "datePublished": "2025-12-30",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2022-50441",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -4129,19 +3661,6 @@
       }
     },
     {
-      "cveId": "CVE-2022-50431",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2022-50567",
       "assigningCna": "Linux",
       "datePublished": "2025-10-22",
@@ -4220,35 +3739,9 @@
       }
     },
     {
-      "cveId": "CVE-2022-50465",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2022-50500",
       "assigningCna": "Linux",
       "datePublished": "2025-10-04",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2022-50458",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -4275,19 +3768,6 @@
       "cveId": "CVE-2022-50823",
       "assigningCna": "Linux",
       "datePublished": "2025-12-30",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2022-50426",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -4392,19 +3872,6 @@
       "cveId": "CVE-2022-50547",
       "assigningCna": "Linux",
       "datePublished": "2025-10-07",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2022-50439",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -4532,19 +3999,6 @@
       }
     },
     {
-      "cveId": "CVE-2022-50459",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2022-50835",
       "assigningCna": "Linux",
       "datePublished": "2025-12-30",
@@ -4639,19 +4093,6 @@
       "cveId": "CVE-2022-50752",
       "assigningCna": "Linux",
       "datePublished": "2025-12-24",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2022-50425",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -4805,19 +4246,6 @@
       }
     },
     {
-      "cveId": "CVE-2022-50430",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2022-50843",
       "assigningCna": "Linux",
       "datePublished": "2025-12-30",
@@ -4961,35 +4389,9 @@
       }
     },
     {
-      "cveId": "CVE-2022-50442",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2022-50519",
       "assigningCna": "Linux",
       "datePublished": "2025-10-07",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2022-50447",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -5026,19 +4428,6 @@
       }
     },
     {
-      "cveId": "CVE-2022-50456",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2022-50818",
       "assigningCna": "Linux",
       "datePublished": "2025-12-30",
@@ -5055,19 +4444,6 @@
       "cveId": "CVE-2022-50550",
       "assigningCna": "Linux",
       "datePublished": "2025-10-07",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2022-50460",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -5195,19 +4571,6 @@
       }
     },
     {
-      "cveId": "CVE-2022-50454",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2023-7324",
       "assigningCna": "Linux",
       "datePublished": "2025-10-29",
@@ -5224,19 +4587,6 @@
       "cveId": "CVE-2023-53556",
       "assigningCna": "Linux",
       "datePublished": "2025-10-04",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2023-53525",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -5364,19 +4714,6 @@
       }
     },
     {
-      "cveId": "CVE-2023-53518",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2023-53613",
       "assigningCna": "Linux",
       "datePublished": "2025-10-04",
@@ -5429,35 +4766,9 @@
       }
     },
     {
-      "cveId": "CVE-2023-53516",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2023-53785",
       "assigningCna": "Linux",
       "datePublished": "2025-12-09",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2023-53487",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -5715,19 +5026,6 @@
       }
     },
     {
-      "cveId": "CVE-2023-53524",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2023-53563",
       "assigningCna": "Linux",
       "datePublished": "2025-10-04",
@@ -5757,32 +5055,6 @@
       "cveId": "CVE-2023-53649",
       "assigningCna": "Linux",
       "datePublished": "2025-10-07",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2023-53499",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2023-53460",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -5936,19 +5208,6 @@
       }
     },
     {
-      "cveId": "CVE-2023-53522",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2023-53548",
       "assigningCna": "Linux",
       "datePublished": "2025-10-04",
@@ -5978,19 +5237,6 @@
       "cveId": "CVE-2023-53711",
       "assigningCna": "Linux",
       "datePublished": "2025-10-22",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2023-53484",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -6079,19 +5325,6 @@
       }
     },
     {
-      "cveId": "CVE-2023-53488",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2023-53795",
       "assigningCna": "Linux",
       "datePublished": "2025-12-09",
@@ -6108,19 +5341,6 @@
       "cveId": "CVE-2023-53800",
       "assigningCna": "Linux",
       "datePublished": "2025-12-09",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2023-53531",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -6212,32 +5432,6 @@
       "cveId": "CVE-2023-53784",
       "assigningCna": "Linux",
       "datePublished": "2025-12-09",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2023-53513",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2023-53526",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -6352,19 +5546,6 @@
       }
     },
     {
-      "cveId": "CVE-2023-53480",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2023-53827",
       "assigningCna": "Linux",
       "datePublished": "2025-12-09",
@@ -6391,19 +5572,6 @@
       }
     },
     {
-      "cveId": "CVE-2023-53514",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2023-53836",
       "assigningCna": "Linux",
       "datePublished": "2025-12-09",
@@ -6420,19 +5588,6 @@
       "cveId": "CVE-2023-53574",
       "assigningCna": "Linux",
       "datePublished": "2025-10-04",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2023-53492",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -6524,19 +5679,6 @@
       "cveId": "CVE-2023-53989",
       "assigningCna": "Linux",
       "datePublished": "2025-12-24",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2023-53497",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -6677,48 +5819,9 @@
       }
     },
     {
-      "cveId": "CVE-2023-53473",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2023-53503",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2023-53857",
       "assigningCna": "Linux",
       "datePublished": "2025-12-09",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2023-53457",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -6768,19 +5871,6 @@
       }
     },
     {
-      "cveId": "CVE-2023-53500",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2023-53693",
       "assigningCna": "Linux",
       "datePublished": "2025-10-22",
@@ -6797,19 +5887,6 @@
       "cveId": "CVE-2023-53814",
       "assigningCna": "Linux",
       "datePublished": "2025-12-09",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2023-53455",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -6859,32 +5936,6 @@
       }
     },
     {
-      "cveId": "CVE-2023-53506",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2023-53489",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2023-53608",
       "assigningCna": "Linux",
       "datePublished": "2025-10-04",
@@ -6901,19 +5952,6 @@
       "cveId": "CVE-2023-53552",
       "assigningCna": "Linux",
       "datePublished": "2025-10-04",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2023-53494",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -7093,32 +6131,6 @@
       }
     },
     {
-      "cveId": "CVE-2023-53468",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2023-53511",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2023-53999",
       "assigningCna": "Linux",
       "datePublished": "2025-12-24",
@@ -7262,19 +6274,6 @@
       }
     },
     {
-      "cveId": "CVE-2023-53496",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2023-53798",
       "assigningCna": "Linux",
       "datePublished": "2025-12-09",
@@ -7304,19 +6303,6 @@
       "cveId": "CVE-2023-53996",
       "assigningCna": "Linux",
       "datePublished": "2025-12-24",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2023-53451",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -7408,32 +6394,6 @@
       "cveId": "CVE-2023-53732",
       "assigningCna": "Linux",
       "datePublished": "2025-10-22",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2023-53463",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2023-53470",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -7574,19 +6534,6 @@
       }
     },
     {
-      "cveId": "CVE-2023-53523",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2023-53560",
       "assigningCna": "Linux",
       "datePublished": "2025-10-04",
@@ -7626,19 +6573,6 @@
       }
     },
     {
-      "cveId": "CVE-2023-53510",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2023-53844",
       "assigningCna": "Linux",
       "datePublished": "2025-12-09",
@@ -7652,35 +6586,9 @@
       }
     },
     {
-      "cveId": "CVE-2023-53527",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2023-53723",
       "assigningCna": "Linux",
       "datePublished": "2025-10-22",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2023-53520",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -7707,19 +6615,6 @@
       "cveId": "CVE-2023-53580",
       "assigningCna": "Linux",
       "datePublished": "2025-10-04",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2023-53454",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -7821,19 +6716,6 @@
       }
     },
     {
-      "cveId": "CVE-2023-53498",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2023-53765",
       "assigningCna": "Linux",
       "datePublished": "2025-12-08",
@@ -7850,19 +6732,6 @@
       "cveId": "CVE-2023-53577",
       "assigningCna": "Linux",
       "datePublished": "2025-10-04",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2023-53449",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -7938,19 +6807,6 @@
       }
     },
     {
-      "cveId": "CVE-2023-53495",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2023-53817",
       "assigningCna": "Linux",
       "datePublished": "2025-12-09",
@@ -7980,19 +6836,6 @@
       "cveId": "CVE-2023-53848",
       "assigningCna": "Linux",
       "datePublished": "2025-12-09",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2023-53490",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -8081,19 +6924,6 @@
       }
     },
     {
-      "cveId": "CVE-2023-53456",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2023-53816",
       "assigningCna": "Linux",
       "datePublished": "2025-12-09",
@@ -8110,32 +6940,6 @@
       "cveId": "CVE-2023-53725",
       "assigningCna": "Linux",
       "datePublished": "2025-10-22",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2023-53529",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2023-53471",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -8188,19 +6992,6 @@
       "cveId": "CVE-2023-53651",
       "assigningCna": "Linux",
       "datePublished": "2025-10-07",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2023-53528",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -8367,19 +7158,6 @@
       }
     },
     {
-      "cveId": "CVE-2023-53479",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2023-53992",
       "assigningCna": "Linux",
       "datePublished": "2025-12-24",
@@ -8422,19 +7200,6 @@
       "cveId": "CVE-2023-53802",
       "assigningCna": "Linux",
       "datePublished": "2025-12-09",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2023-53453",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -8627,19 +7392,6 @@
       }
     },
     {
-      "cveId": "CVE-2023-53475",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2023-53619",
       "assigningCna": "Linux",
       "datePublished": "2025-10-07",
@@ -8692,19 +7444,6 @@
       }
     },
     {
-      "cveId": "CVE-2023-53507",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2023-53599",
       "assigningCna": "Linux",
       "datePublished": "2025-10-04",
@@ -8734,19 +7473,6 @@
       "cveId": "CVE-2023-53727",
       "assigningCna": "Linux",
       "datePublished": "2025-10-22",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2023-53532",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -8822,35 +7548,9 @@
       }
     },
     {
-      "cveId": "CVE-2023-53459",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2023-53762",
       "assigningCna": "Linux",
       "datePublished": "2025-12-08",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2023-53493",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -8968,19 +7668,6 @@
       "cveId": "CVE-2023-53539",
       "assigningCna": "Linux",
       "datePublished": "2025-10-04",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2023-53466",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -9134,32 +7821,6 @@
       }
     },
     {
-      "cveId": "CVE-2023-53483",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2023-53467",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2023-53536",
       "assigningCna": "Linux",
       "datePublished": "2025-10-04",
@@ -9212,32 +7873,6 @@
       }
     },
     {
-      "cveId": "CVE-2023-53458",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2023-53476",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2023-53813",
       "assigningCna": "Linux",
       "datePublished": "2025-12-09",
@@ -9254,19 +7889,6 @@
       "cveId": "CVE-2023-53832",
       "assigningCna": "Linux",
       "datePublished": "2025-12-09",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2023-53521",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -9420,19 +8042,6 @@
       }
     },
     {
-      "cveId": "CVE-2023-53508",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2023-53702",
       "assigningCna": "Linux",
       "datePublished": "2025-10-22",
@@ -9459,19 +8068,6 @@
       }
     },
     {
-      "cveId": "CVE-2023-53461",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2023-53589",
       "assigningCna": "Linux",
       "datePublished": "2025-10-04",
@@ -9488,19 +8084,6 @@
       "cveId": "CVE-2023-53663",
       "assigningCna": "Linux",
       "datePublished": "2025-10-07",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2023-53478",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -9550,19 +8133,6 @@
       }
     },
     {
-      "cveId": "CVE-2023-53477",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2023-53625",
       "assigningCna": "Linux",
       "datePublished": "2025-10-07",
@@ -9602,19 +8172,6 @@
       }
     },
     {
-      "cveId": "CVE-2023-53462",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2023-53721",
       "assigningCna": "Linux",
       "datePublished": "2025-10-22",
@@ -9628,48 +8185,9 @@
       }
     },
     {
-      "cveId": "CVE-2023-53485",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2023-53509",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2023-53998",
       "assigningCna": "Linux",
       "datePublished": "2025-12-24",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2023-53512",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -9709,32 +8227,6 @@
       "cveId": "CVE-2023-53830",
       "assigningCna": "Linux",
       "datePublished": "2025-12-09",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2023-53504",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2023-53491",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -9810,35 +8302,9 @@
       }
     },
     {
-      "cveId": "CVE-2023-53515",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2023-53614",
       "assigningCna": "Linux",
       "datePublished": "2025-10-04",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2023-53450",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -9888,35 +8354,9 @@
       }
     },
     {
-      "cveId": "CVE-2023-53465",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2023-53612",
       "assigningCna": "Linux",
       "datePublished": "2025-10-04",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2023-53501",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -9956,19 +8396,6 @@
       "cveId": "CVE-2023-53797",
       "assigningCna": "Linux",
       "datePublished": "2025-12-09",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2023-53486",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -10031,19 +8458,6 @@
       }
     },
     {
-      "cveId": "CVE-2023-53519",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2023-53620",
       "assigningCna": "Linux",
       "datePublished": "2025-10-07",
@@ -10070,35 +8484,9 @@
       }
     },
     {
-      "cveId": "CVE-2023-53482",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2023-53605",
       "assigningCna": "Linux",
       "datePublished": "2025-10-04",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2023-53530",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -10200,61 +8588,9 @@
       }
     },
     {
-      "cveId": "CVE-2023-53448",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2023-53584",
       "assigningCna": "Linux",
       "datePublished": "2025-10-04",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2023-53517",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2023-53481",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2023-53452",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -10278,35 +8614,9 @@
       }
     },
     {
-      "cveId": "CVE-2023-53505",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2023-53862",
       "assigningCna": "Linux",
       "datePublished": "2025-12-09",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2023-53464",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -10369,19 +8679,6 @@
       }
     },
     {
-      "cveId": "CVE-2023-53474",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2023-53704",
       "assigningCna": "Linux",
       "datePublished": "2025-10-22",
@@ -10411,19 +8708,6 @@
       "cveId": "CVE-2023-53652",
       "assigningCna": "Linux",
       "datePublished": "2025-10-07",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2023-53472",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -19339,19 +17623,6 @@
       }
     },
     {
-      "cveId": "CVE-2025-39926",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2025-39978",
       "assigningCna": "Linux",
       "datePublished": "2025-10-15",
@@ -19391,19 +17662,6 @@
       }
     },
     {
-      "cveId": "CVE-2025-39901",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2025-39974",
       "assigningCna": "Linux",
       "datePublished": "2025-10-15",
@@ -19433,19 +17691,6 @@
       "cveId": "CVE-2025-39993",
       "assigningCna": "Linux",
       "datePublished": "2025-10-15",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-39917",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -19534,32 +17779,6 @@
       }
     },
     {
-      "cveId": "CVE-2025-39923",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-39903",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2025-39961",
       "assigningCna": "Linux",
       "datePublished": "2025-10-09",
@@ -19576,19 +17795,6 @@
       "cveId": "CVE-2025-39967",
       "assigningCna": "Linux",
       "datePublished": "2025-10-15",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-39919",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -19729,87 +17935,9 @@
       }
     },
     {
-      "cveId": "CVE-2025-39914",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2025-39969",
       "assigningCna": "Linux",
       "datePublished": "2025-10-15",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-39927",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-39925",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-39892",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-39910",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-39921",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -19859,32 +17987,6 @@
       }
     },
     {
-      "cveId": "CVE-2025-39924",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-39915",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2025-39929",
       "assigningCna": "Linux",
       "datePublished": "2025-10-04",
@@ -19898,74 +18000,9 @@
       }
     },
     {
-      "cveId": "CVE-2025-39911",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-39902",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-39909",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-39893",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2025-39968",
       "assigningCna": "Linux",
       "datePublished": "2025-10-15",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-39912",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -20002,19 +18039,6 @@
       }
     },
     {
-      "cveId": "CVE-2025-39906",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2025-39983",
       "assigningCna": "Linux",
       "datePublished": "2025-10-15",
@@ -20028,35 +18052,9 @@
       }
     },
     {
-      "cveId": "CVE-2025-39900",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2025-39972",
       "assigningCna": "Linux",
       "datePublished": "2025-10-15",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-39920",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -20096,32 +18094,6 @@
       "cveId": "CVE-2025-39962",
       "assigningCna": "Linux",
       "datePublished": "2025-10-09",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-39897",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-39891",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -20184,19 +18156,6 @@
       }
     },
     {
-      "cveId": "CVE-2025-39928",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2025-39949",
       "assigningCna": "Linux",
       "datePublished": "2025-10-04",
@@ -20210,35 +18169,9 @@
       }
     },
     {
-      "cveId": "CVE-2025-39922",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2025-39959",
       "assigningCna": "Linux",
       "datePublished": "2025-10-09",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-39905",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -20301,32 +18234,6 @@
       }
     },
     {
-      "cveId": "CVE-2025-39896",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-39918",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2025-39985",
       "assigningCna": "Linux",
       "datePublished": "2025-10-15",
@@ -20343,19 +18250,6 @@
       "cveId": "CVE-2025-39982",
       "assigningCna": "Linux",
       "datePublished": "2025-10-15",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-39916",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -20405,19 +18299,6 @@
       }
     },
     {
-      "cveId": "CVE-2025-39895",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2025-39973",
       "assigningCna": "Linux",
       "datePublished": "2025-10-15",
@@ -20434,19 +18315,6 @@
       "cveId": "CVE-2025-39988",
       "assigningCna": "Linux",
       "datePublished": "2025-10-15",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-39907",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -20561,32 +18429,6 @@
       }
     },
     {
-      "cveId": "CVE-2025-39913",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-39899",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2025-39952",
       "assigningCna": "Linux",
       "datePublished": "2025-10-04",
@@ -20613,19 +18455,6 @@
       }
     },
     {
-      "cveId": "CVE-2025-39904",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2025-39936",
       "assigningCna": "Linux",
       "datePublished": "2025-10-04",
@@ -20642,32 +18471,6 @@
       "cveId": "CVE-2025-39975",
       "assigningCna": "Linux",
       "datePublished": "2025-10-15",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-39894",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
-      "totalCveScore": 50,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-39908",
-      "assigningCna": "Linux",
-      "datePublished": "2025-10-01",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
