@@ -717,11 +717,15 @@
     "vulnerability_status": [
       {
         "status": "Deferred",
-        "count": 5725
+        "count": 5724
       },
       {
         "status": "Analyzed",
         "count": 7
+      },
+      {
+        "status": "Undergoing Analysis",
+        "count": 1
       }
     ],
     "cve_tags": [],
@@ -797,7 +801,7 @@
     ]
   },
   "processing_stats": {
-    "processed_at": "2026-04-03T18:39:08.948974",
+    "processed_at": "2026-04-04T01:12:39.639832",
     "data_source": "data/cache/nvd.jsonl"
   }
 }
