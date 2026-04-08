@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "Moxa",
-    "total_cves": 13,
-    "total_cves_scored": 13,
+    "total_cves": 14,
+    "total_cves_scored": 14,
     "organizationName": "Moxa Inc.",
     "scope": "Moxa products only.",
     "advisories": [
@@ -38,9 +38,9 @@
   "percentile": 87.4,
   "cna_scoring": [
     {
-      "total_cves": 13,
-      "total_cves_scored": 13,
-      "recent_cves_count": 13,
+      "total_cves": 14,
+      "total_cves_scored": 14,
+      "recent_cves_count": 14,
       "overall_average_score": 80.0,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
@@ -58,32 +58,6 @@
     }
   ],
   "recent_cves": [
-    {
-      "cveId": "CVE-2025-9315",
-      "assigningCna": "Moxa",
-      "datePublished": "2025-12-10",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-1679",
-      "assigningCna": "Moxa",
-      "datePublished": "2025-10-23",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
     {
       "cveId": "CVE-2025-1680",
       "assigningCna": "Moxa",
@@ -111,6 +85,32 @@
       }
     },
     {
+      "cveId": "CVE-2025-1679",
+      "assigningCna": "Moxa",
+      "datePublished": "2025-10-23",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-15017",
+      "assigningCna": "Moxa",
+      "datePublished": "2025-12-31",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2025-2026",
       "assigningCna": "Moxa",
       "datePublished": "2025-12-31",
@@ -124,46 +124,7 @@
       }
     },
     {
-      "cveId": "CVE-2025-6894",
-      "assigningCna": "Moxa",
-      "datePublished": "2025-10-17",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2025-6949",
-      "assigningCna": "Moxa",
-      "datePublished": "2025-10-17",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-6950",
-      "assigningCna": "Moxa",
-      "datePublished": "2025-10-17",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-6893",
       "assigningCna": "Moxa",
       "datePublished": "2025-10-17",
       "totalCveScore": 80,
@@ -189,9 +150,9 @@
       }
     },
     {
-      "cveId": "CVE-2025-15017",
+      "cveId": "CVE-2025-6893",
       "assigningCna": "Moxa",
-      "datePublished": "2025-12-31",
+      "datePublished": "2025-10-17",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -202,7 +163,59 @@
       }
     },
     {
-      "cveId": "CVE-2026-0715",
+      "cveId": "CVE-2025-6950",
+      "assigningCna": "Moxa",
+      "datePublished": "2025-10-17",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-6894",
+      "assigningCna": "Moxa",
+      "datePublished": "2025-10-17",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-9315",
+      "assigningCna": "Moxa",
+      "datePublished": "2025-12-10",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-4483",
+      "assigningCna": "Moxa",
+      "datePublished": "2026-04-08",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-0714",
       "assigningCna": "Moxa",
       "datePublished": "2026-02-05",
       "totalCveScore": 80,
@@ -215,7 +228,7 @@
       }
     },
     {
-      "cveId": "CVE-2026-0714",
+      "cveId": "CVE-2026-0715",
       "assigningCna": "Moxa",
       "datePublished": "2026-02-05",
       "totalCveScore": 80,
