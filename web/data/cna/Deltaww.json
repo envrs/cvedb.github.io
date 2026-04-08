@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "Deltaww",
-    "total_cves": 15,
-    "total_cves_scored": 15,
+    "total_cves": 16,
+    "total_cves_scored": 16,
     "organizationName": "Delta Electronics, Inc.",
     "scope": "Delta Electronics products as listed on <a href='https://www.deltaww.com' target='_blank'>www.deltaww.com</a>.",
     "advisories": [
@@ -33,22 +33,22 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 246,
-  "active_cna_count": 325,
-  "percentile": 24.6,
+  "rank": 248,
+  "active_cna_count": 326,
+  "percentile": 24.2,
   "cna_scoring": [
     {
-      "total_cves": 15,
-      "total_cves_scored": 15,
-      "recent_cves_count": 15,
-      "overall_average_score": 79.0,
+      "total_cves": 16,
+      "total_cves_scored": 16,
+      "recent_cves_count": 16,
+      "overall_average_score": 79.06,
       "average_foundational_completeness": 50.0,
-      "average_root_cause_analysis": 14.0,
+      "average_root_cause_analysis": 14.06,
       "average_software_identification": 0.0,
       "average_severity_context": 15.0,
       "average_patchinfo": 0.0,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 93.33,
+      "percent_root_cause_analysis": 93.75,
       "percent_software_identification": 0.0,
       "percent_severity_and_impact": 100.0,
       "percent_patchinfo": 0.0,
@@ -59,87 +59,9 @@
   ],
   "recent_cves": [
     {
-      "cveId": "CVE-2025-15358",
-      "assigningCna": "Deltaww",
-      "datePublished": "2025-12-30",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-15103",
-      "assigningCna": "Deltaww",
-      "datePublished": "2025-12-30",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-15359",
-      "assigningCna": "Deltaww",
-      "datePublished": "2025-12-30",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-15102",
-      "assigningCna": "Deltaww",
-      "datePublished": "2025-12-30",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-62579",
-      "assigningCna": "Deltaww",
-      "datePublished": "2025-10-16",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2025-62578",
       "assigningCna": "Deltaww",
       "datePublished": "2025-12-26",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-62580",
-      "assigningCna": "Deltaww",
-      "datePublished": "2025-10-16",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -176,6 +98,84 @@
       }
     },
     {
+      "cveId": "CVE-2025-62580",
+      "assigningCna": "Deltaww",
+      "datePublished": "2025-10-16",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-62579",
+      "assigningCna": "Deltaww",
+      "datePublished": "2025-10-16",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-15359",
+      "assigningCna": "Deltaww",
+      "datePublished": "2025-12-30",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-15102",
+      "assigningCna": "Deltaww",
+      "datePublished": "2025-12-30",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-15103",
+      "assigningCna": "Deltaww",
+      "datePublished": "2025-12-30",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-15358",
+      "assigningCna": "Deltaww",
+      "datePublished": "2025-12-30",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2025-59301",
       "assigningCna": "Deltaww",
       "datePublished": "2025-12-22",
@@ -192,6 +192,19 @@
       "cveId": "CVE-2026-1361",
       "assigningCna": "Deltaww",
       "datePublished": "2026-01-27",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-0975",
+      "assigningCna": "Deltaww",
+      "datePublished": "2026-01-16",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -241,9 +254,9 @@
       }
     },
     {
-      "cveId": "CVE-2026-0975",
+      "cveId": "CVE-2026-5726",
       "assigningCna": "Deltaww",
-      "datePublished": "2026-01-16",
+      "datePublished": "2026-04-08",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
