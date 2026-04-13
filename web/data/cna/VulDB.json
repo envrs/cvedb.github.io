@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "VulDB",
-    "total_cves": 2737,
-    "total_cves_scored": 2737,
+    "total_cves": 2738,
+    "total_cves_scored": 2738,
     "organizationName": "VulDB",
     "scope": "Vulnerabilities in VulDB products and vulnerabilities discovered by, or reported to, the VulDB vulnerability database that are not in another CNA’s scope.",
     "advisories": [
@@ -34,24 +34,24 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 27,
-  "active_cna_count": 328,
-  "percentile": 92.1,
+  "active_cna_count": 327,
+  "percentile": 92.0,
   "cna_scoring": [
     {
-      "total_cves": 2737,
-      "total_cves_scored": 2737,
-      "recent_cves_count": 2737,
-      "overall_average_score": 84.23,
+      "total_cves": 2738,
+      "total_cves_scored": 2738,
+      "recent_cves_count": 2738,
+      "overall_average_score": 84.24,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 14.96,
       "average_software_identification": 3.29,
       "average_severity_context": 15.0,
-      "average_patchinfo": 0.98,
+      "average_patchinfo": 0.99,
       "percent_foundational_completeness": 100.0,
       "percent_root_cause_analysis": 99.74,
-      "percent_software_identification": 32.88,
+      "percent_software_identification": 32.91,
       "percent_severity_and_impact": 100.0,
-      "percent_patchinfo": 9.83,
+      "percent_patchinfo": 9.86,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -10339,6 +10339,19 @@
         "severityAndImpactContext": 15,
         "softwareIdentification": 10,
         "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-15632",
+      "assigningCna": "VulDB",
+      "datePublished": "2026-04-13",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
       }
     },
     {
