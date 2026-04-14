@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "Bugcrowd",
-    "total_cves": 1,
-    "total_cves_scored": 1,
+    "total_cves": 2,
+    "total_cves_scored": 2,
     "organizationName": "Bugcrowd Inc.",
     "scope": "Vulnerabilities discovered by researchers in collaboration with Bugcrowd, with approval of Bugcrowd’s clients, and not in the scope of another CNA.",
     "advisories": [
@@ -36,14 +36,14 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 43,
+  "rank": 44,
   "active_cna_count": 328,
-  "percentile": 87.2,
+  "percentile": 86.9,
   "cna_scoring": [
     {
-      "total_cves": 1,
-      "total_cves_scored": 1,
-      "recent_cves_count": 1,
+      "total_cves": 2,
+      "total_cves_scored": 2,
+      "recent_cves_count": 2,
       "overall_average_score": 80.0,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
@@ -65,6 +65,19 @@
       "cveId": "CVE-2025-12792",
       "assigningCna": "Bugcrowd",
       "datePublished": "2025-11-18",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-6264",
+      "assigningCna": "Bugcrowd",
+      "datePublished": "2026-04-14",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
