@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "snyk",
-    "total_cves": 21,
-    "total_cves_scored": 21,
+    "total_cves": 22,
+    "total_cves_scored": 22,
     "organizationName": "Snyk",
     "scope": "Vulnerabilities in Snyk products and vulnerabilities discovered by, or reported to, Snyk that are not in another CNA’s scope.",
     "advisories": [
@@ -39,9 +39,9 @@
   "percentile": 86.9,
   "cna_scoring": [
     {
-      "total_cves": 21,
-      "total_cves_scored": 21,
-      "recent_cves_count": 21,
+      "total_cves": 22,
+      "total_cves_scored": 22,
+      "recent_cves_count": 22,
       "overall_average_score": 80.0,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
@@ -323,6 +323,19 @@
       "cveId": "CVE-2026-4602",
       "assigningCna": "snyk",
       "datePublished": "2026-03-23",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-5160",
+      "assigningCna": "snyk",
+      "datePublished": "2026-04-15",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
