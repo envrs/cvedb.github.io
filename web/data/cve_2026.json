@@ -1,12 +1,12 @@
 {
   "year": 2026,
-  "total_cves": 17944,
+  "total_cves": 18274,
   "date_data": {
     "monthly_distribution": {
       "1": 4311,
       "2": 4619,
       "3": 6242,
-      "4": 2772,
+      "4": 3102,
       "5": 0,
       "6": 0,
       "7": 0,
@@ -18,7 +18,7 @@
     },
     "daily_analysis": {
       "total_days": 102,
-      "avg_per_day": 175.92,
+      "avg_per_day": 179.16,
       "highest_day": {
         "date": "2026-03-25",
         "count": 606
@@ -131,24 +131,25 @@
         "2026-04-11": 39,
         "2026-04-12": 54,
         "2026-04-13": 220,
-        "2026-04-14": 65
+        "2026-04-14": 395,
+        "2026-04-15": 0
       }
     }
   },
   "cvss": {
     "v3.0": {
-      "total": 169,
+      "total": 167,
       "severity_distribution": {
-        "HIGH": 92,
+        "HIGH": 91,
         "MEDIUM": 36,
-        "CRITICAL": 37,
+        "CRITICAL": 36,
         "LOW": 4
       },
       "score_distribution": {
         "7.8": 35,
         "8.1": 7,
         "7.1": 4,
-        "7.5": 11,
+        "7.5": 10,
         "6.1": 3,
         "9.8": 23,
         "8.8": 15,
@@ -158,7 +159,7 @@
         "6.7": 4,
         "7.9": 1,
         "8.2": 2,
-        "9.6": 4,
+        "9.6": 3,
         "9.1": 3,
         "5.3": 4,
         "5.7": 2,
@@ -180,57 +181,57 @@
       }
     },
     "v3.1": {
-      "total": 10385,
+      "total": 10752,
       "severity_distribution": {
-        "LOW": 329,
-        "MEDIUM": 4868,
-        "HIGH": 4011,
-        "CRITICAL": 1161,
+        "LOW": 349,
+        "MEDIUM": 4980,
+        "HIGH": 4212,
+        "CRITICAL": 1195,
         "NONE": 16
       },
       "score_distribution": {
         "3.4": 6,
-        "5.3": 719,
-        "4.3": 548,
-        "6.4": 342,
-        "8.1": 532,
-        "6.5": 821,
-        "9.6": 45,
-        "7.5": 918,
-        "9.1": 185,
-        "6.3": 72,
-        "9.8": 622,
-        "6.1": 352,
-        "8.5": 54,
-        "7.1": 370,
+        "5.3": 729,
+        "4.3": 558,
+        "6.4": 343,
+        "8.1": 536,
+        "6.5": 831,
+        "9.6": 49,
+        "7.5": 938,
+        "9.1": 189,
+        "6.3": 74,
+        "9.8": 639,
+        "6.1": 362,
+        "8.5": 56,
+        "7.1": 381,
         "5.0": 56,
-        "7.7": 91,
-        "5.5": 463,
-        "4.9": 87,
-        "8.6": 95,
-        "3.5": 31,
-        "7.2": 188,
-        "6.8": 97,
-        "9.3": 69,
-        "8.8": 594,
-        "9.9": 96,
-        "5.4": 395,
-        "7.8": 495,
-        "8.4": 85,
+        "7.7": 94,
+        "5.5": 485,
+        "4.9": 90,
+        "8.6": 99,
+        "3.5": 32,
+        "7.2": 192,
+        "6.8": 98,
+        "9.3": 75,
+        "8.8": 609,
+        "9.9": 98,
+        "5.4": 409,
+        "7.8": 584,
+        "8.4": 93,
         "5.1": 25,
-        "6.2": 98,
-        "5.9": 142,
+        "6.2": 99,
+        "5.9": 143,
         "7.9": 5,
-        "7.3": 101,
-        "7.0": 53,
-        "6.7": 76,
+        "7.3": 103,
+        "7.0": 85,
+        "6.7": 82,
         "3.3": 35,
-        "6.6": 30,
+        "6.6": 31,
         "7.6": 89,
         "3.7": 54,
-        "4.7": 70,
-        "2.7": 62,
-        "4.4": 116,
+        "4.7": 71,
+        "2.7": 78,
+        "4.4": 118,
         "2.0": 9,
         "2.9": 12,
         "2.2": 11,
@@ -239,21 +240,21 @@
         "10.0": 78,
         "3.1": 43,
         "9.4": 27,
-        "8.7": 46,
-        "9.0": 37,
-        "5.7": 45,
+        "8.7": 48,
+        "9.0": 38,
+        "5.7": 49,
         "5.6": 10,
-        "8.0": 71,
+        "8.0": 75,
         "2.3": 4,
-        "6.0": 18,
+        "6.0": 21,
         "4.5": 15,
-        "4.8": 75,
+        "4.8": 76,
         "2.5": 6,
-        "2.4": 4,
+        "2.4": 7,
         "3.8": 16,
         "3.0": 4,
-        "4.6": 41,
-        "7.4": 74,
+        "4.6": 46,
+        "7.4": 75,
         "8.9": 7,
         "4.2": 26,
         "2.6": 6,
@@ -261,10 +262,10 @@
         "8.3": 37,
         "2.8": 6,
         "1.8": 3,
-        "4.0": 39,
-        "6.9": 8,
+        "4.0": 41,
+        "6.9": 9,
         "3.2": 2,
-        "4.1": 17,
+        "4.1": 18,
         "5.2": 7,
         "3.6": 6,
         "9.2": 2,
@@ -274,23 +275,23 @@
       }
     },
     "v4.0": {
-      "total": 6886,
+      "total": 6907,
       "severity_distribution": {
-        "MEDIUM": 3411,
-        "HIGH": 2483,
-        "LOW": 397,
-        "CRITICAL": 561,
+        "MEDIUM": 3425,
+        "HIGH": 2488,
+        "LOW": 398,
+        "CRITICAL": 562,
         "NONE": 34
       },
       "score_distribution": {
-        "6.9": 864,
-        "5.3": 775,
+        "6.9": 869,
+        "5.3": 779,
         "7.7": 79,
         "5.8": 30,
         "2.0": 48,
         "7.3": 100,
-        "4.8": 278,
-        "5.1": 626,
+        "4.8": 279,
+        "5.1": 629,
         "5.5": 114,
         "7.4": 274,
         "1.3": 42,
@@ -300,7 +301,7 @@
         "2.2": 3,
         "8.1": 12,
         "4.4": 3,
-        "7.0": 65,
+        "7.0": 67,
         "2.7": 38,
         "6.8": 89,
         "9.2": 67,
@@ -308,19 +309,19 @@
         "8.9": 84,
         "5.2": 14,
         "5.4": 32,
-        "9.3": 337,
+        "9.3": 338,
         "9.4": 65,
         "10.0": 46,
         "7.2": 37,
         "7.9": 6,
         "8.7": 485,
         "2.3": 89,
-        "7.1": 260,
+        "7.1": 261,
         "5.7": 32,
-        "8.5": 306,
+        "8.5": 307,
         "8.4": 125,
         "5.0": 4,
-        "8.6": 201,
+        "8.6": 202,
         "6.3": 166,
         "6.6": 33,
         "7.5": 27,
@@ -332,7 +333,7 @@
         "4.5": 4,
         "6.7": 63,
         "2.1": 50,
-        "2.4": 12,
+        "2.4": 13,
         "1.1": 6,
         "6.1": 22,
         "5.6": 23,
@@ -352,7 +353,7 @@
         "9.9": 3,
         "6.4": 8,
         "1.9": 19,
-        "4.0": 4,
+        "4.0": 5,
         "0.6": 10,
         "3.6": 5,
         "2.5": 1,
@@ -367,12 +368,12 @@
       }
     },
     "unknown": {
-      "total": 504,
+      "total": 448,
       "severity_distribution": {
-        "UNKNOWN": 504
+        "UNKNOWN": 448
       },
       "score_distribution": {
-        "0.0": 504
+        "0.0": 448
       }
     }
   },
@@ -380,11 +381,11 @@
     "cna_assigners": [
       {
         "name": "GitHub, Inc.",
-        "count": 3793
+        "count": 3826
       },
       {
         "name": "vulncheck.com",
-        "count": 1859
+        "count": 1861
       },
       {
         "name": "vuldb.com",
@@ -395,12 +396,12 @@
         "count": 1814
       },
       {
-        "name": "wordfence.com",
-        "count": 1154
+        "name": "MITRE Corporation",
+        "count": 1163
       },
       {
-        "name": "MITRE Corporation",
-        "count": 1131
+        "name": "wordfence.com",
+        "count": 1155
       },
       {
         "name": "Linux Kernel Organization",
@@ -408,11 +409,15 @@
       },
       {
         "name": "Microsoft Corporation",
-        "count": 292
+        "count": 455
       },
       {
         "name": "Google LLC",
         "count": 283
+      },
+      {
+        "name": "Adobe Inc.",
+        "count": 203
       },
       {
         "name": "Apple Inc.",
@@ -428,11 +433,7 @@
       },
       {
         "name": "Red Hat, Inc.",
-        "count": 159
-      },
-      {
-        "name": "Adobe Inc.",
-        "count": 151
+        "count": 160
       },
       {
         "name": "US Department of Homeland Security",
@@ -462,19 +463,19 @@
     "cpe_vendors": [
       {
         "name": "Microsoft",
-        "count": 633
+        "count": 661
       },
       {
         "name": "Linux",
-        "count": 602
+        "count": 621
       },
       {
         "name": "Apple",
-        "count": 445
+        "count": 466
       },
       {
         "name": "Google",
-        "count": 324
+        "count": 339
       },
       {
         "name": "Openclaw",
@@ -486,11 +487,11 @@
       },
       {
         "name": "Ibm",
-        "count": 178
+        "count": 179
       },
       {
         "name": "Dlink",
-        "count": 160
+        "count": 161
       },
       {
         "name": "Adobe",
@@ -506,19 +507,19 @@
       },
       {
         "name": "Wwbn",
-        "count": 89
+        "count": 93
       },
       {
         "name": "Color",
         "count": 84
       },
       {
-        "name": "Discourse",
+        "name": "Apache",
         "count": 79
       },
       {
-        "name": "Apache",
-        "count": 78
+        "name": "Discourse",
+        "count": 79
       },
       {
         "name": "Samsung",
@@ -526,6 +527,10 @@
       },
       {
         "name": "Linuxfoundation",
+        "count": 78
+      },
+      {
+        "name": "Tp-Link",
         "count": 76
       },
       {
@@ -535,10 +540,6 @@
       {
         "name": "Open-Emr",
         "count": 74
-      },
-      {
-        "name": "Tp-Link",
-        "count": 71
       }
     ]
   },
@@ -546,23 +547,23 @@
     "top_cwes": [
       {
         "cwe": "CWE-79",
-        "count": 2448
+        "count": 2480
       },
       {
         "cwe": "CWE-89",
-        "count": 1385
+        "count": 1418
       },
       {
         "cwe": "CWE-862",
-        "count": 1139
+        "count": 1141
       },
       {
         "cwe": "CWE-22",
-        "count": 672
+        "count": 682
       },
       {
         "cwe": "CWE-787",
-        "count": 609
+        "count": 621
       },
       {
         "cwe": "CWE-74",
@@ -570,15 +571,15 @@
       },
       {
         "cwe": "CWE-78",
-        "count": 578
+        "count": 583
       },
       {
         "cwe": "CWE-94",
-        "count": 506
+        "count": 509
       },
       {
         "cwe": "CWE-121",
-        "count": 459
+        "count": 462
       },
       {
         "cwe": "CWE-119",
@@ -586,43 +587,43 @@
       },
       {
         "cwe": "CWE-918",
-        "count": 432
+        "count": 438
       },
       {
         "cwe": "CWE-77",
-        "count": 411
+        "count": 414
       },
       {
         "cwe": "CWE-284",
-        "count": 405
-      },
-      {
-        "cwe": "CWE-98",
-        "count": 389
-      },
-      {
-        "cwe": "CWE-125",
-        "count": 378
-      },
-      {
-        "cwe": "CWE-863",
-        "count": 353
+        "count": 413
       },
       {
         "cwe": "CWE-416",
-        "count": 344
+        "count": 405
       },
       {
-        "cwe": "CWE-352",
-        "count": 333
+        "cwe": "CWE-125",
+        "count": 395
+      },
+      {
+        "cwe": "CWE-98",
+        "count": 390
+      },
+      {
+        "cwe": "CWE-863",
+        "count": 354
       },
       {
         "cwe": "CWE-20",
-        "count": 333
+        "count": 354
       },
       {
         "cwe": "CWE-200",
-        "count": 331
+        "count": 340
+      },
+      {
+        "cwe": "CWE-352",
+        "count": 336
       }
     ]
   },
@@ -630,86 +631,86 @@
     "vulnerability_status": [
       {
         "status": "Analyzed",
-        "count": 9168
+        "count": 9354
       },
       {
         "status": "Awaiting Analysis",
-        "count": 6734
-      },
-      {
-        "status": "Undergoing Analysis",
-        "count": 1005
+        "count": 6695
       },
       {
         "status": "Modified",
-        "count": 861
+        "count": 866
+      },
+      {
+        "status": "Undergoing Analysis",
+        "count": 854
       },
       {
         "status": "Received",
-        "count": 176
+        "count": 505
       }
     ],
     "cve_tags": [],
     "reference_tags": [
       {
         "tag": "Vendor Advisory",
-        "count": 8124
+        "count": 8286
       },
       {
         "tag": "Third Party Advisory",
-        "count": 6506
+        "count": 6595
       },
       {
         "tag": "Patch",
-        "count": 5425
+        "count": 5498
       },
       {
         "tag": "Exploit",
-        "count": 5003
+        "count": 5130
       },
       {
         "tag": "VDB Entry",
-        "count": 3605
+        "count": 3621
       },
       {
         "tag": "Product",
-        "count": 3159
+        "count": 3225
       },
       {
         "tag": "Release Notes",
-        "count": 2591
+        "count": 2639
       },
       {
         "tag": "Issue Tracking",
-        "count": 1791
+        "count": 1820
       },
       {
         "tag": "Permissions Required",
-        "count": 1496
+        "count": 1519
       },
       {
         "tag": "Mitigation",
-        "count": 1045
+        "count": 1092
       },
       {
         "tag": "Broken Link",
-        "count": 373
+        "count": 382
       },
       {
         "tag": "Mailing List",
-        "count": 274
+        "count": 276
       },
       {
         "tag": "Not Applicable",
-        "count": 198
+        "count": 204
       },
       {
         "tag": "US Government Resource",
-        "count": 175
+        "count": 176
       },
       {
         "tag": "Technical Description",
-        "count": 36
+        "count": 38
       },
       {
         "tag": "Press/Media Coverage",
@@ -722,7 +723,7 @@
     ]
   },
   "processing_stats": {
-    "processed_at": "2026-04-14T19:11:26.767715",
+    "processed_at": "2026-04-15T01:33:28.663685",
     "data_source": "data/cache/nvd.jsonl"
   }
 }
