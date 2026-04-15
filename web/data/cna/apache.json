@@ -34,25 +34,25 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 283,
-  "active_cna_count": 328,
+  "rank": 284,
+  "active_cna_count": 329,
   "percentile": 14.0,
   "cna_scoring": [
     {
       "total_cves": 161,
       "total_cves_scored": 161,
       "recent_cves_count": 161,
-      "overall_average_score": 69.29,
+      "overall_average_score": 69.35,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 14.25,
       "average_software_identification": 0.5,
       "average_severity_context": 2.05,
-      "average_patchinfo": 2.48,
+      "average_patchinfo": 2.55,
       "percent_foundational_completeness": 100.0,
       "percent_root_cause_analysis": 95.03,
       "percent_software_identification": 4.97,
       "percent_severity_and_impact": 13.66,
-      "percent_patchinfo": 24.84,
+      "percent_patchinfo": 25.47,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -63,19 +63,6 @@
       "cveId": "CVE-2016-15057",
       "assigningCna": "apache",
       "datePublished": "2026-01-26",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2024-44088",
-      "assigningCna": "apache",
-      "datePublished": "2025-10-14",
       "totalCveScore": 65,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -473,6 +460,19 @@
         "severityAndImpactContext": 0,
         "softwareIdentification": 0,
         "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-54550",
+      "assigningCna": "apache",
+      "datePublished": "2026-04-15",
+      "totalCveScore": 75,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 10
       }
     },
     {
