@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "dell",
-    "total_cves": 116,
-    "total_cves_scored": 116,
+    "total_cves": 131,
+    "total_cves_scored": 131,
     "organizationName": "Dell",
     "scope": "Dell, Dell EMC, and VCE issues only.",
     "advisories": [
@@ -34,13 +34,13 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 45,
-  "active_cna_count": 330,
-  "percentile": 86.7,
+  "active_cna_count": 329,
+  "percentile": 86.6,
   "cna_scoring": [
     {
-      "total_cves": 116,
-      "total_cves_scored": 116,
-      "recent_cves_count": 116,
+      "total_cves": 131,
+      "total_cves_scored": 131,
+      "recent_cves_count": 131,
       "overall_average_score": 80.0,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
@@ -293,9 +293,35 @@
       }
     },
     {
+      "cveId": "CVE-2025-46606",
+      "assigningCna": "dell",
+      "datePublished": "2026-04-17",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2025-46427",
       "assigningCna": "dell",
       "datePublished": "2025-11-12",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-46605",
+      "assigningCna": "dell",
+      "datePublished": "2026-04-17",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -335,6 +361,19 @@
       "cveId": "CVE-2025-46603",
       "assigningCna": "dell",
       "datePublished": "2025-12-05",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-46641",
+      "assigningCna": "dell",
+      "datePublished": "2026-04-17",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -605,6 +644,19 @@
       }
     },
     {
+      "cveId": "CVE-2025-46607",
+      "assigningCna": "dell",
+      "datePublished": "2026-04-17",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2025-46425",
       "assigningCna": "dell",
       "datePublished": "2025-10-24",
@@ -712,6 +764,19 @@
       "cveId": "CVE-2025-36579",
       "assigningCna": "dell",
       "datePublished": "2026-04-16",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-36568",
+      "assigningCna": "dell",
+      "datePublished": "2026-04-17",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -1138,9 +1203,61 @@
       }
     },
     {
+      "cveId": "CVE-2026-23779",
+      "assigningCna": "dell",
+      "datePublished": "2026-04-17",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-23862",
       "assigningCna": "dell",
       "datePublished": "2026-03-16",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-23778",
+      "assigningCna": "dell",
+      "datePublished": "2026-04-17",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-23777",
+      "assigningCna": "dell",
+      "datePublished": "2026-04-17",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-23776",
+      "assigningCna": "dell",
+      "datePublished": "2026-04-17",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -1216,6 +1333,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-23775",
+      "assigningCna": "dell",
+      "datePublished": "2026-04-17",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-23857",
       "assigningCna": "dell",
       "datePublished": "2026-02-12",
@@ -1245,6 +1375,19 @@
       "cveId": "CVE-2026-28264",
       "assigningCna": "dell",
       "datePublished": "2026-04-08",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-28263",
+      "assigningCna": "dell",
+      "datePublished": "2026-04-17",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -1414,6 +1557,58 @@
       "cveId": "CVE-2026-25906",
       "assigningCna": "dell",
       "datePublished": "2026-03-03",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-35074",
+      "assigningCna": "dell",
+      "datePublished": "2026-04-17",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-35073",
+      "assigningCna": "dell",
+      "datePublished": "2026-04-17",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-35072",
+      "assigningCna": "dell",
+      "datePublished": "2026-04-17",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-35153",
+      "assigningCna": "dell",
+      "datePublished": "2026-04-17",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
