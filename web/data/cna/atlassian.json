@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "atlassian",
-    "total_cves": 15,
-    "total_cves_scored": 15,
+    "total_cves": 16,
+    "total_cves_scored": 16,
     "organizationName": "Atlassian",
     "scope": "All Atlassian products, as well as Atlassian-maintained projects hosted on <a href='https://bitbucket.org/' target='_blank'>https://bitbucket.org/</a> and <a href='https://github.com/atlassian/' target='_blank'>https://github.com/atlassian/</a>.",
     "advisories": [
@@ -34,14 +34,14 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 293,
-  "active_cna_count": 330,
-  "percentile": 11.5,
+  "rank": 295,
+  "active_cna_count": 332,
+  "percentile": 11.4,
   "cna_scoring": [
     {
-      "total_cves": 15,
-      "total_cves_scored": 15,
-      "recent_cves_count": 15,
+      "total_cves": 16,
+      "total_cves_scored": 16,
+      "recent_cves_count": 16,
       "overall_average_score": 65.0,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 0.0,
@@ -219,6 +219,19 @@
       "cveId": "CVE-2025-22167",
       "assigningCna": "atlassian",
       "datePublished": "2025-10-22",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-21571",
+      "assigningCna": "atlassian",
+      "datePublished": "2026-04-21",
       "totalCveScore": 65,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
