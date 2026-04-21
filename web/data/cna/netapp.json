@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "netapp",
-    "total_cves": 3,
-    "total_cves_scored": 3,
+    "total_cves": 4,
+    "total_cves_scored": 4,
     "organizationName": "NetApp, Inc.",
     "scope": "All NetApp products as well as projects hosted on <a href='https://github.com/netapp' target='_blank'>https://github.com/netapp</a>.",
     "advisories": [
@@ -38,9 +38,9 @@
   "percentile": 11.5,
   "cna_scoring": [
     {
-      "total_cves": 3,
-      "total_cves_scored": 3,
-      "recent_cves_count": 3,
+      "total_cves": 4,
+      "total_cves_scored": 4,
+      "recent_cves_count": 4,
       "overall_average_score": 65.0,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 0.0,
@@ -58,6 +58,19 @@
     }
   ],
   "recent_cves": [
+    {
+      "cveId": "CVE-2026-22051",
+      "assigningCna": "netapp",
+      "datePublished": "2026-04-20",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
     {
       "cveId": "CVE-2026-22048",
       "assigningCna": "netapp",
