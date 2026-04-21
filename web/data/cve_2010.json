@@ -732,11 +732,19 @@
     "vulnerability_status": [
       {
         "status": "Deferred",
-        "count": 4637
+        "count": 4616
+      },
+      {
+        "status": "Undergoing Analysis",
+        "count": 11
+      },
+      {
+        "status": "Modified",
+        "count": 9
       },
       {
         "status": "Analyzed",
-        "count": 2
+        "count": 3
       }
     ],
     "cve_tags": [],
@@ -767,7 +775,7 @@
       },
       {
         "tag": "US Government Resource",
-        "count": 1162
+        "count": 1163
       },
       {
         "tag": "VDB Entry",
@@ -812,7 +820,7 @@
     ]
   },
   "processing_stats": {
-    "processed_at": "2026-04-21T13:04:51.284575",
+    "processed_at": "2026-04-21T19:02:10.394849",
     "data_source": "data/cache/nvd.jsonl"
   }
 }

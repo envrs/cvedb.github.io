@@ -780,7 +780,19 @@
     "vulnerability_status": [
       {
         "status": "Deferred",
-        "count": 7928
+        "count": 7894
+      },
+      {
+        "status": "Modified",
+        "count": 20
+      },
+      {
+        "status": "Undergoing Analysis",
+        "count": 12
+      },
+      {
+        "status": "Analyzed",
+        "count": 2
       }
     ],
     "cve_tags": [],
@@ -795,7 +807,7 @@
       },
       {
         "tag": "US Government Resource",
-        "count": 6299
+        "count": 6301
       },
       {
         "tag": "Exploit",
@@ -860,7 +872,7 @@
     ]
   },
   "processing_stats": {
-    "processed_at": "2026-04-21T13:06:45.171114",
+    "processed_at": "2026-04-21T19:04:05.302670",
     "data_source": "data/cache/nvd.jsonl"
   }
 }
