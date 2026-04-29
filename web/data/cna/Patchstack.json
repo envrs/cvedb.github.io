@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "Patchstack",
-    "total_cves": 2978,
-    "total_cves_scored": 2978,
+    "total_cves": 2980,
+    "total_cves_scored": 2980,
     "organizationName": "Patchstack",
     "scope": "Vulnerabilities in third-party products discovered by Patchstack and Patchstack Bug Bounty program unless covered by the scope of another CNA.",
     "advisories": [
@@ -41,24 +41,24 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 261,
-  "active_cna_count": 331,
-  "percentile": 21.5,
+  "rank": 259,
+  "active_cna_count": 329,
+  "percentile": 21.6,
   "cna_scoring": [
     {
-      "total_cves": 2978,
-      "total_cves_scored": 2978,
-      "recent_cves_count": 2978,
+      "total_cves": 2980,
+      "total_cves_scored": 2980,
+      "recent_cves_count": 2980,
       "overall_average_score": 77.81,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 14.98,
       "average_software_identification": 0.0,
-      "average_severity_context": 12.82,
+      "average_severity_context": 12.83,
       "average_patchinfo": 0.0,
       "percent_foundational_completeness": 100.0,
       "percent_root_cause_analysis": 99.9,
       "percent_software_identification": 0.0,
-      "percent_severity_and_impact": 85.49,
+      "percent_severity_and_impact": 85.5,
       "percent_patchinfo": 0.0,
       "trend_direction": "steady",
       "trend_description": "No significant change",
@@ -38745,6 +38745,32 @@
       "cveId": "CVE-2026-34885",
       "assigningCna": "Patchstack",
       "datePublished": "2026-04-06",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-42412",
+      "assigningCna": "Patchstack",
+      "datePublished": "2026-04-29",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-42377",
+      "assigningCna": "Patchstack",
+      "datePublished": "2026-04-29",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
