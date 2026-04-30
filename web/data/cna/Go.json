@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "Go",
-    "total_cves": 51,
-    "total_cves_scored": 51,
+    "total_cves": 41,
+    "total_cves_scored": 41,
     "organizationName": "Go Project",
     "scope": "Vulnerabilities in software published by the Go Project (including the Go standard library, Go toolchain, and the golang.org modules) and publicly disclosed vulnerabilities in publicly importable packages in the Go ecosystem, unless covered by another CNA’s scope.",
     "advisories": [
@@ -39,9 +39,9 @@
   "percentile": 11.8,
   "cna_scoring": [
     {
-      "total_cves": 51,
-      "total_cves_scored": 51,
-      "recent_cves_count": 51,
+      "total_cves": 41,
+      "total_cves_scored": 41,
+      "recent_cves_count": 41,
       "overall_average_score": 65.0,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
@@ -59,19 +59,6 @@
     }
   ],
   "recent_cves": [
-    {
-      "cveId": "CVE-2025-47912",
-      "assigningCna": "Go",
-      "datePublished": "2025-10-29",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
     {
       "cveId": "CVE-2025-47913",
       "assigningCna": "Go",
@@ -112,19 +99,6 @@
       }
     },
     {
-      "cveId": "CVE-2025-61725",
-      "assigningCna": "Go",
-      "datePublished": "2025-10-29",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2025-61731",
       "assigningCna": "Go",
       "datePublished": "2026-01-28",
@@ -154,32 +128,6 @@
       "cveId": "CVE-2025-61730",
       "assigningCna": "Go",
       "datePublished": "2026-01-28",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-61723",
-      "assigningCna": "Go",
-      "datePublished": "2025-10-29",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-61724",
-      "assigningCna": "Go",
-      "datePublished": "2025-10-29",
       "totalCveScore": 65,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -307,87 +255,9 @@
       }
     },
     {
-      "cveId": "CVE-2025-58187",
-      "assigningCna": "Go",
-      "datePublished": "2025-10-29",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-58185",
-      "assigningCna": "Go",
-      "datePublished": "2025-10-29",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2025-58190",
       "assigningCna": "Go",
       "datePublished": "2026-02-05",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-58183",
-      "assigningCna": "Go",
-      "datePublished": "2025-10-29",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-58189",
-      "assigningCna": "Go",
-      "datePublished": "2025-10-29",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-58188",
-      "assigningCna": "Go",
-      "datePublished": "2025-10-29",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-58186",
-      "assigningCna": "Go",
-      "datePublished": "2025-10-29",
       "totalCveScore": 65,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
