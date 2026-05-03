@@ -1,13 +1,13 @@
 {
   "year": 2026,
-  "total_cves": 21351,
+  "total_cves": 21361,
   "date_data": {
     "monthly_distribution": {
       "1": 4310,
       "2": 4619,
       "3": 6241,
       "4": 5819,
-      "5": 362,
+      "5": 372,
       "6": 0,
       "7": 0,
       "8": 0,
@@ -18,7 +18,7 @@
     },
     "daily_analysis": {
       "total_days": 121,
-      "avg_per_day": 176.45,
+      "avg_per_day": 176.54,
       "highest_day": {
         "date": "2026-03-25",
         "count": 606
@@ -150,7 +150,7 @@
         "2026-04-30": 161,
         "2026-05-01": 263,
         "2026-05-02": 73,
-        "2026-05-03": 26
+        "2026-05-03": 36
       }
     }
   },
@@ -292,22 +292,22 @@
       }
     },
     "v4.0": {
-      "total": 8024,
+      "total": 8034,
       "severity_distribution": {
-        "MEDIUM": 2969,
-        "LOW": 1519,
+        "MEDIUM": 2973,
+        "LOW": 1525,
         "HIGH": 2864,
         "CRITICAL": 638,
         "NONE": 34
       },
       "score_distribution": {
-        "5.5": 641,
-        "2.1": 658,
+        "5.5": 645,
+        "2.1": 663,
         "5.3": 329,
         "6.9": 554,
         "7.7": 101,
         "5.8": 35,
-        "2.0": 250,
+        "2.0": 251,
         "7.3": 114,
         "1.9": 229,
         "7.4": 332,
@@ -403,7 +403,7 @@
       },
       {
         "name": "vuldb.com",
-        "count": 2297
+        "count": 2307
       },
       {
         "name": "vulncheck.com",
@@ -569,7 +569,7 @@
       },
       {
         "cwe": "CWE-89",
-        "count": 1586
+        "count": 1589
       },
       {
         "cwe": "CWE-862",
@@ -577,11 +577,11 @@
       },
       {
         "cwe": "CWE-22",
-        "count": 824
+        "count": 825
       },
       {
         "cwe": "CWE-74",
-        "count": 718
+        "count": 723
       },
       {
         "cwe": "CWE-787",
@@ -589,23 +589,23 @@
       },
       {
         "cwe": "CWE-78",
-        "count": 683
+        "count": 684
       },
       {
         "cwe": "CWE-94",
-        "count": 612
+        "count": 614
+      },
+      {
+        "cwe": "CWE-77",
+        "count": 532
       },
       {
         "cwe": "CWE-918",
         "count": 531
       },
       {
-        "cwe": "CWE-77",
-        "count": 531
-      },
-      {
         "cwe": "CWE-284",
-        "count": 526
+        "count": 527
       },
       {
         "cwe": "CWE-416",
@@ -649,7 +649,7 @@
     "vulnerability_status": [
       {
         "status": "Analyzed",
-        "count": 12149
+        "count": 12147
       },
       {
         "status": "Deferred",
@@ -661,7 +661,7 @@
       },
       {
         "status": "Modified",
-        "count": 1024
+        "count": 1026
       },
       {
         "status": "Undergoing Analysis",
@@ -669,7 +669,7 @@
       },
       {
         "status": "Received",
-        "count": 154
+        "count": 164
       }
     ],
     "cve_tags": [],
@@ -745,7 +745,7 @@
     ]
   },
   "processing_stats": {
-    "processed_at": "2026-05-03T12:55:59.379569",
+    "processed_at": "2026-05-03T18:56:17.068847",
     "data_source": "data/cache/nvd.jsonl"
   }
 }
