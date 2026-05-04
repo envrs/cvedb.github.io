@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "google_android",
-    "total_cves": 120,
-    "total_cves_scored": 120,
+    "total_cves": 121,
+    "total_cves_scored": 121,
     "organizationName": "Android (associated with Google Inc. or Open Handset Alliance)",
     "scope": "Android issues, as well as vulnerabilities in third-party software discovered by Android that are not in another CNA’s scope.",
     "advisories": [
@@ -35,14 +35,14 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 320,
-  "active_cna_count": 325,
+  "rank": 322,
+  "active_cna_count": 327,
   "percentile": 1.8,
   "cna_scoring": [
     {
-      "total_cves": 120,
-      "total_cves_scored": 120,
-      "recent_cves_count": 120,
+      "total_cves": 121,
+      "total_cves_scored": 121,
+      "recent_cves_count": 121,
       "overall_average_score": 50.12,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 0.0,
@@ -1429,6 +1429,19 @@
       "cveId": "CVE-2026-0034",
       "assigningCna": "google_android",
       "datePublished": "2026-03-02",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-0073",
+      "assigningCna": "google_android",
+      "datePublished": "2026-05-04",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
