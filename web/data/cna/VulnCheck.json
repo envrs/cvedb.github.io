@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "VulnCheck",
-    "total_cves": 2632,
-    "total_cves_scored": 2632,
+    "total_cves": 2633,
+    "total_cves_scored": 2633,
     "organizationName": "VulnCheck",
     "scope": "Vulnerabilities observed by, discovered by, or reported to VulnCheck that are not in another CNA’s scope.",
     "advisories": [
@@ -35,13 +35,13 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 34,
-  "active_cna_count": 327,
+  "active_cna_count": 326,
   "percentile": 89.9,
   "cna_scoring": [
     {
-      "total_cves": 2632,
-      "total_cves_scored": 2632,
-      "recent_cves_count": 2632,
+      "total_cves": 2633,
+      "total_cves_scored": 2633,
+      "recent_cves_count": 2633,
       "overall_average_score": 82.7,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 14.91,
@@ -52,7 +52,7 @@
       "percent_root_cause_analysis": 99.39,
       "percent_software_identification": 0.08,
       "percent_severity_and_impact": 100.0,
-      "percent_patchinfo": 27.81,
+      "percent_patchinfo": 27.84,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -25644,6 +25644,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-41927",
+      "assigningCna": "VulnCheck",
+      "datePublished": "2026-05-04",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-41357",
       "assigningCna": "VulnCheck",
       "datePublished": "2026-04-23",
@@ -34266,13 +34279,13 @@
       "cveId": "CVE-2026-5720",
       "assigningCna": "VulnCheck",
       "datePublished": "2026-04-17",
-      "totalCveScore": 80,
+      "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 15,
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
-        "patchinfo": 0
+        "patchinfo": 10
       }
     }
   ]
