@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "vmware",
-    "total_cves": 53,
-    "total_cves_scored": 53,
+    "total_cves": 57,
+    "total_cves_scored": 57,
     "organizationName": "VMware by Broadcom",
     "scope": "VMware, Spring, and Cloud Foundry issues only.",
     "advisories": [
@@ -34,22 +34,22 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 274,
+  "rank": 273,
   "active_cna_count": 327,
-  "percentile": 16.5,
+  "percentile": 16.8,
   "cna_scoring": [
     {
-      "total_cves": 53,
-      "total_cves_scored": 53,
-      "recent_cves_count": 53,
-      "overall_average_score": 74.34,
+      "total_cves": 57,
+      "total_cves_scored": 57,
+      "recent_cves_count": 57,
+      "overall_average_score": 74.74,
       "average_foundational_completeness": 50.0,
-      "average_root_cause_analysis": 9.34,
+      "average_root_cause_analysis": 9.74,
       "average_software_identification": 0.0,
       "average_severity_context": 15.0,
       "average_patchinfo": 0.0,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 62.26,
+      "percent_root_cause_analysis": 64.91,
       "percent_software_identification": 0.0,
       "percent_severity_and_impact": 100.0,
       "percent_patchinfo": 0.0,
@@ -554,6 +554,32 @@
       }
     },
     {
+      "cveId": "CVE-2026-41004",
+      "assigningCna": "vmware",
+      "datePublished": "2026-05-07",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-41002",
+      "assigningCna": "vmware",
+      "datePublished": "2026-05-07",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-40975",
       "assigningCna": "vmware",
       "datePublished": "2026-04-27",
@@ -671,6 +697,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-40982",
+      "assigningCna": "vmware",
+      "datePublished": "2026-05-07",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-40977",
       "assigningCna": "vmware",
       "datePublished": "2026-04-27",
@@ -700,6 +739,19 @@
       "cveId": "CVE-2026-40971",
       "assigningCna": "vmware",
       "datePublished": "2026-04-27",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-40981",
+      "assigningCna": "vmware",
+      "datePublished": "2026-05-07",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
