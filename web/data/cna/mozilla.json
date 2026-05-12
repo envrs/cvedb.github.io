@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "mozilla",
-    "total_cves": 201,
-    "total_cves_scored": 201,
+    "total_cves": 202,
+    "total_cves_scored": 202,
     "organizationName": "Mozilla Corporation",
     "scope": "Mozilla issues only.",
     "advisories": [
@@ -39,9 +39,9 @@
   "percentile": 1.8,
   "cna_scoring": [
     {
-      "total_cves": 201,
-      "total_cves_scored": 201,
-      "recent_cves_count": 201,
+      "total_cves": 202,
+      "total_cves_scored": 202,
+      "recent_cves_count": 202,
       "overall_average_score": 50.0,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 0.0,
@@ -2520,6 +2520,19 @@
       "cveId": "CVE-2026-8091",
       "assigningCna": "mozilla",
       "datePublished": "2026-05-07",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-8401",
+      "assigningCna": "mozilla",
+      "datePublished": "2026-05-12",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
