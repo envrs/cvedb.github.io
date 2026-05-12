@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "INCIBE",
-    "total_cves": 162,
-    "total_cves_scored": 162,
+    "total_cves": 163,
+    "total_cves_scored": 163,
     "organizationName": "Spanish National Cybersecurity Institute, S.A. (INCIBE)",
     "scope": "<strong>Root Scope:</strong> Spain organizations.<br/><strong>CNA Scope:</strong> Vulnerability assignment related to its vulnerability coordination role for Industrial Control Systems (ICS), Information Technologies (IT), and Internet of Things (IoT) systems issues at the national level, and vulnerabilities reported to INCIBE by Spain organizations and researchers that are not in another CNA’s scope.",
     "advisories": [
@@ -43,24 +43,24 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 32,
-  "active_cna_count": 325,
+  "active_cna_count": 327,
   "percentile": 90.5,
   "cna_scoring": [
     {
-      "total_cves": 162,
-      "total_cves_scored": 162,
-      "recent_cves_count": 162,
-      "overall_average_score": 83.86,
+      "total_cves": 163,
+      "total_cves_scored": 163,
+      "recent_cves_count": 163,
+      "overall_average_score": 83.9,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 14.91,
       "average_software_identification": 0.0,
       "average_severity_context": 15.0,
-      "average_patchinfo": 3.95,
+      "average_patchinfo": 3.99,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 99.38,
+      "percent_root_cause_analysis": 99.39,
       "percent_software_identification": 0.0,
       "percent_severity_and_impact": 100.0,
-      "percent_patchinfo": 39.51,
+      "percent_patchinfo": 39.88,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -2054,6 +2054,19 @@
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-8072",
+      "assigningCna": "INCIBE",
+      "datePublished": "2026-05-12",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
       }
     },
     {

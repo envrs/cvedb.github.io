@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "hikvision",
-    "total_cves": 12,
-    "total_cves_scored": 12,
+    "total_cves": 13,
+    "total_cves_scored": 13,
     "organizationName": "Hangzhou Hikvision Digital Technology Co., Ltd.",
     "scope": "All <a href='http://www.hikvision.com/en/' target='_blank'>Hikvision Internet of Things (IoT) products</a> including cameras and digital video recorders (DVRs).",
     "advisories": [
@@ -33,14 +33,14 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 289,
-  "active_cna_count": 325,
-  "percentile": 11.4,
+  "rank": 291,
+  "active_cna_count": 327,
+  "percentile": 11.3,
   "cna_scoring": [
     {
-      "total_cves": 12,
-      "total_cves_scored": 12,
-      "recent_cves_count": 12,
+      "total_cves": 13,
+      "total_cves_scored": 13,
+      "recent_cves_count": 13,
       "overall_average_score": 65.0,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 0.0,
@@ -192,6 +192,19 @@
       "cveId": "CVE-2026-3828",
       "assigningCna": "hikvision",
       "datePublished": "2026-05-09",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-32684",
+      "assigningCna": "hikvision",
+      "datePublished": "2026-05-12",
       "totalCveScore": 65,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,

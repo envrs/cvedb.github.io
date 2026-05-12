@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "schneider",
-    "total_cves": 22,
-    "total_cves_scored": 22,
+    "total_cves": 24,
+    "total_cves_scored": 24,
     "organizationName": "Schneider Electric",
     "scope": "All Schneider Electric products, including Proface, APC, and ProLeiT.",
     "advisories": [
@@ -34,13 +34,13 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 48,
-  "active_cna_count": 325,
-  "percentile": 85.5,
+  "active_cna_count": 327,
+  "percentile": 85.6,
   "cna_scoring": [
     {
-      "total_cves": 22,
-      "total_cves_scored": 22,
-      "recent_cves_count": 22,
+      "total_cves": 24,
+      "total_cves_scored": 24,
+      "recent_cves_count": 24,
       "overall_average_score": 80.0,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
@@ -335,6 +335,32 @@
       "cveId": "CVE-2026-4832",
       "assigningCna": "schneider",
       "datePublished": "2026-04-14",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-4827",
+      "assigningCna": "schneider",
+      "datePublished": "2026-05-12",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-6865",
+      "assigningCna": "schneider",
+      "datePublished": "2026-05-12",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
