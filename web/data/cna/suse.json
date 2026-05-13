@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "suse",
-    "total_cves": 18,
-    "total_cves_scored": 18,
+    "total_cves": 20,
+    "total_cves_scored": 20,
     "organizationName": "SUSE",
     "scope": "SUSE and Rancher specific security issues, and vulnerabilities discovered by SUSE that are not covered by the scope of another CNA.",
     "advisories": [
@@ -40,9 +40,9 @@
   "percentile": 85.5,
   "cna_scoring": [
     {
-      "total_cves": 18,
-      "total_cves_scored": 18,
-      "recent_cves_count": 18,
+      "total_cves": 20,
+      "total_cves_scored": 20,
+      "recent_cves_count": 20,
       "overall_average_score": 80.0,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
@@ -256,6 +256,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-41050",
+      "assigningCna": "suse",
+      "datePublished": "2026-05-13",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-25704",
       "assigningCna": "suse",
       "datePublished": "2026-03-30",
@@ -272,6 +285,19 @@
       "cveId": "CVE-2026-25702",
       "assigningCna": "suse",
       "datePublished": "2026-03-05",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-25705",
+      "assigningCna": "suse",
+      "datePublished": "2026-05-13",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
