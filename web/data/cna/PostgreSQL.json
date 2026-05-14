@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "PostgreSQL",
-    "total_cves": 29,
-    "total_cves_scored": 29,
+    "total_cves": 23,
+    "total_cves_scored": 23,
     "organizationName": "PostgreSQL",
     "scope": "<a href='https://www.postgresql.org/download/' target='_blank'>postgresql.org/download</a> software and related projects listed at <a href='https://www.postgresql.org/support/security/' target='_blank'>postgresql.org/support/security</a>.",
     "advisories": [
@@ -33,25 +33,25 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 271,
+  "rank": 270,
   "active_cna_count": 324,
-  "percentile": 16.7,
+  "percentile": 17.0,
   "cna_scoring": [
     {
-      "total_cves": 29,
-      "total_cves_scored": 29,
-      "recent_cves_count": 29,
-      "overall_average_score": 73.45,
+      "total_cves": 23,
+      "total_cves_scored": 23,
+      "recent_cves_count": 23,
+      "overall_average_score": 74.35,
       "average_foundational_completeness": 50.0,
-      "average_root_cause_analysis": 7.76,
+      "average_root_cause_analysis": 8.48,
       "average_software_identification": 0.0,
       "average_severity_context": 15.0,
-      "average_patchinfo": 0.69,
+      "average_patchinfo": 0.87,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 51.72,
+      "percent_root_cause_analysis": 56.52,
       "percent_software_identification": 0.0,
       "percent_severity_and_impact": 100.0,
-      "percent_patchinfo": 6.9,
+      "percent_patchinfo": 8.7,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -59,87 +59,9 @@
   ],
   "recent_cves": [
     {
-      "cveId": "CVE-2025-12763",
-      "assigningCna": "PostgreSQL",
-      "datePublished": "2025-11-13",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-12764",
-      "assigningCna": "PostgreSQL",
-      "datePublished": "2025-11-13",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-12817",
-      "assigningCna": "PostgreSQL",
-      "datePublished": "2025-11-13",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-12762",
-      "assigningCna": "PostgreSQL",
-      "datePublished": "2025-11-13",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-12765",
-      "assigningCna": "PostgreSQL",
-      "datePublished": "2025-11-13",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2025-12819",
       "assigningCna": "PostgreSQL",
       "datePublished": "2025-12-03",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-12818",
-      "assigningCna": "PostgreSQL",
-      "datePublished": "2025-11-13",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
