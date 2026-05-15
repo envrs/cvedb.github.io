@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "apache",
-    "total_cves": 231,
-    "total_cves_scored": 231,
+    "total_cves": 232,
+    "total_cves_scored": 232,
     "organizationName": "Apache Software Foundation",
     "scope": "All Apache Software Foundation issues only.",
     "advisories": [
@@ -34,25 +34,25 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 280,
-  "active_cna_count": 325,
+  "rank": 279,
+  "active_cna_count": 324,
   "percentile": 14.2,
   "cna_scoring": [
     {
-      "total_cves": 231,
-      "total_cves_scored": 231,
-      "recent_cves_count": 231,
-      "overall_average_score": 69.55,
+      "total_cves": 232,
+      "total_cves_scored": 232,
+      "recent_cves_count": 232,
+      "overall_average_score": 69.53,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 14.42,
       "average_software_identification": 0.39,
-      "average_severity_context": 2.4,
-      "average_patchinfo": 2.34,
+      "average_severity_context": 2.39,
+      "average_patchinfo": 2.33,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 96.1,
-      "percent_software_identification": 3.9,
-      "percent_severity_and_impact": 16.02,
-      "percent_patchinfo": 23.38,
+      "percent_root_cause_analysis": 96.12,
+      "percent_software_identification": 3.88,
+      "percent_severity_and_impact": 15.95,
+      "percent_patchinfo": 23.28,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -2949,6 +2949,19 @@
       "cveId": "CVE-2026-35565",
       "assigningCna": "apache",
       "datePublished": "2026-04-13",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-35194",
+      "assigningCna": "apache",
+      "datePublished": "2026-05-15",
       "totalCveScore": 65,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
