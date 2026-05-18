@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "apple",
-    "total_cves": 363,
-    "total_cves_scored": 363,
+    "total_cves": 364,
+    "total_cves_scored": 364,
     "organizationName": "Apple Inc.",
     "scope": "Apple issues only.",
     "advisories": [
@@ -33,14 +33,14 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 316,
-  "active_cna_count": 321,
+  "rank": 318,
+  "active_cna_count": 323,
   "percentile": 1.9,
   "cna_scoring": [
     {
-      "total_cves": 363,
-      "total_cves_scored": 363,
-      "recent_cves_count": 363,
+      "total_cves": 364,
+      "total_cves_scored": 364,
+      "recent_cves_count": 364,
       "overall_average_score": 50.0,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 0.0,
@@ -1596,6 +1596,19 @@
       "cveId": "CVE-2026-20656",
       "assigningCna": "apple",
       "datePublished": "2026-02-11",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-20685",
+      "assigningCna": "apple",
+      "datePublished": "2026-05-18",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
