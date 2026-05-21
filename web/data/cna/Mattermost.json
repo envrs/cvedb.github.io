@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "Mattermost",
-    "total_cves": 92,
-    "total_cves_scored": 92,
+    "total_cves": 95,
+    "total_cves_scored": 95,
     "organizationName": "Mattermost, Inc.",
     "scope": "All Mattermost issues, and vulnerabilities discovered by Mattermost that are not in another CNA’s scope.",
     "advisories": [
@@ -34,14 +34,14 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 49,
-  "active_cna_count": 325,
-  "percentile": 85.2,
+  "rank": 50,
+  "active_cna_count": 324,
+  "percentile": 84.9,
   "cna_scoring": [
     {
-      "total_cves": 92,
-      "total_cves_scored": 92,
-      "recent_cves_count": 92,
+      "total_cves": 95,
+      "total_cves_scored": 95,
+      "recent_cves_count": 95,
       "overall_average_score": 80.0,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
@@ -336,6 +336,19 @@
       "cveId": "CVE-2026-5163",
       "assigningCna": "Mattermost",
       "datePublished": "2026-05-18",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-22880",
+      "assigningCna": "Mattermost",
+      "datePublished": "2026-05-21",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -762,6 +775,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-4055",
+      "assigningCna": "Mattermost",
+      "datePublished": "2026-05-21",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-4265",
       "assigningCna": "Mattermost",
       "datePublished": "2026-03-16",
@@ -778,6 +804,19 @@
       "cveId": "CVE-2026-4053",
       "assigningCna": "Mattermost",
       "datePublished": "2026-05-15",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-4858",
+      "assigningCna": "Mattermost",
+      "datePublished": "2026-05-21",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
