@@ -1,17 +1,24 @@
 {
-  "generated_at": "2026-05-21T14:52:18.817148",
-  "total_unique_cpes": 369359,
-  "total_cpe_entries": 2494539,
-  "total_cves_with_cpes": 298461,
-  "total_unique_vendors": 36371,
-  "total_unique_products": 113369,
+  "generated_at": "2026-05-22T02:20:39.225051",
+  "total_unique_cpes": 369401,
+  "total_cpe_entries": 2495415,
+  "total_cves_with_cpes": 298637,
+  "total_unique_vendors": 36382,
+  "total_unique_products": 113387,
   "top_cpes": [
     {
       "cpe": "cpe:2.3:o:linux:linux_kernel:*:*:*:*:*:*:*:*",
-      "count": 44444,
+      "count": 44743,
       "vendor": "linux",
       "product": "linux_kernel",
       "type": "Operating System"
+    },
+    {
+      "cpe": "cpe:2.3:a:google:chrome:*:*:*:*:*:*:*:*",
+      "count": 4317,
+      "vendor": "google",
+      "product": "chrome",
+      "type": "Application"
     },
     {
       "cpe": "cpe:2.3:o:apple:macos:*:*:*:*:*:*:*:*",
@@ -19,13 +26,6 @@
       "vendor": "apple",
       "product": "macos",
       "type": "Operating System"
-    },
-    {
-      "cpe": "cpe:2.3:a:google:chrome:*:*:*:*:*:*:*:*",
-      "count": 4294,
-      "vendor": "google",
-      "product": "chrome",
-      "type": "Application"
     },
     {
       "cpe": "cpe:2.3:o:apple:iphone_os:*:*:*:*:*:*:*:*",
@@ -232,7 +232,7 @@
     },
     {
       "cpe": "cpe:2.3:o:canonical:ubuntu_linux:18.04:*:*:*:lts:*:*:*",
-      "count": 1773,
+      "count": 1774,
       "vendor": "canonical",
       "product": "ubuntu_linux",
       "type": "Operating System"
@@ -295,7 +295,7 @@
     },
     {
       "cpe": "cpe:2.3:o:canonical:ubuntu_linux:14.04:*:*:*:lts:*:*:*",
-      "count": 1548,
+      "count": 1549,
       "vendor": "canonical",
       "product": "ubuntu_linux",
       "type": "Operating System"
@@ -323,7 +323,7 @@
     },
     {
       "cpe": "cpe:2.3:o:canonical:ubuntu_linux:16.04:*:*:*:lts:*:*:*",
-      "count": 1491,
+      "count": 1492,
       "vendor": "canonical",
       "product": "ubuntu_linux",
       "type": "Operating System"
@@ -368,11 +368,11 @@
     },
     {
       "vendor": "linux",
-      "count": 151531
+      "count": 152024
     },
     {
       "vendor": "microsoft",
-      "count": 127091
+      "count": 127095
     },
     {
       "vendor": "apple",
@@ -384,7 +384,7 @@
     },
     {
       "vendor": "mozilla",
-      "count": 85190
+      "count": 85192
     },
     {
       "vendor": "juniper",
@@ -400,7 +400,7 @@
     },
     {
       "vendor": "google",
-      "count": 61772
+      "count": 61795
     },
     {
       "vendor": "intel",
@@ -424,7 +424,7 @@
     },
     {
       "vendor": "hp",
-      "count": 32904
+      "count": 32906
     },
     {
       "vendor": "dell",
@@ -442,7 +442,7 @@
   "top_products": [
     {
       "product": "linux_kernel",
-      "count": 151293
+      "count": 151786
     },
     {
       "product": "ios",
@@ -458,11 +458,11 @@
     },
     {
       "product": "firefox",
-      "count": 37579
+      "count": 37580
     },
     {
       "product": "chrome",
-      "count": 34531
+      "count": 34554
     },
     {
       "product": "ios_xe",
@@ -524,12 +524,12 @@
   "cpe_type_distribution": [
     {
       "type": "Application",
-      "count": 1309422,
+      "count": 1309595,
       "percentage": 52.5
     },
     {
       "type": "Operating System",
-      "count": 1130054,
+      "count": 1130757,
       "percentage": 45.3
     },
     {
