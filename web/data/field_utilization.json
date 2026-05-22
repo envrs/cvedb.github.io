@@ -24,14 +24,6 @@
     "cna_scorecard_category": null
   },
   {
-    "field": "containers.adp",
-    "percent": 100.0,
-    "unique_cnas": 332,
-    "importance": "Low",
-    "description": "Authorized Data Publisher container",
-    "cna_scorecard_category": null
-  },
-  {
     "field": "containers.cna.affected",
     "percent": 100.0,
     "unique_cnas": 332,
@@ -64,11 +56,11 @@
     "cna_scorecard_category": null
   },
   {
-    "field": "containers.cna.problemTypes",
-    "percent": 95.8,
-    "unique_cnas": 318,
-    "importance": "High",
-    "description": "Problem type information (CWE, etc.)",
+    "field": "containers.adp",
+    "percent": 99.7,
+    "unique_cnas": 331,
+    "importance": "Low",
+    "description": "Authorized Data Publisher container",
     "cna_scorecard_category": null
   },
   {
@@ -80,9 +72,17 @@
     "cna_scorecard_category": null
   },
   {
+    "field": "containers.cna.problemTypes",
+    "percent": 95.5,
+    "unique_cnas": 317,
+    "importance": "High",
+    "description": "Problem type information (CWE, etc.)",
+    "cna_scorecard_category": null
+  },
+  {
     "field": "problemTypes.cwe",
-    "percent": 94.0,
-    "unique_cnas": 312,
+    "percent": 93.7,
+    "unique_cnas": 311,
     "importance": "High",
     "description": "Common Weakness Enumeration identifiers",
     "cna_scorecard_category": "rootCauseAnalysis"
@@ -145,16 +145,16 @@
   },
   {
     "field": "containers.cna.impacts",
-    "percent": 59.0,
-    "unique_cnas": 196,
+    "percent": 58.7,
+    "unique_cnas": 195,
     "importance": "Medium",
     "description": "Impact descriptions",
     "cna_scorecard_category": null
   },
   {
     "field": "metrics.cvssV3_1",
-    "percent": 52.1,
-    "unique_cnas": 173,
+    "percent": 51.5,
+    "unique_cnas": 171,
     "importance": "High",
     "description": "CVSS v3.1 metrics",
     "cna_scorecard_category": "severityAndImpactContext"
@@ -169,24 +169,24 @@
   },
   {
     "field": "references.advisory",
-    "percent": 39.2,
-    "unique_cnas": 130,
+    "percent": 38.9,
+    "unique_cnas": 129,
     "importance": "Medium",
     "description": "Advisory references",
     "cna_scorecard_category": null
   },
   {
     "field": "containers.cna.solutions",
-    "percent": 30.1,
-    "unique_cnas": 100,
+    "percent": 29.8,
+    "unique_cnas": 99,
     "importance": "Medium",
     "description": "Solutions and remediations",
     "cna_scorecard_category": null
   },
   {
     "field": "affected.modules",
-    "percent": 23.5,
-    "unique_cnas": 78,
+    "percent": 23.8,
+    "unique_cnas": 79,
     "importance": "Medium",
     "description": "Affected modules or components",
     "cna_scorecard_category": null
@@ -201,16 +201,16 @@
   },
   {
     "field": "containers.cna.workarounds",
-    "percent": 16.6,
-    "unique_cnas": 55,
+    "percent": 16.3,
+    "unique_cnas": 54,
     "importance": "Medium",
     "description": "Workaround information",
     "cna_scorecard_category": null
   },
   {
     "field": "references.patch",
-    "percent": 15.4,
-    "unique_cnas": 51,
+    "percent": 15.1,
+    "unique_cnas": 50,
     "importance": "High",
     "description": "Patch references",
     "cna_scorecard_category": "patchinfo"
@@ -241,16 +241,16 @@
   },
   {
     "field": "affected.programFiles",
-    "percent": 6.0,
-    "unique_cnas": 20,
+    "percent": 6.3,
+    "unique_cnas": 21,
     "importance": "Medium",
     "description": "Affected program files",
     "cna_scorecard_category": null
   },
   {
     "field": "containers.cna.exploits",
-    "percent": 4.8,
-    "unique_cnas": 16,
+    "percent": 4.5,
+    "unique_cnas": 15,
     "importance": "Medium",
     "description": "Exploit information",
     "cna_scorecard_category": null
@@ -264,20 +264,20 @@
     "cna_scorecard_category": "softwareIdentification"
   },
   {
+    "field": "affected.programRoutines",
+    "percent": 3.0,
+    "unique_cnas": 10,
+    "importance": "Medium",
+    "description": "Affected functions or methods",
+    "cna_scorecard_category": null
+  },
+  {
     "field": "metrics.cvssV3_0",
     "percent": 3.0,
     "unique_cnas": 10,
     "importance": "High",
     "description": "CVSS v3.0 metrics",
     "cna_scorecard_category": "severityAndImpactContext"
-  },
-  {
-    "field": "affected.programRoutines",
-    "percent": 2.7,
-    "unique_cnas": 9,
-    "importance": "Medium",
-    "description": "Affected functions or methods",
-    "cna_scorecard_category": null
   },
   {
     "field": "containers.cna.dateAssigned",
