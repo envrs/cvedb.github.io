@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-25T19:30:30.106243",
+  "generated_at": "2026-05-26T02:10:35.824116",
   "source": "CVE V5 List (Authoritative)",
   "year": 2026,
   "total_cnas": 318,
@@ -43,10 +43,10 @@
     {
       "name": "VulDB",
       "assigner_org_id": "1af790b2-7ee1-4545-860a-a788eba489b5",
-      "count": 2711,
+      "count": 2731,
       "rank": 3,
       "first_cve_date": "2026-01-01T09:02:10.684Z",
-      "last_cve_date": "2026-05-25T18:45:11.976Z",
+      "last_cve_date": "2026-05-26T02:00:15.197Z",
       "years_active": 22,
       "is_official": true,
       "activity_status": "Active",
@@ -59,10 +59,10 @@
     {
       "name": "Patchstack",
       "assigner_org_id": "21595511-bba5-4825-b968-b78d1f9984a3",
-      "count": 1892,
+      "count": 1918,
       "rank": 4,
       "first_cve_date": "2026-01-05T10:18:16.966Z",
-      "last_cve_date": "2026-05-21T16:56:29.471Z",
+      "last_cve_date": "2026-05-25T22:42:13.517Z",
       "years_active": 6,
       "is_official": true,
       "activity_status": "Active",
@@ -75,10 +75,10 @@
     {
       "name": "mitre",
       "assigner_org_id": "8254265b-2729-46b6-b9e3-3dfca2d5bfca",
-      "count": 1680,
+      "count": 1692,
       "rank": 5,
       "first_cve_date": "2026-01-01T04:39:48.140Z",
-      "last_cve_date": "2026-05-24T22:36:35.529Z",
+      "last_cve_date": "2026-05-26T01:06:55.755Z",
       "years_active": 28,
       "is_official": true,
       "activity_status": "Active",
@@ -203,10 +203,10 @@
     {
       "name": "apache",
       "assigner_org_id": "f0158376-9dc2-43b6-827c-5f631a4d8d09",
-      "count": 233,
+      "count": 237,
       "rank": 13,
       "first_cve_date": "2026-01-01T16:14:00.837Z",
-      "last_cve_date": "2026-05-25T15:00:55.670Z",
+      "last_cve_date": "2026-05-25T20:20:03.597Z",
       "years_active": 17,
       "is_official": true,
       "activity_status": "Active",
@@ -521,10 +521,26 @@
       "top_cwe_types": {}
     },
     {
+      "name": "CPANSec",
+      "assigner_org_id": "9b29abf9-4ab0-4765-b253-1875cd9b441e",
+      "count": 86,
+      "rank": 33,
+      "first_cve_date": "2026-01-06T00:22:50.114Z",
+      "last_cve_date": "2026-05-26T00:18:43.704Z",
+      "years_active": 12,
+      "is_official": true,
+      "activity_status": "Active",
+      "cna_types": [
+        "Vendor"
+      ],
+      "severity_distribution": {},
+      "top_cwe_types": {}
+    },
+    {
       "name": "huawei",
       "assigner_org_id": "25ac1063-e409-4190-8079-24548c77ea2e",
       "count": 84,
-      "rank": 33,
+      "rank": 34,
       "first_cve_date": "2026-01-14T01:51:42.163Z",
       "last_cve_date": "2026-05-15T09:33:13.981Z",
       "years_active": 13,
@@ -540,26 +556,10 @@
       "name": "TPLink",
       "assigner_org_id": "f23511db-6c3e-4e32-a477-6aa17d310630",
       "count": 83,
-      "rank": 34,
+      "rank": 35,
       "first_cve_date": "2026-01-07T01:04:26.594Z",
       "last_cve_date": "2026-05-22T20:48:36.242Z",
       "years_active": 2,
-      "is_official": true,
-      "activity_status": "Active",
-      "cna_types": [
-        "Vendor"
-      ],
-      "severity_distribution": {},
-      "top_cwe_types": {}
-    },
-    {
-      "name": "CPANSec",
-      "assigner_org_id": "9b29abf9-4ab0-4765-b253-1875cd9b441e",
-      "count": 82,
-      "rank": 35,
-      "first_cve_date": "2026-01-06T00:22:50.114Z",
-      "last_cve_date": "2026-05-21T21:07:26.432Z",
-      "years_active": 12,
       "is_official": true,
       "activity_status": "Active",
       "cna_types": [
@@ -1754,10 +1754,26 @@
       "top_cwe_types": {}
     },
     {
+      "name": "Zyxel",
+      "assigner_org_id": "96e50032-ad0d-4058-a115-4d2c13821f9f",
+      "count": 16,
+      "rank": 110,
+      "first_cve_date": "2026-02-05T01:55:12.291Z",
+      "last_cve_date": "2026-05-26T01:42:37.914Z",
+      "years_active": 6,
+      "is_official": true,
+      "activity_status": "Active",
+      "cna_types": [
+        "Vendor"
+      ],
+      "severity_distribution": {},
+      "top_cwe_types": {}
+    },
+    {
       "name": "CERT-In",
       "assigner_org_id": "66834db9-ab24-42b4-be80-296b2e40335c",
       "count": 16,
-      "rank": 110,
+      "rank": 111,
       "first_cve_date": "2026-01-09T11:02:50.926Z",
       "last_cve_date": "2026-05-25T09:19:04.664Z",
       "years_active": 5,
@@ -1773,26 +1789,10 @@
       "name": "Checkmk",
       "assigner_org_id": "f7d6281c-4801-44ce-ace2-493291dedb0f",
       "count": 15,
-      "rank": 111,
+      "rank": 112,
       "first_cve_date": "2026-02-09T15:29:16.780Z",
       "last_cve_date": "2026-05-13T08:35:25.850Z",
       "years_active": 5,
-      "is_official": true,
-      "activity_status": "Active",
-      "cna_types": [
-        "Vendor"
-      ],
-      "severity_distribution": {},
-      "top_cwe_types": {}
-    },
-    {
-      "name": "Zyxel",
-      "assigner_org_id": "96e50032-ad0d-4058-a115-4d2c13821f9f",
-      "count": 15,
-      "rank": 112,
-      "first_cve_date": "2026-02-05T01:55:12.291Z",
-      "last_cve_date": "2026-05-12T03:56:13.433Z",
-      "years_active": 6,
       "is_official": true,
       "activity_status": "Active",
       "cna_types": [
@@ -5134,10 +5134,10 @@
     {
       "name": "VulDB",
       "assigner_org_id": "1af790b2-7ee1-4545-860a-a788eba489b5",
-      "count": 2711,
+      "count": 2731,
       "rank": 3,
       "first_cve_date": "2026-01-01T09:02:10.684Z",
-      "last_cve_date": "2026-05-25T18:45:11.976Z",
+      "last_cve_date": "2026-05-26T02:00:15.197Z",
       "years_active": 22,
       "is_official": true,
       "activity_status": "Active",
@@ -5150,10 +5150,10 @@
     {
       "name": "Patchstack",
       "assigner_org_id": "21595511-bba5-4825-b968-b78d1f9984a3",
-      "count": 1892,
+      "count": 1918,
       "rank": 4,
       "first_cve_date": "2026-01-05T10:18:16.966Z",
-      "last_cve_date": "2026-05-21T16:56:29.471Z",
+      "last_cve_date": "2026-05-25T22:42:13.517Z",
       "years_active": 6,
       "is_official": true,
       "activity_status": "Active",
@@ -5166,10 +5166,10 @@
     {
       "name": "mitre",
       "assigner_org_id": "8254265b-2729-46b6-b9e3-3dfca2d5bfca",
-      "count": 1680,
+      "count": 1692,
       "rank": 5,
       "first_cve_date": "2026-01-01T04:39:48.140Z",
-      "last_cve_date": "2026-05-24T22:36:35.529Z",
+      "last_cve_date": "2026-05-26T01:06:55.755Z",
       "years_active": 28,
       "is_official": true,
       "activity_status": "Active",
@@ -5294,10 +5294,10 @@
     {
       "name": "apache",
       "assigner_org_id": "f0158376-9dc2-43b6-827c-5f631a4d8d09",
-      "count": 233,
+      "count": 237,
       "rank": 13,
       "first_cve_date": "2026-01-01T16:14:00.837Z",
-      "last_cve_date": "2026-05-25T15:00:55.670Z",
+      "last_cve_date": "2026-05-25T20:20:03.597Z",
       "years_active": 17,
       "is_official": true,
       "activity_status": "Active",
@@ -5612,10 +5612,26 @@
       "top_cwe_types": {}
     },
     {
+      "name": "CPANSec",
+      "assigner_org_id": "9b29abf9-4ab0-4765-b253-1875cd9b441e",
+      "count": 86,
+      "rank": 33,
+      "first_cve_date": "2026-01-06T00:22:50.114Z",
+      "last_cve_date": "2026-05-26T00:18:43.704Z",
+      "years_active": 12,
+      "is_official": true,
+      "activity_status": "Active",
+      "cna_types": [
+        "Vendor"
+      ],
+      "severity_distribution": {},
+      "top_cwe_types": {}
+    },
+    {
       "name": "huawei",
       "assigner_org_id": "25ac1063-e409-4190-8079-24548c77ea2e",
       "count": 84,
-      "rank": 33,
+      "rank": 34,
       "first_cve_date": "2026-01-14T01:51:42.163Z",
       "last_cve_date": "2026-05-15T09:33:13.981Z",
       "years_active": 13,
@@ -5631,26 +5647,10 @@
       "name": "TPLink",
       "assigner_org_id": "f23511db-6c3e-4e32-a477-6aa17d310630",
       "count": 83,
-      "rank": 34,
+      "rank": 35,
       "first_cve_date": "2026-01-07T01:04:26.594Z",
       "last_cve_date": "2026-05-22T20:48:36.242Z",
       "years_active": 2,
-      "is_official": true,
-      "activity_status": "Active",
-      "cna_types": [
-        "Vendor"
-      ],
-      "severity_distribution": {},
-      "top_cwe_types": {}
-    },
-    {
-      "name": "CPANSec",
-      "assigner_org_id": "9b29abf9-4ab0-4765-b253-1875cd9b441e",
-      "count": 82,
-      "rank": 35,
-      "first_cve_date": "2026-01-06T00:22:50.114Z",
-      "last_cve_date": "2026-05-21T21:07:26.432Z",
-      "years_active": 12,
       "is_official": true,
       "activity_status": "Active",
       "cna_types": [
@@ -6845,10 +6845,26 @@
       "top_cwe_types": {}
     },
     {
+      "name": "Zyxel",
+      "assigner_org_id": "96e50032-ad0d-4058-a115-4d2c13821f9f",
+      "count": 16,
+      "rank": 110,
+      "first_cve_date": "2026-02-05T01:55:12.291Z",
+      "last_cve_date": "2026-05-26T01:42:37.914Z",
+      "years_active": 6,
+      "is_official": true,
+      "activity_status": "Active",
+      "cna_types": [
+        "Vendor"
+      ],
+      "severity_distribution": {},
+      "top_cwe_types": {}
+    },
+    {
       "name": "CERT-In",
       "assigner_org_id": "66834db9-ab24-42b4-be80-296b2e40335c",
       "count": 16,
-      "rank": 110,
+      "rank": 111,
       "first_cve_date": "2026-01-09T11:02:50.926Z",
       "last_cve_date": "2026-05-25T09:19:04.664Z",
       "years_active": 5,
@@ -6864,26 +6880,10 @@
       "name": "Checkmk",
       "assigner_org_id": "f7d6281c-4801-44ce-ace2-493291dedb0f",
       "count": 15,
-      "rank": 111,
+      "rank": 112,
       "first_cve_date": "2026-02-09T15:29:16.780Z",
       "last_cve_date": "2026-05-13T08:35:25.850Z",
       "years_active": 5,
-      "is_official": true,
-      "activity_status": "Active",
-      "cna_types": [
-        "Vendor"
-      ],
-      "severity_distribution": {},
-      "top_cwe_types": {}
-    },
-    {
-      "name": "Zyxel",
-      "assigner_org_id": "96e50032-ad0d-4058-a115-4d2c13821f9f",
-      "count": 15,
-      "rank": 112,
-      "first_cve_date": "2026-02-05T01:55:12.291Z",
-      "last_cve_date": "2026-05-12T03:56:13.433Z",
-      "years_active": 6,
       "is_official": true,
       "activity_status": "Active",
       "cna_types": [
