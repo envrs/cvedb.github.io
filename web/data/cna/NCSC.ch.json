@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "NCSC.ch",
-    "total_cves": 49,
-    "total_cves_scored": 49,
+    "total_cves": 50,
+    "total_cves_scored": 50,
     "organizationName": "Switzerland National Cyber Security Centre (NCSC)",
     "scope": "Switzerland Government Common Vulnerability Program.",
     "advisories": [
@@ -33,14 +33,14 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 50,
-  "active_cna_count": 323,
-  "percentile": 84.8,
+  "rank": 51,
+  "active_cna_count": 327,
+  "percentile": 84.7,
   "cna_scoring": [
     {
-      "total_cves": 49,
-      "total_cves_scored": 49,
-      "recent_cves_count": 49,
+      "total_cves": 50,
+      "total_cves_scored": 50,
+      "recent_cves_count": 50,
       "overall_average_score": 80.2,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
@@ -51,7 +51,7 @@
       "percent_root_cause_analysis": 100.0,
       "percent_software_identification": 0.0,
       "percent_severity_and_impact": 100.0,
-      "percent_patchinfo": 2.04,
+      "percent_patchinfo": 2.0,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -595,6 +595,19 @@
       "cveId": "CVE-2026-7864",
       "assigningCna": "NCSC.ch",
       "datePublished": "2026-05-08",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-9828",
+      "assigningCna": "NCSC.ch",
+      "datePublished": "2026-05-28",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
