@@ -398,11 +398,11 @@
   },
   "cvss": {
     "v2.0": {
-      "total": 886,
+      "total": 885,
       "severity_distribution": {
         "HIGH": 419,
         "MEDIUM": 355,
-        "LOW": 112
+        "LOW": 111
       },
       "score_distribution": {
         "10.0": 157,
@@ -411,7 +411,7 @@
         "4.6": 83,
         "5.1": 18,
         "3.7": 1,
-        "0.0": 14,
+        "0.0": 13,
         "6.4": 13,
         "7.2": 115,
         "4.9": 1,
@@ -431,13 +431,14 @@
       }
     },
     "v3.1": {
-      "total": 8,
+      "total": 9,
       "severity_distribution": {
-        "HIGH": 4,
+        "HIGH": 5,
         "CRITICAL": 3,
         "MEDIUM": 1
       },
       "score_distribution": {
+        "7.3": 1,
         "7.5": 2,
         "9.8": 3,
         "8.2": 1,
@@ -540,7 +541,7 @@
     "top_cwes": [
       {
         "cwe": "CWE-200",
-        "count": 8
+        "count": 9
       },
       {
         "cwe": "CWE-20",
@@ -664,7 +665,7 @@
     ]
   },
   "processing_stats": {
-    "processed_at": "2026-05-28T15:04:08.779298",
+    "processed_at": "2026-05-28T20:04:55.714126",
     "data_source": "data/cache/nvd.jsonl"
   }
 }
