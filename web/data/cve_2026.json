@@ -1,13 +1,13 @@
 {
   "year": 2026,
-  "total_cves": 27839,
+  "total_cves": 27840,
   "date_data": {
     "monthly_distribution": {
       "1": 4309,
       "2": 4619,
       "3": 6241,
       "4": 5816,
-      "5": 6854,
+      "5": 6855,
       "6": 0,
       "7": 0,
       "8": 0,
@@ -17,15 +17,15 @@
       "12": 0
     },
     "daily_analysis": {
-      "total_days": 147,
-      "avg_per_day": 189.38,
+      "total_days": 148,
+      "avg_per_day": 188.11,
       "highest_day": {
         "date": "2026-05-27",
         "count": 717
       },
       "lowest_day": {
-        "date": "2026-01-03",
-        "count": 3
+        "date": "2026-05-30",
+        "count": 1
       },
       "daily_counts": {
         "2026-01-01": 35,
@@ -177,7 +177,7 @@
         "2026-05-27": 717,
         "2026-05-28": 546,
         "2026-05-29": 249,
-        "2026-05-30": 0
+        "2026-05-30": 1
       }
     }
   },
@@ -228,17 +228,17 @@
       }
     },
     "v3.1": {
-      "total": 16973,
+      "total": 16974,
       "severity_distribution": {
         "LOW": 603,
-        "MEDIUM": 7852,
+        "MEDIUM": 7853,
         "HIGH": 6706,
         "CRITICAL": 1792,
         "NONE": 20
       },
       "score_distribution": {
         "3.4": 13,
-        "5.3": 1022,
+        "5.3": 1023,
         "4.3": 887,
         "6.4": 496,
         "8.1": 716,
@@ -450,7 +450,7 @@
       },
       {
         "name": "MITRE Corporation",
-        "count": 1745
+        "count": 1746
       },
       {
         "name": "wordfence.com",
@@ -680,7 +680,7 @@
     "vulnerability_status": [
       {
         "status": "Analyzed",
-        "count": 15225
+        "count": 15224
       },
       {
         "status": "Deferred",
@@ -692,7 +692,7 @@
       },
       {
         "status": "Modified",
-        "count": 1396
+        "count": 1397
       },
       {
         "status": "Undergoing Analysis",
@@ -700,14 +700,14 @@
       },
       {
         "status": "Received",
-        "count": 84
+        "count": 85
       }
     ],
     "cve_tags": [],
     "reference_tags": [
       {
         "tag": "Vendor Advisory",
-        "count": 13728
+        "count": 13729
       },
       {
         "tag": "Patch",
@@ -719,7 +719,7 @@
       },
       {
         "tag": "Exploit",
-        "count": 7420
+        "count": 7421
       },
       {
         "tag": "VDB Entry",
@@ -743,7 +743,7 @@
       },
       {
         "tag": "Mitigation",
-        "count": 1883
+        "count": 1884
       },
       {
         "tag": "Mailing List",
@@ -776,7 +776,7 @@
     ]
   },
   "processing_stats": {
-    "processed_at": "2026-05-30T02:09:32.469575",
+    "processed_at": "2026-05-30T08:28:59.772335",
     "data_source": "data/cache/nvd.jsonl"
   }
 }
