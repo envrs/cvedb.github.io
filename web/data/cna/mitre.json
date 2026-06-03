@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "mitre",
-    "total_cves": 2257,
-    "total_cves_scored": 2257,
+    "total_cves": 2258,
+    "total_cves_scored": 2258,
     "organizationName": "MITRE Corporation",
     "scope": "All vulnerabilities, and Open Source software product vulnerabilities, not already covered by a CNA listed on this website.",
     "advisories": [
@@ -28,24 +28,24 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 320,
-  "active_cna_count": 328,
+  "rank": 321,
+  "active_cna_count": 329,
   "percentile": 2.7,
   "cna_scoring": [
     {
-      "total_cves": 2257,
-      "total_cves_scored": 2257,
-      "recent_cves_count": 2257,
-      "overall_average_score": 54.28,
+      "total_cves": 2258,
+      "total_cves_scored": 2258,
+      "recent_cves_count": 2258,
+      "overall_average_score": 54.29,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 1.97,
       "average_software_identification": 0.0,
-      "average_severity_context": 2.3,
+      "average_severity_context": 2.31,
       "average_patchinfo": 0.01,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 13.11,
+      "percent_root_cause_analysis": 13.15,
       "percent_software_identification": 0.0,
-      "percent_severity_and_impact": 15.33,
+      "percent_severity_and_impact": 15.37,
       "percent_patchinfo": 0.09,
       "trend_direction": "steady",
       "trend_description": "No significant change",
@@ -20998,6 +20998,19 @@
     },
     {
       "cveId": "CVE-2026-50031",
+      "assigningCna": "mitre",
+      "datePublished": "2026-06-03",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-50052",
       "assigningCna": "mitre",
       "datePublished": "2026-06-03",
       "totalCveScore": 80,
