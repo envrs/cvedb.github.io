@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "VulnCheck",
-    "total_cves": 3102,
-    "total_cves_scored": 3102,
+    "total_cves": 3104,
+    "total_cves_scored": 3104,
     "organizationName": "VulnCheck",
     "scope": "Vulnerabilities observed by, discovered by, or reported to VulnCheck that are not in another CNA’s scope.",
     "advisories": [
@@ -34,14 +34,14 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 37,
+  "rank": 39,
   "active_cna_count": 328,
-  "percentile": 89.0,
+  "percentile": 88.4,
   "cna_scoring": [
     {
-      "total_cves": 3102,
-      "total_cves_scored": 3102,
-      "recent_cves_count": 3102,
+      "total_cves": 3104,
+      "total_cves_scored": 3104,
+      "recent_cves_count": 3104,
       "overall_average_score": 82.85,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 14.93,
@@ -52,7 +52,7 @@
       "percent_root_cause_analysis": 99.52,
       "percent_software_identification": 0.0,
       "percent_severity_and_impact": 100.0,
-      "percent_patchinfo": 29.21,
+      "percent_patchinfo": 29.19,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -29024,6 +29024,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-25550",
+      "assigningCna": "VulnCheck",
+      "datePublished": "2026-06-04",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-25563",
       "assigningCna": "VulnCheck",
       "datePublished": "2026-02-07",
@@ -29053,6 +29066,19 @@
       "cveId": "CVE-2026-25874",
       "assigningCna": "VulnCheck",
       "datePublished": "2026-04-23",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-25551",
+      "assigningCna": "VulnCheck",
+      "datePublished": "2026-06-04",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,

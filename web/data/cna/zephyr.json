@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "zephyr",
-    "total_cves": 11,
-    "total_cves_scored": 11,
+    "total_cves": 12,
+    "total_cves_scored": 12,
     "organizationName": "Zephyr Project",
     "scope": "Zephyr project components, and vulnerabilities that are not in another CNA’s scope.",
     "advisories": [
@@ -34,24 +34,24 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 260,
+  "rank": 266,
   "active_cna_count": 328,
-  "percentile": 21.0,
+  "percentile": 19.2,
   "cna_scoring": [
     {
-      "total_cves": 11,
-      "total_cves_scored": 11,
-      "recent_cves_count": 11,
-      "overall_average_score": 77.27,
+      "total_cves": 12,
+      "total_cves_scored": 12,
+      "recent_cves_count": 12,
+      "overall_average_score": 76.25,
       "average_foundational_completeness": 50.0,
-      "average_root_cause_analysis": 13.64,
+      "average_root_cause_analysis": 13.75,
       "average_software_identification": 0.0,
-      "average_severity_context": 13.64,
+      "average_severity_context": 12.5,
       "average_patchinfo": 0.0,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 90.91,
+      "percent_root_cause_analysis": 91.67,
       "percent_software_identification": 0.0,
-      "percent_severity_and_impact": 90.91,
+      "percent_severity_and_impact": 83.33,
       "percent_patchinfo": 0.0,
       "trend_direction": "steady",
       "trend_description": "No significant change",
@@ -107,6 +107,19 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 15,
         "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-5589",
+      "assigningCna": "zephyr",
+      "datePublished": "2026-06-04",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 0,
         "softwareIdentification": 0,
         "patchinfo": 0
       }
