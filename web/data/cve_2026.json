@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "total_cves": 28672,
+  "total_cves": 28690,
   "date_data": {
     "monthly_distribution": {
       "1": 4309,
@@ -8,7 +8,7 @@
       "3": 6241,
       "4": 5816,
       "5": 6948,
-      "6": 739,
+      "6": 757,
       "7": 0,
       "8": 0,
       "9": 0,
@@ -17,15 +17,15 @@
       "12": 0
     },
     "daily_analysis": {
-      "total_days": 152,
-      "avg_per_day": 188.63,
+      "total_days": 153,
+      "avg_per_day": 187.52,
       "highest_day": {
         "date": "2026-05-27",
         "count": 717
       },
       "lowest_day": {
-        "date": "2026-01-03",
-        "count": 3
+        "date": "2026-06-04",
+        "count": 2
       },
       "daily_counts": {
         "2026-01-01": 35,
@@ -181,15 +181,16 @@
         "2026-05-31": 50,
         "2026-06-01": 377,
         "2026-06-02": 224,
-        "2026-06-03": 138
+        "2026-06-03": 154,
+        "2026-06-04": 2
       }
     }
   },
   "cvss": {
     "v3.0": {
-      "total": 176,
+      "total": 180,
       "severity_distribution": {
-        "HIGH": 99,
+        "HIGH": 103,
         "MEDIUM": 39,
         "CRITICAL": 34,
         "LOW": 4
@@ -204,7 +205,7 @@
         "9.8": 23,
         "8.8": 17,
         "7.0": 3,
-        "7.3": 7,
+        "7.3": 11,
         "3.3": 4,
         "6.7": 5,
         "7.9": 1,
@@ -232,21 +233,21 @@
       }
     },
     "v3.1": {
-      "total": 17520,
+      "total": 17526,
       "severity_distribution": {
         "LOW": 625,
-        "MEDIUM": 8041,
-        "HIGH": 7000,
+        "MEDIUM": 8045,
+        "HIGH": 7002,
         "CRITICAL": 1834,
         "NONE": 20
       },
       "score_distribution": {
         "3.4": 13,
-        "5.3": 1031,
-        "4.3": 914,
+        "5.3": 1032,
+        "4.3": 915,
         "6.4": 506,
         "8.1": 742,
-        "6.5": 1313,
+        "6.5": 1314,
         "9.6": 104,
         "7.5": 1555,
         "9.1": 302,
@@ -271,9 +272,9 @@
         "8.4": 136,
         "5.1": 39,
         "6.2": 145,
-        "5.9": 225,
+        "5.9": 226,
         "7.9": 12,
-        "7.3": 227,
+        "7.3": 229,
         "7.0": 113,
         "6.7": 116,
         "3.3": 80,
@@ -326,19 +327,19 @@
       }
     },
     "v4.0": {
-      "total": 10478,
+      "total": 10487,
       "severity_distribution": {
-        "MEDIUM": 3797,
-        "LOW": 2010,
+        "MEDIUM": 3803,
+        "LOW": 2013,
         "HIGH": 3783,
         "CRITICAL": 850,
         "NONE": 38
       },
       "score_distribution": {
-        "5.5": 792,
+        "5.5": 794,
         "2.1": 933,
-        "5.3": 437,
-        "6.9": 696,
+        "5.3": 439,
+        "6.9": 697,
         "7.7": 125,
         "5.8": 40,
         "2.0": 296,
@@ -366,7 +367,7 @@
         "7.2": 75,
         "7.9": 7,
         "8.7": 761,
-        "4.8": 145,
+        "4.8": 146,
         "7.1": 415,
         "5.7": 48,
         "8.5": 393,
@@ -386,7 +387,7 @@
         "4.5": 7,
         "6.7": 69,
         "2.4": 15,
-        "1.1": 24,
+        "1.1": 27,
         "6.1": 36,
         "5.6": 28,
         "6.2": 15,
@@ -421,12 +422,12 @@
       }
     },
     "unknown": {
-      "total": 498,
+      "total": 497,
       "severity_distribution": {
-        "UNKNOWN": 498
+        "UNKNOWN": 497
       },
       "score_distribution": {
-        "0.0": 498
+        "0.0": 497
       }
     }
   },
@@ -434,11 +435,11 @@
     "cna_assigners": [
       {
         "name": "GitHub, Inc.",
-        "count": 5749
+        "count": 5751
       },
       {
         "name": "vuldb.com",
-        "count": 2985
+        "count": 2990
       },
       {
         "name": "vulncheck.com",
@@ -454,7 +455,7 @@
       },
       {
         "name": "MITRE Corporation",
-        "count": 1810
+        "count": 1814
       },
       {
         "name": "wordfence.com",
@@ -528,7 +529,7 @@
       },
       {
         "name": "Google",
-        "count": 845
+        "count": 846
       },
       {
         "name": "Openclaw",
@@ -552,11 +553,11 @@
       },
       {
         "name": "Mozilla",
-        "count": 220
+        "count": 222
       },
       {
         "name": "Dlink",
-        "count": 202
+        "count": 203
       },
       {
         "name": "Oracle",
@@ -564,7 +565,7 @@
       },
       {
         "name": "Redhat",
-        "count": 134
+        "count": 152
       },
       {
         "name": "Wwbn",
@@ -636,7 +637,7 @@
       },
       {
         "cwe": "CWE-918",
-        "count": 724
+        "count": 725
       },
       {
         "cwe": "CWE-284",
@@ -660,7 +661,7 @@
       },
       {
         "cwe": "CWE-20",
-        "count": 591
+        "count": 592
       },
       {
         "cwe": "CWE-863",
@@ -668,7 +669,7 @@
       },
       {
         "cwe": "CWE-200",
-        "count": 536
+        "count": 539
       },
       {
         "cwe": "CWE-639",
@@ -684,7 +685,7 @@
     "vulnerability_status": [
       {
         "status": "Analyzed",
-        "count": 15646
+        "count": 15675
       },
       {
         "status": "Deferred",
@@ -692,62 +693,62 @@
       },
       {
         "status": "Awaiting Analysis",
-        "count": 1619
+        "count": 1608
       },
       {
         "status": "Modified",
-        "count": 1593
+        "count": 1597
       },
       {
         "status": "Received",
-        "count": 213
+        "count": 231
       },
       {
         "status": "Undergoing Analysis",
-        "count": 174
+        "count": 152
       }
     ],
     "cve_tags": [],
     "reference_tags": [
       {
         "tag": "Vendor Advisory",
-        "count": 14245
+        "count": 14321
       },
       {
         "tag": "Patch",
-        "count": 13411
+        "count": 13415
       },
       {
         "tag": "Third Party Advisory",
-        "count": 9124
+        "count": 9134
       },
       {
         "tag": "Exploit",
-        "count": 7596
+        "count": 7606
       },
       {
         "tag": "VDB Entry",
-        "count": 4562
+        "count": 4566
       },
       {
         "tag": "Release Notes",
-        "count": 4286
+        "count": 4289
       },
       {
         "tag": "Product",
-        "count": 4241
+        "count": 4246
       },
       {
         "tag": "Issue Tracking",
-        "count": 2996
+        "count": 3010
       },
       {
         "tag": "Permissions Required",
-        "count": 2398
+        "count": 2404
       },
       {
         "tag": "Mitigation",
-        "count": 2007
+        "count": 2020
       },
       {
         "tag": "Mailing List",
@@ -763,7 +764,7 @@
       },
       {
         "tag": "US Government Resource",
-        "count": 282
+        "count": 284
       },
       {
         "tag": "Technical Description",
@@ -780,7 +781,7 @@
     ]
   },
   "processing_stats": {
-    "processed_at": "2026-06-03T20:57:56.039763",
+    "processed_at": "2026-06-04T02:45:37.513618",
     "data_source": "data/cache/nvd.jsonl"
   }
 }
