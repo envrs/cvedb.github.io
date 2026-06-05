@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "Patchstack",
-    "total_cves": 2887,
-    "total_cves_scored": 2887,
+    "total_cves": 2888,
+    "total_cves_scored": 2888,
     "organizationName": "Patchstack",
     "scope": "Vulnerabilities in third-party products discovered by Patchstack and Patchstack Bug Bounty program unless covered by the scope of another CNA.",
     "advisories": [
@@ -41,14 +41,14 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 233,
-  "active_cna_count": 328,
-  "percentile": 29.3,
+  "rank": 234,
+  "active_cna_count": 329,
+  "percentile": 29.2,
   "cna_scoring": [
     {
-      "total_cves": 2887,
-      "total_cves_scored": 2887,
-      "recent_cves_count": 2887,
+      "total_cves": 2888,
+      "total_cves_scored": 2888,
+      "recent_cves_count": 2888,
       "overall_average_score": 79.97,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 14.98,
@@ -25732,6 +25732,19 @@
       "cveId": "CVE-2026-49051",
       "assigningCna": "Patchstack",
       "datePublished": "2026-05-27",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-49777",
+      "assigningCna": "Patchstack",
+      "datePublished": "2026-06-05",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
