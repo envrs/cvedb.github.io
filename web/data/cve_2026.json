@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "total_cves": 28845,
+  "total_cves": 29318,
   "date_data": {
     "monthly_distribution": {
       "1": 4309,
@@ -8,7 +8,7 @@
       "3": 6241,
       "4": 5816,
       "5": 6948,
-      "6": 912,
+      "6": 1385,
       "7": 0,
       "8": 0,
       "9": 0,
@@ -17,8 +17,8 @@
       "12": 0
     },
     "daily_analysis": {
-      "total_days": 153,
-      "avg_per_day": 188.53,
+      "total_days": 154,
+      "avg_per_day": 190.38,
       "highest_day": {
         "date": "2026-05-27",
         "count": 717
@@ -182,17 +182,18 @@
         "2026-06-01": 377,
         "2026-06-02": 224,
         "2026-06-03": 154,
-        "2026-06-04": 157
+        "2026-06-04": 553,
+        "2026-06-05": 77
       }
     }
   },
   "cvss": {
     "v3.0": {
-      "total": 179,
+      "total": 178,
       "severity_distribution": {
         "HIGH": 102,
         "MEDIUM": 39,
-        "CRITICAL": 34,
+        "CRITICAL": 33,
         "LOW": 4
       },
       "score_distribution": {
@@ -211,7 +212,7 @@
         "7.9": 1,
         "8.2": 1,
         "9.6": 3,
-        "9.1": 2,
+        "9.1": 1,
         "5.3": 5,
         "5.7": 2,
         "10.0": 5,
@@ -233,63 +234,63 @@
       }
     },
     "v3.1": {
-      "total": 17597,
+      "total": 17627,
       "severity_distribution": {
         "LOW": 631,
-        "MEDIUM": 8076,
-        "HIGH": 7025,
-        "CRITICAL": 1845,
+        "MEDIUM": 8092,
+        "HIGH": 7037,
+        "CRITICAL": 1847,
         "NONE": 20
       },
       "score_distribution": {
         "3.4": 13,
-        "5.3": 1037,
-        "4.3": 916,
+        "5.3": 1040,
+        "4.3": 918,
         "6.4": 507,
         "8.1": 743,
-        "6.5": 1319,
+        "6.5": 1325,
         "9.6": 108,
-        "7.5": 1564,
-        "9.1": 303,
-        "6.3": 136,
+        "7.5": 1567,
+        "9.1": 304,
+        "6.3": 139,
         "9.8": 920,
         "6.1": 507,
         "8.5": 94,
         "7.1": 595,
         "5.0": 101,
-        "7.7": 147,
+        "7.7": 149,
         "5.5": 1244,
         "4.9": 151,
         "8.6": 149,
         "3.5": 52,
-        "7.2": 316,
+        "7.2": 317,
         "6.8": 154,
         "9.3": 111,
-        "8.8": 1028,
+        "8.8": 1029,
         "9.9": 160,
-        "5.4": 551,
-        "7.8": 1090,
+        "5.4": 552,
+        "7.8": 1091,
         "8.4": 136,
         "5.1": 39,
         "6.2": 145,
         "5.9": 229,
         "7.9": 12,
-        "7.3": 229,
+        "7.3": 230,
         "7.0": 113,
         "6.7": 117,
         "3.3": 81,
         "6.6": 59,
-        "7.6": 123,
+        "7.6": 125,
         "3.7": 110,
-        "4.7": 131,
+        "4.7": 132,
         "2.7": 95,
         "4.4": 176,
         "2.0": 11,
         "2.9": 21,
         "2.2": 14,
-        "8.2": 187,
+        "8.2": 188,
         "5.8": 78,
-        "10.0": 126,
+        "10.0": 127,
         "3.1": 108,
         "9.4": 47,
         "8.7": 90,
@@ -327,23 +328,23 @@
       }
     },
     "v4.0": {
-      "total": 10576,
+      "total": 10597,
       "severity_distribution": {
-        "MEDIUM": 3828,
-        "LOW": 2029,
-        "HIGH": 3818,
-        "CRITICAL": 863,
+        "MEDIUM": 3832,
+        "LOW": 2033,
+        "HIGH": 3830,
+        "CRITICAL": 864,
         "NONE": 38
       },
       "score_distribution": {
-        "5.5": 794,
-        "2.1": 942,
+        "5.5": 795,
+        "2.1": 946,
         "5.3": 442,
-        "6.9": 704,
+        "6.9": 705,
         "7.7": 125,
-        "5.8": 40,
+        "5.8": 41,
         "2.0": 297,
-        "7.3": 144,
+        "7.3": 148,
         "1.9": 289,
         "7.4": 416,
         "1.3": 78,
@@ -356,7 +357,7 @@
         "7.0": 105,
         "2.7": 38,
         "6.8": 122,
-        "9.2": 116,
+        "9.2": 117,
         "8.8": 365,
         "8.9": 160,
         "5.2": 19,
@@ -364,23 +365,23 @@
         "9.3": 505,
         "9.4": 103,
         "10.0": 68,
-        "7.2": 76,
+        "7.2": 78,
         "7.9": 8,
-        "8.7": 770,
+        "8.7": 771,
         "4.8": 147,
-        "7.1": 419,
+        "7.1": 421,
         "5.7": 49,
         "8.5": 398,
         "8.4": 162,
         "5.0": 5,
-        "8.6": 300,
+        "8.6": 302,
         "6.3": 218,
-        "6.6": 42,
+        "6.6": 43,
         "7.5": 52,
         "5.1": 665,
         "5.9": 68,
         "2.3": 147,
-        "8.2": 154,
+        "8.2": 155,
         "1.8": 18,
         "8.3": 74,
         "9.1": 32,
@@ -422,12 +423,12 @@
       }
     },
     "unknown": {
-      "total": 493,
+      "total": 916,
       "severity_distribution": {
-        "UNKNOWN": 493
+        "UNKNOWN": 916
       },
       "score_distribution": {
-        "0.0": 493
+        "0.0": 916
       }
     }
   },
@@ -435,15 +436,15 @@
     "cna_assigners": [
       {
         "name": "GitHub, Inc.",
-        "count": 5765
+        "count": 5780
       },
       {
         "name": "vuldb.com",
-        "count": 3005
+        "count": 3014
       },
       {
         "name": "vulncheck.com",
-        "count": 2668
+        "count": 2669
       },
       {
         "name": "Linux Kernel Organization",
@@ -455,19 +456,19 @@
       },
       {
         "name": "MITRE Corporation",
-        "count": 1835
+        "count": 1838
       },
       {
         "name": "wordfence.com",
-        "count": 1741
+        "count": 1742
       },
       {
         "name": "Google LLC",
-        "count": 787
+        "count": 1214
       },
       {
         "name": "Microsoft Corporation",
-        "count": 625
+        "count": 631
       },
       {
         "name": "Apple Inc.",
@@ -491,7 +492,7 @@
       },
       {
         "name": "Cisco Systems, Inc.",
-        "count": 235
+        "count": 236
       },
       {
         "name": "Mozilla Foundation",
@@ -499,7 +500,7 @@
       },
       {
         "name": "US Department of Homeland Security",
-        "count": 203
+        "count": 204
       },
       {
         "name": "Oracle Corporation",
@@ -601,11 +602,11 @@
     "top_cwes": [
       {
         "cwe": "CWE-79",
-        "count": 3401
+        "count": 3404
       },
       {
         "cwe": "CWE-89",
-        "count": 2005
+        "count": 2008
       },
       {
         "cwe": "CWE-862",
@@ -617,59 +618,59 @@
       },
       {
         "cwe": "CWE-74",
-        "count": 907
-      },
-      {
-        "cwe": "CWE-78",
-        "count": 904
-      },
-      {
-        "cwe": "CWE-787",
-        "count": 852
-      },
-      {
-        "cwe": "CWE-94",
-        "count": 824
+        "count": 914
       },
       {
         "cwe": "CWE-416",
-        "count": 800
+        "count": 910
+      },
+      {
+        "cwe": "CWE-78",
+        "count": 910
+      },
+      {
+        "cwe": "CWE-787",
+        "count": 862
+      },
+      {
+        "cwe": "CWE-94",
+        "count": 827
       },
       {
         "cwe": "CWE-918",
-        "count": 727
+        "count": 728
       },
       {
         "cwe": "CWE-284",
-        "count": 717
+        "count": 718
       },
       {
         "cwe": "CWE-77",
-        "count": 708
+        "count": 715
       },
       {
         "cwe": "CWE-119",
         "count": 684
       },
       {
+        "cwe": "CWE-20",
+        "count": 682
+      },
+      {
         "cwe": "CWE-125",
-        "count": 653
+        "count": 675
       },
       {
         "cwe": "CWE-121",
-        "count": 644
-      },
-      {
-        "cwe": "CWE-20",
-        "count": 594
+        "count": 646
       },
       {
         "cwe": "CWE-863",
-        "count": 572
+        "count": 574
       },
       {
         "cwe": "CWE-200",
-        "count": 546
+        "count": 548
       },
       {
         "cwe": "CWE-639",
@@ -685,46 +686,46 @@
     "vulnerability_status": [
       {
         "status": "Analyzed",
-        "count": 15757
+        "count": 15801
       },
       {
         "status": "Deferred",
-        "count": 9574
+        "count": 9578
       },
       {
         "status": "Awaiting Analysis",
-        "count": 1660
+        "count": 1643
       },
       {
         "status": "Modified",
-        "count": 1602
-      },
-      {
-        "status": "Undergoing Analysis",
-        "count": 202
+        "count": 1606
       },
       {
         "status": "Received",
-        "count": 50
+        "count": 505
+      },
+      {
+        "status": "Undergoing Analysis",
+        "count": 185
       }
     ],
     "cve_tags": [],
     "reference_tags": [
       {
         "tag": "Vendor Advisory",
-        "count": 14386
+        "count": 14434
       },
       {
         "tag": "Patch",
-        "count": 13444
+        "count": 13466
       },
       {
         "tag": "Third Party Advisory",
-        "count": 9183
+        "count": 9189
       },
       {
         "tag": "Exploit",
-        "count": 7629
+        "count": 7645
       },
       {
         "tag": "VDB Entry",
@@ -732,7 +733,7 @@
       },
       {
         "tag": "Release Notes",
-        "count": 4300
+        "count": 4301
       },
       {
         "tag": "Product",
@@ -740,7 +741,7 @@
       },
       {
         "tag": "Issue Tracking",
-        "count": 3034
+        "count": 3036
       },
       {
         "tag": "Permissions Required",
@@ -748,11 +749,11 @@
       },
       {
         "tag": "Mitigation",
-        "count": 2037
+        "count": 2072
       },
       {
         "tag": "Mailing List",
-        "count": 804
+        "count": 805
       },
       {
         "tag": "Broken Link",
@@ -781,7 +782,7 @@
     ]
   },
   "processing_stats": {
-    "processed_at": "2026-06-04T20:08:49.638133",
+    "processed_at": "2026-06-05T02:21:29.411892",
     "data_source": "data/cache/nvd.jsonl"
   }
 }
