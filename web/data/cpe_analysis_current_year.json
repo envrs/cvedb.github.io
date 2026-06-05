@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-06-05T14:37:46.939332",
+  "generated_at": "2026-06-05T19:49:32.595303",
   "year": 2026,
-  "total_unique_cpes": 11596,
-  "total_cpe_entries": 85161,
-  "total_cves_with_cpes": 17427,
-  "total_unique_vendors": 2532,
-  "total_unique_products": 5935,
+  "total_unique_cpes": 11622,
+  "total_cpe_entries": 85276,
+  "total_cves_with_cpes": 17508,
+  "total_unique_vendors": 2539,
+  "total_unique_products": 5952,
   "top_cpes": [
     {
       "cpe": "cpe:2.3:o:linux:linux_kernel:*:*:*:*:*:*:*:*",
@@ -22,18 +22,18 @@
       "type": "Operating System"
     },
     {
+      "cpe": "cpe:2.3:a:google:chrome:*:*:*:*:*:*:*:*",
+      "count": 751,
+      "vendor": "google",
+      "product": "chrome",
+      "type": "Application"
+    },
+    {
       "cpe": "cpe:2.3:o:linux:linux_kernel:7.0:rc2:*:*:*:*:*:*",
       "count": 740,
       "vendor": "linux",
       "product": "linux_kernel",
       "type": "Operating System"
-    },
-    {
-      "cpe": "cpe:2.3:a:google:chrome:*:*:*:*:*:*:*:*",
-      "count": 712,
-      "vendor": "google",
-      "product": "chrome",
-      "type": "Application"
     },
     {
       "cpe": "cpe:2.3:o:linux:linux_kernel:7.0:rc3:*:*:*:*:*:*",
@@ -79,7 +79,7 @@
     },
     {
       "cpe": "cpe:2.3:o:linux:linux_kernel:7.0:rc7:*:*:*:*:*:*",
-      "count": 329,
+      "count": 330,
       "vendor": "linux",
       "product": "linux_kernel",
       "type": "Operating System"
@@ -221,7 +221,7 @@
   "top_vendors": [
     {
       "vendor": "linux",
-      "count": 13649
+      "count": 13650
     },
     {
       "vendor": "qualcomm",
@@ -229,7 +229,7 @@
     },
     {
       "vendor": "microsoft",
-      "count": 7560
+      "count": 7562
     },
     {
       "vendor": "adobe",
@@ -257,7 +257,7 @@
     },
     {
       "vendor": "google",
-      "count": 1443
+      "count": 1482
     },
     {
       "vendor": "apple",
@@ -283,7 +283,7 @@
   "top_products": [
     {
       "product": "linux_kernel",
-      "count": 13649
+      "count": 13650
     },
     {
       "product": "coolify",
@@ -326,16 +326,16 @@
       "count": 792
     },
     {
+      "product": "chrome",
+      "count": 757
+    },
+    {
       "product": "windows_10_21h2",
       "count": 736
     },
     {
       "product": "windows_10_22h2",
       "count": 735
-    },
-    {
-      "product": "chrome",
-      "count": 718
     },
     {
       "product": "junos_os_evolved",
@@ -345,13 +345,13 @@
   "cpe_type_distribution": [
     {
       "type": "Operating System",
-      "count": 45998,
-      "percentage": 54.0
+      "count": 46004,
+      "percentage": 53.9
     },
     {
       "type": "Application",
-      "count": 39162,
-      "percentage": 46.0
+      "count": 39271,
+      "percentage": 46.1
     },
     {
       "type": "Hardware",
