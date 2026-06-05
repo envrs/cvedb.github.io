@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "AMZN",
-    "total_cves": 56,
-    "total_cves_scored": 56,
+    "total_cves": 58,
+    "total_cves_scored": 58,
     "organizationName": "Amazon",
     "scope": "All Amazon and AWS products (including subsidiaries, supported, and EOL/EOS products), as well as vulnerabilities in third party software discovered by Amazon/AWS that are not in another CNA’s scope.",
     "advisories": [
@@ -36,24 +36,24 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 20,
-  "active_cna_count": 331,
+  "active_cna_count": 332,
   "percentile": 94.3,
   "cna_scoring": [
     {
-      "total_cves": 56,
-      "total_cves_scored": 56,
-      "recent_cves_count": 56,
-      "overall_average_score": 89.11,
+      "total_cves": 58,
+      "total_cves_scored": 58,
+      "recent_cves_count": 58,
+      "overall_average_score": 89.14,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
       "average_software_identification": 0.0,
       "average_severity_context": 15.0,
-      "average_patchinfo": 9.11,
+      "average_patchinfo": 9.14,
       "percent_foundational_completeness": 100.0,
       "percent_root_cause_analysis": 100.0,
       "percent_software_identification": 0.0,
       "percent_severity_and_impact": 100.0,
-      "percent_patchinfo": 91.07,
+      "percent_patchinfo": 91.38,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -246,6 +246,32 @@
       "cveId": "CVE-2026-6966",
       "assigningCna": "AMZN",
       "datePublished": "2026-04-24",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-11401",
+      "assigningCna": "AMZN",
+      "datePublished": "2026-06-05",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-11400",
+      "assigningCna": "AMZN",
+      "datePublished": "2026-06-05",
       "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
