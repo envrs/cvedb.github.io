@@ -398,16 +398,16 @@
   },
   "cvss": {
     "v3.0": {
-      "total": 12846,
+      "total": 12844,
       "severity_distribution": {
-        "HIGH": 5776,
+        "HIGH": 5774,
         "MEDIUM": 5096,
         "CRITICAL": 1765,
         "LOW": 209
       },
       "score_distribution": {
         "7.3": 76,
-        "7.5": 1572,
+        "7.5": 1571,
         "5.3": 375,
         "9.8": 1600,
         "6.5": 861,
@@ -424,7 +424,7 @@
         "8.4": 26,
         "7.8": 1820,
         "5.5": 972,
-        "7.0": 270,
+        "7.0": 269,
         "6.8": 65,
         "8.6": 54,
         "6.1": 1003,
@@ -483,20 +483,20 @@
       }
     },
     "v3.1": {
-      "total": 1793,
+      "total": 1795,
       "severity_distribution": {
         "CRITICAL": 343,
-        "HIGH": 828,
+        "HIGH": 830,
         "MEDIUM": 597,
         "LOW": 25
       },
       "score_distribution": {
         "9.8": 308,
         "7.3": 9,
-        "7.0": 35,
+        "7.0": 36,
         "6.2": 4,
         "7.8": 210,
-        "7.5": 247,
+        "7.5": 248,
         "8.8": 246,
         "6.5": 180,
         "5.9": 48,
@@ -817,11 +817,15 @@
     "vulnerability_status": [
       {
         "status": "Modified",
-        "count": 14538
+        "count": 14534
       },
       {
         "status": "Analyzed",
-        "count": 104
+        "count": 106
+      },
+      {
+        "status": "Undergoing Analysis",
+        "count": 2
       }
     ],
     "cve_tags": [],
@@ -901,7 +905,7 @@
     ]
   },
   "processing_stats": {
-    "processed_at": "2026-06-05T19:41:13.899983",
+    "processed_at": "2026-06-06T02:08:01.230512",
     "data_source": "data/cache/nvd.jsonl"
   }
 }
