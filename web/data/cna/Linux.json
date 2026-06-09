@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "Linux",
-    "total_cves": 3028,
-    "total_cves_scored": 3028,
+    "total_cves": 3029,
+    "total_cves_scored": 3029,
     "organizationName": "kernel.org",
     "scope": "Any vulnerabilities in the Linux kernel as listed on kernel.org, excluding end-of-life (EOL) versions.",
     "advisories": [
@@ -39,9 +39,9 @@
   "percentile": 2.4,
   "cna_scoring": [
     {
-      "total_cves": 3028,
-      "total_cves_scored": 3028,
-      "recent_cves_count": 3028,
+      "total_cves": 3029,
+      "total_cves_scored": 3029,
+      "recent_cves_count": 3029,
       "overall_average_score": 52.99,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 0.0,
@@ -51,7 +51,7 @@
       "percent_foundational_completeness": 100.0,
       "percent_root_cause_analysis": 0.0,
       "percent_software_identification": 0.0,
-      "percent_severity_and_impact": 19.95,
+      "percent_severity_and_impact": 19.94,
       "percent_patchinfo": 0.0,
       "trend_direction": "steady",
       "trend_description": "No significant change",
@@ -21006,6 +21006,19 @@
       "cveId": "CVE-2026-46018",
       "assigningCna": "Linux",
       "datePublished": "2026-05-27",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-46315",
+      "assigningCna": "Linux",
+      "datePublished": "2026-06-09",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
