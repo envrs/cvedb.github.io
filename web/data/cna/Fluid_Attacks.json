@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "Fluid_Attacks",
-    "total_cves": 26,
-    "total_cves_scored": 26,
+    "total_cves": 24,
+    "total_cves_scored": 24,
     "organizationName": "Fluid Attacks",
     "scope": "Vulnerabilities in third-party software discovered by or reported to Fluid Attacks that are not in another CNA’s scope.",
     "advisories": [
@@ -34,13 +34,13 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 30,
-  "active_cna_count": 333,
-  "percentile": 91.3,
+  "active_cna_count": 331,
+  "percentile": 91.2,
   "cna_scoring": [
     {
-      "total_cves": 26,
-      "total_cves_scored": 26,
-      "recent_cves_count": 26,
+      "total_cves": 24,
+      "total_cves_scored": 24,
+      "recent_cves_count": 24,
       "overall_average_score": 85.0,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
@@ -59,35 +59,9 @@
   ],
   "recent_cves": [
     {
-      "cveId": "CVE-2025-13733",
-      "assigningCna": "Fluid_Attacks",
-      "datePublished": "2025-12-12",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 10
-      }
-    },
-    {
       "cveId": "CVE-2025-15056",
       "assigningCna": "Fluid_Attacks",
       "datePublished": "2026-01-13",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-15104",
-      "assigningCna": "Fluid_Attacks",
-      "datePublished": "2026-01-16",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -111,29 +85,16 @@
       }
     },
     {
-      "cveId": "CVE-2025-14979",
+      "cveId": "CVE-2025-15104",
       "assigningCna": "Fluid_Attacks",
-      "datePublished": "2026-01-06",
-      "totalCveScore": 90,
+      "datePublished": "2026-01-16",
+      "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 15,
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
-        "patchinfo": 10
-      }
-    },
-    {
-      "cveId": "CVE-2025-10655",
-      "assigningCna": "Fluid_Attacks",
-      "datePublished": "2025-12-09",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 10
+        "patchinfo": 0
       }
     },
     {
@@ -150,9 +111,61 @@
       }
     },
     {
-      "cveId": "CVE-2025-9638",
+      "cveId": "CVE-2025-13733",
       "assigningCna": "Fluid_Attacks",
-      "datePublished": "2025-12-09",
+      "datePublished": "2025-12-12",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2025-14979",
+      "assigningCna": "Fluid_Attacks",
+      "datePublished": "2026-01-06",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-7460",
+      "assigningCna": "Fluid_Attacks",
+      "datePublished": "2026-05-20",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-42839",
+      "assigningCna": "Fluid_Attacks",
+      "datePublished": "2026-06-03",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-42840",
+      "assigningCna": "Fluid_Attacks",
+      "datePublished": "2026-06-03",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -189,9 +202,9 @@
       }
     },
     {
-      "cveId": "CVE-2026-42839",
+      "cveId": "CVE-2026-40230",
       "assigningCna": "Fluid_Attacks",
-      "datePublished": "2026-06-03",
+      "datePublished": "2026-04-29",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -202,9 +215,9 @@
       }
     },
     {
-      "cveId": "CVE-2026-42840",
+      "cveId": "CVE-2026-40229",
       "assigningCna": "Fluid_Attacks",
-      "datePublished": "2026-06-03",
+      "datePublished": "2026-04-29",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -212,6 +225,19 @@
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-2293",
+      "assigningCna": "Fluid_Attacks",
+      "datePublished": "2026-02-27",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
       }
     },
     {
@@ -241,45 +267,6 @@
       }
     },
     {
-      "cveId": "CVE-2026-2293",
-      "assigningCna": "Fluid_Attacks",
-      "datePublished": "2026-02-27",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 10
-      }
-    },
-    {
-      "cveId": "CVE-2026-6093",
-      "assigningCna": "Fluid_Attacks",
-      "datePublished": "2026-05-11",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-5362",
-      "assigningCna": "Fluid_Attacks",
-      "datePublished": "2026-04-27",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2026-5394",
       "assigningCna": "Fluid_Attacks",
       "datePublished": "2026-04-27",
@@ -306,48 +293,9 @@
       }
     },
     {
-      "cveId": "CVE-2026-1213",
+      "cveId": "CVE-2026-5362",
       "assigningCna": "Fluid_Attacks",
-      "datePublished": "2026-01-27",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 10
-      }
-    },
-    {
-      "cveId": "CVE-2026-7460",
-      "assigningCna": "Fluid_Attacks",
-      "datePublished": "2026-05-20",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-3089",
-      "assigningCna": "Fluid_Attacks",
-      "datePublished": "2026-03-09",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 10
-      }
-    },
-    {
-      "cveId": "CVE-2026-3673",
-      "assigningCna": "Fluid_Attacks",
-      "datePublished": "2026-04-22",
+      "datePublished": "2026-04-27",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -371,9 +319,9 @@
       }
     },
     {
-      "cveId": "CVE-2026-40229",
+      "cveId": "CVE-2026-3673",
       "assigningCna": "Fluid_Attacks",
-      "datePublished": "2026-04-29",
+      "datePublished": "2026-04-22",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -384,9 +332,35 @@
       }
     },
     {
-      "cveId": "CVE-2026-40230",
+      "cveId": "CVE-2026-3089",
       "assigningCna": "Fluid_Attacks",
-      "datePublished": "2026-04-29",
+      "datePublished": "2026-03-09",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-1213",
+      "assigningCna": "Fluid_Attacks",
+      "datePublished": "2026-01-27",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-6093",
+      "assigningCna": "Fluid_Attacks",
+      "datePublished": "2026-05-11",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,

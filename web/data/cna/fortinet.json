@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "fortinet",
-    "total_cves": 98,
-    "total_cves_scored": 98,
+    "total_cves": 81,
+    "total_cves_scored": 81,
     "organizationName": "Fortinet, Inc.",
     "scope": "Fortinet issues only.",
     "advisories": [
@@ -29,22 +29,22 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 16,
-  "active_cna_count": 333,
+  "active_cna_count": 331,
   "percentile": 95.5,
   "cna_scoring": [
     {
-      "total_cves": 98,
-      "total_cves_scored": 98,
-      "recent_cves_count": 98,
-      "overall_average_score": 89.64,
+      "total_cves": 81,
+      "total_cves_scored": 81,
+      "recent_cves_count": 81,
+      "overall_average_score": 89.57,
       "average_foundational_completeness": 50.0,
-      "average_root_cause_analysis": 14.85,
-      "average_software_identification": 9.8,
+      "average_root_cause_analysis": 14.81,
+      "average_software_identification": 9.75,
       "average_severity_context": 15.0,
       "average_patchinfo": 0.0,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 98.98,
-      "percent_software_identification": 97.96,
+      "percent_root_cause_analysis": 98.77,
+      "percent_software_identification": 97.53,
       "percent_severity_and_impact": 100.0,
       "percent_patchinfo": 0.0,
       "trend_direction": "steady",
@@ -53,19 +53,6 @@
     }
   ],
   "recent_cves": [
-    {
-      "cveId": "CVE-2024-47570",
-      "assigningCna": "fortinet",
-      "datePublished": "2025-12-09",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
     {
       "cveId": "CVE-2024-23104",
       "assigningCna": "fortinet",
@@ -93,32 +80,6 @@
       }
     },
     {
-      "cveId": "CVE-2025-55018",
-      "assigningCna": "fortinet",
-      "datePublished": "2026-02-10",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-55717",
-      "assigningCna": "fortinet",
-      "datePublished": "2026-03-10",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2025-47855",
       "assigningCna": "fortinet",
       "datePublished": "2026-01-13",
@@ -132,9 +93,9 @@
       }
     },
     {
-      "cveId": "CVE-2025-67604",
+      "cveId": "CVE-2025-61886",
       "assigningCna": "fortinet",
-      "datePublished": "2026-05-12",
+      "datePublished": "2026-04-14",
       "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -145,7 +106,33 @@
       }
     },
     {
-      "cveId": "CVE-2025-67685",
+      "cveId": "CVE-2025-61848",
+      "assigningCna": "fortinet",
+      "datePublished": "2026-04-14",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-61624",
+      "assigningCna": "fortinet",
+      "datePublished": "2026-04-14",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-58693",
       "assigningCna": "fortinet",
       "datePublished": "2026-01-13",
       "totalCveScore": 90,
@@ -171,6 +158,292 @@
       }
     },
     {
+      "cveId": "CVE-2025-67685",
+      "assigningCna": "fortinet",
+      "datePublished": "2026-01-13",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-67604",
+      "assigningCna": "fortinet",
+      "datePublished": "2026-05-12",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-52436",
+      "assigningCna": "fortinet",
+      "datePublished": "2026-02-10",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-59922",
+      "assigningCna": "fortinet",
+      "datePublished": "2026-01-13",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-59809",
+      "assigningCna": "fortinet",
+      "datePublished": "2026-04-14",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-64155",
+      "assigningCna": "fortinet",
+      "datePublished": "2026-01-13",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-64157",
+      "assigningCna": "fortinet",
+      "datePublished": "2026-02-10",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-49784",
+      "assigningCna": "fortinet",
+      "datePublished": "2026-03-10",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-68649",
+      "assigningCna": "fortinet",
+      "datePublished": "2026-04-14",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-68648",
+      "assigningCna": "fortinet",
+      "datePublished": "2026-03-10",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-68686",
+      "assigningCna": "fortinet",
+      "datePublished": "2026-02-10",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-68482",
+      "assigningCna": "fortinet",
+      "datePublished": "2026-03-10",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-55717",
+      "assigningCna": "fortinet",
+      "datePublished": "2026-03-10",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-55018",
+      "assigningCna": "fortinet",
+      "datePublished": "2026-02-10",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-66178",
+      "assigningCna": "fortinet",
+      "datePublished": "2026-03-10",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-25249",
+      "assigningCna": "fortinet",
+      "datePublished": "2026-01-13",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-54820",
+      "assigningCna": "fortinet",
+      "datePublished": "2026-03-10",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-54659",
+      "assigningCna": "fortinet",
+      "datePublished": "2026-03-10",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-48840",
+      "assigningCna": "fortinet",
+      "datePublished": "2026-03-10",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-48418",
+      "assigningCna": "fortinet",
+      "datePublished": "2026-03-10",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-62439",
+      "assigningCna": "fortinet",
+      "datePublished": "2026-02-10",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-62676",
+      "assigningCna": "fortinet",
+      "datePublished": "2026-02-10",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2025-53870",
       "assigningCna": "fortinet",
       "datePublished": "2026-05-12",
@@ -184,20 +457,7 @@
       }
     },
     {
-      "cveId": "CVE-2025-53680",
-      "assigningCna": "fortinet",
-      "datePublished": "2026-05-12",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-53844",
+      "cveId": "CVE-2025-53681",
       "assigningCna": "fortinet",
       "datePublished": "2026-05-12",
       "totalCveScore": 90,
@@ -236,20 +496,7 @@
       }
     },
     {
-      "cveId": "CVE-2025-53949",
-      "assigningCna": "fortinet",
-      "datePublished": "2025-12-09",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-53681",
+      "cveId": "CVE-2025-53844",
       "assigningCna": "fortinet",
       "datePublished": "2026-05-12",
       "totalCveScore": 90,
@@ -262,9 +509,9 @@
       }
     },
     {
-      "cveId": "CVE-2025-53679",
+      "cveId": "CVE-2025-53680",
       "assigningCna": "fortinet",
-      "datePublished": "2025-12-09",
+      "datePublished": "2026-05-12",
       "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -275,20 +522,7 @@
       }
     },
     {
-      "cveId": "CVE-2025-25249",
-      "assigningCna": "fortinet",
-      "datePublished": "2026-01-13",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-49784",
+      "cveId": "CVE-2026-30897",
       "assigningCna": "fortinet",
       "datePublished": "2026-03-10",
       "totalCveScore": 90,
@@ -301,9 +535,9 @@
       }
     },
     {
-      "cveId": "CVE-2025-60024",
+      "cveId": "CVE-2026-26083",
       "assigningCna": "fortinet",
-      "datePublished": "2025-12-09",
+      "datePublished": "2026-05-12",
       "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -314,124 +548,7 @@
       }
     },
     {
-      "cveId": "CVE-2025-66178",
-      "assigningCna": "fortinet",
-      "datePublished": "2026-03-10",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-57823",
-      "assigningCna": "fortinet",
-      "datePublished": "2025-12-09",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-64155",
-      "assigningCna": "fortinet",
-      "datePublished": "2026-01-13",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-64157",
-      "assigningCna": "fortinet",
-      "datePublished": "2026-02-10",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-64156",
-      "assigningCna": "fortinet",
-      "datePublished": "2025-12-09",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-64471",
-      "assigningCna": "fortinet",
-      "datePublished": "2025-12-09",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-64447",
-      "assigningCna": "fortinet",
-      "datePublished": "2025-12-09",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-64153",
-      "assigningCna": "fortinet",
-      "datePublished": "2025-12-09",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-52436",
-      "assigningCna": "fortinet",
-      "datePublished": "2026-02-10",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-61848",
+      "cveId": "CVE-2026-23708",
       "assigningCna": "fortinet",
       "datePublished": "2026-04-14",
       "totalCveScore": 90,
@@ -444,9 +561,9 @@
       }
     },
     {
-      "cveId": "CVE-2025-61886",
+      "cveId": "CVE-2026-44279",
       "assigningCna": "fortinet",
-      "datePublished": "2026-04-14",
+      "datePublished": "2026-05-12",
       "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -457,9 +574,9 @@
       }
     },
     {
-      "cveId": "CVE-2025-61624",
+      "cveId": "CVE-2026-44278",
       "assigningCna": "fortinet",
-      "datePublished": "2026-04-14",
+      "datePublished": "2026-05-12",
       "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -470,282 +587,9 @@
       }
     },
     {
-      "cveId": "CVE-2025-54838",
+      "cveId": "CVE-2026-44277",
       "assigningCna": "fortinet",
-      "datePublished": "2025-12-09",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-54659",
-      "assigningCna": "fortinet",
-      "datePublished": "2026-03-10",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-54353",
-      "assigningCna": "fortinet",
-      "datePublished": "2025-12-09",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-54820",
-      "assigningCna": "fortinet",
-      "datePublished": "2026-03-10",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-68649",
-      "assigningCna": "fortinet",
-      "datePublished": "2026-04-14",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-68686",
-      "assigningCna": "fortinet",
-      "datePublished": "2026-02-10",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-68648",
-      "assigningCna": "fortinet",
-      "datePublished": "2026-03-10",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-68482",
-      "assigningCna": "fortinet",
-      "datePublished": "2026-03-10",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-58693",
-      "assigningCna": "fortinet",
-      "datePublished": "2026-01-13",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-48840",
-      "assigningCna": "fortinet",
-      "datePublished": "2026-03-10",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-48418",
-      "assigningCna": "fortinet",
-      "datePublished": "2026-03-10",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-62676",
-      "assigningCna": "fortinet",
-      "datePublished": "2026-02-10",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-62631",
-      "assigningCna": "fortinet",
-      "datePublished": "2025-12-09",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-62439",
-      "assigningCna": "fortinet",
-      "datePublished": "2026-02-10",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-59923",
-      "assigningCna": "fortinet",
-      "datePublished": "2025-12-09",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-59808",
-      "assigningCna": "fortinet",
-      "datePublished": "2025-12-09",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-59810",
-      "assigningCna": "fortinet",
-      "datePublished": "2025-12-09",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-59809",
-      "assigningCna": "fortinet",
-      "datePublished": "2026-04-14",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-59718",
-      "assigningCna": "fortinet",
-      "datePublished": "2025-12-09",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-59719",
-      "assigningCna": "fortinet",
-      "datePublished": "2025-12-09",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-59922",
-      "assigningCna": "fortinet",
-      "datePublished": "2026-01-13",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-24641",
-      "assigningCna": "fortinet",
-      "datePublished": "2026-03-10",
+      "datePublished": "2026-05-12",
       "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -757,32 +601,6 @@
     },
     {
       "cveId": "CVE-2026-24640",
-      "assigningCna": "fortinet",
-      "datePublished": "2026-03-10",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-24017",
-      "assigningCna": "fortinet",
-      "datePublished": "2026-03-10",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-24018",
       "assigningCna": "fortinet",
       "datePublished": "2026-03-10",
       "totalCveScore": 90,
@@ -808,7 +626,7 @@
       }
     },
     {
-      "cveId": "CVE-2026-25689",
+      "cveId": "CVE-2026-24641",
       "assigningCna": "fortinet",
       "datePublished": "2026-03-10",
       "totalCveScore": 90,
@@ -821,9 +639,74 @@
       }
     },
     {
-      "cveId": "CVE-2026-25089",
+      "cveId": "CVE-2026-24018",
+      "assigningCna": "fortinet",
+      "datePublished": "2026-03-10",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-24017",
+      "assigningCna": "fortinet",
+      "datePublished": "2026-03-10",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-27316",
+      "assigningCna": "fortinet",
+      "datePublished": "2026-04-14",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-49938",
       "assigningCna": "fortinet",
       "datePublished": "2026-06-09",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-40688",
+      "assigningCna": "fortinet",
+      "datePublished": "2026-04-14",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-35616",
+      "assigningCna": "fortinet",
+      "datePublished": "2026-04-04",
       "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -837,6 +720,19 @@
       "cveId": "CVE-2026-25691",
       "assigningCna": "fortinet",
       "datePublished": "2026-04-14",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-25089",
+      "assigningCna": "fortinet",
+      "datePublished": "2026-06-09",
       "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -873,19 +769,6 @@
       }
     },
     {
-      "cveId": "CVE-2026-25088",
-      "assigningCna": "fortinet",
-      "datePublished": "2026-05-12",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2026-25972",
       "assigningCna": "fortinet",
       "datePublished": "2026-03-10",
@@ -899,9 +782,22 @@
       }
     },
     {
-      "cveId": "CVE-2026-49938",
+      "cveId": "CVE-2026-25088",
       "assigningCna": "fortinet",
-      "datePublished": "2026-06-09",
+      "datePublished": "2026-05-12",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-25689",
+      "assigningCna": "fortinet",
+      "datePublished": "2026-03-10",
       "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -925,9 +821,9 @@
       }
     },
     {
-      "cveId": "CVE-2026-22629",
+      "cveId": "CVE-2026-22828",
       "assigningCna": "fortinet",
-      "datePublished": "2026-03-10",
+      "datePublished": "2026-04-14",
       "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -939,45 +835,6 @@
     },
     {
       "cveId": "CVE-2026-22155",
-      "assigningCna": "fortinet",
-      "datePublished": "2026-04-14",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-22573",
-      "assigningCna": "fortinet",
-      "datePublished": "2026-04-14",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-22628",
-      "assigningCna": "fortinet",
-      "datePublished": "2026-03-10",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-22574",
       "assigningCna": "fortinet",
       "datePublished": "2026-04-14",
       "totalCveScore": 90,
@@ -1003,7 +860,7 @@
       }
     },
     {
-      "cveId": "CVE-2026-22576",
+      "cveId": "CVE-2026-22573",
       "assigningCna": "fortinet",
       "datePublished": "2026-04-14",
       "totalCveScore": 90,
@@ -1016,7 +873,20 @@
       }
     },
     {
-      "cveId": "CVE-2026-22828",
+      "cveId": "CVE-2026-22574",
+      "assigningCna": "fortinet",
+      "datePublished": "2026-04-14",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-22576",
       "assigningCna": "fortinet",
       "datePublished": "2026-04-14",
       "totalCveScore": 90,
@@ -1055,7 +925,7 @@
       }
     },
     {
-      "cveId": "CVE-2026-30897",
+      "cveId": "CVE-2026-22628",
       "assigningCna": "fortinet",
       "datePublished": "2026-03-10",
       "totalCveScore": 90,
@@ -1068,7 +938,20 @@
       }
     },
     {
-      "cveId": "CVE-2026-21742",
+      "cveId": "CVE-2026-22629",
+      "assigningCna": "fortinet",
+      "datePublished": "2026-03-10",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-39811",
       "assigningCna": "fortinet",
       "datePublished": "2026-04-14",
       "totalCveScore": 90,
@@ -1081,48 +964,9 @@
       }
     },
     {
-      "cveId": "CVE-2026-21743",
-      "assigningCna": "fortinet",
-      "datePublished": "2026-02-10",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-21643",
-      "assigningCna": "fortinet",
-      "datePublished": "2026-02-06",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-21741",
+      "cveId": "CVE-2026-39808",
       "assigningCna": "fortinet",
       "datePublished": "2026-04-14",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-44278",
-      "assigningCna": "fortinet",
-      "datePublished": "2026-05-12",
       "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -1133,46 +977,7 @@
       }
     },
     {
-      "cveId": "CVE-2026-44279",
-      "assigningCna": "fortinet",
-      "datePublished": "2026-05-12",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-44277",
-      "assigningCna": "fortinet",
-      "datePublished": "2026-05-12",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-35616",
-      "assigningCna": "fortinet",
-      "datePublished": "2026-04-04",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-23708",
+      "cveId": "CVE-2026-39814",
       "assigningCna": "fortinet",
       "datePublished": "2026-04-14",
       "totalCveScore": 90,
@@ -1198,32 +1003,6 @@
       }
     },
     {
-      "cveId": "CVE-2026-39811",
-      "assigningCna": "fortinet",
-      "datePublished": "2026-04-14",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-39815",
-      "assigningCna": "fortinet",
-      "datePublished": "2026-04-14",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2026-39813",
       "assigningCna": "fortinet",
       "datePublished": "2026-04-14",
@@ -1237,7 +1016,7 @@
       }
     },
     {
-      "cveId": "CVE-2026-39808",
+      "cveId": "CVE-2026-39815",
       "assigningCna": "fortinet",
       "datePublished": "2026-04-14",
       "totalCveScore": 90,
@@ -1276,7 +1055,33 @@
       }
     },
     {
-      "cveId": "CVE-2026-39814",
+      "cveId": "CVE-2026-21741",
+      "assigningCna": "fortinet",
+      "datePublished": "2026-04-14",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-21643",
+      "assigningCna": "fortinet",
+      "datePublished": "2026-02-06",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-21742",
       "assigningCna": "fortinet",
       "datePublished": "2026-04-14",
       "totalCveScore": 90,
@@ -1289,35 +1094,9 @@
       }
     },
     {
-      "cveId": "CVE-2026-27316",
+      "cveId": "CVE-2026-21743",
       "assigningCna": "fortinet",
-      "datePublished": "2026-04-14",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-40688",
-      "assigningCna": "fortinet",
-      "datePublished": "2026-04-14",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-26083",
-      "assigningCna": "fortinet",
-      "datePublished": "2026-05-12",
+      "datePublished": "2026-02-10",
       "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
