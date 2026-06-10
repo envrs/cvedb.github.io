@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "mitre",
-    "total_cves": 2278,
-    "total_cves_scored": 2278,
+    "total_cves": 2279,
+    "total_cves_scored": 2279,
     "organizationName": "MITRE Corporation",
     "scope": "All vulnerabilities, and Open Source software product vulnerabilities, not already covered by a CNA listed on this website.",
     "advisories": [
@@ -33,19 +33,19 @@
   "percentile": 3.0,
   "cna_scoring": [
     {
-      "total_cves": 2278,
-      "total_cves_scored": 2278,
-      "recent_cves_count": 2278,
-      "overall_average_score": 54.35,
+      "total_cves": 2279,
+      "total_cves_scored": 2279,
+      "recent_cves_count": 2279,
+      "overall_average_score": 54.36,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 1.99,
       "average_software_identification": 0.0,
-      "average_severity_context": 2.34,
+      "average_severity_context": 2.35,
       "average_patchinfo": 0.01,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 13.26,
+      "percent_root_cause_analysis": 13.3,
       "percent_software_identification": 0.0,
-      "percent_severity_and_impact": 15.63,
+      "percent_severity_and_impact": 15.66,
       "percent_patchinfo": 0.13,
       "trend_direction": "steady",
       "trend_description": "No significant change",
@@ -19328,6 +19328,19 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 0,
         "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-53689",
+      "assigningCna": "mitre",
+      "datePublished": "2026-06-10",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 0
       }
