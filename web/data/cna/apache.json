@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "apache",
-    "total_cves": 305,
-    "total_cves_scored": 305,
+    "total_cves": 306,
+    "total_cves_scored": 306,
     "organizationName": "Apache Software Foundation",
     "scope": "All Apache Software Foundation issues only.",
     "advisories": [
@@ -39,20 +39,20 @@
   "percentile": 13.6,
   "cna_scoring": [
     {
-      "total_cves": 305,
-      "total_cves_scored": 305,
-      "recent_cves_count": 305,
-      "overall_average_score": 69.77,
+      "total_cves": 306,
+      "total_cves_scored": 306,
+      "recent_cves_count": 306,
+      "overall_average_score": 69.75,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 14.66,
-      "average_software_identification": 0.3,
-      "average_severity_context": 2.26,
-      "average_patchinfo": 2.56,
+      "average_software_identification": 0.29,
+      "average_severity_context": 2.25,
+      "average_patchinfo": 2.55,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 97.7,
-      "percent_software_identification": 2.95,
-      "percent_severity_and_impact": 15.08,
-      "percent_patchinfo": 25.57,
+      "percent_root_cause_analysis": 97.71,
+      "percent_software_identification": 2.94,
+      "percent_severity_and_impact": 15.03,
+      "percent_patchinfo": 25.49,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -2098,6 +2098,19 @@
         "severityAndImpactContext": 0,
         "softwareIdentification": 0,
         "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-25700",
+      "assigningCna": "apache",
+      "datePublished": "2026-06-10",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
       }
     },
     {
