@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "palo_alto",
-    "total_cves": 46,
-    "total_cves_scored": 46,
+    "total_cves": 50,
+    "total_cves_scored": 50,
     "organizationName": "Palo Alto Networks, Inc.",
     "scope": "All Palo Alto Networks products, and vulnerabilities discovered by Palo Alto Networks that are not in another CNA’s scope.",
     "advisories": [
@@ -39,18 +39,18 @@
   "percentile": 90.1,
   "cna_scoring": [
     {
-      "total_cves": 46,
-      "total_cves_scored": 46,
-      "recent_cves_count": 46,
-      "overall_average_score": 84.02,
+      "total_cves": 50,
+      "total_cves_scored": 50,
+      "recent_cves_count": 50,
+      "overall_average_score": 83.7,
       "average_foundational_completeness": 50.0,
-      "average_root_cause_analysis": 14.67,
-      "average_software_identification": 4.35,
+      "average_root_cause_analysis": 14.7,
+      "average_software_identification": 4.0,
       "average_severity_context": 15.0,
       "average_patchinfo": 0.0,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 97.83,
-      "percent_software_identification": 43.48,
+      "percent_root_cause_analysis": 98.0,
+      "percent_software_identification": 40.0,
       "percent_severity_and_impact": 100.0,
       "percent_patchinfo": 0.0,
       "trend_direction": "steady",
@@ -648,6 +648,58 @@
       "cveId": "CVE-2026-1723",
       "assigningCna": "palo_alto",
       "datePublished": "2026-01-30",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-45177",
+      "assigningCna": "palo_alto",
+      "datePublished": "2026-06-11",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-45175",
+      "assigningCna": "palo_alto",
+      "datePublished": "2026-06-11",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-45176",
+      "assigningCna": "palo_alto",
+      "datePublished": "2026-06-11",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-45178",
+      "assigningCna": "palo_alto",
+      "datePublished": "2026-06-11",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
