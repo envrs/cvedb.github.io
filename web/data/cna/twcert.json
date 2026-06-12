@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "twcert",
-    "total_cves": 105,
-    "total_cves_scored": 105,
+    "total_cves": 107,
+    "total_cves_scored": 107,
     "organizationName": "TWCERT/CC",
     "scope": "Vulnerability assignment related to its vulnerability coordination role.",
     "advisories": [
@@ -43,13 +43,13 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 51,
-  "active_cna_count": 331,
+  "active_cna_count": 332,
   "percentile": 84.9,
   "cna_scoring": [
     {
-      "total_cves": 105,
-      "total_cves_scored": 105,
-      "recent_cves_count": 105,
+      "total_cves": 107,
+      "total_cves_scored": 107,
+      "recent_cves_count": 107,
       "overall_average_score": 80.0,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
@@ -562,7 +562,33 @@
       }
     },
     {
+      "cveId": "CVE-2026-11848",
+      "assigningCna": "twcert",
+      "datePublished": "2026-06-12",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-11844",
+      "assigningCna": "twcert",
+      "datePublished": "2026-06-12",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-11849",
       "assigningCna": "twcert",
       "datePublished": "2026-06-12",
       "totalCveScore": 80,
