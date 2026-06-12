@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "AMD",
-    "total_cves": 101,
-    "total_cves_scored": 101,
+    "total_cves": 102,
+    "total_cves_scored": 102,
     "organizationName": "Advanced Micro Devices Inc.",
     "scope": "AMD branded products and technologies only. AMD does not evaluate, remediate, or issue CVE IDs for vulnerabilities that only affect End-of-Life/End-of-Support products and technologies.",
     "advisories": [
@@ -38,17 +38,17 @@
   "percentile": 27.1,
   "cna_scoring": [
     {
-      "total_cves": 101,
-      "total_cves_scored": 101,
-      "recent_cves_count": 101,
-      "overall_average_score": 79.7,
+      "total_cves": 102,
+      "total_cves_scored": 102,
+      "recent_cves_count": 102,
+      "overall_average_score": 79.71,
       "average_foundational_completeness": 50.0,
-      "average_root_cause_analysis": 14.7,
+      "average_root_cause_analysis": 14.71,
       "average_software_identification": 0.0,
       "average_severity_context": 15.0,
       "average_patchinfo": 0.0,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 98.02,
+      "percent_root_cause_analysis": 98.04,
       "percent_software_identification": 0.0,
       "percent_severity_and_impact": 100.0,
       "percent_patchinfo": 0.0,
@@ -1362,6 +1362,19 @@
       "cveId": "CVE-2026-28237",
       "assigningCna": "AMD",
       "datePublished": "2026-06-09",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-40677",
+      "assigningCna": "AMD",
+      "datePublished": "2026-06-12",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
