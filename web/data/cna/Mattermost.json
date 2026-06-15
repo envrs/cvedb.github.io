@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "Mattermost",
-    "total_cves": 107,
-    "total_cves_scored": 107,
+    "total_cves": 109,
+    "total_cves_scored": 109,
     "organizationName": "Mattermost, Inc.",
     "scope": "All Mattermost issues, and vulnerabilities discovered by Mattermost that are not in another CNA’s scope.",
     "advisories": [
@@ -35,13 +35,13 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 51,
-  "active_cna_count": 329,
+  "active_cna_count": 330,
   "percentile": 84.8,
   "cna_scoring": [
     {
-      "total_cves": 107,
-      "total_cves_scored": 107,
-      "recent_cves_count": 107,
+      "total_cves": 109,
+      "total_cves_scored": 109,
+      "recent_cves_count": 109,
       "overall_average_score": 80.0,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
@@ -1204,6 +1204,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-8683",
+      "assigningCna": "Mattermost",
+      "datePublished": "2026-06-15",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-21388",
       "assigningCna": "Mattermost",
       "datePublished": "2026-04-09",
@@ -1324,6 +1337,19 @@
       "cveId": "CVE-2026-6961",
       "assigningCna": "Mattermost",
       "datePublished": "2026-06-12",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-6517",
+      "assigningCna": "Mattermost",
+      "datePublished": "2026-06-15",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
