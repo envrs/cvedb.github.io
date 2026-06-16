@@ -1,32 +1,33 @@
 {
   "cna_info": {
-    "cna": "ASUSTOR",
+    "cna": "systemd",
     "total_cves": 0,
     "total_cves_scored": 0,
-    "organizationName": "ASUSTOR, Inc.",
-    "scope": "ASUSTOR issues only.",
+    "organizationName": "The systemd project",
+    "scope": "All components from the systemd project, including systemd, udev, systemd-journald, systemd-resolved, systemd-boot, systemd-stub, mkosi, and other components maintained on <a href='https://github.com/systemd' target='_blank'>https://github.com/systemd</a>.",
     "advisories": [
       {
         "label": "Advisories",
-        "url": "https://www.asustor.com/security/security_advisory"
+        "url": "https://github.com/systemd/systemd/security/advisories?state=published"
       }
     ],
     "email": [
       {
         "label": "Email",
-        "emailAddr": "security@asustor.com"
+        "emailAddr": "systemd-security@redhat.com"
       }
     ],
-    "officialCnaID": "CNA-2021-0048",
+    "officialCnaID": "CNA-2026-0040",
     "cnaTypes": [
-      "Vendor"
+      "Vendor",
+      "Open Source"
     ],
-    "country": "Taiwan",
+    "country": "Germany",
     "disclosurePolicy": [
       {
         "label": "Policy",
         "language": "",
-        "url": "https://www.asustor.com/security/security_advisory"
+        "url": "https://github.com/systemd/systemd/security/policy"
       }
     ],
     "rootCnaInfo": {}
