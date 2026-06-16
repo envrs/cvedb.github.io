@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "zephyr",
-    "total_cves": 15,
-    "total_cves_scored": 15,
+    "total_cves": 16,
+    "total_cves_scored": 16,
     "organizationName": "Zephyr Project",
     "scope": "Zephyr project components, and vulnerabilities that are not in another CNA’s scope.",
     "advisories": [
@@ -34,25 +34,25 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 263,
+  "rank": 256,
   "active_cna_count": 330,
-  "percentile": 20.6,
+  "percentile": 22.7,
   "cna_scoring": [
     {
-      "total_cves": 15,
-      "total_cves_scored": 15,
-      "recent_cves_count": 15,
-      "overall_average_score": 77.67,
+      "total_cves": 16,
+      "total_cves_scored": 16,
+      "recent_cves_count": 16,
+      "overall_average_score": 78.44,
       "average_foundational_completeness": 50.0,
-      "average_root_cause_analysis": 14.0,
+      "average_root_cause_analysis": 14.06,
       "average_software_identification": 0.0,
-      "average_severity_context": 13.0,
-      "average_patchinfo": 0.67,
+      "average_severity_context": 13.12,
+      "average_patchinfo": 1.25,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 93.33,
+      "percent_root_cause_analysis": 93.75,
       "percent_software_identification": 0.0,
-      "percent_severity_and_impact": 86.67,
-      "percent_patchinfo": 6.67,
+      "percent_severity_and_impact": 87.5,
+      "percent_patchinfo": 12.5,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -239,6 +239,19 @@
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-10635",
+      "assigningCna": "zephyr",
+      "datePublished": "2026-06-16",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
       }
     },
     {
