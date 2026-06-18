@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "F5",
-    "total_cves": 72,
-    "total_cves_scored": 72,
+    "total_cves": 71,
+    "total_cves_scored": 71,
     "organizationName": "F5, Inc.",
     "scope": "All F5 products and services, commercial and open source, which have not yet reached End of Technical Support (EoTS). All legacy acquisition products and brands including, but not limited to, NGINX, Shape Security, Volterra, and Threat Stack. F5 does not issue CVEs for products which are no longer supported.",
     "advisories": [
@@ -35,43 +35,30 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 24,
-  "active_cna_count": 329,
-  "percentile": 93.0,
+  "active_cna_count": 326,
+  "percentile": 92.9,
   "cna_scoring": [
     {
-      "total_cves": 72,
-      "total_cves_scored": 72,
-      "recent_cves_count": 72,
-      "overall_average_score": 87.08,
+      "total_cves": 71,
+      "total_cves_scored": 71,
+      "recent_cves_count": 71,
+      "overall_average_score": 87.18,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
       "average_software_identification": 0.0,
       "average_severity_context": 15.0,
-      "average_patchinfo": 7.08,
+      "average_patchinfo": 7.18,
       "percent_foundational_completeness": 100.0,
       "percent_root_cause_analysis": 100.0,
       "percent_software_identification": 0.0,
       "percent_severity_and_impact": 100.0,
-      "percent_patchinfo": 70.83,
+      "percent_patchinfo": 71.83,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
     }
   ],
   "recent_cves": [
-    {
-      "cveId": "CVE-2025-14727",
-      "assigningCna": "F5",
-      "datePublished": "2025-12-17",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
     {
       "cveId": "CVE-2026-42924",
       "assigningCna": "F5",
