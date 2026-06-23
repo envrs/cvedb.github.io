@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "tenable",
-    "total_cves": 30,
-    "total_cves_scored": 30,
+    "total_cves": 31,
+    "total_cves_scored": 31,
     "organizationName": "Tenable Network Security, Inc.",
     "scope": "Tenable products and third-party products it researches not covered by another CNA.",
     "advisories": [
@@ -38,17 +38,17 @@
   "percentile": 23.5,
   "cna_scoring": [
     {
-      "total_cves": 30,
-      "total_cves_scored": 30,
-      "recent_cves_count": 30,
-      "overall_average_score": 79.0,
+      "total_cves": 31,
+      "total_cves_scored": 31,
+      "recent_cves_count": 31,
+      "overall_average_score": 79.03,
       "average_foundational_completeness": 50.0,
-      "average_root_cause_analysis": 14.0,
+      "average_root_cause_analysis": 14.03,
       "average_software_identification": 0.0,
       "average_severity_context": 15.0,
       "average_patchinfo": 0.0,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 93.33,
+      "percent_root_cause_analysis": 93.55,
       "percent_software_identification": 0.0,
       "percent_severity_and_impact": 100.0,
       "percent_patchinfo": 0.0,
@@ -439,6 +439,19 @@
       "cveId": "CVE-2026-8367",
       "assigningCna": "tenable",
       "datePublished": "2026-05-13",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-13007",
+      "assigningCna": "tenable",
+      "datePublished": "2026-06-23",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
