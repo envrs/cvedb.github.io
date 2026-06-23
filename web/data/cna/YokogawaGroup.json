@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "YokogawaGroup",
-    "total_cves": 22,
-    "total_cves_scored": 22,
+    "total_cves": 23,
+    "total_cves_scored": 23,
     "organizationName": "Yokogawa Group",
     "scope": "Yokogawa Group companies’ products and Yokogawa Group subsidiaries’ products.",
     "advisories": [
@@ -33,13 +33,13 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 52,
-  "active_cna_count": 328,
-  "percentile": 84.5,
+  "active_cna_count": 327,
+  "percentile": 84.4,
   "cna_scoring": [
     {
-      "total_cves": 22,
-      "total_cves_scored": 22,
-      "recent_cves_count": 22,
+      "total_cves": 23,
+      "total_cves_scored": 23,
+      "recent_cves_count": 23,
       "overall_average_score": 80.0,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
@@ -334,6 +334,19 @@
       "cveId": "CVE-2025-1924",
       "assigningCna": "YokogawaGroup",
       "datePublished": "2026-02-13",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-11833",
+      "assigningCna": "YokogawaGroup",
+      "datePublished": "2026-06-23",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
