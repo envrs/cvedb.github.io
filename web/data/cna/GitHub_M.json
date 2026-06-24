@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "GitHub_M",
-    "total_cves": 6548,
-    "total_cves_scored": 6548,
+    "total_cves": 6549,
+    "total_cves_scored": 6549,
     "organizationName": "GitHub, Inc.",
     "scope": "CVEs requested by code owners using the GitHub Security Advisories feature and vulnerabilities affecting open source projects discovered by security researchers at GitHub or Microsoft not covered by another CNA’s scope.",
     "advisories": [
@@ -35,14 +35,14 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 53,
-  "active_cna_count": 329,
-  "percentile": 84.2,
+  "rank": 54,
+  "active_cna_count": 331,
+  "percentile": 84.0,
   "cna_scoring": [
     {
-      "total_cves": 6548,
-      "total_cves_scored": 6548,
-      "recent_cves_count": 6548,
+      "total_cves": 6549,
+      "total_cves_scored": 6549,
+      "recent_cves_count": 6549,
       "overall_average_score": 80.0,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
@@ -15131,6 +15131,19 @@
       "cveId": "CVE-2026-42882",
       "assigningCna": "GitHub_M",
       "datePublished": "2026-05-11",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-42450",
+      "assigningCna": "GitHub_M",
+      "datePublished": "2026-06-24",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
