@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "redhat",
-    "total_cves": 355,
-    "total_cves_scored": 355,
+    "total_cves": 361,
+    "total_cves_scored": 361,
     "organizationName": "Red Hat, Inc.",
     "scope": "<strong>Root Scope:</strong> The Red Hat Root’s scope includes the open source community. Any open source organizations that prefer Red Hat as their Root; organizations are free to choose another Root if it suits them better.<br/><strong>CNA-LR Scope:</strong> Vulnerabilities in software developed by a CNA within the Red Hat Root hierarchy.<br/><strong>CNA Scope:</strong> Vulnerabilities in open source projects affecting Red Hat software that are not covered by a more specific CNA. CVEs can be assigned to vulnerabilities affecting end-of-life or unsupported Red Hat software.",
     "advisories": [
@@ -43,22 +43,22 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 19,
-  "active_cna_count": 331,
-  "percentile": 94.6,
+  "active_cna_count": 329,
+  "percentile": 94.5,
   "cna_scoring": [
     {
-      "total_cves": 355,
-      "total_cves_scored": 355,
-      "recent_cves_count": 355,
-      "overall_average_score": 89.45,
+      "total_cves": 361,
+      "total_cves_scored": 361,
+      "recent_cves_count": 361,
+      "overall_average_score": 89.46,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 14.79,
-      "average_software_identification": 9.66,
+      "average_software_identification": 9.67,
       "average_severity_context": 15.0,
       "average_patchinfo": 0.0,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 98.59,
-      "percent_software_identification": 96.62,
+      "percent_root_cause_analysis": 98.61,
+      "percent_software_identification": 96.68,
       "percent_severity_and_impact": 100.0,
       "percent_patchinfo": 0.0,
       "trend_direction": "steady",
@@ -3383,6 +3383,45 @@
       }
     },
     {
+      "cveId": "CVE-2026-9099",
+      "assigningCna": "redhat",
+      "datePublished": "2026-06-25",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-9083",
+      "assigningCna": "redhat",
+      "datePublished": "2026-06-25",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-9705",
+      "assigningCna": "redhat",
+      "datePublished": "2026-06-25",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-9795",
       "assigningCna": "redhat",
       "datePublished": "2026-05-28",
@@ -3435,6 +3474,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-9800",
+      "assigningCna": "redhat",
+      "datePublished": "2026-06-25",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-9793",
       "assigningCna": "redhat",
       "datePublished": "2026-05-28",
@@ -3451,6 +3503,19 @@
       "cveId": "CVE-2026-9794",
       "assigningCna": "redhat",
       "datePublished": "2026-05-28",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-9086",
+      "assigningCna": "redhat",
+      "datePublished": "2026-06-25",
       "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -3490,6 +3555,19 @@
       "cveId": "CVE-2026-9796",
       "assigningCna": "redhat",
       "datePublished": "2026-05-28",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-9799",
+      "assigningCna": "redhat",
+      "datePublished": "2026-06-25",
       "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
