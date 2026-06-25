@@ -1,0 +1,35 @@
+{
+  "name": "cvedb",
+  "version": "2.0.0",
+  "description": "CVE Database Analysis Dashboard - Next.js Migration",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "next": "^16.0.0",
+    "recharts": "^2.13.0",
+    "tailwindcss": "^4.0.0",
+    "clsx": "^2.1.1",
+    "date-fns": "^3.6.0",
+    "lucide-react": "^0.400.0",
+    "class-variance-authority": "^0.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9",
+    "eslint-config-next": "^16.0.0",
+    "@eslint/eslintrc": "^3",
+    "postcss": "^8.4.47",
+    "@tailwindcss/postcss": "^4",
+    "typescript": "^5"
+  }
+}
