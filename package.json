@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "npm run sync-data && next build",
-    "start": "next start",
+    "start": "npx serve@latest out -s -l 3000",
     "lint": "next lint",
     "sync-data": "bash scripts/sync-data.sh"
   },
