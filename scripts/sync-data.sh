@@ -7,7 +7,7 @@ DST="public/data"
 
 if [ ! -d "$SRC" ]; then
   echo "Source directory $SRC not found. Nothing to sync."
-  exit 1
+  exit 0
 fi
 
 mkdir -p "$DST"
