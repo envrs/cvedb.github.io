@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState, useMemo } from 'react';
+import { useEffect, useState } from 'react';
 import DataCards from '@/components/DataCards';
 import InsightCards from '@/components/InsightCards';
 import { loadCpeAnalysis } from '@/lib/data';

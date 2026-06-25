@@ -5,7 +5,7 @@ import DataCards from '@/components/DataCards';
 import InsightCards from '@/components/InsightCards';
 import { GrowthChart } from '@/components/Charts';
 import { loadGrowthAnalysis } from '@/lib/data';
-import { formatNumber, formatPercent } from '@/lib/utils';
+import { formatNumber } from '@/lib/utils';
 import type { GrowthAnalysis } from '@/lib/types';
 
 export default function GrowthPage() {

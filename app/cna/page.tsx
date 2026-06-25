@@ -4,16 +4,15 @@ import { useEffect, useState, useMemo } from 'react';
 import DataCards from '@/components/DataCards';
 import InsightCards from '@/components/InsightCards';
 import { CNALeaderboard } from '@/components/Charts';
-import { loadCnaAnalysis, loadCnaSummary } from '@/lib/data';
+import { loadCnaAnalysis } from '@/lib/data';
 import { formatNumber } from '@/lib/utils';
-import type { CnaAnalysis, CnaSummary } from '@/lib/types';
+import type { CnaAnalysis } from '@/lib/types';
 import { PieChart, Pie, Cell, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
 const PIE_COLORS = ['#3b82f6', '#8b5cf6', '#10b981', '#f59e0b', '#ef4444', '#06b6d4', '#ec4899'];
 
 export default function CnaPage() {
   const [analysis, setAnalysis] = useState<CnaAnalysis | null>(null);
-  const [summary, setSummary] = useState<CnaSummary[]>([]);
   const [loading, setLoading] = useState(true);
   const [search, setSearch] = useState('');
   const [sortField, setSortField] = useState<'count' | 'years_active'>('count');
@@ -22,12 +21,7 @@ export default function CnaPage() {
   const perPage = 25;
 
   useEffect(() => {
-    Promise.all([loadCnaAnalysis(), loadCnaSummary()])
-      .then(([a, s]) => {
-        setAnalysis(a);
-        setSummary(s);
-      })
-      .finally(() => setLoading(false));
+    loadCnaAnalysis().then(setAnalysis).finally(() => setLoading(false));
   }, []);
 
   const typeChartData = useMemo(() => {
