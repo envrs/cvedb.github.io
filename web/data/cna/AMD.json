@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "AMD",
-    "total_cves": 102,
-    "total_cves_scored": 102,
+    "total_cves": 104,
+    "total_cves_scored": 104,
     "organizationName": "Advanced Micro Devices Inc.",
     "scope": "AMD branded products and technologies only. AMD does not evaluate, remediate, or issue CVE IDs for vulnerabilities that only affect End-of-Life/End-of-Support products and technologies.",
     "advisories": [
@@ -38,9 +38,9 @@
   "percentile": 25.5,
   "cna_scoring": [
     {
-      "total_cves": 102,
-      "total_cves_scored": 102,
-      "recent_cves_count": 102,
+      "total_cves": 104,
+      "total_cves_scored": 104,
+      "recent_cves_count": 104,
       "overall_average_score": 79.71,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 14.71,
@@ -48,7 +48,7 @@
       "average_severity_context": 15.0,
       "average_patchinfo": 0.0,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 98.04,
+      "percent_root_cause_analysis": 98.08,
       "percent_software_identification": 0.0,
       "percent_severity_and_impact": 100.0,
       "percent_patchinfo": 0.0,
@@ -244,6 +244,32 @@
       "cveId": "CVE-2023-20514",
       "assigningCna": "AMD",
       "datePublished": "2026-02-11",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2023-20572",
+      "assigningCna": "AMD",
+      "datePublished": "2026-06-26",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2023-20540",
+      "assigningCna": "AMD",
+      "datePublished": "2026-06-26",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
