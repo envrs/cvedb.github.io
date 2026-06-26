@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "icscert",
-    "total_cves": 222,
-    "total_cves_scored": 222,
+    "total_cves": 232,
+    "total_cves_scored": 232,
     "organizationName": "Cybersecurity and Infrastructure Security Agency (CISA) Industrial Control Systems (ICS)",
     "scope": "Vulnerabilities that are (1) reported to or observed by CISA, (2) affect industrial control systems or medical devices, and (3) are not covered by another CNA’s scope.",
     "advisories": [
@@ -32,25 +32,25 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 239,
-  "active_cna_count": 329,
-  "percentile": 27.7,
+  "rank": 240,
+  "active_cna_count": 330,
+  "percentile": 27.6,
   "cna_scoring": [
     {
-      "total_cves": 222,
-      "total_cves_scored": 222,
-      "recent_cves_count": 222,
+      "total_cves": 232,
+      "total_cves_scored": 232,
+      "recent_cves_count": 232,
       "overall_average_score": 79.98,
       "average_foundational_completeness": 50.0,
-      "average_root_cause_analysis": 14.93,
+      "average_root_cause_analysis": 14.94,
       "average_software_identification": 0.0,
       "average_severity_context": 15.0,
-      "average_patchinfo": 0.05,
+      "average_patchinfo": 0.04,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 99.55,
+      "percent_root_cause_analysis": 99.57,
       "percent_software_identification": 0.0,
       "percent_severity_and_impact": 100.0,
-      "percent_patchinfo": 0.45,
+      "percent_patchinfo": 0.43,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -682,6 +682,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-44622",
+      "assigningCna": "icscert",
+      "datePublished": "2026-06-25",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-50244",
       "assigningCna": "icscert",
       "datePublished": "2026-06-12",
@@ -763,6 +776,19 @@
       "cveId": "CVE-2026-50108",
       "assigningCna": "icscert",
       "datePublished": "2026-06-12",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-50176",
+      "assigningCna": "icscert",
+      "datePublished": "2026-06-25",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -1306,6 +1332,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-40702",
+      "assigningCna": "icscert",
+      "datePublished": "2026-06-25",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-40630",
       "assigningCna": "icscert",
       "datePublished": "2026-04-23",
@@ -1618,6 +1657,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-12473",
+      "assigningCna": "icscert",
+      "datePublished": "2026-06-25",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-25851",
       "assigningCna": "icscert",
       "datePublished": "2026-02-26",
@@ -1894,6 +1946,19 @@
       "cveId": "CVE-2026-25192",
       "assigningCna": "icscert",
       "datePublished": "2026-03-20",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-54479",
+      "assigningCna": "icscert",
+      "datePublished": "2026-06-25",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -2229,6 +2294,45 @@
       }
     },
     {
+      "cveId": "CVE-2026-9222",
+      "assigningCna": "icscert",
+      "datePublished": "2026-06-25",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-9221",
+      "assigningCna": "icscert",
+      "datePublished": "2026-06-25",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-9220",
+      "assigningCna": "icscert",
+      "datePublished": "2026-06-25",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-9039",
       "assigningCna": "icscert",
       "datePublished": "2026-05-28",
@@ -2245,6 +2349,19 @@
       "cveId": "CVE-2026-9037",
       "assigningCna": "icscert",
       "datePublished": "2026-05-28",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-9219",
+      "assigningCna": "icscert",
+      "datePublished": "2026-06-25",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -2453,6 +2570,19 @@
       "cveId": "CVE-2026-1453",
       "assigningCna": "icscert",
       "datePublished": "2026-01-29",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-56445",
+      "assigningCna": "icscert",
+      "datePublished": "2026-06-25",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
