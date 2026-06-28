@@ -205,17 +205,18 @@
         "2026-06-24": 509,
         "2026-06-25": 473,
         "2026-06-26": 363,
-        "2026-06-27": 31
+        "2026-06-27": 31,
+        "2026-06-28": 0
       }
     }
   },
   "cvss": {
     "v3.0": {
-      "total": 239,
+      "total": 237,
       "severity_distribution": {
         "CRITICAL": 34,
         "HIGH": 135,
-        "MEDIUM": 59,
+        "MEDIUM": 57,
         "LOW": 8,
         "NONE": 3
       },
@@ -240,7 +241,7 @@
         "7.9": 1,
         "8.2": 2,
         "6.8": 1,
-        "5.5": 4,
+        "5.5": 2,
         "4.8": 1,
         "5.0": 1,
         "4.3": 12,
@@ -266,11 +267,11 @@
       }
     },
     "v3.1": {
-      "total": 21839,
+      "total": 21841,
       "severity_distribution": {
         "HIGH": 8854,
         "CRITICAL": 2427,
-        "MEDIUM": 9801,
+        "MEDIUM": 9803,
         "LOW": 735,
         "NONE": 22
       },
@@ -281,7 +282,7 @@
         "9.9": 250,
         "10.0": 170,
         "5.9": 280,
-        "6.5": 1696,
+        "6.5": 1698,
         "5.3": 1197,
         "5.4": 684,
         "4.1": 33,
@@ -551,7 +552,7 @@
     "cpe_vendors": [
       {
         "name": "Linux",
-        "count": 2928
+        "count": 2931
       },
       {
         "name": "Microsoft",
@@ -647,7 +648,7 @@
       },
       {
         "cwe": "CWE-22",
-        "count": 1291
+        "count": 1292
       },
       {
         "cwe": "CWE-416",
@@ -663,7 +664,7 @@
       },
       {
         "cwe": "CWE-787",
-        "count": 1000
+        "count": 1001
       },
       {
         "cwe": "CWE-74",
@@ -699,7 +700,7 @@
       },
       {
         "cwe": "CWE-863",
-        "count": 691
+        "count": 692
       },
       {
         "cwe": "CWE-200",
@@ -719,7 +720,7 @@
     "vulnerability_status": [
       {
         "status": "Analyzed",
-        "count": 18494
+        "count": 18552
       },
       {
         "status": "Deferred",
@@ -739,30 +740,30 @@
       },
       {
         "status": "Undergoing Analysis",
-        "count": 342
+        "count": 284
       }
     ],
     "cve_tags": [],
     "reference_tags": [
       {
         "tag": "Vendor Advisory",
-        "count": 16989
+        "count": 17048
       },
       {
         "tag": "Patch",
-        "count": 16623
+        "count": 16673
       },
       {
         "tag": "Third Party Advisory",
-        "count": 9839
+        "count": 9857
       },
       {
         "tag": "Exploit",
-        "count": 8054
+        "count": 8068
       },
       {
         "tag": "Release Notes",
-        "count": 4743
+        "count": 4747
       },
       {
         "tag": "VDB Entry",
@@ -774,7 +775,7 @@
       },
       {
         "tag": "Issue Tracking",
-        "count": 3303
+        "count": 3337
       },
       {
         "tag": "Permissions Required",
@@ -782,11 +783,11 @@
       },
       {
         "tag": "Mitigation",
-        "count": 2457
+        "count": 2460
       },
       {
         "tag": "Mailing List",
-        "count": 945
+        "count": 947
       },
       {
         "tag": "Broken Link",
@@ -815,7 +816,7 @@
     ]
   },
   "processing_stats": {
-    "processed_at": "2026-06-27T19:19:15.930126",
+    "processed_at": "2026-06-28T02:28:34.931376",
     "data_source": "data/cache/nvd.jsonl"
   }
 }
