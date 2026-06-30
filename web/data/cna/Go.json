@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "Go",
-    "total_cves": 157,
-    "total_cves_scored": 157,
+    "total_cves": 156,
+    "total_cves_scored": 156,
     "organizationName": "Go Project",
     "scope": "Vulnerabilities in software published by the Go Project (including the Go standard library, Go toolchain, and the golang.org modules) and publicly disclosed vulnerabilities in publicly importable packages in the Go ecosystem, unless covered by another CNA’s scope.",
     "advisories": [
@@ -39,20 +39,20 @@
   "percentile": 18.4,
   "cna_scoring": [
     {
-      "total_cves": 157,
-      "total_cves_scored": 157,
-      "recent_cves_count": 157,
-      "overall_average_score": 76.53,
+      "total_cves": 156,
+      "total_cves_scored": 156,
+      "recent_cves_count": 156,
+      "overall_average_score": 76.6,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 14.52,
       "average_software_identification": 0.0,
-      "average_severity_context": 7.74,
-      "average_patchinfo": 4.27,
+      "average_severity_context": 7.79,
+      "average_patchinfo": 4.29,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 96.82,
+      "percent_root_cause_analysis": 96.79,
       "percent_software_identification": 0.0,
-      "percent_severity_and_impact": 51.59,
-      "percent_patchinfo": 42.68,
+      "percent_severity_and_impact": 51.92,
+      "percent_patchinfo": 42.95,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -154,19 +154,6 @@
       "cveId": "CVE-2025-68119",
       "assigningCna": "Go",
       "datePublished": "2026-01-28",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-68120",
-      "assigningCna": "Go",
-      "datePublished": "2025-12-29",
       "totalCveScore": 65,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
