@@ -1,12 +1,12 @@
 {
   "year": 2025,
-  "total_cves": 48170,
+  "total_cves": 48168,
   "date_data": {
     "monthly_distribution": {
       "1": 4275,
       "2": 3674,
       "3": 4012,
-      "4": 4035,
+      "4": 4034,
       "5": 3980,
       "6": 3681,
       "7": 3776,
@@ -14,7 +14,7 @@
       "9": 4320,
       "10": 4273,
       "11": 3022,
-      "12": 5494
+      "12": 5493
     },
     "daily_analysis": {
       "total_days": 365,
@@ -138,7 +138,7 @@
         "2025-04-18": 99,
         "2025-04-19": 36,
         "2025-04-20": 19,
-        "2025-04-21": 50,
+        "2025-04-21": 49,
         "2025-04-22": 115,
         "2025-04-23": 75,
         "2025-04-24": 171,
@@ -379,7 +379,7 @@
         "2025-12-15": 125,
         "2025-12-16": 389,
         "2025-12-17": 186,
-        "2025-12-18": 399,
+        "2025-12-18": 398,
         "2025-12-19": 113,
         "2025-12-20": 22,
         "2025-12-21": 31,
@@ -463,12 +463,12 @@
       }
     },
     "v3.1": {
-      "total": 33665,
+      "total": 33663,
       "severity_distribution": {
         "MEDIUM": 18307,
-        "HIGH": 11498,
+        "HIGH": 11497,
         "CRITICAL": 2858,
-        "LOW": 998,
+        "LOW": 997,
         "NONE": 4
       },
       "score_distribution": {
@@ -477,7 +477,7 @@
         "8.8": 1368,
         "9.8": 1746,
         "8.3": 82,
-        "7.5": 2187,
+        "7.5": 2186,
         "6.1": 1052,
         "9.9": 140,
         "7.2": 455,
@@ -510,7 +510,7 @@
         "8.4": 176,
         "6.6": 148,
         "10.0": 179,
-        "3.3": 186,
+        "3.3": 185,
         "5.9": 604,
         "7.9": 23,
         "3.0": 13,
@@ -675,7 +675,7 @@
       },
       {
         "name": "MITRE Corporation",
-        "count": 5200
+        "count": 5198
       },
       {
         "name": "wordfence.com",
@@ -913,15 +913,19 @@
     "vulnerability_status": [
       {
         "status": "Analyzed",
-        "count": 24918
+        "count": 24919
       },
       {
         "status": "Deferred",
-        "count": 17990
+        "count": 17987
       },
       {
         "status": "Modified",
-        "count": 5260
+        "count": 5257
+      },
+      {
+        "status": "Undergoing Analysis",
+        "count": 3
       },
       {
         "status": "Awaiting Analysis",
@@ -932,7 +936,7 @@
     "reference_tags": [
       {
         "tag": "Third Party Advisory",
-        "count": 28312
+        "count": 28310
       },
       {
         "tag": "Patch",
@@ -940,7 +944,7 @@
       },
       {
         "tag": "Exploit",
-        "count": 15864
+        "count": 15863
       },
       {
         "tag": "Vendor Advisory",
@@ -960,7 +964,7 @@
       },
       {
         "tag": "Issue Tracking",
-        "count": 5707
+        "count": 5706
       },
       {
         "tag": "Release Notes",
@@ -968,7 +972,7 @@
       },
       {
         "tag": "Broken Link",
-        "count": 1364
+        "count": 1363
       },
       {
         "tag": "Mailing List",
@@ -1009,7 +1013,7 @@
     ]
   },
   "processing_stats": {
-    "processed_at": "2026-06-29T19:53:07.964584",
+    "processed_at": "2026-06-30T02:20:32.056166",
     "data_source": "data/cache/nvd.jsonl"
   }
 }
