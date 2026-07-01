@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "nvidia",
-    "total_cves": 102,
-    "total_cves_scored": 102,
+    "total_cves": 119,
+    "total_cves_scored": 119,
     "organizationName": "NVIDIA Corporation",
     "scope": "NVIDIA issues only.",
     "advisories": [
@@ -34,13 +34,13 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 54,
-  "active_cna_count": 330,
-  "percentile": 83.9,
+  "active_cna_count": 331,
+  "percentile": 84.0,
   "cna_scoring": [
     {
-      "total_cves": 102,
-      "total_cves_scored": 102,
-      "recent_cves_count": 102,
+      "total_cves": 119,
+      "total_cves_scored": 119,
+      "recent_cves_count": 119,
       "overall_average_score": 80.0,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
@@ -58,6 +58,32 @@
     }
   ],
   "recent_cves": [
+    {
+      "cveId": "CVE-2025-23350",
+      "assigningCna": "nvidia",
+      "datePublished": "2026-07-01",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-23351",
+      "assigningCna": "nvidia",
+      "datePublished": "2026-07-01",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
     {
       "cveId": "CVE-2025-33251",
       "assigningCna": "nvidia",
@@ -540,9 +566,48 @@
       }
     },
     {
+      "cveId": "CVE-2026-24242",
+      "assigningCna": "nvidia",
+      "datePublished": "2026-07-01",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-24248",
+      "assigningCna": "nvidia",
+      "datePublished": "2026-07-01",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-24186",
       "assigningCna": "nvidia",
       "datePublished": "2026-04-28",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-24266",
+      "assigningCna": "nvidia",
+      "datePublished": "2026-07-01",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -670,6 +735,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-24246",
+      "assigningCna": "nvidia",
+      "datePublished": "2026-07-01",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-24156",
       "assigningCna": "nvidia",
       "datePublished": "2026-04-07",
@@ -761,6 +839,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-24270",
+      "assigningCna": "nvidia",
+      "datePublished": "2026-07-01",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-24149",
       "assigningCna": "nvidia",
       "datePublished": "2026-02-03",
@@ -803,6 +894,19 @@
       "cveId": "CVE-2026-24207",
       "assigningCna": "nvidia",
       "datePublished": "2026-05-20",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-24244",
+      "assigningCna": "nvidia",
+      "datePublished": "2026-07-01",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -865,6 +969,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-24249",
+      "assigningCna": "nvidia",
+      "datePublished": "2026-07-01",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-24176",
       "assigningCna": "nvidia",
       "datePublished": "2026-04-21",
@@ -894,6 +1011,32 @@
       "cveId": "CVE-2026-24212",
       "assigningCna": "nvidia",
       "datePublished": "2026-05-26",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-24243",
+      "assigningCna": "nvidia",
+      "datePublished": "2026-07-01",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-24240",
+      "assigningCna": "nvidia",
+      "datePublished": "2026-07-01",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -1073,6 +1216,32 @@
       }
     },
     {
+      "cveId": "CVE-2026-24245",
+      "assigningCna": "nvidia",
+      "datePublished": "2026-07-01",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-24251",
+      "assigningCna": "nvidia",
+      "datePublished": "2026-07-01",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-24175",
       "assigningCna": "nvidia",
       "datePublished": "2026-04-07",
@@ -1216,6 +1385,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-24264",
+      "assigningCna": "nvidia",
+      "datePublished": "2026-07-01",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-24222",
       "assigningCna": "nvidia",
       "datePublished": "2026-04-28",
@@ -1320,6 +1502,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-24260",
+      "assigningCna": "nvidia",
+      "datePublished": "2026-07-01",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-24215",
       "assigningCna": "nvidia",
       "datePublished": "2026-05-20",
@@ -1375,6 +1570,32 @@
       "cveId": "CVE-2026-24150",
       "assigningCna": "nvidia",
       "datePublished": "2026-03-24",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-24247",
+      "assigningCna": "nvidia",
+      "datePublished": "2026-07-01",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-24250",
+      "assigningCna": "nvidia",
+      "datePublished": "2026-07-01",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
