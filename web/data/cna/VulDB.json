@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "VulDB",
-    "total_cves": 3377,
-    "total_cves_scored": 3377,
+    "total_cves": 3319,
+    "total_cves_scored": 3319,
     "organizationName": "VulDB",
     "scope": "Vulnerabilities in VulDB products and vulnerabilities discovered by, or reported to, the VulDB vulnerability database that are not in another CNA’s scope.",
     "advisories": [
@@ -33,25 +33,25 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 31,
-  "active_cna_count": 333,
-  "percentile": 91.0,
+  "rank": 30,
+  "active_cna_count": 331,
+  "percentile": 91.2,
   "cna_scoring": [
     {
-      "total_cves": 3377,
-      "total_cves_scored": 3377,
-      "recent_cves_count": 3377,
+      "total_cves": 3319,
+      "total_cves_scored": 3319,
+      "recent_cves_count": 3319,
       "overall_average_score": 86.22,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 14.95,
-      "average_software_identification": 4.87,
+      "average_software_identification": 4.86,
       "average_severity_context": 15.0,
-      "average_patchinfo": 1.4,
+      "average_patchinfo": 1.41,
       "percent_foundational_completeness": 100.0,
       "percent_root_cause_analysis": 99.64,
-      "percent_software_identification": 48.68,
+      "percent_software_identification": 48.63,
       "percent_severity_and_impact": 100.0,
-      "percent_patchinfo": 14.01,
+      "percent_patchinfo": 14.13,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -59,35 +59,9 @@
   ],
   "recent_cves": [
     {
-      "cveId": "CVE-2019-25262",
-      "assigningCna": "VulDB",
-      "datePublished": "2025-12-31",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 10
-      }
-    },
-    {
       "cveId": "CVE-2023-7333",
       "assigningCna": "VulDB",
       "datePublished": "2026-01-07",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 10
-      }
-    },
-    {
-      "cveId": "CVE-2023-7331",
-      "assigningCna": "VulDB",
-      "datePublished": "2025-12-31",
       "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -108,32 +82,6 @@
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 10
-      }
-    },
-    {
-      "cveId": "CVE-2025-15398",
-      "assigningCna": "VulDB",
-      "datePublished": "2025-12-31",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-15392",
-      "assigningCna": "VulDB",
-      "datePublished": "2025-12-31",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
       }
     },
     {
@@ -163,32 +111,6 @@
       }
     },
     {
-      "cveId": "CVE-2025-15233",
-      "assigningCna": "VulDB",
-      "datePublished": "2025-12-30",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-15253",
-      "assigningCna": "VulDB",
-      "datePublished": "2025-12-30",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2025-15438",
       "assigningCna": "VulDB",
       "datePublished": "2026-01-02",
@@ -198,19 +120,6 @@
         "rootCauseAnalysis": 15,
         "severityAndImpactContext": 15,
         "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-15264",
-      "assigningCna": "VulDB",
-      "datePublished": "2025-12-30",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
         "patchinfo": 0
       }
     },
@@ -228,19 +137,6 @@
       }
     },
     {
-      "cveId": "CVE-2025-15374",
-      "assigningCna": "VulDB",
-      "datePublished": "2025-12-31",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2025-15418",
       "assigningCna": "VulDB",
       "datePublished": "2026-01-01",
@@ -251,19 +147,6 @@
         "severityAndImpactContext": 15,
         "softwareIdentification": 10,
         "patchinfo": 10
-      }
-    },
-    {
-      "cveId": "CVE-2025-15242",
-      "assigningCna": "VulDB",
-      "datePublished": "2025-12-30",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
       }
     },
     {
@@ -332,19 +215,6 @@
       }
     },
     {
-      "cveId": "CVE-2025-15217",
-      "assigningCna": "VulDB",
-      "datePublished": "2025-12-30",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2025-15434",
       "assigningCna": "VulDB",
       "datePublished": "2026-01-02",
@@ -380,19 +250,6 @@
         "rootCauseAnalysis": 15,
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-15234",
-      "assigningCna": "VulDB",
-      "datePublished": "2025-12-30",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
         "patchinfo": 0
       }
     },
@@ -462,19 +319,6 @@
       }
     },
     {
-      "cveId": "CVE-2025-15229",
-      "assigningCna": "VulDB",
-      "datePublished": "2025-12-30",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2025-15448",
       "assigningCna": "VulDB",
       "datePublished": "2026-01-05",
@@ -514,19 +358,6 @@
       }
     },
     {
-      "cveId": "CVE-2025-15254",
-      "assigningCna": "VulDB",
-      "datePublished": "2025-12-30",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2025-15529",
       "assigningCna": "VulDB",
       "datePublished": "2026-01-16",
@@ -540,19 +371,6 @@
       }
     },
     {
-      "cveId": "CVE-2025-15263",
-      "assigningCna": "VulDB",
-      "datePublished": "2025-12-30",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2025-15421",
       "assigningCna": "VulDB",
       "datePublished": "2026-01-02",
@@ -562,19 +380,6 @@
         "rootCauseAnalysis": 15,
         "severityAndImpactContext": 15,
         "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-15360",
-      "assigningCna": "VulDB",
-      "datePublished": "2025-12-30",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
         "patchinfo": 0
       }
     },
@@ -608,32 +413,6 @@
       "cveId": "CVE-2025-15583",
       "assigningCna": "VulDB",
       "datePublished": "2026-02-20",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-15255",
-      "assigningCna": "VulDB",
-      "datePublished": "2025-12-30",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-15375",
-      "assigningCna": "VulDB",
-      "datePublished": "2025-12-31",
       "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -683,19 +462,6 @@
       }
     },
     {
-      "cveId": "CVE-2025-15252",
-      "assigningCna": "VulDB",
-      "datePublished": "2025-12-30",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2025-15535",
       "assigningCna": "VulDB",
       "datePublished": "2026-01-18",
@@ -722,19 +488,6 @@
       }
     },
     {
-      "cveId": "CVE-2025-15232",
-      "assigningCna": "VulDB",
-      "datePublished": "2025-12-30",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2025-15452",
       "assigningCna": "VulDB",
       "datePublished": "2026-01-05",
@@ -751,45 +504,6 @@
       "cveId": "CVE-2025-15530",
       "assigningCna": "VulDB",
       "datePublished": "2026-01-17",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-15371",
-      "assigningCna": "VulDB",
-      "datePublished": "2025-12-31",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-15357",
-      "assigningCna": "VulDB",
-      "datePublished": "2025-12-30",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-15258",
-      "assigningCna": "VulDB",
-      "datePublished": "2025-12-30",
       "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -878,19 +592,6 @@
       }
     },
     {
-      "cveId": "CVE-2025-15212",
-      "assigningCna": "VulDB",
-      "datePublished": "2025-12-30",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2025-15453",
       "assigningCna": "VulDB",
       "datePublished": "2026-01-05",
@@ -956,35 +657,9 @@
       }
     },
     {
-      "cveId": "CVE-2025-15216",
-      "assigningCna": "VulDB",
-      "datePublished": "2025-12-30",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2025-15436",
       "assigningCna": "VulDB",
       "datePublished": "2026-01-02",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-15247",
-      "assigningCna": "VulDB",
-      "datePublished": "2025-12-30",
       "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -1018,32 +693,6 @@
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 10
-      }
-    },
-    {
-      "cveId": "CVE-2025-15218",
-      "assigningCna": "VulDB",
-      "datePublished": "2025-12-30",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-15243",
-      "assigningCna": "VulDB",
-      "datePublished": "2025-12-30",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
       }
     },
     {
@@ -1086,35 +735,9 @@
       }
     },
     {
-      "cveId": "CVE-2025-15220",
-      "assigningCna": "VulDB",
-      "datePublished": "2025-12-30",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2025-15413",
       "assigningCna": "VulDB",
       "datePublished": "2026-01-01",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-15250",
-      "assigningCna": "VulDB",
-      "datePublished": "2025-12-30",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -1216,71 +839,6 @@
       }
     },
     {
-      "cveId": "CVE-2025-15262",
-      "assigningCna": "VulDB",
-      "datePublished": "2025-12-30",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-15248",
-      "assigningCna": "VulDB",
-      "datePublished": "2025-12-30",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-15244",
-      "assigningCna": "VulDB",
-      "datePublished": "2025-12-30",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-15215",
-      "assigningCna": "VulDB",
-      "datePublished": "2025-12-30",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-15354",
-      "assigningCna": "VulDB",
-      "datePublished": "2025-12-30",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2025-15571",
       "assigningCna": "VulDB",
       "datePublished": "2026-02-10",
@@ -1346,19 +904,6 @@
       }
     },
     {
-      "cveId": "CVE-2025-15251",
-      "assigningCna": "VulDB",
-      "datePublished": "2025-12-30",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2025-15442",
       "assigningCna": "VulDB",
       "datePublished": "2026-01-04",
@@ -1372,45 +917,6 @@
       }
     },
     {
-      "cveId": "CVE-2025-15394",
-      "assigningCna": "VulDB",
-      "datePublished": "2025-12-31",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-15214",
-      "assigningCna": "VulDB",
-      "datePublished": "2025-12-30",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-15219",
-      "assigningCna": "VulDB",
-      "datePublished": "2025-12-30",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2025-15531",
       "assigningCna": "VulDB",
       "datePublished": "2026-01-17",
@@ -1420,19 +926,6 @@
         "rootCauseAnalysis": 15,
         "severityAndImpactContext": 15,
         "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-15221",
-      "assigningCna": "VulDB",
-      "datePublished": "2025-12-30",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
         "patchinfo": 0
       }
     },
@@ -1453,45 +946,6 @@
       "cveId": "CVE-2025-15409",
       "assigningCna": "VulDB",
       "datePublished": "2026-01-01",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-15356",
-      "assigningCna": "VulDB",
-      "datePublished": "2025-12-30",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-15222",
-      "assigningCna": "VulDB",
-      "datePublished": "2025-12-30",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-15211",
-      "assigningCna": "VulDB",
-      "datePublished": "2025-12-30",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -1541,19 +995,6 @@
       }
     },
     {
-      "cveId": "CVE-2025-15230",
-      "assigningCna": "VulDB",
-      "datePublished": "2025-12-30",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2025-15449",
       "assigningCna": "VulDB",
       "datePublished": "2026-01-05",
@@ -1580,19 +1021,6 @@
       }
     },
     {
-      "cveId": "CVE-2025-15256",
-      "assigningCna": "VulDB",
-      "datePublished": "2025-12-30",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2025-15406",
       "assigningCna": "VulDB",
       "datePublished": "2026-01-01",
@@ -1602,19 +1030,6 @@
         "rootCauseAnalysis": 15,
         "severityAndImpactContext": 15,
         "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-15213",
-      "assigningCna": "VulDB",
-      "datePublished": "2025-12-30",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
         "patchinfo": 0
       }
     },
@@ -1658,35 +1073,9 @@
       }
     },
     {
-      "cveId": "CVE-2025-15245",
-      "assigningCna": "VulDB",
-      "datePublished": "2025-12-30",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 10
-      }
-    },
-    {
       "cveId": "CVE-2025-15439",
       "assigningCna": "VulDB",
       "datePublished": "2026-01-02",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-15353",
-      "assigningCna": "VulDB",
-      "datePublished": "2025-12-30",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -1710,32 +1099,6 @@
       }
     },
     {
-      "cveId": "CVE-2025-15393",
-      "assigningCna": "VulDB",
-      "datePublished": "2025-12-31",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-15246",
-      "assigningCna": "VulDB",
-      "datePublished": "2025-12-30",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2025-15502",
       "assigningCna": "VulDB",
       "datePublished": "2026-01-10",
@@ -1745,19 +1108,6 @@
         "rootCauseAnalysis": 15,
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-15231",
-      "assigningCna": "VulDB",
-      "datePublished": "2025-12-30",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
         "patchinfo": 0
       }
     },
@@ -1814,32 +1164,6 @@
       }
     },
     {
-      "cveId": "CVE-2025-15223",
-      "assigningCna": "VulDB",
-      "datePublished": "2025-12-31",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-15391",
-      "assigningCna": "VulDB",
-      "datePublished": "2025-12-31",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2025-15407",
       "assigningCna": "VulDB",
       "datePublished": "2026-01-01",
@@ -1879,58 +1203,6 @@
       }
     },
     {
-      "cveId": "CVE-2025-15373",
-      "assigningCna": "VulDB",
-      "datePublished": "2025-12-31",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-15249",
-      "assigningCna": "VulDB",
-      "datePublished": "2025-12-30",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-15390",
-      "assigningCna": "VulDB",
-      "datePublished": "2025-12-31",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-15241",
-      "assigningCna": "VulDB",
-      "datePublished": "2025-12-30",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 10
-      }
-    },
-    {
       "cveId": "CVE-2025-15414",
       "assigningCna": "VulDB",
       "datePublished": "2026-01-01",
@@ -1957,19 +1229,6 @@
       }
     },
     {
-      "cveId": "CVE-2025-15257",
-      "assigningCna": "VulDB",
-      "datePublished": "2025-12-30",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2025-15411",
       "assigningCna": "VulDB",
       "datePublished": "2026-01-01",
@@ -1979,19 +1238,6 @@
         "rootCauseAnalysis": 15,
         "severityAndImpactContext": 15,
         "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-15372",
-      "assigningCna": "VulDB",
-      "datePublished": "2025-12-31",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
         "patchinfo": 0
       }
     },
