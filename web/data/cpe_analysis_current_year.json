@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-01T14:24:07.890825",
+  "generated_at": "2026-07-02T02:22:37.288267",
   "year": 2026,
-  "total_unique_cpes": 13171,
-  "total_cpe_entries": 102244,
-  "total_cves_with_cpes": 20879,
-  "total_unique_vendors": 2619,
-  "total_unique_products": 6679,
+  "total_unique_cpes": 13219,
+  "total_cpe_entries": 103246,
+  "total_cves_with_cpes": 21215,
+  "total_unique_vendors": 2623,
+  "total_unique_products": 6701,
   "top_cpes": [
     {
       "cpe": "cpe:2.3:o:linux:linux_kernel:*:*:*:*:*:*:*:*",
@@ -16,7 +16,7 @@
     },
     {
       "cpe": "cpe:2.3:a:google:chrome:*:*:*:*:*:*:*:*",
-      "count": 1290,
+      "count": 1525,
       "vendor": "google",
       "product": "chrome",
       "type": "Application"
@@ -233,7 +233,7 @@
     },
     {
       "vendor": "adobe",
-      "count": 7072
+      "count": 7383
     },
     {
       "vendor": "coollabs",
@@ -249,15 +249,15 @@
     },
     {
       "vendor": "cisco",
-      "count": 2377
+      "count": 2417
+    },
+    {
+      "vendor": "google",
+      "count": 2319
     },
     {
       "vendor": "juniper",
       "count": 2225
-    },
-    {
-      "vendor": "google",
-      "count": 2083
     },
     {
       "vendor": "checkmk",
@@ -273,7 +273,7 @@
     },
     {
       "vendor": "ibm",
-      "count": 1380
+      "count": 1400
     },
     {
       "vendor": "qnap",
@@ -310,12 +310,12 @@
       "count": 1535
     },
     {
-      "product": "magento",
-      "count": 1509
+      "product": "chrome",
+      "count": 1531
     },
     {
-      "product": "chrome",
-      "count": 1296
+      "product": "magento",
+      "count": 1509
     },
     {
       "product": "parse-server",
@@ -334,24 +334,24 @@
       "count": 1002
     },
     {
-      "product": "rustfs",
-      "count": 792
+      "product": "freebsd",
+      "count": 937
     },
     {
-      "product": "windows_11_24h2",
-      "count": 789
+      "product": "rustfs",
+      "count": 792
     }
   ],
   "cpe_type_distribution": [
     {
       "type": "Operating System",
-      "count": 53299,
-      "percentage": 52.1
+      "count": 53595,
+      "percentage": 51.9
     },
     {
       "type": "Application",
-      "count": 48944,
-      "percentage": 47.9
+      "count": 49650,
+      "percentage": 48.1
     },
     {
       "type": "Hardware",

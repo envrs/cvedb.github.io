@@ -1,10 +1,10 @@
 {
   "year": 2025,
-  "total_cves": 48168,
+  "total_cves": 48167,
   "date_data": {
     "monthly_distribution": {
       "1": 4275,
-      "2": 3674,
+      "2": 3673,
       "3": 4012,
       "4": 4034,
       "5": 3980,
@@ -18,7 +18,7 @@
     },
     "daily_analysis": {
       "total_days": 365,
-      "avg_per_day": 131.97,
+      "avg_per_day": 131.96,
       "highest_day": {
         "date": "2025-02-26",
         "count": 792
@@ -76,7 +76,7 @@
         "2025-02-15": 28,
         "2025-02-16": 38,
         "2025-02-17": 47,
-        "2025-02-18": 165,
+        "2025-02-18": 164,
         "2025-02-19": 119,
         "2025-02-20": 123,
         "2025-02-21": 80,
@@ -463,11 +463,11 @@
       }
     },
     "v3.1": {
-      "total": 33663,
+      "total": 33662,
       "severity_distribution": {
         "MEDIUM": 18307,
         "HIGH": 11497,
-        "CRITICAL": 2858,
+        "CRITICAL": 2857,
         "LOW": 997,
         "NONE": 4
       },
@@ -475,7 +475,7 @@
         "5.4": 1469,
         "5.6": 77,
         "8.8": 1368,
-        "9.8": 1746,
+        "9.8": 1745,
         "8.3": 82,
         "7.5": 2186,
         "6.1": 1052,
@@ -675,7 +675,7 @@
       },
       {
         "name": "MITRE Corporation",
-        "count": 5198
+        "count": 5197
       },
       {
         "name": "wordfence.com",
@@ -765,7 +765,7 @@
       },
       {
         "name": "Debian",
-        "count": 678
+        "count": 680
       },
       {
         "name": "Phpgurukul",
@@ -773,7 +773,7 @@
       },
       {
         "name": "Ibm",
-        "count": 606
+        "count": 609
       },
       {
         "name": "Tenda",
@@ -913,7 +913,7 @@
     "vulnerability_status": [
       {
         "status": "Analyzed",
-        "count": 24918
+        "count": 24921
       },
       {
         "status": "Deferred",
@@ -924,31 +924,31 @@
         "count": 5256
       },
       {
-        "status": "Undergoing Analysis",
-        "count": 5
-      },
-      {
         "status": "Awaiting Analysis",
         "count": 2
+      },
+      {
+        "status": "Undergoing Analysis",
+        "count": 1
       }
     ],
     "cve_tags": [],
     "reference_tags": [
       {
         "tag": "Third Party Advisory",
-        "count": 28310
+        "count": 28400
       },
       {
         "tag": "Patch",
-        "count": 25946
+        "count": 25948
       },
       {
         "tag": "Exploit",
-        "count": 15863
+        "count": 15864
       },
       {
         "tag": "Vendor Advisory",
-        "count": 15285
+        "count": 15287
       },
       {
         "tag": "VDB Entry",
@@ -960,11 +960,11 @@
       },
       {
         "tag": "Permissions Required",
-        "count": 5938
+        "count": 5941
       },
       {
         "tag": "Issue Tracking",
-        "count": 5706
+        "count": 5710
       },
       {
         "tag": "Release Notes",
@@ -972,11 +972,11 @@
       },
       {
         "tag": "Broken Link",
-        "count": 1363
+        "count": 1364
       },
       {
         "tag": "Mailing List",
-        "count": 1223
+        "count": 1229
       },
       {
         "tag": "Mitigation",
@@ -1013,7 +1013,7 @@
     ]
   },
   "processing_stats": {
-    "processed_at": "2026-07-01T14:20:14.620775",
+    "processed_at": "2026-07-02T02:18:38.134934",
     "data_source": "data/cache/nvd.jsonl"
   }
 }
