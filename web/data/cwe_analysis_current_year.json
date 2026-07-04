@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-04T01:54:33.925828",
+  "generated_at": "2026-07-04T08:41:28.689411",
   "year": 2026,
-  "total_cves_with_cwe": 24350,
+  "total_cves_with_cwe": 24426,
   "total_unique_cwes": 20,
   "top_cwes": [
     {
       "cwe": "CWE-79",
-      "count": 4104,
+      "count": 4108,
       "id": "79",
       "description": "Cross-site Scripting (XSS)",
       "name": "CWE-79: Cross-site Scripting (XSS)"
@@ -20,21 +20,21 @@
     },
     {
       "cwe": "CWE-862",
-      "count": 1933,
+      "count": 1937,
       "id": "862",
       "description": "Missing Authorization",
       "name": "CWE-862: Missing Authorization"
     },
     {
       "cwe": "CWE-22",
-      "count": 1393,
+      "count": 1394,
       "id": "22",
       "description": "Path Traversal",
       "name": "CWE-22: Path Traversal"
     },
     {
       "cwe": "CWE-416",
-      "count": 1330,
+      "count": 1338,
       "id": "416",
       "description": "Use After Free",
       "name": "CWE-416: Use After Free"
@@ -55,7 +55,7 @@
     },
     {
       "cwe": "CWE-284",
-      "count": 1075,
+      "count": 1093,
       "id": "284",
       "description": "CWE-284",
       "name": "CWE-284"
@@ -69,14 +69,14 @@
     },
     {
       "cwe": "CWE-20",
-      "count": 994,
+      "count": 997,
       "id": "20",
       "description": "Improper Input Validation",
       "name": "CWE-20: Improper Input Validation"
     },
     {
       "cwe": "CWE-94",
-      "count": 992,
+      "count": 993,
       "id": "94",
       "description": "Code Injection",
       "name": "CWE-94: Code Injection"
@@ -90,10 +90,17 @@
     },
     {
       "cwe": "CWE-918",
-      "count": 895,
+      "count": 900,
       "id": "918",
       "description": "CWE-918",
       "name": "CWE-918"
+    },
+    {
+      "cwe": "CWE-119",
+      "count": 770,
+      "id": "119",
+      "description": "Buffer Overflow",
+      "name": "CWE-119: Buffer Overflow"
     },
     {
       "cwe": "CWE-77",
@@ -103,52 +110,45 @@
       "name": "CWE-77"
     },
     {
-      "cwe": "CWE-119",
-      "count": 766,
-      "id": "119",
-      "description": "Buffer Overflow",
-      "name": "CWE-119: Buffer Overflow"
-    },
-    {
       "cwe": "CWE-121",
-      "count": 760,
+      "count": 762,
       "id": "121",
       "description": "CWE-121",
       "name": "CWE-121"
     },
     {
-      "cwe": "CWE-639",
-      "count": 715,
-      "id": "639",
-      "description": "CWE-639",
-      "name": "CWE-639"
-    },
-    {
       "cwe": "CWE-863",
-      "count": 715,
+      "count": 723,
       "id": "863",
       "description": "Incorrect Authorization",
       "name": "CWE-863: Incorrect Authorization"
     },
     {
+      "cwe": "CWE-639",
+      "count": 719,
+      "id": "639",
+      "description": "CWE-639",
+      "name": "CWE-639"
+    },
+    {
       "cwe": "CWE-200",
-      "count": 700,
+      "count": 705,
       "id": "200",
       "description": "Information Exposure",
       "name": "CWE-200: Information Exposure"
     },
     {
-      "cwe": "CWE-352",
-      "count": 640,
-      "id": "352",
-      "description": "Cross-Site Request Forgery (CSRF)",
-      "name": "CWE-352: Cross-Site Request Forgery (CSRF)"
+      "cwe": "CWE-502",
+      "count": 649,
+      "id": "502",
+      "description": "CWE-502",
+      "name": "CWE-502"
     }
   ],
   "top_cwes_limited": [
     {
       "cwe": "CWE-79",
-      "count": 4104,
+      "count": 4108,
       "id": "79",
       "description": "Cross-site Scripting (XSS)",
       "name": "CWE-79: Cross-site Scripting (XSS)"
@@ -162,21 +162,21 @@
     },
     {
       "cwe": "CWE-862",
-      "count": 1933,
+      "count": 1937,
       "id": "862",
       "description": "Missing Authorization",
       "name": "CWE-862: Missing Authorization"
     },
     {
       "cwe": "CWE-22",
-      "count": 1393,
+      "count": 1394,
       "id": "22",
       "description": "Path Traversal",
       "name": "CWE-22: Path Traversal"
     },
     {
       "cwe": "CWE-416",
-      "count": 1330,
+      "count": 1338,
       "id": "416",
       "description": "Use After Free",
       "name": "CWE-416: Use After Free"
@@ -197,7 +197,7 @@
     },
     {
       "cwe": "CWE-284",
-      "count": 1075,
+      "count": 1093,
       "id": "284",
       "description": "CWE-284",
       "name": "CWE-284"
@@ -211,14 +211,14 @@
     },
     {
       "cwe": "CWE-20",
-      "count": 994,
+      "count": 997,
       "id": "20",
       "description": "Improper Input Validation",
       "name": "CWE-20: Improper Input Validation"
     },
     {
       "cwe": "CWE-94",
-      "count": 992,
+      "count": 993,
       "id": "94",
       "description": "Code Injection",
       "name": "CWE-94: Code Injection"
@@ -232,10 +232,17 @@
     },
     {
       "cwe": "CWE-918",
-      "count": 895,
+      "count": 900,
       "id": "918",
       "description": "CWE-918",
       "name": "CWE-918"
+    },
+    {
+      "cwe": "CWE-119",
+      "count": 770,
+      "id": "119",
+      "description": "Buffer Overflow",
+      "name": "CWE-119: Buffer Overflow"
     },
     {
       "cwe": "CWE-77",
@@ -245,46 +252,39 @@
       "name": "CWE-77"
     },
     {
-      "cwe": "CWE-119",
-      "count": 766,
-      "id": "119",
-      "description": "Buffer Overflow",
-      "name": "CWE-119: Buffer Overflow"
-    },
-    {
       "cwe": "CWE-121",
-      "count": 760,
+      "count": 762,
       "id": "121",
       "description": "CWE-121",
       "name": "CWE-121"
     },
     {
-      "cwe": "CWE-639",
-      "count": 715,
-      "id": "639",
-      "description": "CWE-639",
-      "name": "CWE-639"
-    },
-    {
       "cwe": "CWE-863",
-      "count": 715,
+      "count": 723,
       "id": "863",
       "description": "Incorrect Authorization",
       "name": "CWE-863: Incorrect Authorization"
     },
     {
+      "cwe": "CWE-639",
+      "count": 719,
+      "id": "639",
+      "description": "CWE-639",
+      "name": "CWE-639"
+    },
+    {
       "cwe": "CWE-200",
-      "count": 700,
+      "count": 705,
       "id": "200",
       "description": "Information Exposure",
       "name": "CWE-200: Information Exposure"
     },
     {
-      "cwe": "CWE-352",
-      "count": 640,
-      "id": "352",
-      "description": "Cross-Site Request Forgery (CSRF)",
-      "name": "CWE-352: Cross-Site Request Forgery (CSRF)"
+      "cwe": "CWE-502",
+      "count": 649,
+      "id": "502",
+      "description": "CWE-502",
+      "name": "CWE-502"
     }
   ]
 }
