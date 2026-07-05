@@ -499,7 +499,6 @@
         "4.9": 265,
         "4.6": 154,
         "6.2": 211,
-        "3.8": 67,
         "6.1": 1374,
         "8.2": 294,
         "7.4": 184,
@@ -535,6 +534,7 @@
         "2.9": 24,
         "3.1": 94,
         "6.9": 35,
+        "3.8": 67,
         "9.0": 114,
         "8.5": 186,
         "4.2": 80,
@@ -893,11 +893,11 @@
     "vulnerability_status": [
       {
         "status": "Analyzed",
-        "count": 18649
+        "count": 18535
       },
       {
         "status": "Modified",
-        "count": 13535
+        "count": 13649
       },
       {
         "status": "Deferred",
@@ -916,27 +916,27 @@
       },
       {
         "tag": "Third Party Advisory",
-        "count": 34381
+        "count": 34380
       },
       {
         "tag": "Vendor Advisory",
-        "count": 23331
+        "count": 23329
       },
       {
         "tag": "Exploit",
-        "count": 14045
+        "count": 14044
       },
       {
         "tag": "VDB Entry",
         "count": 8190
       },
       {
-        "tag": "Product",
-        "count": 6555
+        "tag": "Permissions Required",
+        "count": 6455
       },
       {
-        "tag": "Permissions Required",
-        "count": 6458
+        "tag": "Product",
+        "count": 6453
       },
       {
         "tag": "Mailing List",
@@ -948,11 +948,11 @@
       },
       {
         "tag": "Release Notes",
-        "count": 3873
+        "count": 3872
       },
       {
         "tag": "Broken Link",
-        "count": 2137
+        "count": 2093
       },
       {
         "tag": "Mitigation",
@@ -964,7 +964,7 @@
       },
       {
         "tag": "Not Applicable",
-        "count": 523
+        "count": 493
       },
       {
         "tag": "Technical Description",
@@ -980,7 +980,7 @@
       },
       {
         "tag": "URL Repurposed",
-        "count": 13
+        "count": 10
       },
       {
         "tag": "Tool Signature",
@@ -989,7 +989,7 @@
     ]
   },
   "processing_stats": {
-    "processed_at": "2026-07-05T02:08:28.404585",
+    "processed_at": "2026-07-05T13:22:56.508757",
     "data_source": "data/cache/nvd.jsonl"
   }
 }
