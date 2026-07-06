@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "VulDB",
-    "total_cves": 3377,
-    "total_cves_scored": 3377,
+    "total_cves": 3379,
+    "total_cves_scored": 3379,
     "organizationName": "VulDB",
     "scope": "Vulnerabilities in VulDB products and vulnerabilities discovered by, or reported to, the VulDB vulnerability database that are not in another CNA’s scope.",
     "advisories": [
@@ -33,25 +33,25 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 30,
-  "active_cna_count": 333,
-  "percentile": 91.3,
+  "rank": 29,
+  "active_cna_count": 334,
+  "percentile": 91.6,
   "cna_scoring": [
     {
-      "total_cves": 3377,
-      "total_cves_scored": 3377,
-      "recent_cves_count": 3377,
-      "overall_average_score": 86.55,
+      "total_cves": 3379,
+      "total_cves_scored": 3379,
+      "recent_cves_count": 3379,
+      "overall_average_score": 86.56,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 14.94,
-      "average_software_identification": 5.12,
+      "average_software_identification": 5.13,
       "average_severity_context": 15.0,
       "average_patchinfo": 1.49,
       "percent_foundational_completeness": 100.0,
       "percent_root_cause_analysis": 99.59,
-      "percent_software_identification": 51.23,
+      "percent_software_identification": 51.26,
       "percent_severity_and_impact": 100.0,
-      "percent_patchinfo": 14.87,
+      "percent_patchinfo": 14.92,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -94,6 +94,19 @@
         "rootCauseAnalysis": 15,
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2025-15668",
+      "assigningCna": "VulDB",
+      "datePublished": "2026-07-06",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
         "patchinfo": 10
       }
     },
@@ -147,6 +160,19 @@
         "severityAndImpactContext": 15,
         "softwareIdentification": 10,
         "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-15667",
+      "assigningCna": "VulDB",
+      "datePublished": "2026-07-06",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
       }
     },
     {
