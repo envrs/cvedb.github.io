@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-07T19:55:28.837984",
+  "generated_at": "2026-07-08T08:27:49.921501",
   "year": 2026,
-  "total_unique_cpes": 13312,
-  "total_cpe_entries": 105157,
-  "total_cves_with_cpes": 21827,
-  "total_unique_vendors": 2633,
-  "total_unique_products": 6743,
+  "total_unique_cpes": 13413,
+  "total_cpe_entries": 106913,
+  "total_cves_with_cpes": 22023,
+  "total_unique_vendors": 2640,
+  "total_unique_products": 6770,
   "top_cpes": [
     {
       "cpe": "cpe:2.3:o:linux:linux_kernel:*:*:*:*:*:*:*:*",
-      "count": 8887,
+      "count": 9183,
       "vendor": "linux",
       "product": "linux_kernel",
       "type": "Operating System"
@@ -44,7 +44,7 @@
     },
     {
       "cpe": "cpe:2.3:o:linux:linux_kernel:7.0:rc4:*:*:*:*:*:*",
-      "count": 600,
+      "count": 601,
       "vendor": "linux",
       "product": "linux_kernel",
       "type": "Operating System"
@@ -65,14 +65,14 @@
     },
     {
       "cpe": "cpe:2.3:o:linux:linux_kernel:7.0:rc5:*:*:*:*:*:*",
-      "count": 528,
+      "count": 529,
       "vendor": "linux",
       "product": "linux_kernel",
       "type": "Operating System"
     },
     {
       "cpe": "cpe:2.3:o:linux:linux_kernel:7.0:rc6:*:*:*:*:*:*",
-      "count": 470,
+      "count": 471,
       "vendor": "linux",
       "product": "linux_kernel",
       "type": "Operating System"
@@ -156,7 +156,7 @@
     },
     {
       "cpe": "cpe:2.3:o:linux:linux_kernel:7.0:rc7:*:*:*:*:*:*",
-      "count": 334,
+      "count": 335,
       "vendor": "linux",
       "product": "linux_kernel",
       "type": "Operating System"
@@ -221,19 +221,19 @@
   "top_vendors": [
     {
       "vendor": "linux",
-      "count": 17428
-    },
-    {
-      "vendor": "microsoft",
-      "count": 10364
+      "count": 18075
     },
     {
       "vendor": "qualcomm",
-      "count": 10060
+      "count": 10835
+    },
+    {
+      "vendor": "microsoft",
+      "count": 10367
     },
     {
       "vendor": "adobe",
-      "count": 7383
+      "count": 7384
     },
     {
       "vendor": "coollabs",
@@ -257,7 +257,7 @@
     },
     {
       "vendor": "juniper",
-      "count": 2225
+      "count": 2382
     },
     {
       "vendor": "checkmk",
@@ -283,7 +283,7 @@
   "top_products": [
     {
       "product": "linux_kernel",
-      "count": 17428
+      "count": 18075
     },
     {
       "product": "coolify",
@@ -311,7 +311,7 @@
     },
     {
       "product": "junos",
-      "count": 1535
+      "count": 1620
     },
     {
       "product": "magento",
@@ -345,13 +345,13 @@
   "cpe_type_distribution": [
     {
       "type": "Operating System",
-      "count": 54672,
-      "percentage": 52.0
+      "count": 56213,
+      "percentage": 52.6
     },
     {
       "type": "Application",
-      "count": 50484,
-      "percentage": 48.0
+      "count": 50699,
+      "percentage": 47.4
     },
     {
       "type": "Hardware",
@@ -441,5 +441,5 @@
       "cpe_count": 249
     }
   ],
-  "average_cpes_per_cve": 4.8
+  "average_cpes_per_cve": 4.9
 }
