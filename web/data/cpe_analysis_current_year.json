@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-08T19:28:48.696923",
+  "generated_at": "2026-07-09T01:55:57.476010",
   "year": 2026,
-  "total_unique_cpes": 13488,
-  "total_cpe_entries": 107867,
-  "total_cves_with_cpes": 22145,
-  "total_unique_vendors": 2643,
-  "total_unique_products": 6786,
+  "total_unique_cpes": 13502,
+  "total_cpe_entries": 108449,
+  "total_cves_with_cpes": 22251,
+  "total_unique_vendors": 2647,
+  "total_unique_products": 6793,
   "top_cpes": [
     {
       "cpe": "cpe:2.3:o:linux:linux_kernel:*:*:*:*:*:*:*:*",
-      "count": 9506,
+      "count": 9700,
       "vendor": "linux",
       "product": "linux_kernel",
       "type": "Operating System"
@@ -92,6 +92,13 @@
       "type": "Operating System"
     },
     {
+      "cpe": "cpe:2.3:o:linux:linux_kernel:7.1:rc1:*:*:*:*:*:*",
+      "count": 366,
+      "vendor": "linux",
+      "product": "linux_kernel",
+      "type": "Operating System"
+    },
+    {
       "cpe": "cpe:2.3:o:microsoft:windows_10_1809:*:*:*:*:*:*:x64:*",
       "count": 359,
       "vendor": "microsoft",
@@ -162,13 +169,6 @@
       "type": "Operating System"
     },
     {
-      "cpe": "cpe:2.3:o:linux:linux_kernel:7.1:rc1:*:*:*:*:*:*",
-      "count": 335,
-      "vendor": "linux",
-      "product": "linux_kernel",
-      "type": "Operating System"
-    },
-    {
       "cpe": "cpe:2.3:o:microsoft:windows_10_21h2:*:*:*:*:*:*:x64:*",
       "count": 324,
       "vendor": "microsoft",
@@ -221,7 +221,7 @@
   "top_vendors": [
     {
       "vendor": "linux",
-      "count": 18654
+      "count": 19025
     },
     {
       "vendor": "qualcomm",
@@ -229,11 +229,11 @@
     },
     {
       "vendor": "microsoft",
-      "count": 10367
+      "count": 10368
     },
     {
       "vendor": "adobe",
-      "count": 7384
+      "count": 7385
     },
     {
       "vendor": "coollabs",
@@ -249,7 +249,7 @@
     },
     {
       "vendor": "cisco",
-      "count": 2686
+      "count": 2689
     },
     {
       "vendor": "google",
@@ -283,7 +283,7 @@
   "top_products": [
     {
       "product": "linux_kernel",
-      "count": 18654
+      "count": 19025
     },
     {
       "product": "coolify",
@@ -345,13 +345,13 @@
   "cpe_type_distribution": [
     {
       "type": "Operating System",
-      "count": 56899,
-      "percentage": 52.7
+      "count": 57338,
+      "percentage": 52.9
     },
     {
       "type": "Application",
-      "count": 50967,
-      "percentage": 47.2
+      "count": 51110,
+      "percentage": 47.1
     },
     {
       "type": "Hardware",
