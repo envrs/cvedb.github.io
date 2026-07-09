@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "apache",
-    "total_cves": 406,
-    "total_cves_scored": 406,
+    "total_cves": 407,
+    "total_cves_scored": 407,
     "organizationName": "Apache Software Foundation",
     "scope": "All Apache Software Foundation issues only.",
     "advisories": [
@@ -34,25 +34,25 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 292,
-  "active_cna_count": 332,
-  "percentile": 12.3,
+  "rank": 290,
+  "active_cna_count": 330,
+  "percentile": 12.4,
   "cna_scoring": [
     {
-      "total_cves": 406,
-      "total_cves_scored": 406,
-      "recent_cves_count": 406,
-      "overall_average_score": 69.37,
+      "total_cves": 407,
+      "total_cves_scored": 407,
+      "recent_cves_count": 407,
+      "overall_average_score": 69.36,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 14.63,
       "average_software_identification": 0.2,
-      "average_severity_context": 2.55,
-      "average_patchinfo": 2.0,
+      "average_severity_context": 2.54,
+      "average_patchinfo": 1.99,
       "percent_foundational_completeness": 100.0,
       "percent_root_cause_analysis": 97.54,
       "percent_software_identification": 1.97,
-      "percent_severity_and_impact": 17.0,
-      "percent_patchinfo": 19.95,
+      "percent_severity_and_impact": 16.95,
+      "percent_patchinfo": 19.9,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -4964,6 +4964,19 @@
       "cveId": "CVE-2026-57915",
       "assigningCna": "apache",
       "datePublished": "2026-06-26",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-57111",
+      "assigningCna": "apache",
+      "datePublished": "2026-07-09",
       "totalCveScore": 65,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
