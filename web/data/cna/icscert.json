@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "icscert",
-    "total_cves": 251,
-    "total_cves_scored": 251,
+    "total_cves": 253,
+    "total_cves_scored": 253,
     "organizationName": "Cybersecurity and Infrastructure Security Agency (CISA) Industrial Control Systems (ICS)",
     "scope": "Vulnerabilities that are (1) reported to or observed by CISA, (2) affect industrial control systems or medical devices, and (3) are not covered by another CNA’s scope.",
     "advisories": [
@@ -32,14 +32,14 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 243,
-  "active_cna_count": 331,
-  "percentile": 26.9,
+  "rank": 242,
+  "active_cna_count": 330,
+  "percentile": 27.0,
   "cna_scoring": [
     {
-      "total_cves": 251,
-      "total_cves_scored": 251,
-      "recent_cves_count": 251,
+      "total_cves": 253,
+      "total_cves_scored": 253,
+      "recent_cves_count": 253,
       "overall_average_score": 79.98,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 14.94,
@@ -2323,6 +2323,32 @@
       "cveId": "CVE-2026-22885",
       "assigningCna": "icscert",
       "datePublished": "2026-02-20",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-38059",
+      "assigningCna": "icscert",
+      "datePublished": "2026-07-10",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-38057",
+      "assigningCna": "icscert",
+      "datePublished": "2026-07-10",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
