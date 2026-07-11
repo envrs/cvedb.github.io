@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "VulnCheck",
-    "total_cves": 3391,
-    "total_cves_scored": 3391,
+    "total_cves": 3392,
+    "total_cves_scored": 3392,
     "organizationName": "VulnCheck",
     "scope": "Vulnerabilities observed by, discovered by, or reported to VulnCheck that are not in another CNA’s scope.",
     "advisories": [
@@ -39,20 +39,20 @@
   "percentile": 87.0,
   "cna_scoring": [
     {
-      "total_cves": 3391,
-      "total_cves_scored": 3391,
-      "recent_cves_count": 3391,
+      "total_cves": 3392,
+      "total_cves_scored": 3392,
+      "recent_cves_count": 3392,
       "overall_average_score": 82.87,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 14.93,
       "average_software_identification": 0.0,
       "average_severity_context": 15.0,
-      "average_patchinfo": 2.94,
+      "average_patchinfo": 2.95,
       "percent_foundational_completeness": 100.0,
       "percent_root_cause_analysis": 99.53,
       "percent_software_identification": 0.0,
       "percent_severity_and_impact": 100.0,
-      "percent_patchinfo": 29.43,
+      "percent_patchinfo": 29.45,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -42729,6 +42729,19 @@
       "cveId": "CVE-2026-57943",
       "assigningCna": "VulnCheck",
       "datePublished": "2026-06-29",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-57850",
+      "assigningCna": "VulnCheck",
+      "datePublished": "2026-07-10",
       "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
