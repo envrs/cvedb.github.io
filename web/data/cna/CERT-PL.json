@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "CERT-PL",
-    "total_cves": 172,
-    "total_cves_scored": 172,
+    "total_cves": 177,
+    "total_cves_scored": 177,
     "organizationName": "CERT.PL",
     "scope": "Vulnerabilities in software discovered by CERT.PL, and vulnerabilities reported to CERT.PL for coordinated disclosure, which are not in another CNA’s scope.",
     "advisories": [
@@ -42,25 +42,25 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 52,
+  "rank": 51,
   "active_cna_count": 331,
-  "percentile": 84.6,
+  "percentile": 84.9,
   "cna_scoring": [
     {
-      "total_cves": 172,
-      "total_cves_scored": 172,
-      "recent_cves_count": 172,
-      "overall_average_score": 80.76,
+      "total_cves": 177,
+      "total_cves_scored": 177,
+      "recent_cves_count": 177,
+      "overall_average_score": 80.96,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
       "average_software_identification": 0.0,
       "average_severity_context": 15.0,
-      "average_patchinfo": 0.76,
+      "average_patchinfo": 0.96,
       "percent_foundational_completeness": 100.0,
       "percent_root_cause_analysis": 100.0,
       "percent_software_identification": 0.0,
       "percent_severity_and_impact": 100.0,
-      "percent_patchinfo": 7.56,
+      "percent_patchinfo": 9.6,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -1225,6 +1225,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-40468",
+      "assigningCna": "CERT-PL",
+      "datePublished": "2026-07-13",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
       "cveId": "CVE-2026-40544",
       "assigningCna": "CERT-PL",
       "datePublished": "2026-06-01",
@@ -1248,6 +1261,19 @@
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-40467",
+      "assigningCna": "CERT-PL",
+      "datePublished": "2026-07-13",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
       }
     },
     {
@@ -1277,6 +1303,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-40469",
+      "assigningCna": "CERT-PL",
+      "datePublished": "2026-07-13",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
       "cveId": "CVE-2026-40543",
       "assigningCna": "CERT-PL",
       "datePublished": "2026-06-01",
@@ -1300,6 +1339,19 @@
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-40553",
+      "assigningCna": "CERT-PL",
+      "datePublished": "2026-07-13",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
       }
     },
     {
@@ -2294,6 +2346,19 @@
       "cveId": "CVE-2026-6909",
       "assigningCna": "CERT-PL",
       "datePublished": "2026-05-11",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-6847",
+      "assigningCna": "CERT-PL",
+      "datePublished": "2026-07-13",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
