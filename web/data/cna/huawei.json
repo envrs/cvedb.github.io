@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "huawei",
-    "total_cves": 83,
-    "total_cves_scored": 83,
+    "total_cves": 94,
+    "total_cves_scored": 94,
     "organizationName": "Huawei Technologies",
     "scope": "Huawei issues only.",
     "advisories": [
@@ -33,22 +33,22 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 273,
+  "rank": 274,
   "active_cna_count": 332,
-  "percentile": 18.1,
+  "percentile": 17.8,
   "cna_scoring": [
     {
-      "total_cves": 83,
-      "total_cves_scored": 83,
-      "recent_cves_count": 83,
-      "overall_average_score": 75.48,
+      "total_cves": 94,
+      "total_cves_scored": 94,
+      "recent_cves_count": 94,
+      "overall_average_score": 75.37,
       "average_foundational_completeness": 50.0,
-      "average_root_cause_analysis": 10.48,
+      "average_root_cause_analysis": 10.37,
       "average_software_identification": 0.0,
       "average_severity_context": 15.0,
       "average_patchinfo": 0.0,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 69.88,
+      "percent_root_cause_analysis": 69.15,
       "percent_software_identification": 0.0,
       "percent_severity_and_impact": 100.0,
       "percent_patchinfo": 0.0,
@@ -66,6 +66,149 @@
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-58553",
+      "assigningCna": "huawei",
+      "datePublished": "2026-07-15",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-58559",
+      "assigningCna": "huawei",
+      "datePublished": "2026-07-15",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-58557",
+      "assigningCna": "huawei",
+      "datePublished": "2026-07-15",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-58558",
+      "assigningCna": "huawei",
+      "datePublished": "2026-07-15",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-58549",
+      "assigningCna": "huawei",
+      "datePublished": "2026-07-15",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-58555",
+      "assigningCna": "huawei",
+      "datePublished": "2026-07-15",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-58551",
+      "assigningCna": "huawei",
+      "datePublished": "2026-07-15",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-58552",
+      "assigningCna": "huawei",
+      "datePublished": "2026-07-15",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-58550",
+      "assigningCna": "huawei",
+      "datePublished": "2026-07-15",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-58556",
+      "assigningCna": "huawei",
+      "datePublished": "2026-07-15",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-58554",
+      "assigningCna": "huawei",
+      "datePublished": "2026-07-15",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 0
