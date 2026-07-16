@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "vmware",
-    "total_cves": 158,
-    "total_cves_scored": 158,
+    "total_cves": 159,
+    "total_cves_scored": 159,
     "organizationName": "VMware by Broadcom",
     "scope": "VMware, Spring, and Cloud Foundry issues only.",
     "advisories": [
@@ -34,22 +34,22 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 267,
+  "rank": 268,
   "active_cna_count": 332,
-  "percentile": 19.9,
+  "percentile": 19.6,
   "cna_scoring": [
     {
-      "total_cves": 158,
-      "total_cves_scored": 158,
-      "recent_cves_count": 158,
-      "overall_average_score": 77.72,
+      "total_cves": 159,
+      "total_cves_scored": 159,
+      "recent_cves_count": 159,
+      "overall_average_score": 77.64,
       "average_foundational_completeness": 50.0,
-      "average_root_cause_analysis": 12.82,
+      "average_root_cause_analysis": 12.74,
       "average_software_identification": 0.0,
       "average_severity_context": 14.91,
       "average_patchinfo": 0.0,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 85.44,
+      "percent_root_cause_analysis": 84.91,
       "percent_software_identification": 0.0,
       "percent_severity_and_impact": 99.37,
       "percent_patchinfo": 0.0,
@@ -1822,6 +1822,19 @@
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-22752",
+      "assigningCna": "vmware",
+      "datePublished": "2026-07-16",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 0
