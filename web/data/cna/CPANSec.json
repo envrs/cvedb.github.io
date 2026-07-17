@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "CPANSec",
-    "total_cves": 178,
-    "total_cves_scored": 178,
+    "total_cves": 180,
+    "total_cves_scored": 180,
     "organizationName": "CPAN Security Group",
     "scope": "Vulnerabilities in Perl and CPAN Modules (including End-of-Life Perl versions) found at <a href='https://perl.org' target='_blank'>https://perl.org</a>, <a href='https://cpan.org' target='_blank'>https://cpan.org</a>, or <a href='https://metacpan.org/' target='_blank'>https://metacpan.org/</a>, excluding distributions of Perl or CPAN Modules maintained by third-party redistributors.",
     "advisories": [
@@ -33,25 +33,25 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 289,
-  "active_cna_count": 333,
-  "percentile": 13.5,
+  "rank": 288,
+  "active_cna_count": 332,
+  "percentile": 13.6,
   "cna_scoring": [
     {
-      "total_cves": 178,
-      "total_cves_scored": 178,
-      "recent_cves_count": 178,
-      "overall_average_score": 71.07,
+      "total_cves": 180,
+      "total_cves_scored": 180,
+      "recent_cves_count": 180,
+      "overall_average_score": 71.11,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
       "average_software_identification": 0.0,
       "average_severity_context": 0.0,
-      "average_patchinfo": 6.07,
+      "average_patchinfo": 6.11,
       "percent_foundational_completeness": 100.0,
       "percent_root_cause_analysis": 100.0,
       "percent_software_identification": 0.0,
       "percent_severity_and_impact": 0.0,
-      "percent_patchinfo": 60.67,
+      "percent_patchinfo": 61.11,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -433,6 +433,19 @@
         "severityAndImpactContext": 0,
         "softwareIdentification": 0,
         "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-9537",
+      "assigningCna": "CPANSec",
+      "datePublished": "2026-07-17",
+      "totalCveScore": 75,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 10
       }
     },
     {
@@ -1486,6 +1499,19 @@
         "severityAndImpactContext": 0,
         "softwareIdentification": 0,
         "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-14741",
+      "assigningCna": "CPANSec",
+      "datePublished": "2026-07-17",
+      "totalCveScore": 75,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 10
       }
     },
     {
