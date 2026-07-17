@@ -8,14 +8,6 @@
     "cna_scorecard_category": null
   },
   {
-    "field": "containers.adp",
-    "percent": 100.0,
-    "unique_cnas": 340,
-    "importance": "Low",
-    "description": "Authorized Data Publisher container",
-    "cna_scorecard_category": null
-  },
-  {
     "field": "containers.cna.affected",
     "percent": 100.0,
     "unique_cnas": 340,
@@ -61,6 +53,14 @@
     "unique_cnas": 339,
     "importance": "Medium",
     "description": "Vendor information in affected products",
+    "cna_scorecard_category": null
+  },
+  {
+    "field": "containers.adp",
+    "percent": 99.7,
+    "unique_cnas": 339,
+    "importance": "Low",
+    "description": "Authorized Data Publisher container",
     "cna_scorecard_category": null
   },
   {
@@ -113,48 +113,48 @@
   },
   {
     "field": "metrics.scenarios",
-    "percent": 86.2,
-    "unique_cnas": 293,
+    "percent": 86.5,
+    "unique_cnas": 294,
     "importance": "Medium",
     "description": "Metric scenarios",
     "cna_scorecard_category": null
   },
   {
     "field": "containers.cna.title",
-    "percent": 81.8,
-    "unique_cnas": 278,
+    "percent": 82.1,
+    "unique_cnas": 279,
     "importance": "Medium",
     "description": "Brief title or headline",
     "cna_scorecard_category": null
   },
   {
     "field": "containers.cna.credits",
-    "percent": 67.1,
-    "unique_cnas": 228,
+    "percent": 67.4,
+    "unique_cnas": 229,
     "importance": "Medium",
     "description": "Credit information",
     "cna_scorecard_category": null
   },
   {
     "field": "metrics.cvssV4_0",
-    "percent": 63.2,
-    "unique_cnas": 215,
+    "percent": 63.5,
+    "unique_cnas": 216,
     "importance": "High",
     "description": "CVSS v4.0 metrics",
     "cna_scorecard_category": "severityAndImpactContext"
   },
   {
     "field": "containers.cna.impacts",
-    "percent": 61.2,
-    "unique_cnas": 208,
+    "percent": 61.8,
+    "unique_cnas": 210,
     "importance": "Medium",
     "description": "Impact descriptions",
     "cna_scorecard_category": null
   },
   {
     "field": "metrics.cvssV3_1",
-    "percent": 53.2,
-    "unique_cnas": 181,
+    "percent": 52.9,
+    "unique_cnas": 180,
     "importance": "High",
     "description": "CVSS v3.1 metrics",
     "cna_scorecard_category": "severityAndImpactContext"
@@ -201,8 +201,8 @@
   },
   {
     "field": "references.patch",
-    "percent": 18.5,
-    "unique_cnas": 63,
+    "percent": 18.8,
+    "unique_cnas": 64,
     "importance": "High",
     "description": "Patch references",
     "cna_scorecard_category": "patchinfo"
@@ -217,8 +217,8 @@
   },
   {
     "field": "containers.cna.tags",
-    "percent": 11.5,
-    "unique_cnas": 39,
+    "percent": 11.2,
+    "unique_cnas": 38,
     "importance": "Low",
     "description": "CNA-provided tags",
     "cna_scorecard_category": null
@@ -233,8 +233,8 @@
   },
   {
     "field": "affected.programFiles",
-    "percent": 7.9,
-    "unique_cnas": 27,
+    "percent": 8.2,
+    "unique_cnas": 28,
     "importance": "Medium",
     "description": "Affected program files",
     "cna_scorecard_category": null
