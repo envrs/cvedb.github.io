@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "apache",
-    "total_cves": 422,
-    "total_cves_scored": 422,
+    "total_cves": 423,
+    "total_cves_scored": 423,
     "organizationName": "Apache Software Foundation",
     "scope": "All Apache Software Foundation issues only.",
     "advisories": [
@@ -39,20 +39,20 @@
   "percentile": 12.9,
   "cna_scoring": [
     {
-      "total_cves": 422,
-      "total_cves_scored": 422,
-      "recent_cves_count": 422,
-      "overall_average_score": 69.32,
+      "total_cves": 423,
+      "total_cves_scored": 423,
+      "recent_cves_count": 423,
+      "overall_average_score": 69.37,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 14.68,
       "average_software_identification": 0.21,
-      "average_severity_context": 2.49,
-      "average_patchinfo": 1.94,
+      "average_severity_context": 2.52,
+      "average_patchinfo": 1.96,
       "percent_foundational_completeness": 100.0,
       "percent_root_cause_analysis": 97.87,
       "percent_software_identification": 2.13,
-      "percent_severity_and_impact": 16.59,
-      "percent_patchinfo": 19.43,
+      "percent_severity_and_impact": 16.78,
+      "percent_patchinfo": 19.62,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -523,6 +523,19 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 15,
         "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-62764",
+      "assigningCna": "apache",
+      "datePublished": "2026-07-17",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 10
       }
