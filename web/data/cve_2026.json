@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "total_cves": 41021,
+  "total_cves": 41025,
   "date_data": {
     "monthly_distribution": {
       "1": 4309,
@@ -9,7 +9,7 @@
       "4": 5811,
       "5": 6938,
       "6": 7949,
-      "7": 5163,
+      "7": 5167,
       "8": 0,
       "9": 0,
       "10": 0,
@@ -17,8 +17,8 @@
       "12": 0
     },
     "daily_analysis": {
-      "total_days": 198,
-      "avg_per_day": 207.18,
+      "total_days": 199,
+      "avg_per_day": 206.16,
       "highest_day": {
         "date": "2026-07-14",
         "count": 1008
@@ -227,18 +227,18 @@
         "2026-07-16": 242,
         "2026-07-17": 296,
         "2026-07-18": 80,
-        "2026-07-19": 463,
-        "2026-07-20": 0
+        "2026-07-19": 464,
+        "2026-07-20": 3
       }
     }
   },
   "cvss": {
     "v3.0": {
-      "total": 207,
+      "total": 208,
       "severity_distribution": {
         "CRITICAL": 32,
         "MEDIUM": 54,
-        "HIGH": 108,
+        "HIGH": 109,
         "LOW": 10,
         "NONE": 3
       },
@@ -248,7 +248,7 @@
         "6.3": 4,
         "8.1": 6,
         "9.8": 23,
-        "7.8": 20,
+        "7.8": 21,
         "7.5": 18,
         "3.3": 6,
         "7.0": 1,
@@ -291,26 +291,26 @@
       }
     },
     "v3.1": {
-      "total": 25995,
+      "total": 25998,
       "severity_distribution": {
-        "HIGH": 10768,
-        "CRITICAL": 2871,
-        "MEDIUM": 11484,
+        "HIGH": 10769,
+        "CRITICAL": 2872,
+        "MEDIUM": 11485,
         "LOW": 849,
         "NONE": 23
       },
       "score_distribution": {
-        "7.5": 2408,
+        "7.5": 2409,
         "9.1": 471,
         "9.8": 1281,
         "9.9": 281,
-        "10.0": 197,
+        "10.0": 198,
         "5.9": 329,
         "6.5": 2089,
         "5.3": 1366,
         "7.8": 1772,
         "5.5": 1888,
-        "5.4": 770,
+        "5.4": 771,
         "4.1": 36,
         "8.2": 263,
         "8.0": 154,
@@ -494,7 +494,7 @@
     "cna_assigners": [
       {
         "name": "GitHub, Inc.",
-        "count": 7722
+        "count": 7725
       },
       {
         "name": "vuldb.com",
@@ -660,7 +660,7 @@
     "top_cwes": [
       {
         "cwe": "CWE-79",
-        "count": 4452
+        "count": 4453
       },
       {
         "cwe": "CWE-89",
@@ -696,11 +696,11 @@
       },
       {
         "cwe": "CWE-94",
-        "count": 1101
+        "count": 1102
       },
       {
         "cwe": "CWE-20",
-        "count": 1093
+        "count": 1094
       },
       {
         "cwe": "CWE-125",
@@ -744,7 +744,7 @@
     "vulnerability_status": [
       {
         "status": "Analyzed",
-        "count": 20250
+        "count": 20265
       },
       {
         "status": "Deferred",
@@ -760,22 +760,22 @@
       },
       {
         "status": "Received",
-        "count": 654
+        "count": 658
       },
       {
         "status": "Undergoing Analysis",
-        "count": 448
+        "count": 433
       }
     ],
     "cve_tags": [],
     "reference_tags": [
       {
         "tag": "Patch",
-        "count": 19908
+        "count": 19928
       },
       {
         "tag": "Vendor Advisory",
-        "count": 19663
+        "count": 19685
       },
       {
         "tag": "Third Party Advisory",
@@ -783,11 +783,11 @@
       },
       {
         "tag": "Exploit",
-        "count": 8724
+        "count": 8739
       },
       {
         "tag": "Release Notes",
-        "count": 5647
+        "count": 5663
       },
       {
         "tag": "Product",
@@ -807,7 +807,7 @@
       },
       {
         "tag": "Mitigation",
-        "count": 2779
+        "count": 2781
       },
       {
         "tag": "Mailing List",
@@ -840,7 +840,7 @@
     ]
   },
   "processing_stats": {
-    "processed_at": "2026-07-20T01:46:23.924937",
+    "processed_at": "2026-07-20T08:52:33.748782",
     "data_source": "data/cache/nvd.jsonl"
   }
 }
