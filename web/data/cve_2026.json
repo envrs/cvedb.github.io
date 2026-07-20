@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "total_cves": 40670,
+  "total_cves": 41021,
   "date_data": {
     "monthly_distribution": {
       "1": 4309,
@@ -9,7 +9,7 @@
       "4": 5811,
       "5": 6938,
       "6": 7949,
-      "7": 4812,
+      "7": 5163,
       "8": 0,
       "9": 0,
       "10": 0,
@@ -18,7 +18,7 @@
     },
     "daily_analysis": {
       "total_days": 198,
-      "avg_per_day": 205.4,
+      "avg_per_day": 207.18,
       "highest_day": {
         "date": "2026-07-14",
         "count": 1008
@@ -227,7 +227,8 @@
         "2026-07-16": 242,
         "2026-07-17": 296,
         "2026-07-18": 80,
-        "2026-07-19": 112
+        "2026-07-19": 463,
+        "2026-07-20": 0
       }
     }
   },
@@ -290,16 +291,16 @@
       }
     },
     "v3.1": {
-      "total": 25994,
+      "total": 25995,
       "severity_distribution": {
-        "HIGH": 10767,
+        "HIGH": 10768,
         "CRITICAL": 2871,
         "MEDIUM": 11484,
         "LOW": 849,
         "NONE": 23
       },
       "score_distribution": {
-        "7.5": 2407,
+        "7.5": 2408,
         "9.1": 471,
         "9.8": 1281,
         "9.9": 281,
@@ -480,12 +481,12 @@
       }
     },
     "unknown": {
-      "total": 303,
+      "total": 653,
       "severity_distribution": {
-        "UNKNOWN": 303
+        "UNKNOWN": 653
       },
       "score_distribution": {
-        "0.0": 303
+        "0.0": 653
       }
     }
   },
@@ -504,12 +505,12 @@
         "count": 3688
       },
       {
-        "name": "patchstack.com",
-        "count": 2963
+        "name": "Linux Kernel Organization",
+        "count": 3035
       },
       {
-        "name": "Linux Kernel Organization",
-        "count": 2685
+        "name": "patchstack.com",
+        "count": 2963
       },
       {
         "name": "wordfence.com",
@@ -758,12 +759,12 @@
         "count": 1965
       },
       {
-        "status": "Undergoing Analysis",
-        "count": 448
+        "status": "Received",
+        "count": 654
       },
       {
-        "status": "Received",
-        "count": 303
+        "status": "Undergoing Analysis",
+        "count": 448
       }
     ],
     "cve_tags": [],
@@ -839,7 +840,7 @@
     ]
   },
   "processing_stats": {
-    "processed_at": "2026-07-19T19:05:17.093711",
+    "processed_at": "2026-07-20T01:46:23.924937",
     "data_source": "data/cache/nvd.jsonl"
   }
 }
