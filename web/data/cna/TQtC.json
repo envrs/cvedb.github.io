@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "TQtC",
-    "total_cves": 5,
-    "total_cves_scored": 5,
+    "total_cves": 6,
+    "total_cves_scored": 6,
     "organizationName": "The Qt Company",
     "scope": "All supported The Qt Company products.",
     "advisories": [
@@ -33,25 +33,25 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 37,
+  "rank": 28,
   "active_cna_count": 334,
-  "percentile": 89.2,
+  "percentile": 91.9,
   "cna_scoring": [
     {
-      "total_cves": 5,
-      "total_cves_scored": 5,
-      "recent_cves_count": 5,
-      "overall_average_score": 84.0,
+      "total_cves": 6,
+      "total_cves_scored": 6,
+      "recent_cves_count": 6,
+      "overall_average_score": 86.67,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
-      "average_software_identification": 0.0,
+      "average_software_identification": 1.67,
       "average_severity_context": 15.0,
-      "average_patchinfo": 4.0,
+      "average_patchinfo": 5.0,
       "percent_foundational_completeness": 100.0,
       "percent_root_cause_analysis": 100.0,
-      "percent_software_identification": 0.0,
+      "percent_software_identification": 16.67,
       "percent_severity_and_impact": 100.0,
-      "percent_patchinfo": 40.0,
+      "percent_patchinfo": 50.0,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -81,6 +81,19 @@
         "rootCauseAnalysis": 15,
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-9499",
+      "assigningCna": "TQtC",
+      "datePublished": "2026-07-21",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
         "patchinfo": 10
       }
     },
