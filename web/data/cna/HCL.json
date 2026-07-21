@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "HCL",
-    "total_cves": 149,
-    "total_cves_scored": 149,
+    "total_cves": 151,
+    "total_cves_scored": 151,
     "organizationName": "HCL Software",
     "scope": "All HCL products only.",
     "advisories": [
@@ -38,17 +38,17 @@
   "percentile": 21.6,
   "cna_scoring": [
     {
-      "total_cves": 149,
-      "total_cves_scored": 149,
-      "recent_cves_count": 149,
-      "overall_average_score": 78.29,
+      "total_cves": 151,
+      "total_cves_scored": 151,
+      "recent_cves_count": 151,
+      "overall_average_score": 78.31,
       "average_foundational_completeness": 50.0,
-      "average_root_cause_analysis": 13.29,
+      "average_root_cause_analysis": 13.31,
       "average_software_identification": 0.0,
       "average_severity_context": 15.0,
       "average_patchinfo": 0.0,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 88.59,
+      "percent_root_cause_analysis": 88.74,
       "percent_software_identification": 0.0,
       "percent_severity_and_impact": 100.0,
       "percent_patchinfo": 0.0,
@@ -58,6 +58,19 @@
     }
   ],
   "recent_cves": [
+    {
+      "cveId": "CVE-2023-37507",
+      "assigningCna": "HCL",
+      "datePublished": "2026-07-21",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
     {
       "cveId": "CVE-2023-37524",
       "assigningCna": "HCL",
@@ -75,6 +88,19 @@
       "cveId": "CVE-2023-37525",
       "assigningCna": "HCL",
       "datePublished": "2026-01-28",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2023-37508",
+      "assigningCna": "HCL",
+      "datePublished": "2026-07-21",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
