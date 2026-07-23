@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "total_cves": 42895,
+  "total_cves": 42969,
   "date_data": {
     "monthly_distribution": {
       "1": 4309,
@@ -9,7 +9,7 @@
       "4": 5811,
       "5": 6938,
       "6": 7949,
-      "7": 7037,
+      "7": 7111,
       "8": 0,
       "9": 0,
       "10": 0,
@@ -17,8 +17,8 @@
       "12": 0
     },
     "daily_analysis": {
-      "total_days": 201,
-      "avg_per_day": 213.41,
+      "total_days": 202,
+      "avg_per_day": 212.72,
       "highest_day": {
         "date": "2026-07-21",
         "count": 1474
@@ -230,8 +230,8 @@
         "2026-07-19": 464,
         "2026-07-20": 265,
         "2026-07-21": 1474,
-        "2026-07-22": 134,
-        "2026-07-23": 0
+        "2026-07-22": 202,
+        "2026-07-23": 6
       }
     }
   },
@@ -294,33 +294,33 @@
       }
     },
     "v3.1": {
-      "total": 27877,
+      "total": 27902,
       "severity_distribution": {
-        "HIGH": 11677,
-        "CRITICAL": 3253,
-        "MEDIUM": 11988,
+        "HIGH": 11686,
+        "CRITICAL": 3266,
+        "MEDIUM": 11991,
         "LOW": 936,
         "NONE": 23
       },
       "score_distribution": {
-        "7.5": 2562,
-        "9.8": 1513,
-        "9.1": 527,
-        "9.9": 322,
-        "10.0": 209,
+        "7.5": 2564,
+        "9.8": 1516,
+        "9.1": 535,
+        "9.9": 323,
+        "10.0": 210,
         "5.9": 355,
-        "6.5": 2187,
-        "5.3": 1413,
-        "7.8": 1910,
+        "6.5": 2188,
+        "5.3": 1415,
+        "7.8": 1911,
         "5.5": 1929,
         "5.4": 822,
         "4.1": 39,
         "8.2": 289,
-        "8.0": 170,
+        "8.0": 171,
         "8.1": 1216,
         "6.7": 145,
         "7.7": 250,
-        "8.8": 1772,
+        "8.8": 1777,
         "6.1": 680,
         "7.3": 324,
         "4.3": 1371,
@@ -388,54 +388,53 @@
       }
     },
     "v4.0": {
-      "total": 14415,
+      "total": 14448,
       "severity_distribution": {
-        "CRITICAL": 1243,
-        "MEDIUM": 5229,
-        "HIGH": 5259,
-        "LOW": 2636,
+        "CRITICAL": 1245,
+        "MEDIUM": 5239,
+        "HIGH": 5276,
+        "LOW": 2640,
         "NONE": 48
       },
       "score_distribution": {
         "9.3": 680,
-        "6.9": 971,
+        "6.9": 972,
         "8.7": 1133,
         "5.1": 817,
         "8.8": 473,
-        "5.3": 682,
+        "5.3": 685,
         "6.8": 174,
         "8.5": 478,
-        "8.6": 409,
-        "7.1": 655,
+        "8.6": 410,
+        "7.1": 669,
         "7.0": 156,
-        "9.1": 41,
-        "8.4": 229,
-        "4.8": 216,
+        "9.1": 42,
+        "8.4": 230,
+        "4.8": 217,
         "6.7": 84,
         "4.6": 125,
         "9.0": 30,
         "7.7": 185,
-        "7.2": 121,
+        "7.2": 122,
         "1.8": 23,
-        "9.2": 184,
+        "9.2": 185,
         "8.3": 126,
         "5.6": 42,
         "4.1": 18,
-        "8.2": 215,
-        "2.3": 213,
-        "6.3": 363,
+        "2.3": 214,
+        "6.3": 364,
         "5.9": 107,
         "1.7": 31,
         "2.0": 350,
-        "6.0": 172,
+        "6.0": 174,
         "2.7": 42,
         "0.1": 2,
         "7.3": 177,
         "5.7": 71,
         "5.2": 25,
         "2.1": 1264,
-        "5.5": 969,
-        "1.9": 361,
+        "5.5": 971,
+        "1.9": 364,
         "7.4": 470,
         "1.3": 111,
         "4.9": 49,
@@ -451,6 +450,7 @@
         "7.5": 66,
         "5.4": 63,
         "8.9": 185,
+        "8.2": 215,
         "2.4": 20,
         "7.6": 105,
         "9.5": 32,
@@ -484,12 +484,12 @@
       }
     },
     "unknown": {
-      "total": 392,
+      "total": 408,
       "severity_distribution": {
-        "UNKNOWN": 392
+        "UNKNOWN": 408
       },
       "score_distribution": {
-        "0.0": 392
+        "0.0": 408
       }
     }
   },
@@ -501,11 +501,11 @@
       },
       {
         "name": "vulncheck.com",
-        "count": 3800
+        "count": 3801
       },
       {
         "name": "vuldb.com",
-        "count": 3732
+        "count": 3738
       },
       {
         "name": "Linux Kernel Organization",
@@ -521,7 +521,7 @@
       },
       {
         "name": "MITRE Corporation",
-        "count": 2267
+        "count": 2278
       },
       {
         "name": "Google LLC",
@@ -529,7 +529,7 @@
       },
       {
         "name": "Oracle Corporation",
-        "count": 1541
+        "count": 1552
       },
       {
         "name": "Microsoft Corporation",
@@ -557,7 +557,7 @@
       },
       {
         "name": "Mozilla Foundation",
-        "count": 339
+        "count": 340
       },
       {
         "name": "Cisco Systems, Inc.",
@@ -663,7 +663,7 @@
     "top_cwes": [
       {
         "cwe": "CWE-79",
-        "count": 4499
+        "count": 4501
       },
       {
         "cwe": "CWE-89",
@@ -671,23 +671,23 @@
       },
       {
         "cwe": "CWE-862",
-        "count": 2210
+        "count": 2211
       },
       {
         "cwe": "CWE-416",
-        "count": 1611
+        "count": 1612
       },
       {
         "cwe": "CWE-22",
-        "count": 1589
+        "count": 1592
       },
       {
         "cwe": "CWE-284",
-        "count": 1313
+        "count": 1337
       },
       {
         "cwe": "CWE-78",
-        "count": 1224
+        "count": 1229
       },
       {
         "cwe": "CWE-787",
@@ -699,7 +699,7 @@
       },
       {
         "cwe": "CWE-20",
-        "count": 1118
+        "count": 1120
       },
       {
         "cwe": "CWE-94",
@@ -707,7 +707,7 @@
       },
       {
         "cwe": "CWE-125",
-        "count": 1103
+        "count": 1104
       },
       {
         "cwe": "CWE-918",
@@ -715,15 +715,15 @@
       },
       {
         "cwe": "CWE-863",
-        "count": 905
+        "count": 909
       },
       {
         "cwe": "CWE-200",
-        "count": 876
+        "count": 878
       },
       {
         "cwe": "CWE-639",
-        "count": 875
+        "count": 876
       },
       {
         "cwe": "CWE-121",
@@ -735,11 +735,11 @@
       },
       {
         "cwe": "CWE-77",
-        "count": 804
+        "count": 808
       },
       {
         "cwe": "CWE-476",
-        "count": 739
+        "count": 741
       }
     ]
   },
@@ -747,50 +747,50 @@
     "vulnerability_status": [
       {
         "status": "Analyzed",
-        "count": 20739
+        "count": 20742
       },
       {
         "status": "Deferred",
-        "count": 14821
+        "count": 14867
       },
       {
         "status": "Modified",
-        "count": 3178
-      },
-      {
-        "status": "Received",
-        "count": 1901
+        "count": 3186
       },
       {
         "status": "Awaiting Analysis",
-        "count": 1793
+        "count": 1860
+      },
+      {
+        "status": "Received",
+        "count": 1829
       },
       {
         "status": "Undergoing Analysis",
-        "count": 463
+        "count": 485
       }
     ],
     "cve_tags": [],
     "reference_tags": [
       {
         "tag": "Patch",
-        "count": 20654
+        "count": 20660
       },
       {
         "tag": "Vendor Advisory",
-        "count": 20190
+        "count": 20198
       },
       {
         "tag": "Third Party Advisory",
-        "count": 11017
+        "count": 11022
       },
       {
         "tag": "Exploit",
-        "count": 8787
+        "count": 8792
       },
       {
         "tag": "Release Notes",
-        "count": 5728
+        "count": 5739
       },
       {
         "tag": "Product",
@@ -802,7 +802,7 @@
       },
       {
         "tag": "Issue Tracking",
-        "count": 3860
+        "count": 3863
       },
       {
         "tag": "Permissions Required",
@@ -810,7 +810,7 @@
       },
       {
         "tag": "Mitigation",
-        "count": 2848
+        "count": 2850
       },
       {
         "tag": "Mailing List",
@@ -843,7 +843,7 @@
     ]
   },
   "processing_stats": {
-    "processed_at": "2026-07-23T01:45:42.940432",
+    "processed_at": "2026-07-23T08:27:34.745782",
     "data_source": "data/cache/nvd.jsonl"
   }
 }
