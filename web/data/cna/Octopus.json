@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "Octopus",
-    "total_cves": 5,
-    "total_cves_scored": 5,
+    "total_cves": 6,
+    "total_cves_scored": 6,
     "organizationName": "Octopus Deploy",
     "scope": "All Octopus Deploy products, as well as Octopus Deploy maintained projects hosted on <a href='https://github.com/OctopusDeploy' target='_blank'>https://github.com/OctopusDeploy</a>.",
     "advisories": [
@@ -34,22 +34,22 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 291,
-  "active_cna_count": 331,
-  "percentile": 12.4,
+  "rank": 295,
+  "active_cna_count": 333,
+  "percentile": 11.7,
   "cna_scoring": [
     {
-      "total_cves": 5,
-      "total_cves_scored": 5,
-      "recent_cves_count": 5,
-      "overall_average_score": 68.0,
+      "total_cves": 6,
+      "total_cves_scored": 6,
+      "recent_cves_count": 6,
+      "overall_average_score": 67.5,
       "average_foundational_completeness": 50.0,
-      "average_root_cause_analysis": 3.0,
+      "average_root_cause_analysis": 2.5,
       "average_software_identification": 0.0,
       "average_severity_context": 15.0,
       "average_patchinfo": 0.0,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 20.0,
+      "percent_root_cause_analysis": 16.67,
       "percent_software_identification": 0.0,
       "percent_severity_and_impact": 100.0,
       "percent_patchinfo": 0.0,
@@ -59,6 +59,19 @@
     }
   ],
   "recent_cves": [
+    {
+      "cveId": "CVE-2026-12702",
+      "assigningCna": "Octopus",
+      "datePublished": "2026-07-24",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
     {
       "cveId": "CVE-2026-3237",
       "assigningCna": "Octopus",
