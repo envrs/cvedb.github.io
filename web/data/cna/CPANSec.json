@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "CPANSec",
-    "total_cves": 211,
-    "total_cves_scored": 211,
+    "total_cves": 212,
+    "total_cves_scored": 212,
     "organizationName": "CPAN Security Group",
     "scope": "Vulnerabilities in Perl and CPAN Modules (including End-of-Life Perl versions) found at <a href='https://perl.org' target='_blank'>https://perl.org</a>, <a href='https://cpan.org' target='_blank'>https://cpan.org</a>, or <a href='https://metacpan.org/' target='_blank'>https://metacpan.org/</a>, excluding distributions of Perl or CPAN Modules maintained by third-party redistributors.",
     "advisories": [
@@ -33,25 +33,25 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 289,
-  "active_cna_count": 332,
-  "percentile": 13.3,
+  "rank": 290,
+  "active_cna_count": 333,
+  "percentile": 13.2,
   "cna_scoring": [
     {
-      "total_cves": 211,
-      "total_cves_scored": 211,
-      "recent_cves_count": 211,
-      "overall_average_score": 70.26,
+      "total_cves": 212,
+      "total_cves_scored": 212,
+      "recent_cves_count": 212,
+      "overall_average_score": 70.28,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
       "average_software_identification": 0.0,
       "average_severity_context": 0.0,
-      "average_patchinfo": 5.26,
+      "average_patchinfo": 5.28,
       "percent_foundational_completeness": 100.0,
       "percent_root_cause_analysis": 100.0,
       "percent_software_identification": 0.0,
       "percent_severity_and_impact": 0.0,
-      "percent_patchinfo": 52.61,
+      "percent_patchinfo": 52.83,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -459,6 +459,19 @@
         "severityAndImpactContext": 0,
         "softwareIdentification": 0,
         "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-17552",
+      "assigningCna": "CPANSec",
+      "datePublished": "2026-07-27",
+      "totalCveScore": 75,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 10
       }
     },
     {
