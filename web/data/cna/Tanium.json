@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "Tanium",
-    "total_cves": 52,
-    "total_cves_scored": 52,
+    "total_cves": 53,
+    "total_cves_scored": 53,
     "organizationName": "Tanium Inc.",
     "scope": "Vulnerabilities found in Tanium products and vulnerabilities in third-party software discovered by Tanium that are not in another CNA’s scope.",
     "advisories": [
@@ -33,23 +33,23 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 22,
-  "active_cna_count": 331,
-  "percentile": 93.7,
+  "rank": 23,
+  "active_cna_count": 333,
+  "percentile": 93.4,
   "cna_scoring": [
     {
-      "total_cves": 52,
-      "total_cves_scored": 52,
-      "recent_cves_count": 52,
-      "overall_average_score": 88.46,
+      "total_cves": 53,
+      "total_cves_scored": 53,
+      "recent_cves_count": 53,
+      "overall_average_score": 88.3,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
-      "average_software_identification": 8.46,
+      "average_software_identification": 8.3,
       "average_severity_context": 15.0,
       "average_patchinfo": 0.0,
       "percent_foundational_completeness": 100.0,
       "percent_root_cause_analysis": 100.0,
-      "percent_software_identification": 84.62,
+      "percent_software_identification": 83.02,
       "percent_severity_and_impact": 100.0,
       "percent_patchinfo": 0.0,
       "trend_direction": "steady",
@@ -647,6 +647,19 @@
       "cveId": "CVE-2026-9208",
       "assigningCna": "Tanium",
       "datePublished": "2026-05-27",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-11391",
+      "assigningCna": "Tanium",
+      "datePublished": "2026-07-28",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
