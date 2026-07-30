@@ -425,9 +425,9 @@
       }
     },
     "v3.1": {
-      "total": 24948,
+      "total": 24947,
       "severity_distribution": {
-        "MEDIUM": 10656,
+        "MEDIUM": 10655,
         "LOW": 939,
         "HIGH": 9597,
         "CRITICAL": 3754,
@@ -472,7 +472,7 @@
         "3.0": 10,
         "2.4": 47,
         "4.2": 42,
-        "4.6": 102,
+        "4.6": 101,
         "5.8": 39,
         "8.2": 176,
         "2.2": 8,
@@ -519,11 +519,12 @@
       }
     },
     "v4.0": {
-      "total": 30,
+      "total": 31,
       "severity_distribution": {
         "MEDIUM": 16,
         "HIGH": 11,
-        "CRITICAL": 3
+        "CRITICAL": 3,
+        "LOW": 1
       },
       "score_distribution": {
         "5.1": 6,
@@ -537,7 +538,8 @@
         "6.3": 1,
         "5.5": 1,
         "7.1": 2,
-        "5.2": 1
+        "5.2": 1,
+        "2.1": 1
       }
     },
     "unknown": {
@@ -815,7 +817,7 @@
     "reference_tags": [
       {
         "tag": "Third Party Advisory",
-        "count": 56145
+        "count": 56144
       },
       {
         "tag": "Vendor Advisory",
@@ -888,7 +890,7 @@
     ]
   },
   "processing_stats": {
-    "processed_at": "2026-07-30T08:21:33.343649",
+    "processed_at": "2026-07-30T13:43:19.459894",
     "data_source": "data/cache/nvd.jsonl"
   }
 }
