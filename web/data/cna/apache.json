@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "apache",
-    "total_cves": 503,
-    "total_cves_scored": 503,
+    "total_cves": 516,
+    "total_cves_scored": 516,
     "organizationName": "Apache Software Foundation",
     "scope": "All Apache Software Foundation issues only.",
     "advisories": [
@@ -34,25 +34,25 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 292,
-  "active_cna_count": 335,
-  "percentile": 13.1,
+  "rank": 290,
+  "active_cna_count": 333,
+  "percentile": 13.2,
   "cna_scoring": [
     {
-      "total_cves": 503,
-      "total_cves_scored": 503,
-      "recent_cves_count": 503,
-      "overall_average_score": 70.51,
+      "total_cves": 516,
+      "total_cves_scored": 516,
+      "recent_cves_count": 516,
+      "overall_average_score": 70.48,
       "average_foundational_completeness": 50.0,
-      "average_root_cause_analysis": 14.73,
-      "average_software_identification": 0.18,
-      "average_severity_context": 3.79,
-      "average_patchinfo": 1.81,
+      "average_root_cause_analysis": 14.68,
+      "average_software_identification": 0.17,
+      "average_severity_context": 3.81,
+      "average_patchinfo": 1.82,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 98.21,
-      "percent_software_identification": 1.79,
-      "percent_severity_and_impact": 25.25,
-      "percent_patchinfo": 18.09,
+      "percent_root_cause_analysis": 97.87,
+      "percent_software_identification": 1.74,
+      "percent_severity_and_impact": 25.39,
+      "percent_patchinfo": 18.22,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -895,6 +895,19 @@
       "cveId": "CVE-2026-52760",
       "assigningCna": "apache",
       "datePublished": "2026-06-30",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-52680",
+      "assigningCna": "apache",
+      "datePublished": "2026-07-30",
       "totalCveScore": 65,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -2530,6 +2543,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-44616",
+      "assigningCna": "apache",
+      "datePublished": "2026-07-30",
+      "totalCveScore": 75,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
       "cveId": "CVE-2026-44417",
       "assigningCna": "apache",
       "datePublished": "2026-05-22",
@@ -2657,6 +2683,32 @@
         "severityAndImpactContext": 0,
         "softwareIdentification": 0,
         "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-44617",
+      "assigningCna": "apache",
+      "datePublished": "2026-07-30",
+      "totalCveScore": 75,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-44613",
+      "assigningCna": "apache",
+      "datePublished": "2026-07-30",
+      "totalCveScore": 75,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 10
       }
     },
     {
@@ -3141,6 +3193,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-23985",
+      "assigningCna": "apache",
+      "datePublished": "2026-07-30",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-23795",
       "assigningCna": "apache",
       "datePublished": "2026-02-03",
@@ -3196,6 +3261,19 @@
       "cveId": "CVE-2026-23980",
       "assigningCna": "apache",
       "datePublished": "2026-02-24",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-23981",
+      "assigningCna": "apache",
+      "datePublished": "2026-07-30",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -3336,9 +3414,61 @@
       }
     },
     {
+      "cveId": "CVE-2026-28812",
+      "assigningCna": "apache",
+      "datePublished": "2026-07-30",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-28814",
+      "assigningCna": "apache",
+      "datePublished": "2026-07-30",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-28813",
+      "assigningCna": "apache",
+      "datePublished": "2026-07-30",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-28780",
       "assigningCna": "apache",
       "datePublished": "2026-05-05",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-28811",
+      "assigningCna": "apache",
+      "datePublished": "2026-07-30",
       "totalCveScore": 65,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -4444,6 +4574,19 @@
       "cveId": "CVE-2026-48207",
       "assigningCna": "apache",
       "datePublished": "2026-05-21",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-48910",
+      "assigningCna": "apache",
+      "datePublished": "2026-07-30",
       "totalCveScore": 65,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -5741,6 +5884,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-66755",
+      "assigningCna": "apache",
+      "datePublished": "2026-07-30",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-66390",
       "assigningCna": "apache",
       "datePublished": "2026-07-27",
@@ -5764,6 +5920,19 @@
         "severityAndImpactContext": 0,
         "softwareIdentification": 0,
         "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-66756",
+      "assigningCna": "apache",
+      "datePublished": "2026-07-30",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
       }
     },
     {
