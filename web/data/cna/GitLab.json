@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "GitLab",
-    "total_cves": 223,
-    "total_cves_scored": 223,
+    "total_cves": 221,
+    "total_cves_scored": 221,
     "organizationName": "GitLab Inc.",
     "scope": "The GitLab application, any project hosted on GitLab.com in a public repository, and any vulnerabilities discovered by GitLab that are not in another CNA’s scope.",
     "advisories": [
@@ -35,22 +35,22 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 30,
-  "active_cna_count": 333,
+  "active_cna_count": 335,
   "percentile": 91.3,
   "cna_scoring": [
     {
-      "total_cves": 223,
-      "total_cves_scored": 223,
-      "recent_cves_count": 223,
-      "overall_average_score": 86.75,
+      "total_cves": 221,
+      "total_cves_scored": 221,
+      "recent_cves_count": 221,
+      "overall_average_score": 86.81,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 14.93,
-      "average_software_identification": 6.82,
+      "average_software_identification": 6.88,
       "average_severity_context": 15.0,
       "average_patchinfo": 0.0,
       "percent_foundational_completeness": 100.0,
       "percent_root_cause_analysis": 99.55,
-      "percent_software_identification": 68.16,
+      "percent_software_identification": 68.78,
       "percent_severity_and_impact": 100.0,
       "percent_patchinfo": 0.0,
       "trend_direction": "steady",
@@ -1824,32 +1824,6 @@
         "rootCauseAnalysis": 15,
         "severityAndImpactContext": 15,
         "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-0963",
-      "assigningCna": "GitLab",
-      "datePublished": "2026-01-30",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-0805",
-      "assigningCna": "GitLab",
-      "datePublished": "2026-01-30",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
         "patchinfo": 0
       }
     },

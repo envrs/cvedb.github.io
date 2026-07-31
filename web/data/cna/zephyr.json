@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "zephyr",
-    "total_cves": 66,
-    "total_cves_scored": 66,
+    "total_cves": 65,
+    "total_cves_scored": 65,
     "organizationName": "Zephyr Project",
     "scope": "Zephyr project components, and vulnerabilities that are not in another CNA’s scope.",
     "advisories": [
@@ -34,44 +34,31 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 29,
-  "active_cna_count": 333,
-  "percentile": 91.6,
+  "rank": 27,
+  "active_cna_count": 335,
+  "percentile": 92.2,
   "cna_scoring": [
     {
-      "total_cves": 66,
-      "total_cves_scored": 66,
-      "recent_cves_count": 66,
-      "overall_average_score": 87.05,
+      "total_cves": 65,
+      "total_cves_scored": 65,
+      "recent_cves_count": 65,
+      "overall_average_score": 87.15,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 14.77,
       "average_software_identification": 0.0,
-      "average_severity_context": 14.55,
-      "average_patchinfo": 7.73,
+      "average_severity_context": 14.54,
+      "average_patchinfo": 7.85,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 98.48,
+      "percent_root_cause_analysis": 98.46,
       "percent_software_identification": 0.0,
-      "percent_severity_and_impact": 96.97,
-      "percent_patchinfo": 77.27,
+      "percent_severity_and_impact": 96.92,
+      "percent_patchinfo": 78.46,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
     }
   ],
   "recent_cves": [
-    {
-      "cveId": "CVE-2025-12899",
-      "assigningCna": "zephyr",
-      "datePublished": "2026-01-30",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
     {
       "cveId": "CVE-2026-10656",
       "assigningCna": "zephyr",
