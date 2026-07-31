@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T08:50:59.150875",
+  "generated_at": "2026-07-31T13:49:15.856667",
   "source": "CVE V5 List (Authoritative)",
   "year": 2026,
   "total_cnas": 355,
@@ -91,10 +91,10 @@
     {
       "name": "Wordfence",
       "assigner_org_id": "b15e7b5b-3da4-40ae-a43c-f7aa60e62599",
-      "count": 2473,
+      "count": 2478,
       "rank": 6,
       "first_cve_date": "2026-01-01T16:19:30.690Z",
-      "last_cve_date": "2026-07-31T05:35:23.287Z",
+      "last_cve_date": "2026-07-31T12:34:32.346Z",
       "years_active": 14,
       "is_official": true,
       "activity_status": "Active",
@@ -171,10 +171,10 @@
     {
       "name": "redhat",
       "assigner_org_id": "53f830b8-0a3f-465b-8143-3b8a9948e749",
-      "count": 552,
+      "count": 560,
       "rank": 11,
       "first_cve_date": "2026-01-07T16:04:22.155Z",
-      "last_cve_date": "2026-07-31T07:08:31.373Z",
+      "last_cve_date": "2026-07-31T12:20:23.371Z",
       "years_active": 28,
       "is_official": true,
       "activity_status": "Active",
@@ -187,10 +187,10 @@
     {
       "name": "apache",
       "assigner_org_id": "f0158376-9dc2-43b6-827c-5f631a4d8d09",
-      "count": 539,
+      "count": 542,
       "rank": 12,
       "first_cve_date": "2026-01-01T16:14:00.837Z",
-      "last_cve_date": "2026-07-30T19:18:07.900Z",
+      "last_cve_date": "2026-07-31T11:05:07.878Z",
       "years_active": 17,
       "is_official": true,
       "activity_status": "Active",
@@ -345,10 +345,26 @@
       "top_cwe_types": {}
     },
     {
+      "name": "CERT-PL",
+      "assigner_org_id": "4bb8329e-dd38-46c1-aafb-9bf32bcb93c6",
+      "count": 216,
+      "rank": 22,
+      "first_cve_date": "2026-01-07T13:00:46.715Z",
+      "last_cve_date": "2026-07-31T11:40:57.749Z",
+      "years_active": 4,
+      "is_official": true,
+      "activity_status": "Active",
+      "cna_types": [
+        "CERT"
+      ],
+      "severity_distribution": {},
+      "top_cwe_types": {}
+    },
+    {
       "name": "dell",
       "assigner_org_id": "c550e75a-17ff-4988-97f0-544cde3820fe",
       "count": 214,
-      "rank": 22,
+      "rank": 23,
       "first_cve_date": "2026-01-06T15:01:17.368Z",
       "last_cve_date": "2026-07-22T15:49:40.557Z",
       "years_active": 18,
@@ -356,22 +372,6 @@
       "activity_status": "Active",
       "cna_types": [
         "Vendor"
-      ],
-      "severity_distribution": {},
-      "top_cwe_types": {}
-    },
-    {
-      "name": "CERT-PL",
-      "assigner_org_id": "4bb8329e-dd38-46c1-aafb-9bf32bcb93c6",
-      "count": 211,
-      "rank": 23,
-      "first_cve_date": "2026-01-07T13:00:46.715Z",
-      "last_cve_date": "2026-07-29T14:12:35.422Z",
-      "years_active": 4,
-      "is_official": true,
-      "activity_status": "Active",
-      "cna_types": [
-        "CERT"
       ],
       "severity_distribution": {},
       "top_cwe_types": {}
@@ -395,10 +395,10 @@
     {
       "name": "TR-CERT",
       "assigner_org_id": "ca940d4e-fea4-4aa2-9a58-591a58b1ce21",
-      "count": 188,
+      "count": 189,
       "rank": 25,
       "first_cve_date": "2026-01-22T09:10:16.989Z",
-      "last_cve_date": "2026-07-30T14:53:36.922Z",
+      "last_cve_date": "2026-07-31T12:49:56.946Z",
       "years_active": 6,
       "is_official": true,
       "activity_status": "Active",
@@ -2042,10 +2042,26 @@
       "top_cwe_types": {}
     },
     {
+      "name": "Checkmk",
+      "assigner_org_id": "f7d6281c-4801-44ce-ace2-493291dedb0f",
+      "count": 23,
+      "rank": 128,
+      "first_cve_date": "2026-02-09T15:29:16.780Z",
+      "last_cve_date": "2026-07-31T12:21:58.292Z",
+      "years_active": 5,
+      "is_official": true,
+      "activity_status": "Active",
+      "cna_types": [
+        "Vendor"
+      ],
+      "severity_distribution": {},
+      "top_cwe_types": {}
+    },
+    {
       "name": "YokogawaGroup",
       "assigner_org_id": "7168b535-132a-4efe-a076-338f829b2eb9",
       "count": 23,
-      "rank": 128,
+      "rank": 129,
       "first_cve_date": "2026-02-09T03:06:00.996Z",
       "last_cve_date": "2026-06-23T00:53:43.698Z",
       "years_active": 4,
@@ -2061,26 +2077,10 @@
       "name": "WSO2",
       "assigner_org_id": "ed10eef1-636d-4fbe-9993-6890dfa878f8",
       "count": 22,
-      "rank": 129,
+      "rank": 130,
       "first_cve_date": "2026-02-19T10:04:47.542Z",
       "last_cve_date": "2026-07-20T08:06:39.095Z",
       "years_active": 4,
-      "is_official": true,
-      "activity_status": "Active",
-      "cna_types": [
-        "Vendor"
-      ],
-      "severity_distribution": {},
-      "top_cwe_types": {}
-    },
-    {
-      "name": "Checkmk",
-      "assigner_org_id": "f7d6281c-4801-44ce-ace2-493291dedb0f",
-      "count": 22,
-      "rank": 130,
-      "first_cve_date": "2026-02-09T15:29:16.780Z",
-      "last_cve_date": "2026-07-21T07:20:35.400Z",
-      "years_active": 5,
       "is_official": true,
       "activity_status": "Active",
       "cna_types": [
@@ -2394,10 +2394,26 @@
       "top_cwe_types": {}
     },
     {
+      "name": "hikvision",
+      "assigner_org_id": "da451dce-859b-4e51-8b87-9c8b60d19b32",
+      "count": 17,
+      "rank": 150,
+      "first_cve_date": "2026-01-13T01:47:27.191Z",
+      "last_cve_date": "2026-07-31T09:31:30.862Z",
+      "years_active": 7,
+      "is_official": true,
+      "activity_status": "Active",
+      "cna_types": [
+        "Vendor"
+      ],
+      "severity_distribution": {},
+      "top_cwe_types": {}
+    },
+    {
       "name": "ASUSTOR1",
       "assigner_org_id": "f35eaae9-79f2-4d0d-a5c7-7bea6ed6be77",
       "count": 17,
-      "rank": 150,
+      "rank": 151,
       "first_cve_date": "2026-02-03T02:19:41.915Z",
       "last_cve_date": "2026-07-30T03:48:04.856Z",
       "years_active": 4,
@@ -2413,7 +2429,7 @@
       "name": "sonicwall",
       "assigner_org_id": "44b2ff79-1416-4492-88bb-ed0da00c7315",
       "count": 17,
-      "rank": 151,
+      "rank": 152,
       "first_cve_date": "2026-02-24T14:52:10.841Z",
       "last_cve_date": "2026-07-14T19:43:03.226Z",
       "years_active": 9,
@@ -2429,7 +2445,7 @@
       "name": "Canon",
       "assigner_org_id": "f98c90f0-e9bd-4fa7-911b-51993f3571fd",
       "count": 16,
-      "rank": 152,
+      "rank": 153,
       "first_cve_date": "2026-01-15T23:35:27.096Z",
       "last_cve_date": "2026-06-15T23:40:15.216Z",
       "years_active": 4,
@@ -2445,7 +2461,7 @@
       "name": "NCSC-FI",
       "assigner_org_id": "db4dfee8-a97e-4877-bfae-eba6d14a2166",
       "count": 16,
-      "rank": 153,
+      "rank": 154,
       "first_cve_date": "2026-01-13T13:39:02.370Z",
       "last_cve_date": "2026-04-27T13:00:10.309Z",
       "years_active": 3,
@@ -2453,22 +2469,6 @@
       "activity_status": "Active",
       "cna_types": [
         "CERT"
-      ],
-      "severity_distribution": {},
-      "top_cwe_types": {}
-    },
-    {
-      "name": "hikvision",
-      "assigner_org_id": "da451dce-859b-4e51-8b87-9c8b60d19b32",
-      "count": 16,
-      "rank": 154,
-      "first_cve_date": "2026-01-13T01:47:27.191Z",
-      "last_cve_date": "2026-07-22T11:03:11.533Z",
-      "years_active": 7,
-      "is_official": true,
-      "activity_status": "Active",
-      "cna_types": [
-        "Vendor"
       ],
       "severity_distribution": {},
       "top_cwe_types": {}
@@ -5774,10 +5774,10 @@
     {
       "name": "Wordfence",
       "assigner_org_id": "b15e7b5b-3da4-40ae-a43c-f7aa60e62599",
-      "count": 2473,
+      "count": 2478,
       "rank": 6,
       "first_cve_date": "2026-01-01T16:19:30.690Z",
-      "last_cve_date": "2026-07-31T05:35:23.287Z",
+      "last_cve_date": "2026-07-31T12:34:32.346Z",
       "years_active": 14,
       "is_official": true,
       "activity_status": "Active",
@@ -5854,10 +5854,10 @@
     {
       "name": "redhat",
       "assigner_org_id": "53f830b8-0a3f-465b-8143-3b8a9948e749",
-      "count": 552,
+      "count": 560,
       "rank": 11,
       "first_cve_date": "2026-01-07T16:04:22.155Z",
-      "last_cve_date": "2026-07-31T07:08:31.373Z",
+      "last_cve_date": "2026-07-31T12:20:23.371Z",
       "years_active": 28,
       "is_official": true,
       "activity_status": "Active",
@@ -5870,10 +5870,10 @@
     {
       "name": "apache",
       "assigner_org_id": "f0158376-9dc2-43b6-827c-5f631a4d8d09",
-      "count": 539,
+      "count": 542,
       "rank": 12,
       "first_cve_date": "2026-01-01T16:14:00.837Z",
-      "last_cve_date": "2026-07-30T19:18:07.900Z",
+      "last_cve_date": "2026-07-31T11:05:07.878Z",
       "years_active": 17,
       "is_official": true,
       "activity_status": "Active",
@@ -6028,10 +6028,26 @@
       "top_cwe_types": {}
     },
     {
+      "name": "CERT-PL",
+      "assigner_org_id": "4bb8329e-dd38-46c1-aafb-9bf32bcb93c6",
+      "count": 216,
+      "rank": 22,
+      "first_cve_date": "2026-01-07T13:00:46.715Z",
+      "last_cve_date": "2026-07-31T11:40:57.749Z",
+      "years_active": 4,
+      "is_official": true,
+      "activity_status": "Active",
+      "cna_types": [
+        "CERT"
+      ],
+      "severity_distribution": {},
+      "top_cwe_types": {}
+    },
+    {
       "name": "dell",
       "assigner_org_id": "c550e75a-17ff-4988-97f0-544cde3820fe",
       "count": 214,
-      "rank": 22,
+      "rank": 23,
       "first_cve_date": "2026-01-06T15:01:17.368Z",
       "last_cve_date": "2026-07-22T15:49:40.557Z",
       "years_active": 18,
@@ -6039,22 +6055,6 @@
       "activity_status": "Active",
       "cna_types": [
         "Vendor"
-      ],
-      "severity_distribution": {},
-      "top_cwe_types": {}
-    },
-    {
-      "name": "CERT-PL",
-      "assigner_org_id": "4bb8329e-dd38-46c1-aafb-9bf32bcb93c6",
-      "count": 211,
-      "rank": 23,
-      "first_cve_date": "2026-01-07T13:00:46.715Z",
-      "last_cve_date": "2026-07-29T14:12:35.422Z",
-      "years_active": 4,
-      "is_official": true,
-      "activity_status": "Active",
-      "cna_types": [
-        "CERT"
       ],
       "severity_distribution": {},
       "top_cwe_types": {}
@@ -6078,10 +6078,10 @@
     {
       "name": "TR-CERT",
       "assigner_org_id": "ca940d4e-fea4-4aa2-9a58-591a58b1ce21",
-      "count": 188,
+      "count": 189,
       "rank": 25,
       "first_cve_date": "2026-01-22T09:10:16.989Z",
-      "last_cve_date": "2026-07-30T14:53:36.922Z",
+      "last_cve_date": "2026-07-31T12:49:56.946Z",
       "years_active": 6,
       "is_official": true,
       "activity_status": "Active",
@@ -7725,10 +7725,26 @@
       "top_cwe_types": {}
     },
     {
+      "name": "Checkmk",
+      "assigner_org_id": "f7d6281c-4801-44ce-ace2-493291dedb0f",
+      "count": 23,
+      "rank": 128,
+      "first_cve_date": "2026-02-09T15:29:16.780Z",
+      "last_cve_date": "2026-07-31T12:21:58.292Z",
+      "years_active": 5,
+      "is_official": true,
+      "activity_status": "Active",
+      "cna_types": [
+        "Vendor"
+      ],
+      "severity_distribution": {},
+      "top_cwe_types": {}
+    },
+    {
       "name": "YokogawaGroup",
       "assigner_org_id": "7168b535-132a-4efe-a076-338f829b2eb9",
       "count": 23,
-      "rank": 128,
+      "rank": 129,
       "first_cve_date": "2026-02-09T03:06:00.996Z",
       "last_cve_date": "2026-06-23T00:53:43.698Z",
       "years_active": 4,
@@ -7744,26 +7760,10 @@
       "name": "WSO2",
       "assigner_org_id": "ed10eef1-636d-4fbe-9993-6890dfa878f8",
       "count": 22,
-      "rank": 129,
+      "rank": 130,
       "first_cve_date": "2026-02-19T10:04:47.542Z",
       "last_cve_date": "2026-07-20T08:06:39.095Z",
       "years_active": 4,
-      "is_official": true,
-      "activity_status": "Active",
-      "cna_types": [
-        "Vendor"
-      ],
-      "severity_distribution": {},
-      "top_cwe_types": {}
-    },
-    {
-      "name": "Checkmk",
-      "assigner_org_id": "f7d6281c-4801-44ce-ace2-493291dedb0f",
-      "count": 22,
-      "rank": 130,
-      "first_cve_date": "2026-02-09T15:29:16.780Z",
-      "last_cve_date": "2026-07-21T07:20:35.400Z",
-      "years_active": 5,
       "is_official": true,
       "activity_status": "Active",
       "cna_types": [
@@ -8077,10 +8077,26 @@
       "top_cwe_types": {}
     },
     {
+      "name": "hikvision",
+      "assigner_org_id": "da451dce-859b-4e51-8b87-9c8b60d19b32",
+      "count": 17,
+      "rank": 150,
+      "first_cve_date": "2026-01-13T01:47:27.191Z",
+      "last_cve_date": "2026-07-31T09:31:30.862Z",
+      "years_active": 7,
+      "is_official": true,
+      "activity_status": "Active",
+      "cna_types": [
+        "Vendor"
+      ],
+      "severity_distribution": {},
+      "top_cwe_types": {}
+    },
+    {
       "name": "ASUSTOR1",
       "assigner_org_id": "f35eaae9-79f2-4d0d-a5c7-7bea6ed6be77",
       "count": 17,
-      "rank": 150,
+      "rank": 151,
       "first_cve_date": "2026-02-03T02:19:41.915Z",
       "last_cve_date": "2026-07-30T03:48:04.856Z",
       "years_active": 4,
@@ -8096,7 +8112,7 @@
       "name": "sonicwall",
       "assigner_org_id": "44b2ff79-1416-4492-88bb-ed0da00c7315",
       "count": 17,
-      "rank": 151,
+      "rank": 152,
       "first_cve_date": "2026-02-24T14:52:10.841Z",
       "last_cve_date": "2026-07-14T19:43:03.226Z",
       "years_active": 9,
@@ -8112,7 +8128,7 @@
       "name": "Canon",
       "assigner_org_id": "f98c90f0-e9bd-4fa7-911b-51993f3571fd",
       "count": 16,
-      "rank": 152,
+      "rank": 153,
       "first_cve_date": "2026-01-15T23:35:27.096Z",
       "last_cve_date": "2026-06-15T23:40:15.216Z",
       "years_active": 4,
@@ -8128,7 +8144,7 @@
       "name": "NCSC-FI",
       "assigner_org_id": "db4dfee8-a97e-4877-bfae-eba6d14a2166",
       "count": 16,
-      "rank": 153,
+      "rank": 154,
       "first_cve_date": "2026-01-13T13:39:02.370Z",
       "last_cve_date": "2026-04-27T13:00:10.309Z",
       "years_active": 3,
@@ -8136,22 +8152,6 @@
       "activity_status": "Active",
       "cna_types": [
         "CERT"
-      ],
-      "severity_distribution": {},
-      "top_cwe_types": {}
-    },
-    {
-      "name": "hikvision",
-      "assigner_org_id": "da451dce-859b-4e51-8b87-9c8b60d19b32",
-      "count": 16,
-      "rank": 154,
-      "first_cve_date": "2026-01-13T01:47:27.191Z",
-      "last_cve_date": "2026-07-22T11:03:11.533Z",
-      "years_active": 7,
-      "is_official": true,
-      "activity_status": "Active",
-      "cna_types": [
-        "Vendor"
       ],
       "severity_distribution": {},
       "top_cwe_types": {}
