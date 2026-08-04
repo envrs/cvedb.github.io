@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "zephyr",
-    "total_cves": 71,
-    "total_cves_scored": 71,
+    "total_cves": 72,
+    "total_cves_scored": 72,
     "organizationName": "Zephyr Project",
     "scope": "Zephyr project components, and vulnerabilities that are not in another CNA’s scope.",
     "advisories": [
@@ -35,24 +35,24 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 27,
-  "active_cna_count": 334,
+  "active_cna_count": 333,
   "percentile": 92.2,
   "cna_scoring": [
     {
-      "total_cves": 71,
-      "total_cves_scored": 71,
-      "recent_cves_count": 71,
-      "overall_average_score": 87.39,
+      "total_cves": 72,
+      "total_cves_scored": 72,
+      "recent_cves_count": 72,
+      "overall_average_score": 87.43,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 14.79,
       "average_software_identification": 0.0,
       "average_severity_context": 14.58,
-      "average_patchinfo": 8.03,
+      "average_patchinfo": 8.06,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 98.59,
+      "percent_root_cause_analysis": 98.61,
       "percent_software_identification": 0.0,
-      "percent_severity_and_impact": 97.18,
-      "percent_patchinfo": 80.28,
+      "percent_severity_and_impact": 97.22,
+      "percent_patchinfo": 80.56,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -440,6 +440,19 @@
       "cveId": "CVE-2026-10678",
       "assigningCna": "zephyr",
       "datePublished": "2026-07-21",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-10849",
+      "assigningCna": "zephyr",
+      "datePublished": "2026-08-03",
       "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
