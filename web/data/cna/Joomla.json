@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "Joomla",
-    "total_cves": 154,
-    "total_cves_scored": 154,
+    "total_cves": 155,
+    "total_cves_scored": 155,
     "organizationName": "Joomla! Project",
     "scope": "Core Joomla! CMS, the Joomla Framework, and Joomla! Extensions issues only.",
     "advisories": [
@@ -35,23 +35,23 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 282,
-  "active_cna_count": 336,
-  "percentile": 16.4,
+  "active_cna_count": 335,
+  "percentile": 16.1,
   "cna_scoring": [
     {
-      "total_cves": 154,
-      "total_cves_scored": 154,
-      "recent_cves_count": 154,
-      "overall_average_score": 73.77,
+      "total_cves": 155,
+      "total_cves_scored": 155,
+      "recent_cves_count": 155,
+      "overall_average_score": 73.81,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 14.42,
       "average_software_identification": 0.0,
-      "average_severity_context": 9.35,
+      "average_severity_context": 9.39,
       "average_patchinfo": 0.0,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 96.1,
+      "percent_root_cause_analysis": 96.13,
       "percent_software_identification": 0.0,
-      "percent_severity_and_impact": 62.34,
+      "percent_severity_and_impact": 62.58,
       "percent_patchinfo": 0.0,
       "trend_direction": "steady",
       "trend_description": "No significant change",
@@ -1116,6 +1116,19 @@
       "cveId": "CVE-2026-30894",
       "assigningCna": "Joomla",
       "datePublished": "2026-05-26",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-66914",
+      "assigningCna": "Joomla",
+      "datePublished": "2026-08-07",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
