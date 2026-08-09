@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "total_cves": 47582,
+  "total_cves": 47626,
   "date_data": {
     "monthly_distribution": {
       "1": 4305,
@@ -10,15 +10,15 @@
       "5": 6940,
       "6": 7945,
       "7": 9772,
-      "8": 1960,
+      "8": 2004,
       "9": 0,
       "10": 0,
       "11": 0,
       "12": 0
     },
     "daily_analysis": {
-      "total_days": 218,
-      "avg_per_day": 218.27,
+      "total_days": 219,
+      "avg_per_day": 217.47,
       "highest_day": {
         "date": "2026-07-21",
         "count": 1474
@@ -248,17 +248,17 @@
         "2026-08-06": 476,
         "2026-08-07": 231,
         "2026-08-08": 54,
-        "2026-08-09": 0
+        "2026-08-09": 44
       }
     }
   },
   "cvss": {
     "v3.0": {
-      "total": 246,
+      "total": 247,
       "severity_distribution": {
         "CRITICAL": 34,
         "MEDIUM": 72,
-        "HIGH": 124,
+        "HIGH": 125,
         "LOW": 13,
         "NONE": 3
       },
@@ -269,7 +269,7 @@
         "8.1": 7,
         "9.8": 24,
         "7.8": 24,
-        "7.5": 25,
+        "7.5": 26,
         "3.3": 8,
         "7.0": 1,
         "5.3": 10,
@@ -407,16 +407,16 @@
       }
     },
     "v4.0": {
-      "total": 15725,
+      "total": 15750,
       "severity_distribution": {
-        "CRITICAL": 1427,
-        "MEDIUM": 5639,
+        "CRITICAL": 1437,
+        "MEDIUM": 5640,
         "HIGH": 5827,
-        "LOW": 2784,
+        "LOW": 2798,
         "NONE": 48
       },
       "score_distribution": {
-        "9.3": 776,
+        "9.3": 786,
         "6.9": 1069,
         "8.7": 1298,
         "5.1": 880,
@@ -429,7 +429,7 @@
         "7.0": 169,
         "9.1": 48,
         "8.4": 250,
-        "4.8": 235,
+        "4.8": 236,
         "6.7": 84,
         "4.6": 131,
         "9.0": 35,
@@ -455,7 +455,7 @@
         "7.5": 70,
         "2.1": 1328,
         "5.5": 1003,
-        "1.9": 401,
+        "1.9": 415,
         "7.4": 478,
         "1.3": 115,
         "4.9": 50,
@@ -503,12 +503,12 @@
       }
     },
     "unknown": {
-      "total": 487,
+      "total": 505,
       "severity_distribution": {
-        "UNKNOWN": 487
+        "UNKNOWN": 505
       },
       "score_distribution": {
-        "0.0": 487
+        "0.0": 505
       }
     }
   },
@@ -520,11 +520,11 @@
       },
       {
         "name": "vulncheck.com",
-        "count": 4179
+        "count": 4189
       },
       {
         "name": "vuldb.com",
-        "count": 3927
+        "count": 3942
       },
       {
         "name": "Linux Kernel Organization",
@@ -559,12 +559,12 @@
         "count": 601
       },
       {
-        "name": "Red Hat, Inc.",
-        "count": 587
+        "name": "wpscan.com",
+        "count": 595
       },
       {
-        "name": "wpscan.com",
-        "count": 578
+        "name": "Red Hat, Inc.",
+        "count": 587
       },
       {
         "name": "Apple Inc.",
@@ -698,7 +698,7 @@
       },
       {
         "cwe": "CWE-22",
-        "count": 1782
+        "count": 1792
       },
       {
         "cwe": "CWE-416",
@@ -706,7 +706,7 @@
       },
       {
         "cwe": "CWE-78",
-        "count": 1324
+        "count": 1334
       },
       {
         "cwe": "CWE-787",
@@ -718,7 +718,7 @@
       },
       {
         "cwe": "CWE-74",
-        "count": 1226
+        "count": 1230
       },
       {
         "cwe": "CWE-125",
@@ -730,7 +730,7 @@
       },
       {
         "cwe": "CWE-918",
-        "count": 1193
+        "count": 1194
       },
       {
         "cwe": "CWE-200",
@@ -754,7 +754,7 @@
       },
       {
         "cwe": "CWE-77",
-        "count": 868
+        "count": 872
       },
       {
         "cwe": "CWE-119",
@@ -782,7 +782,7 @@
       },
       {
         "status": "Received",
-        "count": 2020
+        "count": 2064
       },
       {
         "status": "Undergoing Analysis",
@@ -862,7 +862,7 @@
     ]
   },
   "processing_stats": {
-    "processed_at": "2026-08-09T06:55:14.298606",
+    "processed_at": "2026-08-09T12:42:52.545730",
     "data_source": "data/cache/nvd.jsonl"
   }
 }
