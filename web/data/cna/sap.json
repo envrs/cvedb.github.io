@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "sap",
-    "total_cves": 108,
-    "total_cves_scored": 108,
+    "total_cves": 109,
+    "total_cves_scored": 109,
     "organizationName": "SAP SE",
     "scope": "All SAP products.",
     "advisories": [
@@ -36,13 +36,13 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 61,
-  "active_cna_count": 336,
-  "percentile": 82.1,
+  "active_cna_count": 337,
+  "percentile": 82.2,
   "cna_scoring": [
     {
-      "total_cves": 108,
-      "total_cves_scored": 108,
-      "recent_cves_count": 108,
+      "total_cves": 109,
+      "total_cves_scored": 109,
+      "recent_cves_count": 109,
       "overall_average_score": 80.0,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
@@ -270,6 +270,19 @@
     },
     {
       "cveId": "CVE-2026-58235",
+      "assigningCna": "sap",
+      "datePublished": "2026-08-11",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-58231",
       "assigningCna": "sap",
       "datePublished": "2026-08-11",
       "totalCveScore": 80,
