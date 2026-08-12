@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "Docker",
-    "total_cves": 13,
-    "total_cves_scored": 13,
+    "total_cves": 14,
+    "total_cves_scored": 14,
     "organizationName": "Docker Inc.",
     "scope": "All Docker products, including Docker Desktop and Docker Hub, as well as Docker maintained open source projects.",
     "advisories": [
@@ -45,25 +45,25 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 48,
+  "rank": 49,
   "active_cna_count": 337,
-  "percentile": 86.1,
+  "percentile": 85.8,
   "cna_scoring": [
     {
-      "total_cves": 13,
-      "total_cves_scored": 13,
-      "recent_cves_count": 13,
-      "overall_average_score": 82.31,
+      "total_cves": 14,
+      "total_cves_scored": 14,
+      "recent_cves_count": 14,
+      "overall_average_score": 82.86,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
-      "average_software_identification": 1.54,
+      "average_software_identification": 2.14,
       "average_severity_context": 15.0,
-      "average_patchinfo": 0.77,
+      "average_patchinfo": 0.71,
       "percent_foundational_completeness": 100.0,
       "percent_root_cause_analysis": 100.0,
-      "percent_software_identification": 15.38,
+      "percent_software_identification": 21.43,
       "percent_severity_and_impact": 100.0,
-      "percent_patchinfo": 7.69,
+      "percent_patchinfo": 7.14,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -110,19 +110,6 @@
       }
     },
     {
-      "cveId": "CVE-2026-5843",
-      "assigningCna": "Docker",
-      "datePublished": "2026-05-22",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2026-5817",
       "assigningCna": "Docker",
       "datePublished": "2026-05-22",
@@ -136,9 +123,9 @@
       }
     },
     {
-      "cveId": "CVE-2026-15792",
+      "cveId": "CVE-2026-5843",
       "assigningCna": "Docker",
-      "datePublished": "2026-07-21",
+      "datePublished": "2026-05-22",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -149,7 +136,46 @@
       }
     },
     {
-      "cveId": "CVE-2026-15789",
+      "cveId": "CVE-2026-6406",
+      "assigningCna": "Docker",
+      "datePublished": "2026-05-22",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-18171",
+      "assigningCna": "Docker",
+      "datePublished": "2026-08-12",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-2664",
+      "assigningCna": "Docker",
+      "datePublished": "2026-02-24",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-15791",
       "assigningCna": "Docker",
       "datePublished": "2026-07-21",
       "totalCveScore": 80,
@@ -175,6 +201,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-15789",
+      "assigningCna": "Docker",
+      "datePublished": "2026-07-21",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-15793",
       "assigningCna": "Docker",
       "datePublished": "2026-07-21",
@@ -188,7 +227,7 @@
       }
     },
     {
-      "cveId": "CVE-2026-15791",
+      "cveId": "CVE-2026-15792",
       "assigningCna": "Docker",
       "datePublished": "2026-07-21",
       "totalCveScore": 80,
@@ -204,32 +243,6 @@
       "cveId": "CVE-2026-8936",
       "assigningCna": "Docker",
       "datePublished": "2026-06-02",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-2664",
-      "assigningCna": "Docker",
-      "datePublished": "2026-02-24",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-6406",
-      "assigningCna": "Docker",
-      "datePublished": "2026-05-22",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
