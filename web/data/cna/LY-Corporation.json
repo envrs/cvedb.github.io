@@ -34,8 +34,8 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 64,
-  "active_cna_count": 337,
-  "percentile": 81.3,
+  "active_cna_count": 339,
+  "percentile": 81.4,
   "cna_scoring": [
     {
       "total_cves": 7,
@@ -58,6 +58,19 @@
     }
   ],
   "recent_cves": [
+    {
+      "cveId": "CVE-2026-13133",
+      "assigningCna": "LY-Corporation",
+      "datePublished": "2026-08-10",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
     {
       "cveId": "CVE-2026-3861",
       "assigningCna": "LY-Corporation",
@@ -85,9 +98,22 @@
       }
     },
     {
-      "cveId": "CVE-2026-13133",
+      "cveId": "CVE-2026-11752",
       "assigningCna": "LY-Corporation",
-      "datePublished": "2026-08-10",
+      "datePublished": "2026-06-19",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-11746",
+      "assigningCna": "LY-Corporation",
+      "datePublished": "2026-06-22",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -111,33 +137,7 @@
       }
     },
     {
-      "cveId": "CVE-2026-11752",
-      "assigningCna": "LY-Corporation",
-      "datePublished": "2026-06-19",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2026-11745",
-      "assigningCna": "LY-Corporation",
-      "datePublished": "2026-06-22",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-11746",
       "assigningCna": "LY-Corporation",
       "datePublished": "2026-06-22",
       "totalCveScore": 80,
