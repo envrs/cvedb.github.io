@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "Kong",
-    "total_cves": 11,
-    "total_cves_scored": 11,
+    "total_cves": 12,
+    "total_cves_scored": 12,
     "organizationName": "Kong Inc.",
     "scope": "Kong products; Kong Konnect, Kong Enterprise, Kong Mesh, and Kong Insomnia, including Kong Opensource; Kong Gateway, Kuma, Insomnia.",
     "advisories": [
@@ -33,25 +33,25 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 39,
+  "rank": 37,
   "active_cna_count": 337,
-  "percentile": 88.7,
+  "percentile": 89.3,
   "cna_scoring": [
     {
-      "total_cves": 11,
-      "total_cves_scored": 11,
-      "recent_cves_count": 11,
-      "overall_average_score": 84.55,
+      "total_cves": 12,
+      "total_cves_scored": 12,
+      "recent_cves_count": 12,
+      "overall_average_score": 85.0,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
       "average_software_identification": 0.0,
       "average_severity_context": 15.0,
-      "average_patchinfo": 4.55,
+      "average_patchinfo": 5.0,
       "percent_foundational_completeness": 100.0,
       "percent_root_cause_analysis": 100.0,
       "percent_software_identification": 0.0,
       "percent_severity_and_impact": 100.0,
-      "percent_patchinfo": 45.45,
+      "percent_patchinfo": 50.0,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -164,6 +164,19 @@
     },
     {
       "cveId": "CVE-2026-18676",
+      "assigningCna": "Kong",
+      "datePublished": "2026-08-12",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-18679",
       "assigningCna": "Kong",
       "datePublished": "2026-08-12",
       "totalCveScore": 90,
