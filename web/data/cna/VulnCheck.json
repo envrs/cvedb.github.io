@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "VulnCheck",
-    "total_cves": 3679,
-    "total_cves_scored": 3679,
+    "total_cves": 3681,
+    "total_cves_scored": 3681,
     "organizationName": "VulnCheck",
     "scope": "Vulnerabilities observed by, discovered by, or reported to VulnCheck that are not in another CNA’s scope.",
     "advisories": [
@@ -34,25 +34,25 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 44,
+  "rank": 45,
   "active_cna_count": 338,
-  "percentile": 87.3,
+  "percentile": 87.0,
   "cna_scoring": [
     {
-      "total_cves": 3679,
-      "total_cves_scored": 3679,
-      "recent_cves_count": 3679,
+      "total_cves": 3681,
+      "total_cves_scored": 3681,
+      "recent_cves_count": 3681,
       "overall_average_score": 83.45,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 14.94,
       "average_software_identification": 0.0,
       "average_severity_context": 15.0,
-      "average_patchinfo": 3.5,
+      "average_patchinfo": 3.51,
       "percent_foundational_completeness": 100.0,
       "percent_root_cause_analysis": 99.62,
       "percent_software_identification": 0.03,
       "percent_severity_and_impact": 100.0,
-      "percent_patchinfo": 35.04,
+      "percent_patchinfo": 35.07,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -35732,6 +35732,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-53970",
+      "assigningCna": "VulnCheck",
+      "datePublished": "2026-08-14",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
       "cveId": "CVE-2026-53799",
       "assigningCna": "VulnCheck",
       "datePublished": "2026-08-13",
@@ -41299,6 +41312,19 @@
       "cveId": "CVE-2026-69100",
       "assigningCna": "VulnCheck",
       "datePublished": "2026-08-04",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-69101",
+      "assigningCna": "VulnCheck",
+      "datePublished": "2026-08-14",
       "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
