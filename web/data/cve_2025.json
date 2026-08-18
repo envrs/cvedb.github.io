@@ -637,7 +637,6 @@
         "0.0": 9,
         "6.5": 5,
         "1.2": 11,
-        "2.6": 1,
         "0.3": 8,
         "5.0": 2,
         "0.9": 6,
@@ -646,7 +645,8 @@
         "0.6": 3,
         "2.2": 3,
         "3.7": 1,
-        "3.8": 2
+        "3.8": 2,
+        "2.6": 1
       }
     },
     "unknown": {
@@ -913,11 +913,11 @@
     "vulnerability_status": [
       {
         "status": "Analyzed",
-        "count": 23676
+        "count": 23678
       },
       {
         "status": "Deferred",
-        "count": 17986
+        "count": 17985
       },
       {
         "status": "Modified",
@@ -925,14 +925,14 @@
       },
       {
         "status": "Undergoing Analysis",
-        "count": 4
-      },
-      {
-        "status": "Received",
-        "count": 1
+        "count": 3
       },
       {
         "status": "Awaiting Analysis",
+        "count": 1
+      },
+      {
+        "status": "Received",
         "count": 1
       }
     ],
@@ -940,19 +940,19 @@
     "reference_tags": [
       {
         "tag": "Third Party Advisory",
-        "count": 28390
+        "count": 28391
       },
       {
         "tag": "Patch",
-        "count": 25938
+        "count": 25940
       },
       {
         "tag": "Exploit",
-        "count": 15850
+        "count": 15851
       },
       {
         "tag": "Vendor Advisory",
-        "count": 15288
+        "count": 15289
       },
       {
         "tag": "VDB Entry",
@@ -988,7 +988,7 @@
       },
       {
         "tag": "US Government Resource",
-        "count": 421
+        "count": 422
       },
       {
         "tag": "Not Applicable",
@@ -1017,7 +1017,7 @@
     ]
   },
   "processing_stats": {
-    "processed_at": "2026-08-17T18:41:40.827614",
+    "processed_at": "2026-08-18T00:52:45.888078",
     "data_source": "data/cache/nvd.jsonl"
   }
 }
