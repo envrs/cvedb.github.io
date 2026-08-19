@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "TR-CERT",
-    "total_cves": 162,
-    "total_cves_scored": 162,
+    "total_cves": 163,
+    "total_cves_scored": 163,
     "organizationName": "TR-CERT (Computer Emergency Response Team of the Republic of Türkiye)",
     "scope": "Vulnerability assignment related to its vulnerability coordination role.",
     "advisories": [
@@ -39,9 +39,9 @@
   "percentile": 81.1,
   "cna_scoring": [
     {
-      "total_cves": 162,
-      "total_cves_scored": 162,
-      "recent_cves_count": 162,
+      "total_cves": 163,
+      "total_cves_scored": 163,
+      "recent_cves_count": 163,
       "overall_average_score": 80.0,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
@@ -674,6 +674,19 @@
       "cveId": "CVE-2026-16999",
       "assigningCna": "TR-CERT",
       "datePublished": "2026-08-12",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-16019",
+      "assigningCna": "TR-CERT",
+      "datePublished": "2026-08-19",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
