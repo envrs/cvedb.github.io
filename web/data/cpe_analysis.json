@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-19T18:41:35.266210",
-  "total_unique_cpes": 372245,
-  "total_cpe_entries": 2565666,
-  "total_cves_with_cpes": 310748,
-  "total_unique_vendors": 36551,
-  "total_unique_products": 114283,
+  "generated_at": "2026-08-20T00:54:08.314084",
+  "total_unique_cpes": 372352,
+  "total_cpe_entries": 2566925,
+  "total_cves_with_cpes": 310960,
+  "total_unique_vendors": 36560,
+  "total_unique_products": 114316,
   "top_cpes": [
     {
       "cpe": "cpe:2.3:o:linux:linux_kernel:*:*:*:*:*:*:*:*",
@@ -71,16 +71,23 @@
     },
     {
       "cpe": "cpe:2.3:a:gitlab:gitlab:*:*:*:*:enterprise:*:*:*",
-      "count": 3248,
+      "count": 3282,
       "vendor": "gitlab",
       "product": "gitlab",
       "type": "Application"
     },
     {
       "cpe": "cpe:2.3:a:gitlab:gitlab:*:*:*:*:community:*:*:*",
-      "count": 2777,
+      "count": 2793,
       "vendor": "gitlab",
       "product": "gitlab",
+      "type": "Application"
+    },
+    {
+      "cpe": "cpe:2.3:a:mozilla:firefox:*:*:*:*:*:*:*:*",
+      "count": 2770,
+      "vendor": "mozilla",
+      "product": "firefox",
       "type": "Application"
     },
     {
@@ -89,13 +96,6 @@
       "vendor": "apple",
       "product": "mac_os_x",
       "type": "Operating System"
-    },
-    {
-      "cpe": "cpe:2.3:a:mozilla:firefox:*:*:*:*:*:*:*:*",
-      "count": 2723,
-      "vendor": "mozilla",
-      "product": "firefox",
-      "type": "Application"
     },
     {
       "cpe": "cpe:2.3:o:microsoft:windows_server_2019:-:*:*:*:*:*:*:*",
@@ -315,18 +315,18 @@
       "type": "Operating System"
     },
     {
+      "cpe": "cpe:2.3:a:mozilla:thunderbird:*:*:*:*:*:*:*:*",
+      "count": 1591,
+      "vendor": "mozilla",
+      "product": "thunderbird",
+      "type": "Application"
+    },
+    {
       "cpe": "cpe:2.3:o:google:android:-:*:*:*:*:*:*:*",
       "count": 1560,
       "vendor": "google",
       "product": "android",
       "type": "Operating System"
-    },
-    {
-      "cpe": "cpe:2.3:a:mozilla:thunderbird:*:*:*:*:*:*:*:*",
-      "count": 1552,
-      "vendor": "mozilla",
-      "product": "thunderbird",
-      "type": "Application"
     },
     {
       "cpe": "cpe:2.3:o:canonical:ubuntu_linux:14.04:*:*:*:lts:*:*:*",
@@ -372,7 +372,7 @@
     },
     {
       "vendor": "microsoft",
-      "count": 143860
+      "count": 143869
     },
     {
       "vendor": "adobe",
@@ -384,7 +384,7 @@
     },
     {
       "vendor": "mozilla",
-      "count": 85590
+      "count": 85679
     },
     {
       "vendor": "juniper",
@@ -392,11 +392,11 @@
     },
     {
       "vendor": "ibm",
-      "count": 71738
+      "count": 71835
     },
     {
       "vendor": "oracle",
-      "count": 69785
+      "count": 69813
     },
     {
       "vendor": "google",
@@ -416,11 +416,11 @@
     },
     {
       "vendor": "samsung",
-      "count": 37434
+      "count": 37805
     },
     {
       "vendor": "redhat",
-      "count": 34073
+      "count": 34079
     },
     {
       "vendor": "hp",
@@ -454,11 +454,11 @@
     },
     {
       "product": "android",
-      "count": 57160
+      "count": 57524
     },
     {
       "product": "firefox",
-      "count": 37794
+      "count": 37790
     },
     {
       "product": "chrome",
@@ -514,7 +514,7 @@
     },
     {
       "product": "thunderbird",
-      "count": 14352
+      "count": 14392
     },
     {
       "product": "adaptive_security_appliance_software",
@@ -524,12 +524,12 @@
   "cpe_type_distribution": [
     {
       "type": "Application",
-      "count": 1338791,
+      "count": 1339315,
       "percentage": 52.2
     },
     {
       "type": "Operating System",
-      "count": 1171821,
+      "count": 1172556,
       "percentage": 45.7
     },
     {
