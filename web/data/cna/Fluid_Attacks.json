@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "Fluid_Attacks",
-    "total_cves": 46,
-    "total_cves_scored": 46,
+    "total_cves": 47,
+    "total_cves_scored": 47,
     "organizationName": "Fluid Attacks",
     "scope": "Vulnerabilities in third-party software discovered by or reported to Fluid Attacks that are not in another CNA’s scope.",
     "advisories": [
@@ -33,25 +33,25 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 41,
-  "active_cna_count": 338,
-  "percentile": 88.2,
+  "rank": 42,
+  "active_cna_count": 335,
+  "percentile": 87.8,
   "cna_scoring": [
     {
-      "total_cves": 46,
-      "total_cves_scored": 46,
-      "recent_cves_count": 46,
-      "overall_average_score": 84.13,
+      "total_cves": 47,
+      "total_cves_scored": 47,
+      "recent_cves_count": 47,
+      "overall_average_score": 84.26,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
       "average_software_identification": 0.0,
       "average_severity_context": 15.0,
-      "average_patchinfo": 4.13,
+      "average_patchinfo": 4.26,
       "percent_foundational_completeness": 100.0,
       "percent_root_cause_analysis": 100.0,
       "percent_software_identification": 0.0,
       "percent_severity_and_impact": 100.0,
-      "percent_patchinfo": 41.3,
+      "percent_patchinfo": 42.55,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -335,6 +335,19 @@
       "cveId": "CVE-2026-0540",
       "assigningCna": "Fluid_Attacks",
       "datePublished": "2026-03-03",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-19198",
+      "assigningCna": "Fluid_Attacks",
+      "datePublished": "2026-08-19",
       "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
