@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "canonical",
-    "total_cves": 102,
-    "total_cves_scored": 102,
+    "total_cves": 104,
+    "total_cves_scored": 104,
     "organizationName": "Canonical Ltd.",
     "scope": "All Canonical issues (including Ubuntu Linux) only.",
     "advisories": [
@@ -35,24 +35,24 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 36,
-  "active_cna_count": 337,
+  "active_cna_count": 336,
   "percentile": 89.6,
   "cna_scoring": [
     {
-      "total_cves": 102,
-      "total_cves_scored": 102,
-      "recent_cves_count": 102,
-      "overall_average_score": 85.59,
+      "total_cves": 104,
+      "total_cves_scored": 104,
+      "recent_cves_count": 104,
+      "overall_average_score": 85.48,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
       "average_software_identification": 0.0,
       "average_severity_context": 15.0,
-      "average_patchinfo": 5.59,
+      "average_patchinfo": 5.48,
       "percent_foundational_completeness": 100.0,
       "percent_root_cause_analysis": 100.0,
       "percent_software_identification": 0.0,
       "percent_severity_and_impact": 100.0,
-      "percent_patchinfo": 55.88,
+      "percent_patchinfo": 54.81,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -772,6 +772,32 @@
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-61897",
+      "assigningCna": "canonical",
+      "datePublished": "2026-08-20",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-61898",
+      "assigningCna": "canonical",
+      "datePublished": "2026-08-20",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
       }
     },
     {
