@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-24T12:47:27.733684",
-  "total_unique_cpes": 372401,
-  "total_cpe_entries": 2569180,
-  "total_cves_with_cpes": 311398,
+  "generated_at": "2026-08-25T00:55:03.240203",
+  "total_unique_cpes": 372410,
+  "total_cpe_entries": 2569929,
+  "total_cves_with_cpes": 311733,
   "total_unique_vendors": 36568,
-  "total_unique_products": 114335,
+  "total_unique_products": 114336,
   "top_cpes": [
     {
       "cpe": "cpe:2.3:o:linux:linux_kernel:*:*:*:*:*:*:*:*",
@@ -15,14 +15,14 @@
     },
     {
       "cpe": "cpe:2.3:a:google:chrome:*:*:*:*:*:*:*:*",
-      "count": 6045,
+      "count": 6046,
       "vendor": "google",
       "product": "chrome",
       "type": "Application"
     },
     {
       "cpe": "cpe:2.3:o:apple:macos:*:*:*:*:*:*:*:*",
-      "count": 4792,
+      "count": 4795,
       "vendor": "apple",
       "product": "macos",
       "type": "Operating System"
@@ -77,17 +77,17 @@
       "type": "Application"
     },
     {
+      "cpe": "cpe:2.3:a:mozilla:firefox:*:*:*:*:*:*:*:*",
+      "count": 2798,
+      "vendor": "mozilla",
+      "product": "firefox",
+      "type": "Application"
+    },
+    {
       "cpe": "cpe:2.3:a:gitlab:gitlab:*:*:*:*:community:*:*:*",
       "count": 2793,
       "vendor": "gitlab",
       "product": "gitlab",
-      "type": "Application"
-    },
-    {
-      "cpe": "cpe:2.3:a:mozilla:firefox:*:*:*:*:*:*:*:*",
-      "count": 2783,
-      "vendor": "mozilla",
-      "product": "firefox",
       "type": "Application"
     },
     {
@@ -225,7 +225,7 @@
     },
     {
       "cpe": "cpe:2.3:o:apple:watchos:*:*:*:*:*:*:*:*",
-      "count": 1815,
+      "count": 1816,
       "vendor": "apple",
       "product": "watchos",
       "type": "Operating System"
@@ -308,18 +308,18 @@
       "type": "Operating System"
     },
     {
+      "cpe": "cpe:2.3:a:mozilla:thunderbird:*:*:*:*:*:*:*:*",
+      "count": 1614,
+      "vendor": "mozilla",
+      "product": "thunderbird",
+      "type": "Application"
+    },
+    {
       "cpe": "cpe:2.3:o:microsoft:windows_server_2022_23h2:*:*:*:*:*:*:*:*",
       "count": 1610,
       "vendor": "microsoft",
       "product": "windows_server_2022_23h2",
       "type": "Operating System"
-    },
-    {
-      "cpe": "cpe:2.3:a:mozilla:thunderbird:*:*:*:*:*:*:*:*",
-      "count": 1602,
-      "vendor": "mozilla",
-      "product": "thunderbird",
-      "type": "Application"
     },
     {
       "cpe": "cpe:2.3:o:google:android:-:*:*:*:*:*:*:*",
@@ -372,19 +372,19 @@
     },
     {
       "vendor": "microsoft",
-      "count": 143870
+      "count": 143879
     },
     {
       "vendor": "adobe",
-      "count": 94078
+      "count": 94080
     },
     {
       "vendor": "apple",
-      "count": 93743
+      "count": 93747
     },
     {
       "vendor": "mozilla",
-      "count": 85715
+      "count": 85742
     },
     {
       "vendor": "juniper",
@@ -392,15 +392,15 @@
     },
     {
       "vendor": "ibm",
-      "count": 72132
+      "count": 72461
     },
     {
       "vendor": "oracle",
-      "count": 70094
+      "count": 70395
     },
     {
       "vendor": "google",
-      "count": 63918
+      "count": 63919
     },
     {
       "vendor": "intel",
@@ -420,7 +420,7 @@
     },
     {
       "vendor": "redhat",
-      "count": 34108
+      "count": 34155
     },
     {
       "vendor": "hp",
@@ -458,11 +458,11 @@
     },
     {
       "product": "firefox",
-      "count": 37809
+      "count": 37824
     },
     {
       "product": "chrome",
-      "count": 36283
+      "count": 36284
     },
     {
       "product": "ios_xe",
@@ -514,7 +514,7 @@
     },
     {
       "product": "thunderbird",
-      "count": 14409
+      "count": 14421
     },
     {
       "product": "adaptive_security_appliance_software",
@@ -524,12 +524,12 @@
   "cpe_type_distribution": [
     {
       "type": "Application",
-      "count": 1340987,
+      "count": 1341507,
       "percentage": 52.2
     },
     {
       "type": "Operating System",
-      "count": 1173139,
+      "count": 1173368,
       "percentage": 45.7
     },
     {
@@ -620,5 +620,5 @@
       "cpe_count": 1321
     }
   ],
-  "average_cpes_per_cve": 8.3
+  "average_cpes_per_cve": 8.2
 }
