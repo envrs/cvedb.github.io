@@ -781,11 +781,15 @@
     "vulnerability_status": [
       {
         "status": "Modified",
-        "count": 28256
+        "count": 28255
       },
       {
         "status": "Analyzed",
         "count": 560
+      },
+      {
+        "status": "Undergoing Analysis",
+        "count": 1
       }
     ],
     "cve_tags": [],
@@ -865,7 +869,7 @@
     ]
   },
   "processing_stats": {
-    "processed_at": "2026-08-26T12:45:10.010103",
+    "processed_at": "2026-08-26T19:48:49.930815",
     "data_source": "data/cache/nvd.jsonl"
   }
 }
