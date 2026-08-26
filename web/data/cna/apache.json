@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "apache",
-    "total_cves": 648,
-    "total_cves_scored": 648,
+    "total_cves": 649,
+    "total_cves_scored": 649,
     "organizationName": "Apache Software Foundation",
     "scope": "All Apache Software Foundation issues only.",
     "advisories": [
@@ -34,25 +34,25 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 294,
-  "active_cna_count": 335,
+  "rank": 296,
+  "active_cna_count": 337,
   "percentile": 12.5,
   "cna_scoring": [
     {
-      "total_cves": 648,
-      "total_cves_scored": 648,
-      "recent_cves_count": 648,
-      "overall_average_score": 69.56,
+      "total_cves": 649,
+      "total_cves_scored": 649,
+      "recent_cves_count": 649,
+      "overall_average_score": 69.58,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 14.75,
       "average_software_identification": 0.14,
-      "average_severity_context": 3.01,
-      "average_patchinfo": 1.67,
+      "average_severity_context": 3.03,
+      "average_patchinfo": 1.66,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 98.3,
+      "percent_root_cause_analysis": 98.31,
       "percent_software_identification": 1.39,
-      "percent_severity_and_impact": 20.06,
-      "percent_patchinfo": 16.67,
+      "percent_severity_and_impact": 20.18,
+      "percent_patchinfo": 16.64,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -5242,6 +5242,19 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 15,
         "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-63041",
+      "assigningCna": "apache",
+      "datePublished": "2026-08-26",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 0
       }
