@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-25T12:49:56.865332",
+  "generated_at": "2026-08-26T00:57:32.699134",
   "year": 2026,
-  "total_unique_cpes": 15553,
-  "total_cpe_entries": 152274,
-  "total_cves_with_cpes": 29138,
-  "total_unique_vendors": 2800,
-  "total_unique_products": 7531,
+  "total_unique_cpes": 15660,
+  "total_cpe_entries": 153296,
+  "total_cves_with_cpes": 29410,
+  "total_unique_vendors": 2806,
+  "total_unique_products": 7546,
   "top_cpes": [
     {
       "cpe": "cpe:2.3:o:linux:linux_kernel:*:*:*:*:*:*:*:*",
@@ -16,7 +16,7 @@
     },
     {
       "cpe": "cpe:2.3:a:google:chrome:*:*:*:*:*:*:*:*",
-      "count": 2218,
+      "count": 2225,
       "vendor": "google",
       "product": "chrome",
       "type": "Application"
@@ -211,17 +211,17 @@
       "type": "Operating System"
     },
     {
-      "cpe": "cpe:2.3:a:openclaw:openclaw:*:*:*:*:*:node.js:*:*",
-      "count": 570,
-      "vendor": "openclaw",
-      "product": "openclaw",
-      "type": "Application"
+      "cpe": "cpe:2.3:o:ibm:aix:*:*:*:*:*:*:*:*",
+      "count": 576,
+      "vendor": "ibm",
+      "product": "aix",
+      "type": "Operating System"
     }
   ],
   "top_vendors": [
     {
       "vendor": "microsoft",
-      "count": 24288
+      "count": 24293
     },
     {
       "vendor": "linux",
@@ -249,11 +249,15 @@
     },
     {
       "vendor": "paloaltonetworks",
-      "count": 3859
+      "count": 3866
     },
     {
       "vendor": "oracle",
-      "count": 3639
+      "count": 3796
+    },
+    {
+      "vendor": "ibm",
+      "count": 3517
     },
     {
       "vendor": "f5",
@@ -265,11 +269,7 @@
     },
     {
       "vendor": "google",
-      "count": 3024
-    },
-    {
-      "vendor": "ibm",
-      "count": 2927
+      "count": 3031
     },
     {
       "vendor": "apple",
@@ -295,7 +295,7 @@
     },
     {
       "product": "pan-os",
-      "count": 3683
+      "count": 3686
     },
     {
       "product": "commerce",
@@ -315,7 +315,7 @@
     },
     {
       "product": "chrome",
-      "count": 2224
+      "count": 2231
     },
     {
       "product": "junos",
@@ -345,12 +345,12 @@
   "cpe_type_distribution": [
     {
       "type": "Operating System",
-      "count": 83642,
+      "count": 84135,
       "percentage": 54.9
     },
     {
       "type": "Application",
-      "count": 68631,
+      "count": 69160,
       "percentage": 45.1
     },
     {
