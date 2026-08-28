@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "synology",
-    "total_cves": 26,
-    "total_cves_scored": 26,
+    "total_cves": 29,
+    "total_cves_scored": 29,
     "organizationName": "Synology Inc.",
     "scope": "Synology issues only.",
     "advisories": [
@@ -33,14 +33,14 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 66,
-  "active_cna_count": 336,
-  "percentile": 80.7,
+  "rank": 67,
+  "active_cna_count": 334,
+  "percentile": 80.2,
   "cna_scoring": [
     {
-      "total_cves": 26,
-      "total_cves_scored": 26,
-      "recent_cves_count": 26,
+      "total_cves": 29,
+      "total_cves_scored": 29,
+      "recent_cves_count": 29,
       "overall_average_score": 80.0,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
@@ -371,9 +371,48 @@
       }
     },
     {
+      "cveId": "CVE-2026-40541",
+      "assigningCna": "synology",
+      "datePublished": "2026-08-28",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-4793",
       "assigningCna": "synology",
       "datePublished": "2026-08-03",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-9491",
+      "assigningCna": "synology",
+      "datePublished": "2026-08-28",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-9548",
+      "assigningCna": "synology",
+      "datePublished": "2026-08-28",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
