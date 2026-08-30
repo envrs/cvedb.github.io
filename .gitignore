@@ -14,8 +14,9 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
-lib64/
+# Python build artifacts (not the TypeScript lib/ directory)
+/local-lib/
+/python-lib64/
 parts/
 sdist/
 var/
@@ -195,3 +196,7 @@ temp/
 data/cache/nvd.jsonl
 data/cache/cvelistV5/
 .DS_Store
+
+# Next.js
+.next/
+out/

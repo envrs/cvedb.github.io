@@ -1,0 +1,75 @@
+{
+  "cna_info": {
+    "cna": "OAI",
+    "total_cves": 1,
+    "total_cves_scored": 1,
+    "organizationName": "OpenAI",
+    "scope": "Vulnerabilities in OpenAI installed software including desktop apps, mobile apps, and SDKs only.",
+    "advisories": [
+      {
+        "label": "Advisories",
+        "url": "https://trust.openai.com/"
+      }
+    ],
+    "email": [
+      {
+        "label": "Email",
+        "emailAddr": "security@openai.com"
+      }
+    ],
+    "officialCnaID": "CNA-2026-0026",
+    "cnaTypes": [
+      "Vendor"
+    ],
+    "country": "USA",
+    "disclosurePolicy": [
+      {
+        "label": "Policy",
+        "language": "",
+        "url": "https://openai.com/policies/openai-cve-assignment-policy/"
+      }
+    ],
+    "rootCnaInfo": {}
+  },
+  "trend_direction": "steady",
+  "trend_description": "No significant change",
+  "rank": 54,
+  "active_cna_count": 331,
+  "percentile": 84.0,
+  "cna_scoring": [
+    {
+      "total_cves": 1,
+      "total_cves_scored": 1,
+      "recent_cves_count": 1,
+      "overall_average_score": 80.0,
+      "average_foundational_completeness": 50.0,
+      "average_root_cause_analysis": 15.0,
+      "average_software_identification": 0.0,
+      "average_severity_context": 15.0,
+      "average_patchinfo": 0.0,
+      "percent_foundational_completeness": 100.0,
+      "percent_root_cause_analysis": 100.0,
+      "percent_software_identification": 0.0,
+      "percent_severity_and_impact": 100.0,
+      "percent_patchinfo": 0.0,
+      "trend_direction": "steady",
+      "trend_description": "No significant change",
+      "monthly_trends": []
+    }
+  ],
+  "recent_cves": [
+    {
+      "cveId": "CVE-2026-11326",
+      "assigningCna": "OAI",
+      "datePublished": "2026-06-05",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    }
+  ]
+}
