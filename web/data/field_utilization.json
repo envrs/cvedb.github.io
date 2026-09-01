@@ -97,16 +97,16 @@
   },
   {
     "field": "metrics.other",
-    "percent": 89.2,
-    "unique_cnas": 305,
+    "percent": 89.5,
+    "unique_cnas": 306,
     "importance": "Medium",
     "description": "Other metric formats",
     "cna_scorecard_category": null
   },
   {
     "field": "metrics.scenarios",
-    "percent": 86.5,
-    "unique_cnas": 296,
+    "percent": 86.8,
+    "unique_cnas": 297,
     "importance": "Medium",
     "description": "Metric scenarios",
     "cna_scorecard_category": null
@@ -137,8 +137,8 @@
   },
   {
     "field": "metrics.cvssV4_0",
-    "percent": 64.6,
-    "unique_cnas": 221,
+    "percent": 64.9,
+    "unique_cnas": 222,
     "importance": "High",
     "description": "CVSS v4.0 metrics",
     "cna_scorecard_category": "severityAndImpactContext"
@@ -169,16 +169,16 @@
   },
   {
     "field": "containers.cna.datePublic",
-    "percent": 47.4,
-    "unique_cnas": 162,
+    "percent": 47.7,
+    "unique_cnas": 163,
     "importance": "Low",
     "description": "Date the vulnerability was disclosed publicly",
     "cna_scorecard_category": null
   },
   {
     "field": "containers.cna.solutions",
-    "percent": 32.7,
-    "unique_cnas": 112,
+    "percent": 33.0,
+    "unique_cnas": 113,
     "importance": "Medium",
     "description": "Solutions and remediations",
     "cna_scorecard_category": null
@@ -200,20 +200,20 @@
     "cna_scorecard_category": null
   },
   {
+    "field": "containers.cna.workarounds",
+    "percent": 21.1,
+    "unique_cnas": 72,
+    "importance": "Medium",
+    "description": "Workaround information",
+    "cna_scorecard_category": null
+  },
+  {
     "field": "references.patch",
     "percent": 20.8,
     "unique_cnas": 71,
     "importance": "High",
     "description": "Patch references",
     "cna_scorecard_category": "patchinfo"
-  },
-  {
-    "field": "containers.cna.workarounds",
-    "percent": 20.5,
-    "unique_cnas": 70,
-    "importance": "Medium",
-    "description": "Workaround information",
-    "cna_scorecard_category": null
   },
   {
     "field": "containers.cna.tags",
