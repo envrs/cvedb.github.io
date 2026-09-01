@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "certcc",
-    "total_cves": 147,
-    "total_cves_scored": 147,
+    "total_cves": 148,
+    "total_cves_scored": 148,
     "organizationName": "CERT/CC",
     "scope": "Vulnerability assignment related to its vulnerability coordination role.",
     "advisories": [
@@ -38,9 +38,9 @@
   "percentile": 10.5,
   "cna_scoring": [
     {
-      "total_cves": 147,
-      "total_cves_scored": 147,
-      "recent_cves_count": 147,
+      "total_cves": 148,
+      "total_cves_scored": 148,
+      "recent_cves_count": 148,
       "overall_average_score": 65.1,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
@@ -1570,6 +1570,19 @@
       "cveId": "CVE-2026-15971",
       "assigningCna": "certcc",
       "datePublished": "2026-07-30",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-80047",
+      "assigningCna": "certcc",
+      "datePublished": "2026-09-01",
       "totalCveScore": 65,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
