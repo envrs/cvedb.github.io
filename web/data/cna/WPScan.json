@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "WPScan",
-    "total_cves": 865,
-    "total_cves_scored": 865,
+    "total_cves": 868,
+    "total_cves_scored": 868,
     "organizationName": "WPScan",
     "scope": "WordPress core, plugins, and themes.",
     "advisories": [
@@ -42,24 +42,24 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 300,
-  "active_cna_count": 335,
-  "percentile": 10.7,
+  "rank": 299,
+  "active_cna_count": 334,
+  "percentile": 10.8,
   "cna_scoring": [
     {
-      "total_cves": 865,
-      "total_cves_scored": 865,
-      "recent_cves_count": 865,
-      "overall_average_score": 65.88,
+      "total_cves": 868,
+      "total_cves_scored": 868,
+      "recent_cves_count": 868,
+      "overall_average_score": 65.93,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
       "average_software_identification": 0.0,
-      "average_severity_context": 0.88,
+      "average_severity_context": 0.93,
       "average_patchinfo": 0.0,
       "percent_foundational_completeness": 100.0,
       "percent_root_cause_analysis": 100.0,
       "percent_software_identification": 0.0,
-      "percent_severity_and_impact": 5.9,
+      "percent_severity_and_impact": 6.22,
       "percent_patchinfo": 0.0,
       "trend_direction": "steady",
       "trend_description": "No significant change",
@@ -2910,6 +2910,19 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 15,
         "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-13611",
+      "assigningCna": "WPScan",
+      "datePublished": "2026-09-01",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 0
       }
@@ -6152,6 +6165,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-78363",
+      "assigningCna": "WPScan",
+      "datePublished": "2026-09-01",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-78125",
       "assigningCna": "WPScan",
       "datePublished": "2026-08-27",
@@ -7668,6 +7694,19 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 15,
         "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-74916",
+      "assigningCna": "WPScan",
+      "datePublished": "2026-09-01",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 0
       }
