@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "dell",
-    "total_cves": 250,
-    "total_cves_scored": 250,
+    "total_cves": 251,
+    "total_cves_scored": 251,
     "organizationName": "Dell",
     "scope": "Dell, Dell EMC, and VCE issues only.",
     "advisories": [
@@ -38,9 +38,9 @@
   "percentile": 80.2,
   "cna_scoring": [
     {
-      "total_cves": 250,
-      "total_cves_scored": 250,
-      "recent_cves_count": 250,
+      "total_cves": 251,
+      "total_cves_scored": 251,
+      "recent_cves_count": 251,
       "overall_average_score": 80.0,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
@@ -1765,6 +1765,19 @@
       "cveId": "CVE-2026-58574",
       "assigningCna": "dell",
       "datePublished": "2026-08-31",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-58566",
+      "assigningCna": "dell",
+      "datePublished": "2026-09-01",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,

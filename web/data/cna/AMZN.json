@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "AMZN",
-    "total_cves": 108,
-    "total_cves_scored": 108,
+    "total_cves": 109,
+    "total_cves_scored": 109,
     "organizationName": "Amazon",
     "scope": "All Amazon and AWS products (including subsidiaries, supported, and EOL/EOS products), as well as vulnerabilities in third party software discovered by Amazon/AWS that are not in another CNA’s scope.",
     "advisories": [
@@ -40,20 +40,20 @@
   "percentile": 93.1,
   "cna_scoring": [
     {
-      "total_cves": 108,
-      "total_cves_scored": 108,
-      "recent_cves_count": 108,
-      "overall_average_score": 88.61,
+      "total_cves": 109,
+      "total_cves_scored": 109,
+      "recent_cves_count": 109,
+      "overall_average_score": 88.62,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
       "average_software_identification": 0.0,
       "average_severity_context": 15.0,
-      "average_patchinfo": 8.61,
+      "average_patchinfo": 8.62,
       "percent_foundational_completeness": 100.0,
       "percent_root_cause_analysis": 100.0,
       "percent_software_identification": 0.0,
       "percent_severity_and_impact": 100.0,
-      "percent_patchinfo": 86.11,
+      "percent_patchinfo": 86.24,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -688,6 +688,19 @@
       "cveId": "CVE-2026-4428",
       "assigningCna": "AMZN",
       "datePublished": "2026-03-19",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-83551",
+      "assigningCna": "AMZN",
+      "datePublished": "2026-09-01",
       "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,

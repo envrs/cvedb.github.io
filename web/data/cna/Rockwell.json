@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "Rockwell",
-    "total_cves": 41,
-    "total_cves_scored": 41,
+    "total_cves": 43,
+    "total_cves_scored": 43,
     "organizationName": "Rockwell Automation",
     "scope": "All Rockwell Automation products.",
     "advisories": [
@@ -33,22 +33,22 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 251,
+  "rank": 259,
   "active_cna_count": 334,
-  "percentile": 25.1,
+  "percentile": 22.8,
   "cna_scoring": [
     {
-      "total_cves": 41,
-      "total_cves_scored": 41,
-      "recent_cves_count": 41,
-      "overall_average_score": 79.63,
+      "total_cves": 43,
+      "total_cves_scored": 43,
+      "recent_cves_count": 43,
+      "overall_average_score": 78.95,
       "average_foundational_completeness": 50.0,
-      "average_root_cause_analysis": 14.63,
+      "average_root_cause_analysis": 13.95,
       "average_software_identification": 0.0,
       "average_severity_context": 15.0,
       "average_patchinfo": 0.0,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 97.56,
+      "percent_root_cause_analysis": 93.02,
       "percent_software_identification": 0.0,
       "percent_severity_and_impact": 100.0,
       "percent_patchinfo": 0.0,
@@ -58,6 +58,32 @@
     }
   ],
   "recent_cves": [
+    {
+      "cveId": "CVE-2024-7953",
+      "assigningCna": "Rockwell",
+      "datePublished": "2026-09-01",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2024-7952",
+      "assigningCna": "Rockwell",
+      "datePublished": "2026-09-01",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
     {
       "cveId": "CVE-2025-14272",
       "assigningCna": "Rockwell",
