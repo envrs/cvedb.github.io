@@ -34,8 +34,8 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 67,
-  "active_cna_count": 335,
-  "percentile": 80.3,
+  "active_cna_count": 336,
+  "percentile": 80.4,
   "cna_scoring": [
     {
       "total_cves": 29,
@@ -59,19 +59,6 @@
   ],
   "recent_cves": [
     {
-      "cveId": "CVE-2021-47961",
-      "assigningCna": "synology",
-      "datePublished": "2026-04-10",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2021-47960",
       "assigningCna": "synology",
       "datePublished": "2026-04-10",
@@ -85,7 +72,20 @@
       }
     },
     {
-      "cveId": "CVE-2022-49042",
+      "cveId": "CVE-2021-47961",
+      "assigningCna": "synology",
+      "datePublished": "2026-04-10",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2022-49036",
       "assigningCna": "synology",
       "datePublished": "2026-06-03",
       "totalCveScore": 80,
@@ -98,7 +98,7 @@
       }
     },
     {
-      "cveId": "CVE-2022-49036",
+      "cveId": "CVE-2022-49042",
       "assigningCna": "synology",
       "datePublished": "2026-06-03",
       "totalCveScore": 80,
@@ -137,20 +137,7 @@
       }
     },
     {
-      "cveId": "CVE-2024-47270",
-      "assigningCna": "synology",
-      "datePublished": "2026-05-27",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2024-47273",
+      "cveId": "CVE-2024-47263",
       "assigningCna": "synology",
       "datePublished": "2026-06-03",
       "totalCveScore": 80,
@@ -189,7 +176,7 @@
       }
     },
     {
-      "cveId": "CVE-2024-47272",
+      "cveId": "CVE-2024-47269",
       "assigningCna": "synology",
       "datePublished": "2026-05-27",
       "totalCveScore": 80,
@@ -202,9 +189,9 @@
       }
     },
     {
-      "cveId": "CVE-2024-47263",
+      "cveId": "CVE-2024-47270",
       "assigningCna": "synology",
-      "datePublished": "2026-06-03",
+      "datePublished": "2026-05-27",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -228,9 +215,22 @@
       }
     },
     {
-      "cveId": "CVE-2024-47269",
+      "cveId": "CVE-2024-47272",
       "assigningCna": "synology",
       "datePublished": "2026-05-27",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2024-47273",
+      "assigningCna": "synology",
+      "datePublished": "2026-06-03",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -242,32 +242,6 @@
     },
     {
       "cveId": "CVE-2024-11399",
-      "assigningCna": "synology",
-      "datePublished": "2026-05-27",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-14713",
-      "assigningCna": "synology",
-      "datePublished": "2026-05-27",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-13392",
       "assigningCna": "synology",
       "datePublished": "2026-05-27",
       "totalCveScore": 80,
@@ -293,33 +267,20 @@
       }
     },
     {
+      "cveId": "CVE-2025-13392",
+      "assigningCna": "synology",
+      "datePublished": "2026-05-27",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2025-13593",
-      "assigningCna": "synology",
-      "datePublished": "2026-05-27",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-12686",
-      "assigningCna": "synology",
-      "datePublished": "2026-05-27",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-30028",
       "assigningCna": "synology",
       "datePublished": "2026-05-27",
       "totalCveScore": 80,
@@ -358,6 +319,19 @@
       }
     },
     {
+      "cveId": "CVE-2025-12686",
+      "assigningCna": "synology",
+      "datePublished": "2026-05-27",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2025-10466",
       "assigningCna": "synology",
       "datePublished": "2026-05-27",
@@ -371,9 +345,9 @@
       }
     },
     {
-      "cveId": "CVE-2026-40541",
+      "cveId": "CVE-2025-30028",
       "assigningCna": "synology",
-      "datePublished": "2026-08-28",
+      "datePublished": "2026-05-27",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -384,9 +358,9 @@
       }
     },
     {
-      "cveId": "CVE-2026-4793",
+      "cveId": "CVE-2025-14713",
       "assigningCna": "synology",
-      "datePublished": "2026-08-03",
+      "datePublished": "2026-05-27",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -423,9 +397,35 @@
       }
     },
     {
+      "cveId": "CVE-2026-40541",
+      "assigningCna": "synology",
+      "datePublished": "2026-08-28",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-2237",
       "assigningCna": "synology",
       "datePublished": "2026-05-27",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-4793",
+      "assigningCna": "synology",
+      "datePublished": "2026-08-03",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
