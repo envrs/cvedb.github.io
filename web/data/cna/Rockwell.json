@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "Rockwell",
-    "total_cves": 43,
-    "total_cves_scored": 43,
+    "total_cves": 44,
+    "total_cves_scored": 44,
     "organizationName": "Rockwell Automation",
     "scope": "All Rockwell Automation products.",
     "advisories": [
@@ -33,22 +33,22 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 259,
-  "active_cna_count": 334,
-  "percentile": 22.8,
+  "rank": 263,
+  "active_cna_count": 335,
+  "percentile": 21.8,
   "cna_scoring": [
     {
-      "total_cves": 43,
-      "total_cves_scored": 43,
-      "recent_cves_count": 43,
-      "overall_average_score": 78.95,
+      "total_cves": 44,
+      "total_cves_scored": 44,
+      "recent_cves_count": 44,
+      "overall_average_score": 78.64,
       "average_foundational_completeness": 50.0,
-      "average_root_cause_analysis": 13.95,
+      "average_root_cause_analysis": 13.64,
       "average_software_identification": 0.0,
       "average_severity_context": 15.0,
       "average_patchinfo": 0.0,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 93.02,
+      "percent_root_cause_analysis": 90.91,
       "percent_software_identification": 0.0,
       "percent_severity_and_impact": 100.0,
       "percent_patchinfo": 0.0,
@@ -58,6 +58,19 @@
     }
   ],
   "recent_cves": [
+    {
+      "cveId": "CVE-2024-7956",
+      "assigningCna": "Rockwell",
+      "datePublished": "2026-09-02",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
     {
       "cveId": "CVE-2024-7953",
       "assigningCna": "Rockwell",

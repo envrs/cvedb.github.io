@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "WPScan",
-    "total_cves": 909,
-    "total_cves_scored": 909,
+    "total_cves": 934,
+    "total_cves_scored": 934,
     "organizationName": "WPScan",
     "scope": "WordPress core, plugins, and themes.",
     "advisories": [
@@ -42,31 +42,57 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 299,
-  "active_cna_count": 334,
-  "percentile": 10.8,
+  "rank": 300,
+  "active_cna_count": 335,
+  "percentile": 10.7,
   "cna_scoring": [
     {
-      "total_cves": 909,
-      "total_cves_scored": 909,
-      "recent_cves_count": 909,
-      "overall_average_score": 65.89,
+      "total_cves": 934,
+      "total_cves_scored": 934,
+      "recent_cves_count": 934,
+      "overall_average_score": 66.28,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
       "average_software_identification": 0.0,
-      "average_severity_context": 0.89,
-      "average_patchinfo": 0.0,
+      "average_severity_context": 1.27,
+      "average_patchinfo": 0.01,
       "percent_foundational_completeness": 100.0,
       "percent_root_cause_analysis": 100.0,
       "percent_software_identification": 0.0,
-      "percent_severity_and_impact": 5.94,
-      "percent_patchinfo": 0.0,
+      "percent_severity_and_impact": 8.46,
+      "percent_patchinfo": 0.11,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
     }
   ],
   "recent_cves": [
+    {
+      "cveId": "CVE-2023-3360",
+      "assigningCna": "WPScan",
+      "datePublished": "2026-09-02",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2024-3773",
+      "assigningCna": "WPScan",
+      "datePublished": "2026-09-02",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
     {
       "cveId": "CVE-2024-7083",
       "assigningCna": "WPScan",
@@ -120,6 +146,32 @@
       }
     },
     {
+      "cveId": "CVE-2025-9314",
+      "assigningCna": "WPScan",
+      "datePublished": "2026-09-02",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-15481",
+      "assigningCna": "WPScan",
+      "datePublished": "2026-09-02",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2025-15678",
       "assigningCna": "WPScan",
       "datePublished": "2026-08-06",
@@ -141,6 +193,19 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 15,
         "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-15489",
+      "assigningCna": "WPScan",
+      "datePublished": "2026-09-02",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 0
       }
@@ -193,6 +258,19 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 15,
         "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-15490",
+      "assigningCna": "WPScan",
+      "datePublished": "2026-09-02",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 0
       }
@@ -328,6 +406,19 @@
       }
     },
     {
+      "cveId": "CVE-2025-15485",
+      "assigningCna": "WPScan",
+      "datePublished": "2026-09-02",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2025-15674",
       "assigningCna": "WPScan",
       "datePublished": "2026-08-06",
@@ -380,6 +471,19 @@
       }
     },
     {
+      "cveId": "CVE-2025-15692",
+      "assigningCna": "WPScan",
+      "datePublished": "2026-09-02",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2025-15488",
       "assigningCna": "WPScan",
       "datePublished": "2026-03-26",
@@ -401,6 +505,19 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 15,
         "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-8945",
+      "assigningCna": "WPScan",
+      "datePublished": "2026-09-02",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 0
       }
@@ -1766,6 +1883,19 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 15,
         "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-14326",
+      "assigningCna": "WPScan",
+      "datePublished": "2026-09-02",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 0
       }
@@ -6217,6 +6347,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-82884",
+      "assigningCna": "WPScan",
+      "datePublished": "2026-09-02",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-82183",
       "assigningCna": "WPScan",
       "datePublished": "2026-09-02",
@@ -6225,6 +6368,19 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 15,
         "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-78153",
+      "assigningCna": "WPScan",
+      "datePublished": "2026-09-02",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 0
       }
@@ -6711,6 +6867,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-17563",
+      "assigningCna": "WPScan",
+      "datePublished": "2026-09-02",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-17542",
       "assigningCna": "WPScan",
       "datePublished": "2026-08-10",
@@ -6797,6 +6966,19 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 15,
         "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-77793",
+      "assigningCna": "WPScan",
+      "datePublished": "2026-09-02",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 0
       }
@@ -7049,6 +7231,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-77009",
+      "assigningCna": "WPScan",
+      "datePublished": "2026-09-02",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-77786",
       "assigningCna": "WPScan",
       "datePublished": "2026-08-29",
@@ -7135,6 +7330,19 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 15,
         "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-77794",
+      "assigningCna": "WPScan",
+      "datePublished": "2026-09-02",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 0
       }
@@ -7270,6 +7478,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-4357",
+      "assigningCna": "WPScan",
+      "datePublished": "2026-09-02",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-4110",
       "assigningCna": "WPScan",
       "datePublished": "2026-06-22",
@@ -7278,6 +7499,32 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 15,
         "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-83533",
+      "assigningCna": "WPScan",
+      "datePublished": "2026-09-02",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-83547",
+      "assigningCna": "WPScan",
+      "datePublished": "2026-09-02",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 0
       }
@@ -7907,6 +8154,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-19698",
+      "assigningCna": "WPScan",
+      "datePublished": "2026-09-02",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-19842",
       "assigningCna": "WPScan",
       "datePublished": "2026-08-19",
@@ -8448,6 +8708,19 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 15,
         "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-10821",
+      "assigningCna": "WPScan",
+      "datePublished": "2026-09-02",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 0
       }
@@ -10572,6 +10845,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-81571",
+      "assigningCna": "WPScan",
+      "datePublished": "2026-09-02",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-81428",
       "assigningCna": "WPScan",
       "datePublished": "2026-09-02",
@@ -11482,6 +11768,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-8151",
+      "assigningCna": "WPScan",
+      "datePublished": "2026-09-02",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
       "cveId": "CVE-2026-8155",
       "assigningCna": "WPScan",
       "datePublished": "2026-07-31",
@@ -11677,6 +11976,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-2688",
+      "assigningCna": "WPScan",
+      "datePublished": "2026-09-02",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-2446",
       "assigningCna": "WPScan",
       "datePublished": "2026-03-06",
@@ -11711,6 +12023,19 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 15,
         "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-2811",
+      "assigningCna": "WPScan",
+      "datePublished": "2026-09-02",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 0
       }
