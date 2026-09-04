@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "total_cves": 59121,
+  "total_cves": 59238,
   "date_data": {
     "monthly_distribution": {
       "1": 4302,
@@ -11,14 +11,14 @@
       "6": 7943,
       "7": 9770,
       "8": 12270,
-      "9": 1237,
+      "9": 1354,
       "10": 0,
       "11": 0,
       "12": 0
     },
     "daily_analysis": {
       "total_days": 245,
-      "avg_per_day": 241.31,
+      "avg_per_day": 241.79,
       "highest_day": {
         "date": "2026-07-21",
         "count": 1474
@@ -274,16 +274,16 @@
         "2026-09-01": 450,
         "2026-09-02": 342,
         "2026-09-03": 349,
-        "2026-09-04": 96
+        "2026-09-04": 213
       }
     }
   },
   "cvss": {
     "v3.0": {
-      "total": 290,
+      "total": 289,
       "severity_distribution": {
         "CRITICAL": 35,
-        "MEDIUM": 76,
+        "MEDIUM": 75,
         "HIGH": 160,
         "LOW": 16,
         "NONE": 3
@@ -298,7 +298,7 @@
         "7.5": 25,
         "3.3": 7,
         "7.0": 2,
-        "5.3": 9,
+        "5.3": 8,
         "5.7": 1,
         "10.0": 4,
         "4.4": 2,
@@ -340,44 +340,44 @@
       }
     },
     "v3.1": {
-      "total": 38788,
+      "total": 38854,
       "severity_distribution": {
-        "HIGH": 16659,
+        "HIGH": 16675,
         "CRITICAL": 4978,
-        "MEDIUM": 15822,
-        "LOW": 1304,
+        "MEDIUM": 15871,
+        "LOW": 1305,
         "NONE": 25
       },
       "score_distribution": {
-        "7.5": 3623,
+        "7.5": 3626,
         "9.8": 2345,
         "9.1": 827,
         "9.9": 474,
         "10.0": 299,
-        "5.9": 497,
-        "6.5": 3045,
-        "5.3": 1908,
-        "7.8": 2831,
-        "5.5": 2306,
-        "5.4": 1091,
-        "4.1": 54,
+        "5.9": 499,
+        "6.5": 3048,
+        "5.3": 1914,
+        "7.8": 2836,
+        "5.5": 2333,
+        "5.4": 1093,
+        "4.1": 55,
         "8.2": 461,
         "8.0": 215,
         "8.1": 1585,
         "6.7": 179,
-        "8.8": 2616,
-        "7.7": 353,
-        "6.1": 846,
+        "8.8": 2617,
+        "7.7": 354,
+        "6.1": 849,
         "7.3": 428,
-        "4.3": 1975,
+        "4.3": 1978,
         "7.4": 301,
-        "7.1": 1458,
+        "7.1": 1461,
         "3.5": 113,
         "4.6": 134,
-        "7.2": 645,
+        "7.2": 646,
         "2.0": 16,
         "9.0": 130,
-        "6.2": 232,
+        "6.2": 233,
         "6.4": 808,
         "3.3": 150,
         "2.4": 24,
@@ -389,12 +389,12 @@
         "4.8": 220,
         "9.4": 81,
         "8.3": 422,
-        "6.8": 326,
+        "6.8": 327,
         "2.7": 161,
         "4.9": 288,
         "8.6": 329,
-        "3.1": 273,
-        "7.0": 296,
+        "3.1": 274,
+        "7.0": 297,
         "5.0": 159,
         "5.7": 122,
         "4.2": 168,
@@ -405,7 +405,7 @@
         "8.5": 275,
         "9.3": 344,
         "5.1": 63,
-        "7.9": 39,
+        "7.9": 40,
         "4.7": 230,
         "4.4": 289,
         "2.9": 30,
@@ -434,53 +434,53 @@
       }
     },
     "v4.0": {
-      "total": 19022,
+      "total": 19119,
       "severity_distribution": {
-        "CRITICAL": 1847,
-        "MEDIUM": 6752,
-        "HIGH": 7184,
-        "LOW": 3188,
+        "CRITICAL": 1861,
+        "MEDIUM": 6779,
+        "HIGH": 7238,
+        "LOW": 3190,
         "NONE": 51
       },
       "score_distribution": {
-        "9.3": 1028,
-        "6.9": 1316,
-        "8.7": 1717,
-        "5.1": 1010,
-        "8.8": 559,
-        "5.3": 958,
-        "6.8": 234,
-        "8.5": 606,
+        "9.3": 1037,
+        "6.9": 1322,
+        "8.7": 1740,
+        "5.1": 1015,
+        "8.8": 560,
+        "5.3": 967,
+        "6.8": 235,
+        "8.5": 609,
         "8.6": 634,
-        "7.1": 942,
-        "7.0": 210,
+        "7.1": 960,
+        "7.0": 212,
         "9.1": 71,
-        "8.4": 294,
+        "8.4": 297,
         "4.8": 279,
         "6.7": 91,
         "4.6": 153,
         "9.0": 47,
-        "7.7": 246,
+        "7.7": 247,
         "7.2": 177,
-        "6.3": 481,
+        "6.3": 483,
         "7.3": 231,
         "1.8": 28,
         "8.3": 206,
-        "9.2": 269,
-        "5.5": 1152,
+        "9.2": 274,
+        "5.5": 1155,
         "5.6": 45,
         "4.1": 21,
-        "8.2": 314,
+        "8.2": 317,
         "2.3": 267,
         "5.9": 149,
         "1.7": 32,
         "2.0": 415,
-        "6.0": 230,
+        "6.0": 231,
         "2.7": 42,
         "0.1": 2,
         "5.7": 92,
         "5.2": 35,
-        "2.1": 1555,
+        "2.1": 1557,
         "1.9": 438,
         "7.4": 508,
         "1.3": 122,
@@ -530,12 +530,12 @@
       }
     },
     "unknown": {
-      "total": 1021,
+      "total": 976,
       "severity_distribution": {
-        "UNKNOWN": 1021
+        "UNKNOWN": 976
       },
       "score_distribution": {
-        "0.0": 1021
+        "0.0": 976
       }
     }
   },
@@ -547,7 +547,7 @@
       },
       {
         "name": "vulncheck.com",
-        "count": 5384
+        "count": 5474
       },
       {
         "name": "Linux Kernel Organization",
@@ -555,7 +555,7 @@
       },
       {
         "name": "vuldb.com",
-        "count": 4518
+        "count": 4523
       },
       {
         "name": "patchstack.com",
@@ -567,7 +567,7 @@
       },
       {
         "name": "wordfence.com",
-        "count": 2755
+        "count": 2756
       },
       {
         "name": "Google LLC",
@@ -587,7 +587,7 @@
       },
       {
         "name": "IBM Corporation",
-        "count": 842
+        "count": 847
       },
       {
         "name": "Red Hat, Inc.",
@@ -595,7 +595,7 @@
       },
       {
         "name": "Apache Software Foundation",
-        "count": 716
+        "count": 717
       },
       {
         "name": "Adobe Inc.",
@@ -625,7 +625,7 @@
     "cpe_vendors": [
       {
         "name": "Linux",
-        "count": 4083
+        "count": 4143
       },
       {
         "name": "Microsoft",
@@ -637,7 +637,7 @@
       },
       {
         "name": "Oracle",
-        "count": 2408
+        "count": 2419
       },
       {
         "name": "Apple",
@@ -665,7 +665,7 @@
       },
       {
         "name": "Redhat",
-        "count": 392
+        "count": 393
       },
       {
         "name": "Tenda",
@@ -685,7 +685,7 @@
       },
       {
         "name": "Nvidia",
-        "count": 169
+        "count": 170
       },
       {
         "name": "Samsung",
@@ -709,71 +709,71 @@
     "top_cwes": [
       {
         "cwe": "CWE-79",
-        "count": 5624
+        "count": 5637
       },
       {
         "cwe": "CWE-89",
-        "count": 3237
+        "count": 3242
       },
       {
         "cwe": "CWE-284",
-        "count": 3214
+        "count": 3217
       },
       {
         "cwe": "CWE-862",
-        "count": 3029
+        "count": 3038
       },
       {
         "cwe": "CWE-22",
-        "count": 2160
+        "count": 2171
       },
       {
         "cwe": "CWE-416",
-        "count": 2015
+        "count": 2025
       },
       {
         "cwe": "CWE-78",
-        "count": 1626
+        "count": 1629
       },
       {
         "cwe": "CWE-787",
-        "count": 1567
+        "count": 1571
+      },
+      {
+        "cwe": "CWE-918",
+        "count": 1515
       },
       {
         "cwe": "CWE-20",
         "count": 1510
       },
       {
-        "cwe": "CWE-918",
-        "count": 1502
-      },
-      {
         "cwe": "CWE-125",
-        "count": 1463
+        "count": 1468
       },
       {
         "cwe": "CWE-94",
-        "count": 1441
+        "count": 1447
       },
       {
         "cwe": "CWE-74",
-        "count": 1418
+        "count": 1419
       },
       {
         "cwe": "CWE-200",
-        "count": 1388
+        "count": 1393
       },
       {
         "cwe": "CWE-863",
-        "count": 1345
+        "count": 1353
       },
       {
         "cwe": "CWE-639",
-        "count": 1308
+        "count": 1319
       },
       {
         "cwe": "CWE-306",
-        "count": 1243
+        "count": 1248
       },
       {
         "cwe": "CWE-121",
@@ -785,7 +785,7 @@
       },
       {
         "cwe": "CWE-119",
-        "count": 978
+        "count": 979
       }
     ]
   },
@@ -793,54 +793,54 @@
     "vulnerability_status": [
       {
         "status": "Analyzed",
-        "count": 26991
+        "count": 27107
       },
       {
         "status": "Deferred",
-        "count": 20039
+        "count": 20076
       },
       {
         "status": "Received",
-        "count": 4544
+        "count": 4624
       },
       {
         "status": "Modified",
-        "count": 3930
+        "count": 3932
       },
       {
         "status": "Awaiting Analysis",
-        "count": 2841
+        "count": 2790
       },
       {
         "status": "Undergoing Analysis",
-        "count": 776
+        "count": 709
       }
     ],
     "cve_tags": [],
     "reference_tags": [
       {
         "tag": "Vendor Advisory",
-        "count": 28890
+        "count": 29969
       },
       {
         "tag": "Patch",
-        "count": 24221
+        "count": 24597
       },
       {
         "tag": "Third Party Advisory",
-        "count": 12148
+        "count": 12158
       },
       {
         "tag": "Exploit",
-        "count": 9414
+        "count": 9416
       },
       {
         "tag": "Release Notes",
-        "count": 7736
+        "count": 7739
       },
       {
         "tag": "Product",
-        "count": 5112
+        "count": 5119
       },
       {
         "tag": "VDB Entry",
@@ -848,15 +848,15 @@
       },
       {
         "tag": "Permissions Required",
-        "count": 4602
+        "count": 4606
       },
       {
         "tag": "Issue Tracking",
-        "count": 4275
+        "count": 4277
       },
       {
         "tag": "Mitigation",
-        "count": 3237
+        "count": 3243
       },
       {
         "tag": "Mailing List",
@@ -868,11 +868,11 @@
       },
       {
         "tag": "US Government Resource",
-        "count": 475
+        "count": 476
       },
       {
         "tag": "Not Applicable",
-        "count": 292
+        "count": 294
       },
       {
         "tag": "Technical Description",
@@ -889,7 +889,7 @@
     ]
   },
   "processing_stats": {
-    "processed_at": "2026-09-04T15:37:39.795395",
+    "processed_at": "2026-09-04T20:20:29.804635",
     "data_source": "data/cache/nvd.jsonl"
   }
 }
