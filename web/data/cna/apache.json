@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "apache",
-    "total_cves": 665,
-    "total_cves_scored": 665,
+    "total_cves": 666,
+    "total_cves_scored": 666,
     "organizationName": "Apache Software Foundation",
     "scope": "All Apache Software Foundation issues only.",
     "advisories": [
@@ -34,14 +34,14 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 292,
-  "active_cna_count": 331,
-  "percentile": 12.1,
+  "rank": 295,
+  "active_cna_count": 335,
+  "percentile": 12.2,
   "cna_scoring": [
     {
-      "total_cves": 665,
-      "total_cves_scored": 665,
-      "recent_cves_count": 665,
+      "total_cves": 666,
+      "total_cves_scored": 666,
+      "recent_cves_count": 666,
       "overall_average_score": 69.62,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 14.75,
@@ -51,8 +51,8 @@
       "percent_foundational_completeness": 100.0,
       "percent_root_cause_analysis": 98.35,
       "percent_software_identification": 1.35,
-      "percent_severity_and_impact": 20.75,
-      "percent_patchinfo": 16.24,
+      "percent_severity_and_impact": 20.72,
+      "percent_patchinfo": 16.22,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -3157,6 +3157,19 @@
       "cveId": "CVE-2026-78329",
       "assigningCna": "apache",
       "datePublished": "2026-08-24",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-78254",
+      "assigningCna": "apache",
+      "datePublished": "2026-09-07",
       "totalCveScore": 65,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
