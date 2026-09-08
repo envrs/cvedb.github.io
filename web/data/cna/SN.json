@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "SN",
-    "total_cves": 23,
-    "total_cves_scored": 23,
+    "total_cves": 24,
+    "total_cves_scored": 24,
     "organizationName": "ServiceNow",
     "scope": "All ServiceNow products (supported products and end-of-life/end-of-service products), as well as vulnerabilities in third-party software discovered by ServiceNow that are not in another CNA’s scope.",
     "advisories": [
@@ -40,17 +40,17 @@
   "percentile": 18.2,
   "cna_scoring": [
     {
-      "total_cves": 23,
-      "total_cves_scored": 23,
-      "recent_cves_count": 23,
-      "overall_average_score": 76.74,
+      "total_cves": 24,
+      "total_cves_scored": 24,
+      "recent_cves_count": 24,
+      "overall_average_score": 76.88,
       "average_foundational_completeness": 50.0,
-      "average_root_cause_analysis": 11.74,
+      "average_root_cause_analysis": 11.88,
       "average_software_identification": 0.0,
       "average_severity_context": 15.0,
       "average_patchinfo": 0.0,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 78.26,
+      "percent_root_cause_analysis": 79.17,
       "percent_software_identification": 0.0,
       "percent_severity_and_impact": 100.0,
       "percent_patchinfo": 0.0,
@@ -64,6 +64,19 @@
       "cveId": "CVE-2026-16870",
       "assigningCna": "SN",
       "datePublished": "2026-07-24",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-86600",
+      "assigningCna": "SN",
+      "datePublished": "2026-09-08",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
