@@ -299,6 +299,40 @@
     "rootCnaInfo": {}
   },
   {
+    "shortName": "AISLE",
+    "organizationName": "AISLE Incorporated",
+    "scope": "All AISLE products as well as vulnerabilities discovered in third-party software not covered by other CNA’s scope.",
+    "cnaID": "CNA-2026-0049",
+    "type": [
+      "Vendor",
+      "Researcher"
+    ],
+    "advisories": [
+      {
+        "label": "Advisories",
+        "url": "https://aisle.com/cve-discoveries"
+      }
+    ],
+    "email": [
+      {
+        "label": "Email",
+        "emailAddr": "security@aisle.com"
+      }
+    ],
+    "country": "Netherlands",
+    "disclosurePolicy": [
+      {
+        "label": "Policy",
+        "language": "",
+        "url": "https://aisle.com/vulnerability-disclosure"
+      }
+    ],
+    "rootCnaInfo": {
+      "shortName": "ENISA",
+      "organizationName": "EU Agency for Cybersecurity (ENISA)"
+    }
+  },
+  {
     "shortName": "AlgoSec",
     "organizationName": "AlgoSec",
     "scope": "AlgoSec products only.",
@@ -683,6 +717,46 @@
         "label": "Policy",
         "language": "",
         "url": "https://antenna.dev/security/reporting"
+      }
+    ],
+    "rootCnaInfo": {}
+  },
+  {
+    "shortName": "Anthropic",
+    "organizationName": "Anthropic, PBC",
+    "scope": "<strong>CNA Scope:</strong> Vulnerabilities in software, services, and open-source projects developed, maintained, or distributed by Anthropic. This includes Claude Code, Claude Desktop, browser extensions, the Model Context Protocol (MCP) SDKs and reference servers, Anthropic API client SDKs, and related developer tooling published under the Anthropic, anthropic-experimental, and modelcontextprotocol GitHub organizations.<br/><br/><strong><a href='/Resources/Roles/Cnas/FrontierAiResearcherCNAsPilot.pdf' target='_blank'>Frontier AI Researcher CVE Numbering Authorities (CNAs) Pilot</a> Scope:</strong> Vulnerabilities discovered by Anthropic that are not within another CNA’s scope.",
+    "cnaID": "CNA-2026-0052",
+    "type": [
+      "Vendor",
+      "AI Researcher (Frontier AI Researcher CVE Numbering Authorities (CNAs) Pilot)"
+    ],
+    "advisories": [
+      {
+        "label": "Security Advisories",
+        "url": "https://trust.anthropic.com/resources#6a44049fd659a87d0068f0c5"
+      },
+      {
+        "label": "CVD Program Advisories",
+        "url": "https://red.anthropic.com/2026/cvd/"
+      }
+    ],
+    "email": [
+      {
+        "label": "Email",
+        "emailAddr": "security-cna@anthropic.com"
+      }
+    ],
+    "country": "USA",
+    "disclosurePolicy": [
+      {
+        "label": "Disclosure Policy",
+        "language": "",
+        "url": "https://www.anthropic.com/responsible-disclosure-policy"
+      },
+      {
+        "label": "AI Researcher Disclosure Policy",
+        "language": "",
+        "url": "https://www.anthropic.com/coordinated-vulnerability-disclosure"
       }
     ],
     "rootCnaInfo": {}
@@ -1970,6 +2044,39 @@
     "rootCnaInfo": {}
   },
   {
+    "shortName": "Bull",
+    "organizationName": "Bull SAS",
+    "scope": "Products and technologies branded by Bull and its subsidiaries, unless covered by the scope of another CNA as well as vulnerabilities in third-party software and hardware discovered by Bull and its subsidiaries that are not in another CNA’s scope.",
+    "cnaID": "CNA-2026-0045",
+    "type": [
+      "Vendor"
+    ],
+    "advisories": [
+      {
+        "label": "Advisories",
+        "url": "https://myatos.my.site.com/psmcustomer/s/topic/0TObD0000000XonWAE/psirt?language=en_US"
+      }
+    ],
+    "email": [
+      {
+        "label": "Email",
+        "emailAddr": "dl-psirt@bull.com"
+      }
+    ],
+    "country": "France",
+    "disclosurePolicy": [
+      {
+        "label": "Policy",
+        "language": "",
+        "url": "https://myatos.my.site.com/psmcustomer/s/article/Responsible-Disclosure?language=en_US"
+      }
+    ],
+    "rootCnaInfo": {
+      "shortName": "ENISA",
+      "organizationName": "EU Agency for Cybersecurity (ENISA)"
+    }
+  },
+  {
     "shortName": "ByteDance",
     "organizationName": "ByteDance, Ltd.",
     "scope": "ByteDance issues only.",
@@ -2645,6 +2752,39 @@
     "rootCnaInfo": {}
   },
   {
+    "shortName": "Circutor",
+    "organizationName": "Circutor",
+    "scope": "All vulnerabilities affecting Circutor and Circontrol products.",
+    "cnaID": "CNA-2026-0060",
+    "type": [
+      "Vendor"
+    ],
+    "advisories": [
+      {
+        "label": "Advisories",
+        "url": "https://circutor.com/soporte/ciberseguridad/"
+      }
+    ],
+    "email": [
+      {
+        "label": "Email",
+        "emailAddr": "psirt@circutor.com"
+      }
+    ],
+    "country": "Spain",
+    "disclosurePolicy": [
+      {
+        "label": "Policy",
+        "language": "",
+        "url": "https://circutor.sharepoint.com/:b:/s/GestorDocumental/IQBd8ld4COldTb18_WDDF_OvAZRXTbSyciP5rYwXBDoDyVw?e=gL9GNd"
+      }
+    ],
+    "rootCnaInfo": {
+      "shortName": "INCIBE",
+      "organizationName": "Spanish National Cybersecurity Institute, S.A. (INCIBE)"
+    }
+  },
+  {
     "shortName": "cirosec",
     "organizationName": "cirosec GmbH",
     "scope": "Vulnerabilities discovered by or reported to cirosec researchers that are not in another CNA’s scope.",
@@ -2907,7 +3047,7 @@
     "advisories": [
       {
         "label": "Advisories",
-        "url": "https://vulnerability.circl.lu/recent#gna-1"
+        "url": "https://vulnerability.circl.lu/search?assigner=CIRCL"
       }
     ],
     "email": [
@@ -4698,7 +4838,7 @@
   {
     "shortName": "ENISA",
     "organizationName": "EU Agency for Cybersecurity (ENISA)",
-    "scope": "<strong>Root Scope:</strong> European Union (EU) member states/EU authorities, EU CSIRTs network members, and cooperative partners under ENISA’s mandate as well as other CNAs who choose ENISA as their Root.<br/><br/><strong>CNA Scope:</strong> Vulnerabilities in information technology (IT) products discovered by European Union (EU) Computer Security Incident Response Teams (CSIRTs) or reported to EU CSIRTs for coordinated disclosure, as long as they do not fall under a CNA with a more specific scope.",
+    "scope": "<strong>Root Scope:</strong> European Union (EU) member states/EU authorities, EU CSIRTs network members, and cooperative partners under ENISA’s mandate as well as other CNAs who choose ENISA as their Root.<br/><br/><strong>CNA Scope:</strong> Vulnerabilities in information technology (IT) products discovered by European Union (EU) Computer Security Incident Response Teams (CSIRTs) or reported to ENISA or to EU CSIRTs for coordinated disclosure, as long as they do not fall under a CNA with a more specific scope.",
     "cnaID": "CNA-2024-0008",
     "type": [
       "Consortium"
@@ -5289,7 +5429,7 @@
     "advisories": [
       {
         "label": "Advisories",
-        "url": "https://security.ts.fujitsu.com/IndexProdSecurity.asp?lng=EU"
+        "url": "https://security.eu.fsastech.com"
       }
     ],
     "email": [
@@ -5303,7 +5443,7 @@
       {
         "label": "Policy",
         "language": "",
-        "url": "https://security.ts.fujitsu.com/IndexProdSecurity.asp?lng=EU"
+        "url": "https://security.eu.fsastech.com"
       }
     ],
     "rootCnaInfo": {}
@@ -5972,6 +6112,44 @@
     }
   },
   {
+    "shortName": "Grayback",
+    "organizationName": "Grayback Security",
+    "scope": "Vulnerabilities identified by Grayback or third parties in the programs listed at <a href='https://app.grayback.es/programs' target='_blank'>https://app.grayback.es/programs</a>.",
+    "cnaID": "CNA-2026-0059",
+    "type": [
+      "Bug Bounty Provider"
+    ],
+    "advisories": [
+      {
+        "label": "Advisories",
+        "url": "https://www.grayback.es/en/advisories"
+      }
+    ],
+    "email": [
+      {
+        "label": "Email",
+        "emailAddr": "security@grayback.es"
+      }
+    ],
+    "country": "Spain",
+    "disclosurePolicy": [
+      {
+        "label": "Policy (Spanish)",
+        "language": "Spanish",
+        "url": "https://www.grayback.es/disclosure-policy"
+      },
+      {
+        "label": "Policy (English)",
+        "language": "English",
+        "url": "https://www.grayback.es/en/disclosure-policy"
+      }
+    ],
+    "rootCnaInfo": {
+      "shortName": "INCIBE",
+      "organizationName": "Spanish National Cybersecurity Institute, S.A. (INCIBE)"
+    }
+  },
+  {
     "shortName": "GreenRocketSecurity",
     "organizationName": "Green Rocket Security Inc.",
     "scope": "Green Rocket Security products including EOL unless covered by another CNA’s scope.",
@@ -6347,6 +6525,40 @@
     "rootCnaInfo": {}
   },
   {
+    "shortName": "hsi",
+    "organizationName": "Haverford Systems, Inc.",
+    "scope": "All products for Haverford Systems brands, PTZOptics and HuddleCamHD (supported products and end-of-life/end-of-service products), as well as vulnerabilities in third-party software discovered by Haverford Systems that are not in another CNA’s scope.",
+    "cnaID": "CNA-2026-0053",
+    "type": [
+      "Vendor",
+      "Researcher"
+    ],
+    "advisories": [
+      {
+        "label": "Advisories",
+        "url": "https://ptzoptics.com/known-vulnerabilities-and-fixes/"
+      }
+    ],
+    "email": [
+      {
+        "label": "Email",
+        "emailAddr": "psirt@havsys.com"
+      }
+    ],
+    "country": "USA",
+    "disclosurePolicy": [
+      {
+        "label": "Policy",
+        "language": "",
+        "url": "https://psirt.havsys.com/disclosure-policy.pdf"
+      }
+    ],
+    "rootCnaInfo": {
+      "shortName": "icscert",
+      "organizationName": "Cybersecurity and Infrastructure Security Agency (CISA) Industrial Control Systems (ICS)"
+    }
+  },
+  {
     "shortName": "HCL",
     "organizationName": "HCL Software",
     "scope": "All HCL products only.",
@@ -6375,6 +6587,39 @@
       }
     ],
     "rootCnaInfo": {}
+  },
+  {
+    "shortName": "HDS",
+    "organizationName": "HDS a.s.",
+    "scope": "Vulnerabilities in products developed, maintained, or distributed by HDS and vulnerabilities in third party components if they affect HDS products and HDS is responsible for their integration.",
+    "cnaID": "CNA-2026-0048",
+    "type": [
+      "Vendor"
+    ],
+    "advisories": [
+      {
+        "label": "Advisories",
+        "url": "https://www.hds.sk/cybersecurity-policy"
+      }
+    ],
+    "email": [
+      {
+        "label": "Email",
+        "emailAddr": "product.security@hds.sk"
+      }
+    ],
+    "country": "Slovak Republic",
+    "disclosurePolicy": [
+      {
+        "label": "Policy",
+        "language": "",
+        "url": "https://www.hds.sk/cybersecurity-policy"
+      }
+    ],
+    "rootCnaInfo": {
+      "shortName": "ENISA",
+      "organizationName": "EU Agency for Cybersecurity (ENISA)"
+    }
   },
   {
     "shortName": "HemoCue",
@@ -8875,7 +9120,7 @@
     "advisories": [
       {
         "label": "Advisories",
-        "url": "https://www.mitsubishielectric.com/en/psirt/vulnerability/index.html"
+        "url": "https://www.mitsubishielectric.com/psirt/vulnerability/index.html"
       }
     ],
     "email": [
@@ -8889,7 +9134,7 @@
       {
         "label": "Policy",
         "language": "",
-        "url": "https://www.mitsubishielectric.com/en/psirt/disclosurepolicy/index.html"
+        "url": "https://www.mitsubishielectric.com/psirt/disclosurepolicy/index.html"
       }
     ],
     "rootCnaInfo": {
@@ -9226,6 +9471,39 @@
       }
     ],
     "rootCnaInfo": {}
+  },
+  {
+    "shortName": "NCSC",
+    "organizationName": "NATO Cyber Security Centre",
+    "scope": "Vulnerabilities in commercial off-the-shelf software (COTS) selected for inclusion in the NATO Approved Software List (A2SL) that are not in the scope of another CNA.",
+    "cnaID": "CNA-2026-0054",
+    "type": [
+      "Researcher"
+    ],
+    "advisories": [
+      {
+        "label": "Advisories",
+        "url": "https://github.com/NCSC-Assess/Advisories"
+      }
+    ],
+    "email": [
+      {
+        "label": "Email",
+        "emailAddr": "pentest@ncia.nato.int"
+      }
+    ],
+    "country": "Belgium",
+    "disclosurePolicy": [
+      {
+        "label": "Policy",
+        "language": "",
+        "url": "https://github.com/NCSC-Assess/Disclosure-Policy/blob/main/policy.md"
+      }
+    ],
+    "rootCnaInfo": {
+      "shortName": "ENISA",
+      "organizationName": "EU Agency for Cybersecurity (ENISA)"
+    }
   },
   {
     "shortName": "naver",
@@ -10153,10 +10431,11 @@
   {
     "shortName": "OAI",
     "organizationName": "OpenAI",
-    "scope": "Vulnerabilities in OpenAI installed software including desktop apps, mobile apps, and SDKs only.",
+    "scope": "<strong>CNA Scope:</strong> Vulnerabilities in OpenAI installed software including desktop apps, mobile apps, and SDKs only.<br/><br/><strong><a href='/Resources/Roles/Cnas/FrontierAiResearcherCNAsPilot.pdf' target='_blank'>Frontier AI Researcher CVE Numbering Authorities (CNAs) Pilot</a> Scope:</strong> Vulnerabilities discovered by OpenAI that are not within another CNA’s scope.",
     "cnaID": "CNA-2026-0026",
     "type": [
-      "Vendor"
+      "Vendor",
+      "AI Researcher (Frontier AI Researcher CVE Numbering Authorities (CNAs) Pilot)"
     ],
     "advisories": [
       {
@@ -11267,6 +11546,33 @@
     }
   },
   {
+    "shortName": "postiz",
+    "organizationName": "Postiz",
+    "scope": "Postiz products and projects only including: the core repository for postiz-app (github.com/gitroomhq/postiz-app); all gitroomhq repositories that are official components, tooling, or integrations of Postiz; official Postiz container images published under gitroomhq on GHCR; official Postiz CLI tools and NPM packages (NPM org: @postiz); Postiz-Cloud related infrastructure and services. (API, Frontend, Configurations etc.); and plugins for Postiz maintained within the gitroomhq organization.",
+    "cnaID": "CNA-2026-0055",
+    "type": [
+      "Vendor",
+      "Open Source",
+      "Hosted Service"
+    ],
+    "advisories": [
+      {
+        "label": "Advisories",
+        "url": "https://postiz.gadvisory.org/advisories"
+      }
+    ],
+    "email": [],
+    "country": "USA",
+    "disclosurePolicy": [
+      {
+        "label": "Disclosure Policy",
+        "language": "",
+        "url": "https://github.com/gitroomhq/postiz-app/blob/main/SECURITY.md"
+      }
+    ],
+    "rootCnaInfo": {}
+  },
+  {
     "shortName": "Profelis",
     "organizationName": "Profelis IT Consultancy",
     "scope": "Products and services developed by Profelis IT Consultancy including enterprise directory solution SambaBox and password reset product PassBox.",
@@ -11566,6 +11872,36 @@
         "label": "Policy",
         "language": "",
         "url": "https://www.qnap.com/en-us/security-advisory/report"
+      }
+    ],
+    "rootCnaInfo": {}
+  },
+  {
+    "shortName": "Qt",
+    "organizationName": "Qt Group",
+    "scope": "All supported Qt Group products. Excludes third-party redistributions and downstream packaging of Qt open source releases not published by Qt Group.",
+    "cnaID": "CNA-2025-0016",
+    "type": [
+      "Vendor"
+    ],
+    "advisories": [
+      {
+        "label": "Advisories",
+        "url": "https://wiki.qt.io/List_of_known_vulnerabilities_in_Qt_products"
+      }
+    ],
+    "email": [
+      {
+        "label": "Email",
+        "emailAddr": "security@qt.io"
+      }
+    ],
+    "country": "Finland",
+    "disclosurePolicy": [
+      {
+        "label": "Policy",
+        "language": "",
+        "url": "https://www.qt.io/terms-conditions/responsible-vulnerability-disclosure-process"
       }
     ],
     "rootCnaInfo": {}
@@ -11997,7 +12333,7 @@
     "advisories": [
       {
         "label": "Advisories",
-        "url": "https://rockwellautomation.custhelp.com/app/answers/answer_view/a_id/54102"
+        "url": "https://www.rockwellautomation.com/en-us/trust-center/security-advisories.html"
       }
     ],
     "email": [
@@ -12011,7 +12347,7 @@
       {
         "label": "Policy",
         "language": "",
-        "url": "https://rockwellautomation.custhelp.com/app/answers/answer_view/a_id/1136474"
+        "url": "https://www.rockwellautomation.com/en-us/company/about-us/legal-notices/vulnerability-policy.html..html"
       }
     ],
     "rootCnaInfo": {
@@ -12335,6 +12671,39 @@
       }
     ],
     "rootCnaInfo": {}
+  },
+  {
+    "shortName": "Scality",
+    "organizationName": "Scality SA",
+    "scope": "All Scality-branded software products developed, maintained, and distributed by Scality, including but not limited to Scality RING, Scality ARTESCA, and Autonomous Data Infrastructure (ADI) products. The scope includes all versions of these products currently under active support, as well as legacy versions unless otherwise specified in the Scality Vulnerability Disclosure Policy.",
+    "cnaID": "CNA-2026-0050",
+    "type": [
+      "Vendor"
+    ],
+    "advisories": [
+      {
+        "label": "Advisories",
+        "url": "https://www.scality.com/security-advisories"
+      }
+    ],
+    "email": [
+      {
+        "label": "Email",
+        "emailAddr": "security@scality.com"
+      }
+    ],
+    "country": "France",
+    "disclosurePolicy": [
+      {
+        "label": "Policy",
+        "language": "",
+        "url": "https://www.scality.com/legal/scality-vulnerability-disclosure-policy"
+      }
+    ],
+    "rootCnaInfo": {
+      "shortName": "ENISA",
+      "organizationName": "EU Agency for Cybersecurity (ENISA)"
+    }
   },
   {
     "shortName": "schneider",
@@ -12770,6 +13139,39 @@
     "rootCnaInfo": {
       "shortName": "icscert",
       "organizationName": "Cybersecurity and Infrastructure Security Agency (CISA) Industrial Control Systems (ICS)"
+    }
+  },
+  {
+    "shortName": "S4M",
+    "organizationName": "Security4Media",
+    "scope": "Vulnerabilities in specialized software or hardware used in media and broadcasting, discovered by or reported to Security4Media, that are not in the scope of another CNA.",
+    "cnaID": "CNA-2026-0062",
+    "type": [
+      "Researcher"
+    ],
+    "advisories": [
+      {
+        "label": "Advisories",
+        "url": "https://security4media.org/cve-infos/"
+      }
+    ],
+    "email": [
+      {
+        "label": "Email",
+        "emailAddr": "info@security4media.org"
+      }
+    ],
+    "country": "Switzerland",
+    "disclosurePolicy": [
+      {
+        "label": "Policy",
+        "language": "",
+        "url": "https://security4media.org/disclosurepolicy/"
+      }
+    ],
+    "rootCnaInfo": {
+      "shortName": "ENISA",
+      "organizationName": "EU Agency for Cybersecurity (ENISA)"
     }
   },
   {
@@ -13798,7 +14200,7 @@
   {
     "shortName": "NCSC.ch",
     "organizationName": "Switzerland National Cyber Security Centre (NCSC)",
-    "scope": "Switzerland Government Common Vulnerability Program.",
+    "scope": "Vulnerabilities in software reported to the NCSC-CH for coordinated disclosure, which are not in another CNA's scope.",
     "cnaID": "CNA-2021-0040",
     "type": [
       "CERT"
@@ -13806,7 +14208,7 @@
     "advisories": [
       {
         "label": "Advisories",
-        "url": "https://www.ncsc.admin.ch/ncsc/en/home/infos-fuer/infos-it-spezialisten/themen/schwachstelle-melden/advisories.html"
+        "url": "https://www.ncsc.admin.ch/ncsc/en/home/infos-fuer/infos-it-spezialisten/themen/schwachstelle-melden/cve-list.html"
       }
     ],
     "email": [
@@ -13890,6 +14292,36 @@
         "label": "Policy",
         "language": "",
         "url": "https://www.synaptics.com/vulnerability-disclosure-policy"
+      }
+    ],
+    "rootCnaInfo": {}
+  },
+  {
+    "shortName": "Syncro",
+    "organizationName": "Syncro Soft SRL",
+    "scope": "All Syncro Soft SRL products, including Oxygen XML suite of products, published on <a href='https://www.oxygenxml.com' target='_blank'>https://www.oxygenxml.com</a> including end-of-life/end-of-service products.",
+    "cnaID": "CNA-2026-0056",
+    "type": [
+      "Vendor"
+    ],
+    "advisories": [
+      {
+        "label": "Advisories",
+        "url": "https://www.oxygenxml.com/security/advisories.html"
+      }
+    ],
+    "email": [
+      {
+        "label": "Email",
+        "emailAddr": "security@oxygenxml.com"
+      }
+    ],
+    "country": "Romania",
+    "disclosurePolicy": [
+      {
+        "label": "Disclosure Policy",
+        "language": "",
+        "url": "https://www.oxygenxml.com/security/"
       }
     ],
     "rootCnaInfo": {}
@@ -13986,6 +14418,40 @@
     "rootCnaInfo": {
       "shortName": "icscert",
       "organizationName": "Cybersecurity and Infrastructure Security Agency (CISA) Industrial Control Systems (ICS)"
+    }
+  },
+  {
+    "shortName": "Tacit",
+    "organizationName": "Tacit",
+    "scope": "Vulnerabilities affecting software products, services, or components referenced in Tacit platform by software publishers.",
+    "cnaID": "CNA-2026-0051",
+    "type": [
+      "Hosted Service",
+      "Vendor"
+    ],
+    "advisories": [
+      {
+        "label": "Advisories",
+        "url": ""
+      }
+    ],
+    "email": [
+      {
+        "label": "Email",
+        "emailAddr": "contact@tacit.now"
+      }
+    ],
+    "country": "France",
+    "disclosurePolicy": [
+      {
+        "label": "Policy",
+        "language": "",
+        "url": "https://tacit.now/vulnerability-disclosure-policy"
+      }
+    ],
+    "rootCnaInfo": {
+      "shortName": "ENISA",
+      "organizationName": "EU Agency for Cybersecurity (ENISA)"
     }
   },
   {
@@ -14500,6 +14966,39 @@
     "rootCnaInfo": {}
   },
   {
+    "shortName": "illumos",
+    "organizationName": "The illumos project",
+    "scope": "The illumos project’s <a href='https://code.illumos.org/plugins/gitiles/illumos-gate' target='_blank'>illumos-gate repository</a> and related downstream distributions such as <a href='https://openindiana.org' target='_blank'>OpenIndiana</a>, <a href='https://wiki.smartos.org' target='_blank'>SmartOS</a>, and <a href='https://omnios.org' target='_blank'>OmniOS</a>.",
+    "cnaID": "CNA-2026-0046",
+    "type": [
+      "Open Source"
+    ],
+    "advisories": [
+      {
+        "label": "Advisories",
+        "url": "https://illumos.org/docs/security/"
+      }
+    ],
+    "email": [
+      {
+        "label": "Email",
+        "emailAddr": "security@illumos.org"
+      }
+    ],
+    "country": "USA",
+    "disclosurePolicy": [
+      {
+        "label": "Policy",
+        "language": "",
+        "url": "https://illumos.org/docs/security/"
+      }
+    ],
+    "rootCnaInfo": {
+      "shortName": "redhat",
+      "organizationName": "Red Hat, Inc."
+    }
+  },
+  {
     "shortName": "The_Missing_Link",
     "organizationName": "The Missing Link Australia (TML)",
     "scope": "TML vulnerability disclosure policy applies to any third-party vendor products to whom TML will assign the CVEs for vulnerabilities, if the product is not a part of another CNA scope.",
@@ -14592,36 +15091,6 @@
         "label": "Policy",
         "language": "",
         "url": "https://www.opennms.com/security/"
-      }
-    ],
-    "rootCnaInfo": {}
-  },
-  {
-    "shortName": "TQtC",
-    "organizationName": "The Qt Company",
-    "scope": "All supported The Qt Company products.",
-    "cnaID": "CNA-2025-0016",
-    "type": [
-      "Vendor"
-    ],
-    "advisories": [
-      {
-        "label": "Advisories",
-        "url": "https://wiki.qt.io/List_of_known_vulnerabilities_in_Qt_products"
-      }
-    ],
-    "email": [
-      {
-        "label": "Email",
-        "emailAddr": "security@qt.io"
-      }
-    ],
-    "country": "Finland",
-    "disclosurePolicy": [
-      {
-        "label": "Policy",
-        "language": "",
-        "url": "https://www.qt.io/terms-conditions/responsible-vulnerability-disclosure-process"
       }
     ],
     "rootCnaInfo": {}
@@ -15066,6 +15535,37 @@
     }
   },
   {
+    "shortName": "tuxcare",
+    "organizationName": "Tuxcare Inc.",
+    "scope": "Vulnerabilities in products developed, maintained, and distributed by TuxCare, including TuxCare Extended Lifecycle Support (ELS) and TuxCare SecureChain for OSS.",
+    "cnaID": "CNA-2026-0047",
+    "type": [
+      "Vendor",
+      "Open Source"
+    ],
+    "advisories": [
+      {
+        "label": "Advisories",
+        "url": "https://tuxcare.com/cve-tracker/"
+      }
+    ],
+    "email": [
+      {
+        "label": "Email",
+        "emailAddr": "cve-coordination@tuxcare.com"
+      }
+    ],
+    "country": "USA",
+    "disclosurePolicy": [
+      {
+        "label": "Policy",
+        "language": "",
+        "url": "https://tuxcare.com/vulnerability-reporting/"
+      }
+    ],
+    "rootCnaInfo": {}
+  },
+  {
     "shortName": "twcert",
     "organizationName": "TWCERT/CC",
     "scope": "Vulnerability assignment related to its vulnerability coordination role.",
@@ -15164,6 +15664,36 @@
         "label": "Policy",
         "language": "",
         "url": "https://typo3.org/community/teams/security/security-in-typo3"
+      }
+    ],
+    "rootCnaInfo": {}
+  },
+  {
+    "shortName": "Ubiquiti",
+    "organizationName": "Ubiquiti, Inc.",
+    "scope": "Vulnerabilities in all Ubiquiti products and products of Ubiquiti subsidiaries only.",
+    "cnaID": "CNA-2026-0057",
+    "type": [
+      "Vendor"
+    ],
+    "advisories": [
+      {
+        "label": "Advisories",
+        "url": "https://community.ui.com/releases?security-updates"
+      }
+    ],
+    "email": [
+      {
+        "label": "Email",
+        "emailAddr": "security@ui.com"
+      }
+    ],
+    "country": "USA",
+    "disclosurePolicy": [
+      {
+        "label": "Disclosure Policy",
+        "language": "",
+        "url": "http://ui.com/downloads/compliance/vulnerability-disclosure-policy.pdf"
       }
     ],
     "rootCnaInfo": {}
@@ -15291,6 +15821,39 @@
     "rootCnaInfo": {
       "shortName": "icscert",
       "organizationName": "Cybersecurity and Infrastructure Security Agency (CISA) Industrial Control Systems (ICS)"
+    }
+  },
+  {
+    "shortName": "Velneo",
+    "organizationName": "Velneo",
+    "scope": "Vulnerabilities in all Velneo brand products and technologies, including software components, application servers, runtime environments, development environments, and cloud services, unless they are covered by the more specific scope of another CNA.",
+    "cnaID": "CNA-2026-0061",
+    "type": [
+      "Vendor"
+    ],
+    "advisories": [
+      {
+        "label": "Advisories",
+        "url": "https://velneo.es/avisos-de-seguridad/"
+      }
+    ],
+    "email": [
+      {
+        "label": "Email",
+        "emailAddr": "security@velneo.com"
+      }
+    ],
+    "country": "Spain",
+    "disclosurePolicy": [
+      {
+        "label": "Policy",
+        "language": "",
+        "url": "https://velneo.es/mivelneo/politica-de-divulgacion-de-vulnerabilidades/"
+      }
+    ],
+    "rootCnaInfo": {
+      "shortName": "INCIBE",
+      "organizationName": "Spanish National Cybersecurity Institute, S.A. (INCIBE)"
     }
   },
   {
@@ -15516,6 +16079,39 @@
     "rootCnaInfo": {}
   },
   {
+    "shortName": "VulNow",
+    "organizationName": "VulNow",
+    "scope": "Vulnerabilities observed by, discovered by, or reported to VulNow that are not in another CNA’s scope.",
+    "cnaID": "CNA-2026-0044",
+    "type": [
+      "Researcher"
+    ],
+    "advisories": [
+      {
+        "label": "Advisories",
+        "url": "https://vul.now/precve"
+      }
+    ],
+    "email": [
+      {
+        "label": "Email",
+        "emailAddr": "cvd@vul.now"
+      }
+    ],
+    "country": "Netherlands",
+    "disclosurePolicy": [
+      {
+        "label": "Policy",
+        "language": "",
+        "url": "https://vul.now/cvd"
+      }
+    ],
+    "rootCnaInfo": {
+      "shortName": "ENISA",
+      "organizationName": "EU Agency for Cybersecurity (ENISA)"
+    }
+  },
+  {
     "shortName": "VULSec",
     "organizationName": "VULSec Labs",
     "scope": "Vulnerabilities discovered by, or reported to, VULSec Labs that are not in another CNA’s scope.",
@@ -15632,6 +16228,39 @@
       }
     ],
     "rootCnaInfo": {}
+  },
+  {
+    "shortName": "wibu",
+    "organizationName": "WIBU-SYSTEMS AG",
+    "scope": "WIBU-SYSTEMS products only.",
+    "cnaID": "CNA-2026-0058",
+    "type": [
+      "Vendor"
+    ],
+    "advisories": [
+      {
+        "label": "Advisories",
+        "url": "https://www.wibu.com/support/security-advisories.html"
+      }
+    ],
+    "email": [
+      {
+        "label": "Email",
+        "emailAddr": "cert@wibu.com"
+      }
+    ],
+    "country": "Germany",
+    "disclosurePolicy": [
+      {
+        "label": "Policy",
+        "language": "",
+        "url": "https://www.wibu.com/.well-known/WIBU-SYSTEMS_Vulnerability_Disclosure_Policy.pdf"
+      }
+    ],
+    "rootCnaInfo": {
+      "shortName": "ENISA",
+      "organizationName": "EU Agency for Cybersecurity (ENISA)"
+    }
   },
   {
     "shortName": "WindRiver",
