@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "AMZN",
-    "total_cves": 116,
-    "total_cves_scored": 116,
+    "total_cves": 118,
+    "total_cves_scored": 118,
     "organizationName": "Amazon",
     "scope": "All Amazon and AWS products (including subsidiaries, supported, and EOL/EOS products), as well as vulnerabilities in third party software discovered by Amazon/AWS that are not in another CNA’s scope.",
     "advisories": [
@@ -40,20 +40,20 @@
   "percentile": 92.6,
   "cna_scoring": [
     {
-      "total_cves": 116,
-      "total_cves_scored": 116,
-      "recent_cves_count": 116,
-      "overall_average_score": 88.71,
+      "total_cves": 118,
+      "total_cves_scored": 118,
+      "recent_cves_count": 118,
+      "overall_average_score": 88.73,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
       "average_software_identification": 0.0,
       "average_severity_context": 15.0,
-      "average_patchinfo": 8.71,
+      "average_patchinfo": 8.73,
       "percent_foundational_completeness": 100.0,
       "percent_root_cause_analysis": 100.0,
       "percent_software_identification": 0.0,
       "percent_severity_and_impact": 100.0,
-      "percent_patchinfo": 87.07,
+      "percent_patchinfo": 87.29,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -389,6 +389,32 @@
       "cveId": "CVE-2026-87911",
       "assigningCna": "AMZN",
       "datePublished": "2026-09-09",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-87913",
+      "assigningCna": "AMZN",
+      "datePublished": "2026-09-10",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-87912",
+      "assigningCna": "AMZN",
+      "datePublished": "2026-09-10",
       "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,

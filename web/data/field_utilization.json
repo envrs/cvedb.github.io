@@ -8,6 +8,14 @@
     "cna_scorecard_category": null
   },
   {
+    "field": "containers.adp",
+    "percent": 100.0,
+    "unique_cnas": 344,
+    "importance": "Low",
+    "description": "Authorized Data Publisher container",
+    "cna_scorecard_category": null
+  },
+  {
     "field": "containers.cna.affected",
     "percent": 100.0,
     "unique_cnas": 344,
@@ -37,14 +45,6 @@
     "unique_cnas": 344,
     "importance": "Medium",
     "description": "At least one English description",
-    "cna_scorecard_category": null
-  },
-  {
-    "field": "containers.adp",
-    "percent": 99.7,
-    "unique_cnas": 343,
-    "importance": "Low",
-    "description": "Authorized Data Publisher container",
     "cna_scorecard_category": null
   },
   {
@@ -153,8 +153,8 @@
   },
   {
     "field": "metrics.cvssV3_1",
-    "percent": 57.3,
-    "unique_cnas": 197,
+    "percent": 57.6,
+    "unique_cnas": 198,
     "importance": "High",
     "description": "CVSS v3.1 metrics",
     "cna_scorecard_category": "severityAndImpactContext"
@@ -193,8 +193,8 @@
   },
   {
     "field": "affected.repo",
-    "percent": 21.5,
-    "unique_cnas": 74,
+    "percent": 21.8,
+    "unique_cnas": 75,
     "importance": "Medium",
     "description": "Source code repository URL",
     "cna_scorecard_category": null
