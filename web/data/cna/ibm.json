@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "ibm",
-    "total_cves": 796,
-    "total_cves_scored": 796,
+    "total_cves": 798,
+    "total_cves_scored": 798,
     "organizationName": "IBM Corporation",
     "scope": "All IBM branded products (IBM will confirm support status and notify researcher).",
     "advisories": [
@@ -35,13 +35,13 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 4,
-  "active_cna_count": 337,
+  "active_cna_count": 336,
   "percentile": 99.1,
   "cna_scoring": [
     {
-      "total_cves": 796,
-      "total_cves_scored": 796,
-      "recent_cves_count": 796,
+      "total_cves": 798,
+      "total_cves_scored": 798,
+      "recent_cves_count": 798,
       "overall_average_score": 99.37,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 14.59,
@@ -51,7 +51,7 @@
       "percent_foundational_completeness": 100.0,
       "percent_root_cause_analysis": 97.24,
       "percent_software_identification": 99.37,
-      "percent_severity_and_impact": 98.99,
+      "percent_severity_and_impact": 99.0,
       "percent_patchinfo": 100.0,
       "trend_direction": "steady",
       "trend_description": "No significant change",
@@ -3401,6 +3401,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-9338",
+      "assigningCna": "ibm",
+      "datePublished": "2026-09-10",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
       "cveId": "CVE-2026-9330",
       "assigningCna": "ibm",
       "datePublished": "2026-06-01",
@@ -3443,6 +3456,19 @@
       "cveId": "CVE-2026-9745",
       "assigningCna": "ibm",
       "datePublished": "2026-09-03",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-9336",
+      "assigningCna": "ibm",
+      "datePublished": "2026-09-10",
       "totalCveScore": 100,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
