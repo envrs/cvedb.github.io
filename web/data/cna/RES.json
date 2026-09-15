@@ -1,32 +1,32 @@
 {
   "cna_info": {
-    "cna": "Secomea",
-    "total_cves": 3,
-    "total_cves_scored": 3,
-    "organizationName": "Secomea A/S",
-    "scope": "Supported Secomea products only.",
+    "cna": "RES",
+    "total_cves": 2,
+    "total_cves_scored": 2,
+    "organizationName": "RedEye Security",
+    "scope": "Vulnerabilities in RedEye Security’s own products: software that RedEye develops and distributes for customers to deploy and operate in their own environments. Caver, RedEye’s self-hosted, Splunk-compatible SIEM and OCSF data-lake platform, including its server components, collectors and agents, command-line tooling, and officially distributed installers and container images. Out of scope: vulnerabilities in third-party components and dependencies that RedEye redistributes but does not maintain; vulnerabilities in RedEye-operated hosted services and web properties that RedEye remediates server-side with no customer action required; and the content of RedEye’s threat-intelligence and CVE detection feeds.",
     "advisories": [
       {
         "label": "Advisories",
-        "url": "https://www.secomea.com/cybersecurity-advisory/"
+        "url": "https://redeyesecurity.com/security/advisories"
       }
     ],
     "email": [
       {
         "label": "Email",
-        "emailAddr": "vulnerabilityreporting@secomea.com"
+        "emailAddr": "security@redeyesecurity.com"
       }
     ],
-    "officialCnaID": "CNA-2020-0037",
+    "officialCnaID": "CNA-2026-0067",
     "cnaTypes": [
       "Vendor"
     ],
-    "country": "Denmark",
+    "country": "USA",
     "disclosurePolicy": [
       {
         "label": "Policy",
         "language": "",
-        "url": "https://www.secomea.com/cybersecurity-advisory/"
+        "url": "https://redeyesecurity.com/security"
       }
     ],
     "rootCnaInfo": {}
@@ -38,9 +38,9 @@
   "percentile": 80.1,
   "cna_scoring": [
     {
-      "total_cves": 3,
-      "total_cves_scored": 3,
-      "recent_cves_count": 3,
+      "total_cves": 2,
+      "total_cves_scored": 2,
+      "recent_cves_count": 2,
       "overall_average_score": 80.0,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
@@ -59,9 +59,9 @@
   ],
   "recent_cves": [
     {
-      "cveId": "CVE-2025-14716",
-      "assigningCna": "Secomea",
-      "datePublished": "2026-03-19",
+      "cveId": "CVE-2026-0207",
+      "assigningCna": "RES",
+      "datePublished": "2026-04-14",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -72,22 +72,9 @@
       }
     },
     {
-      "cveId": "CVE-2026-1758",
-      "assigningCna": "Secomea",
-      "datePublished": "2026-09-15",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-1759",
-      "assigningCna": "Secomea",
-      "datePublished": "2026-09-15",
+      "cveId": "CVE-2026-0209",
+      "assigningCna": "RES",
+      "datePublished": "2026-04-14",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,

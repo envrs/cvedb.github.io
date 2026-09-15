@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "atlassian",
-    "total_cves": 8,
-    "total_cves_scored": 8,
+    "total_cves": 11,
+    "total_cves_scored": 11,
     "organizationName": "Atlassian",
     "scope": "All Atlassian products, as well as Atlassian-maintained projects hosted on <a href='https://bitbucket.org/' target='_blank'>https://bitbucket.org/</a> and <a href='https://github.com/atlassian/' target='_blank'>https://github.com/atlassian/</a>.",
     "advisories": [
@@ -34,14 +34,14 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 308,
-  "active_cna_count": 339,
-  "percentile": 9.4,
+  "rank": 309,
+  "active_cna_count": 341,
+  "percentile": 9.7,
   "cna_scoring": [
     {
-      "total_cves": 8,
-      "total_cves_scored": 8,
-      "recent_cves_count": 8,
+      "total_cves": 11,
+      "total_cves_scored": 11,
+      "recent_cves_count": 11,
       "overall_average_score": 65.0,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 0.0,
@@ -112,9 +112,35 @@
       }
     },
     {
+      "cveId": "CVE-2026-21586",
+      "assigningCna": "atlassian",
+      "datePublished": "2026-09-15",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-21579",
       "assigningCna": "atlassian",
       "datePublished": "2026-07-21",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-21588",
+      "assigningCna": "atlassian",
+      "datePublished": "2026-09-15",
       "totalCveScore": 65,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -141,6 +167,19 @@
       "cveId": "CVE-2026-21584",
       "assigningCna": "atlassian",
       "datePublished": "2026-08-18",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-21587",
+      "assigningCna": "atlassian",
+      "datePublished": "2026-09-15",
       "totalCveScore": 65,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
