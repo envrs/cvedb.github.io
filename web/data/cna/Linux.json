@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "Linux",
-    "total_cves": 5195,
-    "total_cves_scored": 5195,
+    "total_cves": 5471,
+    "total_cves_scored": 5471,
     "organizationName": "kernel.org",
     "scope": "Any vulnerabilities in the Linux kernel as listed on kernel.org, excluding end-of-life (EOL) versions.",
     "advisories": [
@@ -34,24 +34,24 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 333,
-  "active_cna_count": 341,
+  "rank": 335,
+  "active_cna_count": 343,
   "percentile": 2.6,
   "cna_scoring": [
     {
-      "total_cves": 5195,
-      "total_cves_scored": 5195,
-      "recent_cves_count": 5195,
-      "overall_average_score": 57.13,
+      "total_cves": 5471,
+      "total_cves_scored": 5471,
+      "recent_cves_count": 5471,
+      "overall_average_score": 56.77,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 0.0,
       "average_software_identification": 0.0,
-      "average_severity_context": 7.13,
+      "average_severity_context": 6.77,
       "average_patchinfo": 0.0,
       "percent_foundational_completeness": 100.0,
       "percent_root_cause_analysis": 0.0,
       "percent_software_identification": 0.0,
-      "percent_severity_and_impact": 47.55,
+      "percent_severity_and_impact": 45.15,
       "percent_patchinfo": 0.0,
       "trend_direction": "steady",
       "trend_description": "No significant change",
@@ -8466,6 +8466,656 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 0,
         "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-90018",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-90010",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-90024",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-90013",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-90036",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-90026",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-90037",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-90002",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-90028",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-90017",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-90040",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-90038",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-90003",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-90021",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-90011",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-90000",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-90030",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-90046",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-90015",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-90004",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-90029",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-90027",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-90001",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-90008",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-90025",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-90007",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-90041",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-90016",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-90049",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-90023",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-90012",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-90033",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-90035",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-90031",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-90044",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-90043",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-90006",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-90048",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-90014",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-90042",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-90009",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-90005",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-90034",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-90019",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-90045",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-90022",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-90039",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-90020",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-90032",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-90047",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
         "softwareIdentification": 0,
         "patchinfo": 0
       }
@@ -58716,6 +59366,32 @@
       }
     },
     {
+      "cveId": "CVE-2026-89812",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89884",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89744",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
@@ -58807,6 +59483,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-89960",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89720",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
@@ -58815,6 +59504,32 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 0,
         "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89820",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89972",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
         "softwareIdentification": 0,
         "patchinfo": 0
       }
@@ -58833,9 +59548,35 @@
       }
     },
     {
+      "cveId": "CVE-2026-89936",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89766",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89898",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -58859,9 +59600,48 @@
       }
     },
     {
+      "cveId": "CVE-2026-89963",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89552",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89799",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89867",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -58924,6 +59704,32 @@
       }
     },
     {
+      "cveId": "CVE-2026-89965",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89841",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89620",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
@@ -58950,9 +59756,35 @@
       }
     },
     {
+      "cveId": "CVE-2026-89825",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89529",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89876",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -58984,6 +59816,19 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 0,
         "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89821",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
         "softwareIdentification": 0,
         "patchinfo": 0
       }
@@ -59031,6 +59876,19 @@
       "cveId": "CVE-2026-89701",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89816",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -59093,6 +59951,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-89775",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89485",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
@@ -59101,6 +59972,19 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 0,
         "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89977",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
         "softwareIdentification": 0,
         "patchinfo": 0
       }
@@ -59119,6 +60003,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-89827",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89703",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
@@ -59132,6 +60029,32 @@
       }
     },
     {
+      "cveId": "CVE-2026-89837",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89956",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89574",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
@@ -59140,6 +60063,32 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 0,
         "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89809",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89861",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
         "softwareIdentification": 0,
         "patchinfo": 0
       }
@@ -59184,6 +60133,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-89857",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89735",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
@@ -59205,6 +60167,19 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 0,
         "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89933",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
         "softwareIdentification": 0,
         "patchinfo": 0
       }
@@ -59239,6 +60214,32 @@
       "cveId": "CVE-2026-89438",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89997",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89981",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -59288,6 +60289,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-89785",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89468",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
@@ -59304,6 +60318,32 @@
       "cveId": "CVE-2026-89517",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89852",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89974",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -59457,6 +60497,32 @@
       }
     },
     {
+      "cveId": "CVE-2026-89858",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89835",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89509",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
@@ -59561,6 +60627,32 @@
       }
     },
     {
+      "cveId": "CVE-2026-89989",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89999",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89606",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
@@ -59574,6 +60666,32 @@
       }
     },
     {
+      "cveId": "CVE-2026-89802",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89864",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89564",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
@@ -59582,6 +60700,45 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 0,
         "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89912",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89890",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89831",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
         "softwareIdentification": 0,
         "patchinfo": 0
       }
@@ -59616,6 +60773,32 @@
       "cveId": "CVE-2026-89623",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89813",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89907",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -59743,6 +60926,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-89951",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89444",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
@@ -59764,6 +60960,19 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 0,
         "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89935",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
         "softwareIdentification": 0,
         "patchinfo": 0
       }
@@ -59873,6 +61082,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-89987",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89448",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
@@ -59912,9 +61134,48 @@
       }
     },
     {
+      "cveId": "CVE-2026-89934",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89460",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89916",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89860",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -59946,6 +61207,45 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 0,
         "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89865",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89806",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89875",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
         "softwareIdentification": 0,
         "patchinfo": 0
       }
@@ -60055,6 +61355,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-89801",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89625",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
@@ -60081,6 +61394,32 @@
       }
     },
     {
+      "cveId": "CVE-2026-89942",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89929",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89600",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
@@ -60089,6 +61428,19 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 0,
         "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89995",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
         "softwareIdentification": 0,
         "patchinfo": 0
       }
@@ -60115,6 +61467,32 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 0,
         "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89832",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89849",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
         "softwareIdentification": 0,
         "patchinfo": 0
       }
@@ -60185,6 +61563,32 @@
       }
     },
     {
+      "cveId": "CVE-2026-89853",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89818",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89499",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
@@ -60232,6 +61636,32 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 0,
         "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89913",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89889",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
         "softwareIdentification": 0,
         "patchinfo": 0
       }
@@ -60328,6 +61758,32 @@
       }
     },
     {
+      "cveId": "CVE-2026-89910",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89938",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89764",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
@@ -60341,6 +61797,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-89846",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89662",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
@@ -60349,6 +61818,19 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 0,
         "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89917",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
         "softwareIdentification": 0,
         "patchinfo": 0
       }
@@ -60380,6 +61862,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-89975",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89668",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
@@ -60388,6 +61883,19 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 0,
         "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89859",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
         "softwareIdentification": 0,
         "patchinfo": 0
       }
@@ -60419,6 +61927,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-89941",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89707",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
@@ -60427,6 +61948,32 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 0,
         "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89797",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89967",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
         "softwareIdentification": 0,
         "patchinfo": 0
       }
@@ -60471,9 +62018,48 @@
       }
     },
     {
+      "cveId": "CVE-2026-89964",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89950",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89463",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89836",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -60523,6 +62109,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-89969",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89489",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
@@ -60536,6 +62135,45 @@
       }
     },
     {
+      "cveId": "CVE-2026-89984",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89848",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89800",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89544",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
@@ -60544,6 +62182,19 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 0,
         "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89803",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
         "softwareIdentification": 0,
         "patchinfo": 0
       }
@@ -60570,6 +62221,32 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 0,
         "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89868",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89911",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
         "softwareIdentification": 0,
         "patchinfo": 0
       }
@@ -60640,6 +62317,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-89915",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89569",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
@@ -60661,6 +62351,19 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 0,
         "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89885",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
         "softwareIdentification": 0,
         "patchinfo": 0
       }
@@ -60705,6 +62408,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-89794",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89486",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
@@ -60744,6 +62460,32 @@
       }
     },
     {
+      "cveId": "CVE-2026-89901",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89810",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89666",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
@@ -60770,9 +62512,35 @@
       }
     },
     {
+      "cveId": "CVE-2026-89838",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89455",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89931",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -60861,6 +62629,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-89856",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89677",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
@@ -60887,6 +62668,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-89789",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89547",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
@@ -60895,6 +62689,32 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 0,
         "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89982",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89828",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
         "softwareIdentification": 0,
         "patchinfo": 0
       }
@@ -60952,6 +62772,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-89985",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89706",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
@@ -60960,6 +62793,32 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 0,
         "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89937",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89783",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
         "softwareIdentification": 0,
         "patchinfo": 0
       }
@@ -60986,6 +62845,19 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 0,
         "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89863",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
         "softwareIdentification": 0,
         "patchinfo": 0
       }
@@ -61030,6 +62902,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-89833",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89507",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
@@ -61056,6 +62941,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-89878",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89675",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
@@ -61064,6 +62962,58 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 0,
         "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89880",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89932",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89988",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89926",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
         "softwareIdentification": 0,
         "patchinfo": 0
       }
@@ -61082,9 +63032,35 @@
       }
     },
     {
+      "cveId": "CVE-2026-89905",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89473",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89906",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -61173,6 +63149,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-89774",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89741",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
@@ -61181,6 +63170,19 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 0,
         "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89862",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
         "softwareIdentification": 0,
         "patchinfo": 0
       }
@@ -61212,6 +63214,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-89909",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89617",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
@@ -61233,6 +63248,19 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 0,
         "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89886",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
         "softwareIdentification": 0,
         "patchinfo": 0
       }
@@ -61277,6 +63305,32 @@
       }
     },
     {
+      "cveId": "CVE-2026-89998",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89792",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89661",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
@@ -61303,6 +63357,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-89927",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89634",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
@@ -61316,9 +63383,74 @@
       }
     },
     {
+      "cveId": "CVE-2026-89904",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89930",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89447",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89866",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89968",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89796",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -61355,6 +63487,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-89946",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89740",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
@@ -61371,6 +63516,19 @@
       "cveId": "CVE-2026-89629",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89940",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -61472,6 +63630,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-89949",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89548",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
@@ -61485,6 +63656,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-89779",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89530",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
@@ -61493,6 +63677,19 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 0,
         "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89786",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
         "softwareIdentification": 0,
         "patchinfo": 0
       }
@@ -61550,6 +63747,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-89874",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89769",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
@@ -61571,6 +63781,19 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 0,
         "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89920",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
         "softwareIdentification": 0,
         "patchinfo": 0
       }
@@ -61602,6 +63825,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-89851",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89690",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
@@ -61610,6 +63846,19 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 0,
         "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89814",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
         "softwareIdentification": 0,
         "patchinfo": 0
       }
@@ -61628,6 +63877,32 @@
       }
     },
     {
+      "cveId": "CVE-2026-89855",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89962",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89712",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
@@ -61636,6 +63911,32 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 0,
         "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89817",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89829",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
         "softwareIdentification": 0,
         "patchinfo": 0
       }
@@ -61662,6 +63963,19 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 0,
         "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89776",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
         "softwareIdentification": 0,
         "patchinfo": 0
       }
@@ -61696,6 +64010,32 @@
       "cveId": "CVE-2026-89644",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89944",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89881",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -61784,9 +64124,48 @@
       }
     },
     {
+      "cveId": "CVE-2026-89947",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89811",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89439",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89883",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -61810,6 +64189,32 @@
       }
     },
     {
+      "cveId": "CVE-2026-89804",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89991",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89562",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
@@ -61818,6 +64223,19 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 0,
         "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89924",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
         "softwareIdentification": 0,
         "patchinfo": 0
       }
@@ -61836,6 +64254,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-89954",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89480",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
@@ -61849,9 +64280,61 @@
       }
     },
     {
+      "cveId": "CVE-2026-89992",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89595",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89791",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89939",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89902",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -61875,9 +64358,61 @@
       }
     },
     {
+      "cveId": "CVE-2026-89945",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89462",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89958",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89887",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89790",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -61914,6 +64449,45 @@
       }
     },
     {
+      "cveId": "CVE-2026-89925",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89966",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89787",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89549",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
@@ -61922,6 +64496,32 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 0,
         "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89845",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89822",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
         "softwareIdentification": 0,
         "patchinfo": 0
       }
@@ -61940,6 +64540,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-89891",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89637",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
@@ -61948,6 +64561,71 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 0,
         "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89844",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89850",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89993",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89894",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89971",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
         "softwareIdentification": 0,
         "patchinfo": 0
       }
@@ -62031,6 +64709,84 @@
       }
     },
     {
+      "cveId": "CVE-2026-89978",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89948",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89996",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89869",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89961",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89877",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89614",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
@@ -62039,6 +64795,32 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 0,
         "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89780",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89808",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
         "softwareIdentification": 0,
         "patchinfo": 0
       }
@@ -62070,6 +64852,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-89778",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89583",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
@@ -62078,6 +64873,19 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 0,
         "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89805",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
         "softwareIdentification": 0,
         "patchinfo": 0
       }
@@ -62099,6 +64907,19 @@
       "cveId": "CVE-2026-89700",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89980",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -62156,6 +64977,32 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 0,
         "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89888",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89795",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
         "softwareIdentification": 0,
         "patchinfo": 0
       }
@@ -62239,6 +65086,45 @@
       }
     },
     {
+      "cveId": "CVE-2026-89843",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89955",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89957",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89615",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
@@ -62265,6 +65151,58 @@
       }
     },
     {
+      "cveId": "CVE-2026-89842",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89895",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89777",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89923",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89746",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
@@ -62273,6 +65211,19 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 0,
         "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89903",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
         "softwareIdentification": 0,
         "patchinfo": 0
       }
@@ -62317,6 +65268,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-89893",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89693",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
@@ -62333,6 +65297,32 @@
       "cveId": "CVE-2026-89627",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89892",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89788",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -62421,6 +65411,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-89983",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89721",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
@@ -62463,6 +65466,32 @@
       "cveId": "CVE-2026-89527",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89870",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89840",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -62538,6 +65567,32 @@
       }
     },
     {
+      "cveId": "CVE-2026-89834",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89953",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89440",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
@@ -62564,6 +65619,32 @@
       }
     },
     {
+      "cveId": "CVE-2026-89872",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89914",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89535",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
@@ -62572,6 +65653,32 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 0,
         "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89943",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89798",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
         "softwareIdentification": 0,
         "patchinfo": 0
       }
@@ -62603,6 +65710,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-89830",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89601",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
@@ -62611,6 +65731,19 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 0,
         "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89871",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
         "softwareIdentification": 0,
         "patchinfo": 0
       }
@@ -62642,9 +65775,61 @@
       }
     },
     {
+      "cveId": "CVE-2026-89847",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89899",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89475",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89896",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89873",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -62720,6 +65905,45 @@
       }
     },
     {
+      "cveId": "CVE-2026-89854",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89918",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89900",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89472",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
@@ -62759,9 +65983,35 @@
       }
     },
     {
+      "cveId": "CVE-2026-89879",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89464",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89990",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -62785,9 +66035,35 @@
       }
     },
     {
+      "cveId": "CVE-2026-89979",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89642",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89781",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -62837,6 +66113,97 @@
       }
     },
     {
+      "cveId": "CVE-2026-89815",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89976",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89897",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89973",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89826",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89819",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89970",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89760",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
@@ -62845,6 +66212,19 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 0,
         "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89908",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
         "softwareIdentification": 0,
         "patchinfo": 0
       }
@@ -62866,6 +66246,32 @@
       "cveId": "CVE-2026-89498",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89994",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89823",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -62902,9 +66308,35 @@
       }
     },
     {
+      "cveId": "CVE-2026-89784",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89698",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89952",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -62967,6 +66399,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-89959",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89756",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
@@ -62993,6 +66438,32 @@
       }
     },
     {
+      "cveId": "CVE-2026-89922",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89928",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89445",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
@@ -63001,6 +66472,19 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 0,
         "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89807",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
         "softwareIdentification": 0,
         "patchinfo": 0
       }
@@ -63019,9 +66503,74 @@
       }
     },
     {
+      "cveId": "CVE-2026-89986",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89839",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89882",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89437",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89921",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89824",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -63071,6 +66620,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-89919",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-89451",
       "assigningCna": "Linux",
       "datePublished": "2026-09-11",
@@ -63092,6 +66654,32 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 0,
         "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89782",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89793",
+      "assigningCna": "Linux",
+      "datePublished": "2026-09-16",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
         "softwareIdentification": 0,
         "patchinfo": 0
       }
