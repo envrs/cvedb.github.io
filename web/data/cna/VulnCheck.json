@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "VulnCheck",
-    "total_cves": 4967,
-    "total_cves_scored": 4967,
+    "total_cves": 4969,
+    "total_cves_scored": 4969,
     "organizationName": "VulnCheck",
     "scope": "Vulnerabilities observed by, discovered by, or reported to VulnCheck that are not in another CNA’s scope.",
     "advisories": [
@@ -39,9 +39,9 @@
   "percentile": 85.5,
   "cna_scoring": [
     {
-      "total_cves": 4967,
-      "total_cves_scored": 4967,
-      "recent_cves_count": 4967,
+      "total_cves": 4969,
+      "total_cves_scored": 4969,
+      "recent_cves_count": 4969,
       "overall_average_score": 83.23,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 14.99,
@@ -52,7 +52,7 @@
       "percent_root_cause_analysis": 99.94,
       "percent_software_identification": 0.02,
       "percent_severity_and_impact": 100.0,
-      "percent_patchinfo": 32.39,
+      "percent_patchinfo": 32.4,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -45248,6 +45248,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-93337",
+      "assigningCna": "VulnCheck",
+      "datePublished": "2026-09-17",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
       "cveId": "CVE-2026-93013",
       "assigningCna": "VulnCheck",
       "datePublished": "2026-09-17",
@@ -52921,6 +52934,19 @@
       "cveId": "CVE-2026-89262",
       "assigningCna": "VulnCheck",
       "datePublished": "2026-09-11",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89038",
+      "assigningCna": "VulnCheck",
+      "datePublished": "2026-09-17",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,

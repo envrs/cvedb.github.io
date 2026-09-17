@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "HCL",
-    "total_cves": 181,
-    "total_cves_scored": 181,
+    "total_cves": 182,
+    "total_cves_scored": 182,
     "organizationName": "HCL Software",
     "scope": "All HCL products only.",
     "advisories": [
@@ -38,9 +38,9 @@
   "percentile": 22.7,
   "cna_scoring": [
     {
-      "total_cves": 181,
-      "total_cves_scored": 181,
-      "recent_cves_count": 181,
+      "total_cves": 182,
+      "total_cves_scored": 182,
+      "recent_cves_count": 182,
       "overall_average_score": 79.34,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 14.34,
@@ -48,7 +48,7 @@
       "average_severity_context": 15.0,
       "average_patchinfo": 0.0,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 95.58,
+      "percent_root_cause_analysis": 95.6,
       "percent_software_identification": 0.0,
       "percent_severity_and_impact": 100.0,
       "percent_patchinfo": 0.0,
@@ -2402,6 +2402,19 @@
       "cveId": "CVE-2026-56577",
       "assigningCna": "HCL",
       "datePublished": "2026-07-21",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-67071",
+      "assigningCna": "HCL",
+      "datePublished": "2026-09-17",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,

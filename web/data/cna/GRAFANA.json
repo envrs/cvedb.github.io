@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "GRAFANA",
-    "total_cves": 48,
-    "total_cves_scored": 48,
+    "total_cves": 50,
+    "total_cves_scored": 50,
     "organizationName": "Grafana Labs",
     "scope": "All Grafana Labs open source and commercial products.",
     "advisories": [
@@ -40,17 +40,17 @@
   "percentile": 11.9,
   "cna_scoring": [
     {
-      "total_cves": 48,
-      "total_cves_scored": 48,
-      "recent_cves_count": 48,
-      "overall_average_score": 70.0,
+      "total_cves": 50,
+      "total_cves_scored": 50,
+      "recent_cves_count": 50,
+      "overall_average_score": 70.4,
       "average_foundational_completeness": 50.0,
-      "average_root_cause_analysis": 5.0,
+      "average_root_cause_analysis": 5.4,
       "average_software_identification": 0.0,
       "average_severity_context": 15.0,
       "average_patchinfo": 0.0,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 33.33,
+      "percent_root_cause_analysis": 36.0,
       "percent_software_identification": 0.0,
       "percent_severity_and_impact": 100.0,
       "percent_patchinfo": 0.0,
@@ -672,6 +672,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-76154",
+      "assigningCna": "GRAFANA",
+      "datePublished": "2026-09-17",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-15583",
       "assigningCna": "GRAFANA",
       "datePublished": "2026-07-15",
@@ -679,6 +692,19 @@
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-15815",
+      "assigningCna": "GRAFANA",
+      "datePublished": "2026-09-17",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 0
