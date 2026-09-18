@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "Wordfence",
-    "total_cves": 2121,
-    "total_cves_scored": 2121,
+    "total_cves": 2122,
+    "total_cves_scored": 2122,
     "organizationName": "Wordfence",
     "scope": "WordPress Plugins, Themes, and Core Vulnerabilities discovered by, or reported to, the Wordfence/Defiant team.",
     "advisories": [
@@ -35,13 +35,13 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 70,
-  "active_cna_count": 343,
-  "percentile": 79.9,
+  "active_cna_count": 342,
+  "percentile": 79.8,
   "cna_scoring": [
     {
-      "total_cves": 2121,
-      "total_cves_scored": 2121,
-      "recent_cves_count": 2121,
+      "total_cves": 2122,
+      "total_cves_scored": 2122,
+      "recent_cves_count": 2122,
       "overall_average_score": 80.0,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
@@ -14337,6 +14337,19 @@
       "cveId": "CVE-2026-7796",
       "assigningCna": "Wordfence",
       "datePublished": "2026-06-06",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-93031",
+      "assigningCna": "Wordfence",
+      "datePublished": "2026-09-18",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
