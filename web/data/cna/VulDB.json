@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "VulDB",
-    "total_cves": 3820,
-    "total_cves_scored": 3820,
+    "total_cves": 3825,
+    "total_cves_scored": 3825,
     "organizationName": "VulDB",
     "scope": "Vulnerabilities in VulDB products and vulnerabilities discovered by, or reported to, the VulDB vulnerability database that are not in another CNA’s scope.",
     "advisories": [
@@ -33,15 +33,15 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 21,
+  "rank": 20,
   "active_cna_count": 343,
-  "percentile": 94.2,
+  "percentile": 94.5,
   "cna_scoring": [
     {
-      "total_cves": 3820,
-      "total_cves_scored": 3820,
-      "recent_cves_count": 3820,
-      "overall_average_score": 89.48,
+      "total_cves": 3825,
+      "total_cves_scored": 3825,
+      "recent_cves_count": 3825,
+      "overall_average_score": 89.49,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 14.94,
       "average_software_identification": 7.69,
@@ -49,9 +49,9 @@
       "average_patchinfo": 1.86,
       "percent_foundational_completeness": 100.0,
       "percent_root_cause_analysis": 99.58,
-      "percent_software_identification": 76.88,
+      "percent_software_identification": 76.92,
       "percent_severity_and_impact": 100.0,
-      "percent_patchinfo": 18.56,
+      "percent_patchinfo": 18.61,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -34262,6 +34262,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-93505",
+      "assigningCna": "VulDB",
+      "datePublished": "2026-09-18",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
       "cveId": "CVE-2026-93309",
       "assigningCna": "VulDB",
       "datePublished": "2026-09-17",
@@ -34353,9 +34366,35 @@
       }
     },
     {
+      "cveId": "CVE-2026-93532",
+      "assigningCna": "VulDB",
+      "datePublished": "2026-09-18",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-93307",
       "assigningCna": "VulDB",
       "datePublished": "2026-09-17",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-93531",
+      "assigningCna": "VulDB",
+      "datePublished": "2026-09-18",
       "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -34380,6 +34419,32 @@
     },
     {
       "cveId": "CVE-2026-93312",
+      "assigningCna": "VulDB",
+      "datePublished": "2026-09-18",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-93504",
+      "assigningCna": "VulDB",
+      "datePublished": "2026-09-18",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-93506",
       "assigningCna": "VulDB",
       "datePublished": "2026-09-18",
       "totalCveScore": 100,
