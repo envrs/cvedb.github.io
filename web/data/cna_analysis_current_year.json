@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T20:29:04.759812",
+  "generated_at": "2026-09-19T02:24:07.768947",
   "source": "CVE V5 List (Authoritative)",
   "year": 2026,
   "total_cnas": 379,
@@ -11,10 +11,10 @@
     {
       "name": "GitHub_M",
       "assigner_org_id": "a0819718-46f1-4df5-94e2-005712e83aaa",
-      "count": 10409,
+      "count": 10416,
       "rank": 1,
       "first_cve_date": "2026-01-01T15:11:46.028Z",
-      "last_cve_date": "2026-09-18T20:22:15.562Z",
+      "last_cve_date": "2026-09-18T20:41:31.276Z",
       "years_active": 8,
       "is_official": true,
       "activity_status": "Active",
@@ -27,10 +27,10 @@
     {
       "name": "VulnCheck",
       "assigner_org_id": "83251b91-4cc7-4094-a5c7-464a1b83ea10",
-      "count": 7201,
+      "count": 7204,
       "rank": 2,
       "first_cve_date": "2026-01-02T16:20:23.066Z",
-      "last_cve_date": "2026-09-18T19:56:38.530Z",
+      "last_cve_date": "2026-09-18T23:12:09.139Z",
       "years_active": 21,
       "is_official": true,
       "activity_status": "Active",
@@ -59,10 +59,10 @@
     {
       "name": "VulDB",
       "assigner_org_id": "1af790b2-7ee1-4545-860a-a788eba489b5",
-      "count": 4971,
+      "count": 4974,
       "rank": 4,
       "first_cve_date": "2026-01-01T09:02:10.684Z",
-      "last_cve_date": "2026-09-18T18:15:10.080Z",
+      "last_cve_date": "2026-09-18T21:45:12.370Z",
       "years_active": 22,
       "is_official": true,
       "activity_status": "Active",
@@ -91,10 +91,10 @@
     {
       "name": "mitre",
       "assigner_org_id": "8254265b-2729-46b6-b9e3-3dfca2d5bfca",
-      "count": 3258,
+      "count": 3259,
       "rank": 6,
       "first_cve_date": "2026-01-01T04:39:48.140Z",
-      "last_cve_date": "2026-09-18T18:57:56.107Z",
+      "last_cve_date": "2026-09-18T20:30:04.646Z",
       "years_active": 28,
       "is_official": true,
       "activity_status": "Active",
@@ -123,10 +123,10 @@
     {
       "name": "Wordfence",
       "assigner_org_id": "b15e7b5b-3da4-40ae-a43c-f7aa60e62599",
-      "count": 3034,
+      "count": 3035,
       "rank": 8,
       "first_cve_date": "2026-01-01T16:19:30.690Z",
-      "last_cve_date": "2026-09-18T19:36:29.297Z",
+      "last_cve_date": "2026-09-19T01:26:18.579Z",
       "years_active": 14,
       "is_official": true,
       "activity_status": "Active",
@@ -139,10 +139,10 @@
     {
       "name": "microsoft",
       "assigner_org_id": "f38d906d-7342-40ea-92c1-6c4a2c6478c8",
-      "count": 2960,
+      "count": 2961,
       "rank": 9,
       "first_cve_date": "2026-01-07T22:54:54.800Z",
-      "last_cve_date": "2026-09-17T23:04:48.423Z",
+      "last_cve_date": "2026-09-18T20:47:05.350Z",
       "years_active": 22,
       "is_official": true,
       "activity_status": "Active",
@@ -203,10 +203,10 @@
     {
       "name": "redhat",
       "assigner_org_id": "53f830b8-0a3f-465b-8143-3b8a9948e749",
-      "count": 954,
+      "count": 955,
       "rank": 13,
       "first_cve_date": "2026-01-07T16:04:22.155Z",
-      "last_cve_date": "2026-09-18T20:12:51.910Z",
+      "last_cve_date": "2026-09-18T21:58:11.958Z",
       "years_active": 28,
       "is_official": true,
       "activity_status": "Active",
@@ -1386,10 +1386,26 @@
       "top_cwe_types": {}
     },
     {
+      "name": "Fluid Attacks",
+      "assigner_org_id": "84fe0718-d6bb-4716-a7e8-81a6d1daa869",
+      "count": 64,
+      "rank": 87,
+      "first_cve_date": "2026-01-06T15:15:30.305Z",
+      "last_cve_date": "2026-09-18T23:29:28.221Z",
+      "years_active": 5,
+      "is_official": true,
+      "activity_status": "Active",
+      "cna_types": [
+        "Vendor"
+      ],
+      "severity_distribution": {},
+      "top_cwe_types": {}
+    },
+    {
       "name": "tenable",
       "assigner_org_id": "5ac1ecc2-367a-4d16-a0b2-35d495ddd0be",
       "count": 63,
-      "rank": 87,
+      "rank": 88,
       "first_cve_date": "2026-01-13T15:05:19.918Z",
       "last_cve_date": "2026-09-16T15:23:21.834Z",
       "years_active": 10,
@@ -1397,22 +1413,6 @@
       "activity_status": "Active",
       "cna_types": [
         "Security Researcher"
-      ],
-      "severity_distribution": {},
-      "top_cwe_types": {}
-    },
-    {
-      "name": "Fluid Attacks",
-      "assigner_org_id": "84fe0718-d6bb-4716-a7e8-81a6d1daa869",
-      "count": 63,
-      "rank": 88,
-      "first_cve_date": "2026-01-06T15:15:30.305Z",
-      "last_cve_date": "2026-09-18T00:26:28.854Z",
-      "years_active": 5,
-      "is_official": true,
-      "activity_status": "Active",
-      "cna_types": [
-        "Vendor"
       ],
       "severity_distribution": {},
       "top_cwe_types": {}
@@ -6078,10 +6078,10 @@
     {
       "name": "GitHub_M",
       "assigner_org_id": "a0819718-46f1-4df5-94e2-005712e83aaa",
-      "count": 10409,
+      "count": 10416,
       "rank": 1,
       "first_cve_date": "2026-01-01T15:11:46.028Z",
-      "last_cve_date": "2026-09-18T20:22:15.562Z",
+      "last_cve_date": "2026-09-18T20:41:31.276Z",
       "years_active": 8,
       "is_official": true,
       "activity_status": "Active",
@@ -6094,10 +6094,10 @@
     {
       "name": "VulnCheck",
       "assigner_org_id": "83251b91-4cc7-4094-a5c7-464a1b83ea10",
-      "count": 7201,
+      "count": 7204,
       "rank": 2,
       "first_cve_date": "2026-01-02T16:20:23.066Z",
-      "last_cve_date": "2026-09-18T19:56:38.530Z",
+      "last_cve_date": "2026-09-18T23:12:09.139Z",
       "years_active": 21,
       "is_official": true,
       "activity_status": "Active",
@@ -6126,10 +6126,10 @@
     {
       "name": "VulDB",
       "assigner_org_id": "1af790b2-7ee1-4545-860a-a788eba489b5",
-      "count": 4971,
+      "count": 4974,
       "rank": 4,
       "first_cve_date": "2026-01-01T09:02:10.684Z",
-      "last_cve_date": "2026-09-18T18:15:10.080Z",
+      "last_cve_date": "2026-09-18T21:45:12.370Z",
       "years_active": 22,
       "is_official": true,
       "activity_status": "Active",
@@ -6158,10 +6158,10 @@
     {
       "name": "mitre",
       "assigner_org_id": "8254265b-2729-46b6-b9e3-3dfca2d5bfca",
-      "count": 3258,
+      "count": 3259,
       "rank": 6,
       "first_cve_date": "2026-01-01T04:39:48.140Z",
-      "last_cve_date": "2026-09-18T18:57:56.107Z",
+      "last_cve_date": "2026-09-18T20:30:04.646Z",
       "years_active": 28,
       "is_official": true,
       "activity_status": "Active",
@@ -6190,10 +6190,10 @@
     {
       "name": "Wordfence",
       "assigner_org_id": "b15e7b5b-3da4-40ae-a43c-f7aa60e62599",
-      "count": 3034,
+      "count": 3035,
       "rank": 8,
       "first_cve_date": "2026-01-01T16:19:30.690Z",
-      "last_cve_date": "2026-09-18T19:36:29.297Z",
+      "last_cve_date": "2026-09-19T01:26:18.579Z",
       "years_active": 14,
       "is_official": true,
       "activity_status": "Active",
@@ -6206,10 +6206,10 @@
     {
       "name": "microsoft",
       "assigner_org_id": "f38d906d-7342-40ea-92c1-6c4a2c6478c8",
-      "count": 2960,
+      "count": 2961,
       "rank": 9,
       "first_cve_date": "2026-01-07T22:54:54.800Z",
-      "last_cve_date": "2026-09-17T23:04:48.423Z",
+      "last_cve_date": "2026-09-18T20:47:05.350Z",
       "years_active": 22,
       "is_official": true,
       "activity_status": "Active",
@@ -6270,10 +6270,10 @@
     {
       "name": "redhat",
       "assigner_org_id": "53f830b8-0a3f-465b-8143-3b8a9948e749",
-      "count": 954,
+      "count": 955,
       "rank": 13,
       "first_cve_date": "2026-01-07T16:04:22.155Z",
-      "last_cve_date": "2026-09-18T20:12:51.910Z",
+      "last_cve_date": "2026-09-18T21:58:11.958Z",
       "years_active": 28,
       "is_official": true,
       "activity_status": "Active",
@@ -7453,10 +7453,26 @@
       "top_cwe_types": {}
     },
     {
+      "name": "Fluid Attacks",
+      "assigner_org_id": "84fe0718-d6bb-4716-a7e8-81a6d1daa869",
+      "count": 64,
+      "rank": 87,
+      "first_cve_date": "2026-01-06T15:15:30.305Z",
+      "last_cve_date": "2026-09-18T23:29:28.221Z",
+      "years_active": 5,
+      "is_official": true,
+      "activity_status": "Active",
+      "cna_types": [
+        "Vendor"
+      ],
+      "severity_distribution": {},
+      "top_cwe_types": {}
+    },
+    {
       "name": "tenable",
       "assigner_org_id": "5ac1ecc2-367a-4d16-a0b2-35d495ddd0be",
       "count": 63,
-      "rank": 87,
+      "rank": 88,
       "first_cve_date": "2026-01-13T15:05:19.918Z",
       "last_cve_date": "2026-09-16T15:23:21.834Z",
       "years_active": 10,
@@ -7464,22 +7480,6 @@
       "activity_status": "Active",
       "cna_types": [
         "Security Researcher"
-      ],
-      "severity_distribution": {},
-      "top_cwe_types": {}
-    },
-    {
-      "name": "Fluid Attacks",
-      "assigner_org_id": "84fe0718-d6bb-4716-a7e8-81a6d1daa869",
-      "count": 63,
-      "rank": 88,
-      "first_cve_date": "2026-01-06T15:15:30.305Z",
-      "last_cve_date": "2026-09-18T00:26:28.854Z",
-      "years_active": 5,
-      "is_official": true,
-      "activity_status": "Active",
-      "cna_types": [
-        "Vendor"
       ],
       "severity_distribution": {},
       "top_cwe_types": {}
