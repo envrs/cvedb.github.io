@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "CPANSec",
-    "total_cves": 251,
-    "total_cves_scored": 251,
+    "total_cves": 249,
+    "total_cves_scored": 249,
     "organizationName": "CPAN Security Group",
     "scope": "Vulnerabilities in Perl and CPAN Modules (including End-of-Life Perl versions) found at <a href='https://perl.org' target='_blank'>https://perl.org</a>, <a href='https://cpan.org' target='_blank'>https://cpan.org</a>, or <a href='https://metacpan.org/' target='_blank'>https://metacpan.org/</a>, excluding distributions of Perl or CPAN Modules maintained by third-party redistributors.",
     "advisories": [
@@ -38,52 +38,26 @@
   "percentile": 12.5,
   "cna_scoring": [
     {
-      "total_cves": 251,
-      "total_cves_scored": 251,
-      "recent_cves_count": 251,
-      "overall_average_score": 70.9,
+      "total_cves": 249,
+      "total_cves_scored": 249,
+      "recent_cves_count": 249,
+      "overall_average_score": 70.86,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
       "average_software_identification": 0.0,
       "average_severity_context": 0.0,
-      "average_patchinfo": 5.9,
+      "average_patchinfo": 5.86,
       "percent_foundational_completeness": 100.0,
       "percent_root_cause_analysis": 100.0,
       "percent_software_identification": 0.0,
       "percent_severity_and_impact": 0.0,
-      "percent_patchinfo": 58.96,
+      "percent_patchinfo": 58.63,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
     }
   ],
   "recent_cves": [
-    {
-      "cveId": "CVE-2006-10002",
-      "assigningCna": "CPANSec",
-      "datePublished": "2026-03-19",
-      "totalCveScore": 75,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 10
-      }
-    },
-    {
-      "cveId": "CVE-2006-10003",
-      "assigningCna": "CPANSec",
-      "datePublished": "2026-03-19",
-      "totalCveScore": 75,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 10
-      }
-    },
     {
       "cveId": "CVE-2009-10007",
       "assigningCna": "CPANSec",
