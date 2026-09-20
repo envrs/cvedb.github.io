@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "ZTE",
-    "total_cves": 27,
-    "total_cves_scored": 27,
+    "total_cves": 29,
+    "total_cves_scored": 29,
     "organizationName": "ZTE Corporation",
     "scope": "<a href='https://www.zte.com.cn/global/products' target='_blank'>ZTE products</a> only.",
     "advisories": [
@@ -28,22 +28,22 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 272,
-  "active_cna_count": 344,
-  "percentile": 21.2,
+  "rank": 271,
+  "active_cna_count": 343,
+  "percentile": 21.3,
   "cna_scoring": [
     {
-      "total_cves": 27,
-      "total_cves_scored": 27,
-      "recent_cves_count": 27,
-      "overall_average_score": 78.89,
+      "total_cves": 29,
+      "total_cves_scored": 29,
+      "recent_cves_count": 29,
+      "overall_average_score": 78.97,
       "average_foundational_completeness": 50.0,
-      "average_root_cause_analysis": 13.89,
+      "average_root_cause_analysis": 13.97,
       "average_software_identification": 0.0,
       "average_severity_context": 15.0,
       "average_patchinfo": 0.0,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 92.59,
+      "percent_root_cause_analysis": 93.1,
       "percent_software_identification": 0.0,
       "percent_severity_and_impact": 100.0,
       "percent_patchinfo": 0.0,
@@ -57,6 +57,19 @@
       "cveId": "CVE-2026-48999",
       "assigningCna": "ZTE",
       "datePublished": "2026-05-27",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-86554",
+      "assigningCna": "ZTE",
+      "datePublished": "2026-09-20",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -96,6 +109,19 @@
       "cveId": "CVE-2026-86550",
       "assigningCna": "ZTE",
       "datePublished": "2026-09-08",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-86555",
+      "assigningCna": "ZTE",
+      "datePublished": "2026-09-20",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
