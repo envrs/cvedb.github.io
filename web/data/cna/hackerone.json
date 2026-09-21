@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "hackerone",
-    "total_cves": 185,
-    "total_cves_scored": 185,
+    "total_cves": 187,
+    "total_cves_scored": 187,
     "organizationName": "HackerOne",
     "scope": "Provides CVE IDs for its customers as part of its bug bounty and vulnerability coordination platform.",
     "advisories": [
@@ -33,19 +33,19 @@
   "percentile": 17.5,
   "cna_scoring": [
     {
-      "total_cves": 185,
-      "total_cves_scored": 185,
-      "recent_cves_count": 185,
-      "overall_average_score": 77.41,
+      "total_cves": 187,
+      "total_cves_scored": 187,
+      "recent_cves_count": 187,
+      "overall_average_score": 77.35,
       "average_foundational_completeness": 50.0,
-      "average_root_cause_analysis": 13.62,
+      "average_root_cause_analysis": 13.56,
       "average_software_identification": 0.0,
-      "average_severity_context": 13.78,
+      "average_severity_context": 13.8,
       "average_patchinfo": 0.0,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 90.81,
+      "percent_root_cause_analysis": 90.37,
       "percent_software_identification": 0.0,
-      "percent_severity_and_impact": 91.89,
+      "percent_severity_and_impact": 91.98,
       "percent_patchinfo": 0.0,
       "trend_direction": "steady",
       "trend_description": "No significant change",
@@ -1692,6 +1692,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-77165",
+      "assigningCna": "hackerone",
+      "datePublished": "2026-09-21",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-77169",
       "assigningCna": "hackerone",
       "datePublished": "2026-09-18",
@@ -1699,6 +1712,19 @@
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-77166",
+      "assigningCna": "hackerone",
+      "datePublished": "2026-09-21",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 0
