@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "certcc",
-    "total_cves": 145,
-    "total_cves_scored": 145,
+    "total_cves": 147,
+    "total_cves_scored": 147,
     "organizationName": "CERT/CC",
     "scope": "Vulnerability assignment related to its vulnerability coordination role.",
     "advisories": [
@@ -38,9 +38,9 @@
   "percentile": 9.9,
   "cna_scoring": [
     {
-      "total_cves": 145,
-      "total_cves_scored": 145,
-      "recent_cves_count": 145,
+      "total_cves": 147,
+      "total_cves_scored": 147,
+      "recent_cves_count": 147,
       "overall_average_score": 65.1,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
@@ -50,7 +50,7 @@
       "percent_foundational_completeness": 100.0,
       "percent_root_cause_analysis": 100.0,
       "percent_software_identification": 0.0,
-      "percent_severity_and_impact": 0.69,
+      "percent_severity_and_impact": 0.68,
       "percent_patchinfo": 0.0,
       "trend_direction": "steady",
       "trend_description": "No significant change",
@@ -1138,6 +1138,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-93088",
+      "assigningCna": "certcc",
+      "datePublished": "2026-09-22",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-12168",
       "assigningCna": "certcc",
       "datePublished": "2026-07-02",
@@ -1388,6 +1401,19 @@
       "cveId": "CVE-2026-6727",
       "assigningCna": "certcc",
       "datePublished": "2026-08-11",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-94570",
+      "assigningCna": "certcc",
+      "datePublished": "2026-09-22",
       "totalCveScore": 65,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
