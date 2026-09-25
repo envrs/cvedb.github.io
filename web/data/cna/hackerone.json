@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "hackerone",
-    "total_cves": 193,
-    "total_cves_scored": 193,
+    "total_cves": 192,
+    "total_cves_scored": 192,
     "organizationName": "HackerOne",
     "scope": "Provides CVE IDs for its customers as part of its bug bounty and vulnerability coordination platform.",
     "advisories": [
@@ -28,24 +28,24 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 287,
-  "active_cna_count": 345,
-  "percentile": 17.1,
+  "rank": 286,
+  "active_cna_count": 343,
+  "percentile": 16.9,
   "cna_scoring": [
     {
-      "total_cves": 193,
-      "total_cves_scored": 193,
-      "recent_cves_count": 193,
-      "overall_average_score": 77.36,
+      "total_cves": 192,
+      "total_cves_scored": 192,
+      "recent_cves_count": 192,
+      "overall_average_score": 77.42,
       "average_foundational_completeness": 50.0,
-      "average_root_cause_analysis": 13.6,
+      "average_root_cause_analysis": 13.67,
       "average_software_identification": 0.0,
-      "average_severity_context": 13.76,
+      "average_severity_context": 13.75,
       "average_patchinfo": 0.0,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 90.67,
+      "percent_root_cause_analysis": 91.15,
       "percent_software_identification": 0.0,
-      "percent_severity_and_impact": 91.71,
+      "percent_severity_and_impact": 91.67,
       "percent_patchinfo": 0.0,
       "trend_direction": "steady",
       "trend_description": "No significant change",
@@ -1972,19 +1972,6 @@
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-22559",
-      "assigningCna": "hackerone",
-      "datePublished": "2026-03-24",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 0
