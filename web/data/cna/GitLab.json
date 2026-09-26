@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "GitLab",
-    "total_cves": 261,
-    "total_cves_scored": 261,
+    "total_cves": 250,
+    "total_cves_scored": 250,
     "organizationName": "GitLab Inc.",
     "scope": "The GitLab application, any project hosted on GitLab.com in a public repository, and any vulnerabilities discovered by GitLab that are not in another CNA’s scope.",
     "advisories": [
@@ -39,18 +39,18 @@
   "percentile": 89.8,
   "cna_scoring": [
     {
-      "total_cves": 261,
-      "total_cves_scored": 261,
-      "recent_cves_count": 261,
-      "overall_average_score": 86.0,
+      "total_cves": 250,
+      "total_cves_scored": 250,
+      "recent_cves_count": 250,
+      "overall_average_score": 85.82,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 14.94,
-      "average_software_identification": 6.05,
+      "average_software_identification": 5.88,
       "average_severity_context": 15.0,
       "average_patchinfo": 0.0,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 99.62,
-      "percent_software_identification": 60.54,
+      "percent_root_cause_analysis": 99.6,
+      "percent_software_identification": 58.8,
       "percent_severity_and_impact": 100.0,
       "percent_patchinfo": 0.0,
       "trend_direction": "steady",
@@ -73,35 +73,9 @@
       }
     },
     {
-      "cveId": "CVE-2025-13078",
-      "assigningCna": "GitLab",
-      "datePublished": "2026-03-25",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2025-13874",
       "assigningCna": "GitLab",
       "datePublished": "2026-05-14",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2025-13436",
-      "assigningCna": "GitLab",
-      "datePublished": "2026-03-25",
       "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -242,19 +216,6 @@
       }
     },
     {
-      "cveId": "CVE-2025-14595",
-      "assigningCna": "GitLab",
-      "datePublished": "2026-03-25",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2025-14870",
       "assigningCna": "GitLab",
       "datePublished": "2026-05-14",
@@ -372,61 +333,9 @@
       }
     },
     {
-      "cveId": "CVE-2026-2995",
-      "assigningCna": "GitLab",
-      "datePublished": "2026-03-25",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-2726",
-      "assigningCna": "GitLab",
-      "datePublished": "2026-03-25",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2026-2238",
       "assigningCna": "GitLab",
       "datePublished": "2026-06-25",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-2973",
-      "assigningCna": "GitLab",
-      "datePublished": "2026-03-25",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-2745",
-      "assigningCna": "GitLab",
-      "datePublished": "2026-03-25",
       "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -986,19 +895,6 @@
       "cveId": "CVE-2026-1184",
       "assigningCna": "GitLab",
       "datePublished": "2026-05-14",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-1724",
-      "assigningCna": "GitLab",
-      "datePublished": "2026-03-25",
       "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -2803,19 +2699,6 @@
       }
     },
     {
-      "cveId": "CVE-2026-3988",
-      "assigningCna": "GitLab",
-      "datePublished": "2026-03-25",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2026-3176",
       "assigningCna": "GitLab",
       "datePublished": "2026-06-25",
@@ -2845,19 +2728,6 @@
       "cveId": "CVE-2026-3855",
       "assigningCna": "GitLab",
       "datePublished": "2026-09-16",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-3857",
-      "assigningCna": "GitLab",
-      "datePublished": "2026-03-25",
       "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -2962,19 +2832,6 @@
       "cveId": "CVE-2026-4916",
       "assigningCna": "GitLab",
       "datePublished": "2026-04-08",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 10,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-4363",
-      "assigningCna": "GitLab",
-      "datePublished": "2026-03-25",
       "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
