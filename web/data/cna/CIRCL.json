@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "CIRCL",
-    "total_cves": 208,
-    "total_cves_scored": 208,
+    "total_cves": 209,
+    "total_cves_scored": 209,
     "organizationName": "Computer Incident Response Center Luxembourg (CIRCL)",
     "scope": "Vulnerability assignment related to vulnerability coordination in Luxembourg, which may include reports on software, products, hardware, or services submitted to CIRCL in its role as the national authority for vulnerability coordination in Luxembourg and within the CSIRTs network.",
     "advisories": [
@@ -38,9 +38,9 @@
   "percentile": 93.6,
   "cna_scoring": [
     {
-      "total_cves": 208,
-      "total_cves_scored": 208,
-      "recent_cves_count": 208,
+      "total_cves": 209,
+      "total_cves_scored": 209,
+      "recent_cves_count": 209,
       "overall_average_score": 89.38,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
@@ -51,7 +51,7 @@
       "percent_root_cause_analysis": 100.0,
       "percent_software_identification": 0.0,
       "percent_severity_and_impact": 100.0,
-      "percent_patchinfo": 93.75,
+      "percent_patchinfo": 93.78,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -1570,6 +1570,19 @@
       "cveId": "CVE-2026-9136",
       "assigningCna": "CIRCL",
       "datePublished": "2026-05-20",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-101041",
+      "assigningCna": "CIRCL",
+      "datePublished": "2026-09-27",
       "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
