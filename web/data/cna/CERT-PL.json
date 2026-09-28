@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "CERT-PL",
-    "total_cves": 206,
-    "total_cves_scored": 206,
+    "total_cves": 218,
+    "total_cves_scored": 218,
     "organizationName": "CERT.PL",
     "scope": "Vulnerabilities in software discovered by CERT.PL, and vulnerabilities reported to CERT.PL for coordinated disclosure, which are not in another CNA’s scope.",
     "advisories": [
@@ -42,25 +42,25 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 57,
-  "active_cna_count": 342,
-  "percentile": 83.6,
+  "rank": 58,
+  "active_cna_count": 343,
+  "percentile": 83.4,
   "cna_scoring": [
     {
-      "total_cves": 206,
-      "total_cves_scored": 206,
-      "recent_cves_count": 206,
-      "overall_average_score": 81.55,
+      "total_cves": 218,
+      "total_cves_scored": 218,
+      "recent_cves_count": 218,
+      "overall_average_score": 81.47,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
       "average_software_identification": 0.0,
       "average_severity_context": 15.0,
-      "average_patchinfo": 1.55,
+      "average_patchinfo": 1.47,
       "percent_foundational_completeness": 100.0,
       "percent_root_cause_analysis": 100.0,
       "percent_software_identification": 0.0,
       "percent_severity_and_impact": 100.0,
-      "percent_patchinfo": 15.53,
+      "percent_patchinfo": 14.68,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -1498,6 +1498,32 @@
       }
     },
     {
+      "cveId": "CVE-2026-52749",
+      "assigningCna": "CERT-PL",
+      "datePublished": "2026-09-28",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-52748",
+      "assigningCna": "CERT-PL",
+      "datePublished": "2026-09-28",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-26928",
       "assigningCna": "CERT-PL",
       "datePublished": "2026-04-02",
@@ -2658,6 +2684,136 @@
       "cveId": "CVE-2026-35090",
       "assigningCna": "CERT-PL",
       "datePublished": "2026-05-27",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-73640",
+      "assigningCna": "CERT-PL",
+      "datePublished": "2026-09-28",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-73642",
+      "assigningCna": "CERT-PL",
+      "datePublished": "2026-09-28",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-73641",
+      "assigningCna": "CERT-PL",
+      "datePublished": "2026-09-28",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-82932",
+      "assigningCna": "CERT-PL",
+      "datePublished": "2026-09-28",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-82928",
+      "assigningCna": "CERT-PL",
+      "datePublished": "2026-09-28",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-82930",
+      "assigningCna": "CERT-PL",
+      "datePublished": "2026-09-28",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-82929",
+      "assigningCna": "CERT-PL",
+      "datePublished": "2026-09-28",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-82933",
+      "assigningCna": "CERT-PL",
+      "datePublished": "2026-09-28",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-82936",
+      "assigningCna": "CERT-PL",
+      "datePublished": "2026-09-28",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-82935",
+      "assigningCna": "CERT-PL",
+      "datePublished": "2026-09-28",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
