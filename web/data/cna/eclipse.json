@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "eclipse",
-    "total_cves": 110,
-    "total_cves_scored": 110,
+    "total_cves": 111,
+    "total_cves_scored": 111,
     "organizationName": "Eclipse Foundation",
     "scope": "All projects hosted by the Eclipse Foundation as listed at <a href='https://www.eclipse.org/projects/' target='_blank'>https://www.eclipse.org/projects/</a> and services provided by the Eclipse Foundation to support open source projects as listed at <a href='https://www.eclipsestatus.io/' target='_blank'>https://www.eclipsestatus.io/</a>.",
     "advisories": [
@@ -34,14 +34,14 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 273,
+  "rank": 272,
   "active_cna_count": 349,
-  "percentile": 22.1,
+  "percentile": 22.3,
   "cna_scoring": [
     {
-      "total_cves": 110,
-      "total_cves_scored": 110,
-      "recent_cves_count": 110,
+      "total_cves": 111,
+      "total_cves_scored": 111,
+      "recent_cves_count": 111,
       "overall_average_score": 79.05,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 14.73,
@@ -49,9 +49,9 @@
       "average_severity_context": 14.32,
       "average_patchinfo": 0.0,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 98.18,
+      "percent_root_cause_analysis": 98.2,
       "percent_software_identification": 0.0,
-      "percent_severity_and_impact": 95.45,
+      "percent_severity_and_impact": 95.5,
       "percent_patchinfo": 0.0,
       "trend_direction": "steady",
       "trend_description": "No significant change",
@@ -895,6 +895,19 @@
       "cveId": "CVE-2026-22551",
       "assigningCna": "eclipse",
       "datePublished": "2026-06-18",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-101322",
+      "assigningCna": "eclipse",
+      "datePublished": "2026-10-01",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
