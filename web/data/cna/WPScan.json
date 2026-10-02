@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "WPScan",
-    "total_cves": 1428,
-    "total_cves_scored": 1428,
+    "total_cves": 1429,
+    "total_cves_scored": 1429,
     "organizationName": "WPScan",
     "scope": "WordPress core, plugins, and themes.",
     "advisories": [
@@ -42,24 +42,24 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 313,
-  "active_cna_count": 349,
+  "rank": 314,
+  "active_cna_count": 350,
   "percentile": 10.6,
   "cna_scoring": [
     {
-      "total_cves": 1428,
-      "total_cves_scored": 1428,
-      "recent_cves_count": 1428,
-      "overall_average_score": 66.58,
+      "total_cves": 1429,
+      "total_cves_scored": 1429,
+      "recent_cves_count": 1429,
+      "overall_average_score": 66.59,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
       "average_software_identification": 0.0,
-      "average_severity_context": 1.58,
+      "average_severity_context": 1.59,
       "average_patchinfo": 0.01,
       "percent_foundational_completeness": 100.0,
       "percent_root_cause_analysis": 100.0,
       "percent_software_identification": 0.0,
-      "percent_severity_and_impact": 10.5,
+      "percent_severity_and_impact": 10.57,
       "percent_patchinfo": 0.07,
       "trend_direction": "steady",
       "trend_description": "No significant change",
@@ -5328,6 +5328,19 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 15,
         "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-19856",
+      "assigningCna": "WPScan",
+      "datePublished": "2026-10-02",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 0
       }
