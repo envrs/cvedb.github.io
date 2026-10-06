@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "hpe",
-    "total_cves": 204,
-    "total_cves_scored": 204,
+    "total_cves": 205,
+    "total_cves_scored": 205,
     "organizationName": "Hewlett Packard Enterprise (HPE)",
     "scope": "HPE and acquisitions issues only.",
     "advisories": [
@@ -33,14 +33,14 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 316,
-  "active_cna_count": 350,
+  "rank": 317,
+  "active_cna_count": 351,
   "percentile": 10.0,
   "cna_scoring": [
     {
-      "total_cves": 204,
-      "total_cves_scored": 204,
-      "recent_cves_count": 204,
+      "total_cves": 205,
+      "total_cves_scored": 205,
+      "recent_cves_count": 205,
       "overall_average_score": 65.37,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 0.37,
@@ -48,7 +48,7 @@
       "average_severity_context": 15.0,
       "average_patchinfo": 0.0,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 2.45,
+      "percent_root_cause_analysis": 2.44,
       "percent_software_identification": 0.0,
       "percent_severity_and_impact": 100.0,
       "percent_patchinfo": 0.0,
@@ -608,6 +608,19 @@
       "cveId": "CVE-2026-63454",
       "assigningCna": "hpe",
       "datePublished": "2026-07-21",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-79820",
+      "assigningCna": "hpe",
+      "datePublished": "2026-10-05",
       "totalCveScore": 65,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
