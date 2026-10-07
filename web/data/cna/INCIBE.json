@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "INCIBE",
-    "total_cves": 110,
-    "total_cves_scored": 110,
+    "total_cves": 114,
+    "total_cves_scored": 114,
     "organizationName": "Spanish National Cybersecurity Institute, S.A. (INCIBE)",
     "scope": "<strong>Root Scope:</strong> Spain organizations.<br/><strong>CNA Scope:</strong> Vulnerability assignment related to its vulnerability coordination role for Industrial Control Systems (ICS), Information Technologies (IT), and Internet of Things (IoT) systems issues at the national level, and vulnerabilities reported to INCIBE by Spain organizations and researchers that are not in another CNA’s scope.",
     "advisories": [
@@ -42,25 +42,25 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 41,
-  "active_cna_count": 351,
-  "percentile": 88.6,
+  "rank": 46,
+  "active_cna_count": 349,
+  "percentile": 87.1,
   "cna_scoring": [
     {
-      "total_cves": 110,
-      "total_cves_scored": 110,
-      "recent_cves_count": 110,
-      "overall_average_score": 85.05,
+      "total_cves": 114,
+      "total_cves_scored": 114,
+      "recent_cves_count": 114,
+      "overall_average_score": 84.87,
       "average_foundational_completeness": 50.0,
-      "average_root_cause_analysis": 14.86,
+      "average_root_cause_analysis": 14.87,
       "average_software_identification": 0.0,
       "average_severity_context": 15.0,
-      "average_patchinfo": 5.18,
+      "average_patchinfo": 5.0,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 99.09,
+      "percent_root_cause_analysis": 99.12,
       "percent_software_identification": 0.0,
       "percent_severity_and_impact": 100.0,
-      "percent_patchinfo": 51.82,
+      "percent_patchinfo": 50.0,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -354,6 +354,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-92531",
+      "assigningCna": "INCIBE",
+      "datePublished": "2026-10-07",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-92976",
       "assigningCna": "INCIBE",
       "datePublished": "2026-09-18",
@@ -364,6 +377,32 @@
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-92533",
+      "assigningCna": "INCIBE",
+      "datePublished": "2026-10-07",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-92532",
+      "assigningCna": "INCIBE",
+      "datePublished": "2026-10-07",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
       }
     },
     {
@@ -689,6 +728,19 @@
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-5703",
+      "assigningCna": "INCIBE",
+      "datePublished": "2026-10-07",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
       }
     },
     {
