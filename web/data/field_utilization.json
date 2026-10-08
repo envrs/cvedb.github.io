@@ -8,6 +8,14 @@
     "cna_scorecard_category": null
   },
   {
+    "field": "containers.adp",
+    "percent": 100.0,
+    "unique_cnas": 355,
+    "importance": "Low",
+    "description": "Authorized Data Publisher container",
+    "cna_scorecard_category": null
+  },
+  {
     "field": "containers.cna.affected",
     "percent": 100.0,
     "unique_cnas": 355,
@@ -37,14 +45,6 @@
     "unique_cnas": 355,
     "importance": "Medium",
     "description": "At least one English description",
-    "cna_scorecard_category": null
-  },
-  {
-    "field": "containers.adp",
-    "percent": 99.7,
-    "unique_cnas": 354,
-    "importance": "Low",
-    "description": "Authorized Data Publisher container",
     "cna_scorecard_category": null
   },
   {
@@ -153,8 +153,8 @@
   },
   {
     "field": "metrics.cvssV3_1",
-    "percent": 56.3,
-    "unique_cnas": 200,
+    "percent": 56.6,
+    "unique_cnas": 201,
     "importance": "High",
     "description": "CVSS v3.1 metrics",
     "cna_scorecard_category": "severityAndImpactContext"
@@ -177,8 +177,8 @@
   },
   {
     "field": "containers.cna.solutions",
-    "percent": 35.2,
-    "unique_cnas": 125,
+    "percent": 35.5,
+    "unique_cnas": 126,
     "importance": "Medium",
     "description": "Solutions and remediations",
     "cna_scorecard_category": null
@@ -257,8 +257,8 @@
   },
   {
     "field": "affected.programRoutines",
-    "percent": 5.6,
-    "unique_cnas": 20,
+    "percent": 5.9,
+    "unique_cnas": 21,
     "importance": "Medium",
     "description": "Affected functions or methods",
     "cna_scorecard_category": null
