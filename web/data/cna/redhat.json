@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "redhat",
-    "total_cves": 986,
-    "total_cves_scored": 986,
+    "total_cves": 988,
+    "total_cves_scored": 988,
     "organizationName": "Red Hat, Inc.",
     "scope": "<strong>Root Scope:</strong> The Red Hat Root’s scope includes the open source community. Any open source organizations that prefer Red Hat as their Root; organizations are free to choose another Root if it suits them better.<br/><strong>CNA-LR Scope:</strong> Vulnerabilities in software developed by a CNA within the Red Hat Root hierarchy.<br/><strong>CNA Scope:</strong> Vulnerabilities in open source projects affecting Red Hat software that are not covered by a more specific CNA. CVEs can be assigned to vulnerabilities affecting end-of-life or unsupported Red Hat software.",
     "advisories": [
@@ -47,9 +47,9 @@
   "percentile": 93.4,
   "cna_scoring": [
     {
-      "total_cves": 986,
-      "total_cves_scored": 986,
-      "recent_cves_count": 986,
+      "total_cves": 988,
+      "total_cves_scored": 988,
+      "recent_cves_count": 988,
       "overall_average_score": 89.44,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 14.68,
@@ -10377,6 +10377,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-107935",
+      "assigningCna": "redhat",
+      "datePublished": "2026-10-09",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-107604",
       "assigningCna": "redhat",
       "datePublished": "2026-10-08",
@@ -10406,6 +10419,19 @@
       "cveId": "CVE-2026-107169",
       "assigningCna": "redhat",
       "datePublished": "2026-10-07",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-107655",
+      "assigningCna": "redhat",
+      "datePublished": "2026-10-09",
       "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
