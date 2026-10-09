@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "Docker",
-    "total_cves": 31,
-    "total_cves_scored": 31,
+    "total_cves": 32,
+    "total_cves_scored": 32,
     "organizationName": "Docker Inc.",
     "scope": "All Docker products, including Docker Desktop and Docker Hub, as well as Docker maintained open source projects.",
     "advisories": [
@@ -46,24 +46,24 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 36,
-  "active_cna_count": 350,
-  "percentile": 90.0,
+  "active_cna_count": 353,
+  "percentile": 90.1,
   "cna_scoring": [
     {
-      "total_cves": 31,
-      "total_cves_scored": 31,
-      "recent_cves_count": 31,
-      "overall_average_score": 86.61,
+      "total_cves": 32,
+      "total_cves_scored": 32,
+      "recent_cves_count": 32,
+      "overall_average_score": 86.72,
       "average_foundational_completeness": 50.0,
-      "average_root_cause_analysis": 14.52,
-      "average_software_identification": 2.9,
+      "average_root_cause_analysis": 14.53,
+      "average_software_identification": 3.12,
       "average_severity_context": 15.0,
-      "average_patchinfo": 4.19,
+      "average_patchinfo": 4.06,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 96.77,
-      "percent_software_identification": 29.03,
+      "percent_root_cause_analysis": 96.88,
+      "percent_software_identification": 31.25,
       "percent_severity_and_impact": 100.0,
-      "percent_patchinfo": 41.94,
+      "percent_patchinfo": 40.62,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -223,6 +223,19 @@
         "rootCauseAnalysis": 15,
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-106581",
+      "assigningCna": "Docker",
+      "datePublished": "2026-10-09",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
         "patchinfo": 0
       }
     },
