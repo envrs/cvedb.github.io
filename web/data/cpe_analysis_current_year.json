@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-09T12:39:26.441239",
+  "generated_at": "2026-10-09T22:21:30.078622",
   "year": 2026,
-  "total_unique_cpes": 18167,
-  "total_cpe_entries": 199362,
-  "total_cves_with_cpes": 36497,
+  "total_unique_cpes": 18182,
+  "total_cpe_entries": 202221,
+  "total_cves_with_cpes": 36638,
   "total_unique_vendors": 2850,
-  "total_unique_products": 8193,
+  "total_unique_products": 8204,
   "top_cpes": [
     {
       "cpe": "cpe:2.3:o:linux:linux_kernel:*:*:*:*:*:*:*:*",
@@ -16,7 +16,7 @@
     },
     {
       "cpe": "cpe:2.3:a:google:chrome:*:*:*:*:*:*:*:*",
-      "count": 3218,
+      "count": 3235,
       "vendor": "google",
       "product": "chrome",
       "type": "Application"
@@ -228,12 +228,12 @@
       "count": 24137
     },
     {
-      "vendor": "adobe",
-      "count": 14693
+      "vendor": "qualcomm",
+      "count": 14735
     },
     {
-      "vendor": "qualcomm",
-      "count": 12823
+      "vendor": "adobe",
+      "count": 14693
     },
     {
       "vendor": "cisco",
@@ -245,15 +245,15 @@
     },
     {
       "vendor": "ibm",
-      "count": 5042
-    },
-    {
-      "vendor": "google",
-      "count": 4591
+      "count": 5148
     },
     {
       "vendor": "oracle",
-      "count": 4591
+      "count": 4614
+    },
+    {
+      "vendor": "google",
+      "count": 4608
     },
     {
       "vendor": "coollabs",
@@ -276,8 +276,8 @@
       "count": 3349
     },
     {
-      "vendor": "mozilla",
-      "count": 1938
+      "vendor": "mediatek",
+      "count": 2159
     }
   ],
   "top_products": [
@@ -319,7 +319,7 @@
     },
     {
       "product": "chrome",
-      "count": 3225
+      "count": 3242
     },
     {
       "product": "windows_11_24h2",
@@ -345,13 +345,13 @@
   "cpe_type_distribution": [
     {
       "type": "Operating System",
-      "count": 111447,
-      "percentage": 55.9
+      "count": 114089,
+      "percentage": 56.4
     },
     {
       "type": "Application",
-      "count": 87867,
-      "percentage": 44.1
+      "count": 88084,
+      "percentage": 43.6
     },
     {
       "type": "Hardware",
@@ -421,6 +421,10 @@
       "cpe_count": 299
     },
     {
+      "cve": "CVE-2026-25302",
+      "cpe_count": 292
+    },
+    {
       "cve": "CVE-2026-20124",
       "cpe_count": 277
     },
@@ -434,10 +438,6 @@
     },
     {
       "cve": "CVE-2026-20263",
-      "cpe_count": 267
-    },
-    {
-      "cve": "CVE-2026-20267",
       "cpe_count": 267
     }
   ],
