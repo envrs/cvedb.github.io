@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "mitre",
-    "total_cves": 2396,
-    "total_cves_scored": 2396,
+    "total_cves": 2397,
+    "total_cves_scored": 2397,
     "organizationName": "MITRE Corporation",
     "scope": "All vulnerabilities, and Open Source software product vulnerabilities, not already covered by a CNA listed on this website.",
     "advisories": [
@@ -28,25 +28,25 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 346,
-  "active_cna_count": 354,
+  "rank": 347,
+  "active_cna_count": 355,
   "percentile": 2.5,
   "cna_scoring": [
     {
-      "total_cves": 2396,
-      "total_cves_scored": 2396,
-      "recent_cves_count": 2396,
-      "overall_average_score": 57.2,
+      "total_cves": 2397,
+      "total_cves_scored": 2397,
+      "recent_cves_count": 2397,
+      "overall_average_score": 57.22,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 3.32,
       "average_software_identification": 0.0,
       "average_severity_context": 3.8,
-      "average_patchinfo": 0.08,
+      "average_patchinfo": 0.09,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 22.12,
+      "percent_root_cause_analysis": 22.15,
       "percent_software_identification": 0.0,
-      "percent_severity_and_impact": 25.33,
-      "percent_patchinfo": 0.83,
+      "percent_severity_and_impact": 25.37,
+      "percent_patchinfo": 0.88,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -22775,6 +22775,19 @@
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-109786",
+      "assigningCna": "mitre",
+      "datePublished": "2026-10-13",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
       }
     },
     {
