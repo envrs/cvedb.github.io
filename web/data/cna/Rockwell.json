@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "Rockwell",
-    "total_cves": 45,
-    "total_cves_scored": 45,
+    "total_cves": 47,
+    "total_cves_scored": 47,
     "organizationName": "Rockwell Automation",
     "scope": "All Rockwell Automation products.",
     "advisories": [
@@ -34,21 +34,21 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 283,
-  "active_cna_count": 355,
-  "percentile": 20.6,
+  "active_cna_count": 356,
+  "percentile": 20.8,
   "cna_scoring": [
     {
-      "total_cves": 45,
-      "total_cves_scored": 45,
-      "recent_cves_count": 45,
-      "overall_average_score": 78.33,
+      "total_cves": 47,
+      "total_cves_scored": 47,
+      "recent_cves_count": 47,
+      "overall_average_score": 78.4,
       "average_foundational_completeness": 50.0,
-      "average_root_cause_analysis": 13.33,
+      "average_root_cause_analysis": 13.4,
       "average_software_identification": 0.0,
       "average_severity_context": 15.0,
       "average_patchinfo": 0.0,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 88.89,
+      "percent_root_cause_analysis": 89.36,
       "percent_software_identification": 0.0,
       "percent_severity_and_impact": 100.0,
       "percent_patchinfo": 0.0,
@@ -231,6 +231,32 @@
       "cveId": "CVE-2026-12659",
       "assigningCna": "Rockwell",
       "datePublished": "2026-07-14",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-12655",
+      "assigningCna": "Rockwell",
+      "datePublished": "2026-10-13",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-12656",
+      "assigningCna": "Rockwell",
+      "datePublished": "2026-10-13",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
