@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "zdi",
-    "total_cves": 108,
-    "total_cves_scored": 108,
+    "total_cves": 109,
+    "total_cves_scored": 109,
     "organizationName": "Zero Day Initiative",
     "scope": "Products and projects covered by its bug bounty programs that are not in another CNA’s scope.",
     "advisories": [
@@ -35,13 +35,13 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 76,
-  "active_cna_count": 354,
+  "active_cna_count": 353,
   "percentile": 78.8,
   "cna_scoring": [
     {
-      "total_cves": 108,
-      "total_cves_scored": 108,
-      "recent_cves_count": 108,
+      "total_cves": 109,
+      "total_cves_scored": 109,
+      "recent_cves_count": 109,
       "overall_average_score": 80.0,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
@@ -1454,6 +1454,19 @@
       "cveId": "CVE-2026-14266",
       "assigningCna": "zdi",
       "datePublished": "2026-07-29",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-111105",
+      "assigningCna": "zdi",
+      "datePublished": "2026-10-15",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
