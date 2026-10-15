@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "suse",
-    "total_cves": 96,
-    "total_cves_scored": 96,
+    "total_cves": 101,
+    "total_cves_scored": 101,
     "organizationName": "SUSE",
     "scope": "SUSE and Rancher specific security issues, and vulnerabilities discovered by SUSE that are not covered by the scope of another CNA.",
     "advisories": [
@@ -40,26 +40,52 @@
   "percentile": 84.2,
   "cna_scoring": [
     {
-      "total_cves": 96,
-      "total_cves_scored": 96,
-      "recent_cves_count": 96,
-      "overall_average_score": 82.45,
+      "total_cves": 101,
+      "total_cves_scored": 101,
+      "recent_cves_count": 101,
+      "overall_average_score": 82.33,
       "average_foundational_completeness": 50.0,
-      "average_root_cause_analysis": 14.22,
+      "average_root_cause_analysis": 14.26,
       "average_software_identification": 0.0,
       "average_severity_context": 15.0,
-      "average_patchinfo": 3.23,
+      "average_patchinfo": 3.07,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 94.79,
+      "percent_root_cause_analysis": 95.05,
       "percent_software_identification": 0.0,
       "percent_severity_and_impact": 100.0,
-      "percent_patchinfo": 32.29,
+      "percent_patchinfo": 30.69,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
     }
   ],
   "recent_cves": [
+    {
+      "cveId": "CVE-2023-32198",
+      "assigningCna": "suse",
+      "datePublished": "2026-10-15",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2024-22031",
+      "assigningCna": "suse",
+      "datePublished": "2026-10-15",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
     {
       "cveId": "CVE-2025-46808",
       "assigningCna": "suse",
@@ -77,6 +103,19 @@
       "cveId": "CVE-2025-71261",
       "assigningCna": "suse",
       "datePublished": "2026-06-16",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-23390",
+      "assigningCna": "suse",
+      "datePublished": "2026-10-15",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -1299,6 +1338,32 @@
       "cveId": "CVE-2026-93539",
       "assigningCna": "suse",
       "datePublished": "2026-09-28",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-104617",
+      "assigningCna": "suse",
+      "datePublished": "2026-10-15",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-104618",
+      "assigningCna": "suse",
+      "datePublished": "2026-10-15",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
