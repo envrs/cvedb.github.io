@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "WPScan",
-    "total_cves": 1677,
-    "total_cves_scored": 1677,
+    "total_cves": 1679,
+    "total_cves_scored": 1679,
     "organizationName": "WPScan",
     "scope": "WordPress core, plugins, and themes.",
     "advisories": [
@@ -42,24 +42,24 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 317,
-  "active_cna_count": 353,
+  "rank": 316,
+  "active_cna_count": 352,
   "percentile": 10.5,
   "cna_scoring": [
     {
-      "total_cves": 1677,
-      "total_cves_scored": 1677,
-      "recent_cves_count": 1677,
-      "overall_average_score": 66.56,
+      "total_cves": 1679,
+      "total_cves_scored": 1679,
+      "recent_cves_count": 1679,
+      "overall_average_score": 66.58,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
       "average_software_identification": 0.0,
-      "average_severity_context": 1.56,
+      "average_severity_context": 1.57,
       "average_patchinfo": 0.01,
       "percent_foundational_completeness": 100.0,
       "percent_root_cause_analysis": 100.0,
       "percent_software_identification": 0.0,
-      "percent_severity_and_impact": 10.38,
+      "percent_severity_and_impact": 10.48,
       "percent_patchinfo": 0.06,
       "trend_direction": "steady",
       "trend_description": "No significant change",
@@ -6303,6 +6303,19 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 15,
         "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-110029",
+      "assigningCna": "WPScan",
+      "datePublished": "2026-10-16",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 0
       }
@@ -14701,6 +14714,19 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 15,
         "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-109930",
+      "assigningCna": "WPScan",
+      "datePublished": "2026-10-16",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 0
       }
