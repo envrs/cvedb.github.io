@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "WSO2",
-    "total_cves": 40,
-    "total_cves_scored": 40,
+    "total_cves": 41,
+    "total_cves_scored": 41,
     "organizationName": "WSO2 LLC",
     "scope": "WSO2 products and services scoped under Responsible Disclosure Program <a href='https://security.docs.wso2.com/en/latest/security-reporting/reward-and-acknowledgement-program/#products-services-in-scope' target='_blank'>https://security.docs.wso2.com/en/latest/security-reporting/reward-and-acknowledgement-program/#products-services-in-scope</a>.",
     "advisories": [
@@ -40,20 +40,20 @@
   "percentile": 21.8,
   "cna_scoring": [
     {
-      "total_cves": 40,
-      "total_cves_scored": 40,
-      "recent_cves_count": 40,
-      "overall_average_score": 78.88,
+      "total_cves": 41,
+      "total_cves_scored": 41,
+      "recent_cves_count": 41,
+      "overall_average_score": 78.78,
       "average_foundational_completeness": 50.0,
-      "average_root_cause_analysis": 14.25,
+      "average_root_cause_analysis": 14.27,
       "average_software_identification": 0.0,
-      "average_severity_context": 14.62,
-      "average_patchinfo": 0.0,
+      "average_severity_context": 14.27,
+      "average_patchinfo": 0.24,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 95.0,
+      "percent_root_cause_analysis": 95.12,
       "percent_software_identification": 0.0,
-      "percent_severity_and_impact": 97.5,
-      "percent_patchinfo": 0.0,
+      "percent_severity_and_impact": 95.12,
+      "percent_patchinfo": 2.44,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -149,6 +149,19 @@
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2024-4457",
+      "assigningCna": "WSO2",
+      "datePublished": "2026-10-18",
+      "totalCveScore": 75,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 10
       }
     },
     {
