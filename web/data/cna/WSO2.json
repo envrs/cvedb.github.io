@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "WSO2",
-    "total_cves": 41,
-    "total_cves_scored": 41,
+    "total_cves": 48,
+    "total_cves_scored": 48,
     "organizationName": "WSO2 LLC",
     "scope": "WSO2 products and services scoped under Responsible Disclosure Program <a href='https://security.docs.wso2.com/en/latest/security-reporting/reward-and-acknowledgement-program/#products-services-in-scope' target='_blank'>https://security.docs.wso2.com/en/latest/security-reporting/reward-and-acknowledgement-program/#products-services-in-scope</a>.",
     "advisories": [
@@ -35,25 +35,25 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 277,
+  "rank": 273,
   "active_cna_count": 353,
-  "percentile": 21.8,
+  "percentile": 22.9,
   "cna_scoring": [
     {
-      "total_cves": 41,
-      "total_cves_scored": 41,
-      "recent_cves_count": 41,
-      "overall_average_score": 78.78,
+      "total_cves": 48,
+      "total_cves_scored": 48,
+      "recent_cves_count": 48,
+      "overall_average_score": 79.38,
       "average_foundational_completeness": 50.0,
-      "average_root_cause_analysis": 14.27,
+      "average_root_cause_analysis": 14.38,
       "average_software_identification": 0.0,
-      "average_severity_context": 14.27,
-      "average_patchinfo": 0.24,
+      "average_severity_context": 14.38,
+      "average_patchinfo": 0.62,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 95.12,
+      "percent_root_cause_analysis": 95.83,
       "percent_software_identification": 0.0,
-      "percent_severity_and_impact": 95.12,
-      "percent_patchinfo": 2.44,
+      "percent_severity_and_impact": 95.83,
+      "percent_patchinfo": 6.25,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -152,6 +152,19 @@
       }
     },
     {
+      "cveId": "CVE-2024-4412",
+      "assigningCna": "WSO2",
+      "datePublished": "2026-10-19",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
       "cveId": "CVE-2024-4457",
       "assigningCna": "WSO2",
       "datePublished": "2026-10-18",
@@ -165,9 +178,35 @@
       }
     },
     {
+      "cveId": "CVE-2025-13173",
+      "assigningCna": "WSO2",
+      "datePublished": "2026-10-19",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2025-13475",
       "assigningCna": "WSO2",
       "datePublished": "2026-07-04",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-13591",
+      "assigningCna": "WSO2",
+      "datePublished": "2026-10-19",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -282,6 +321,19 @@
       }
     },
     {
+      "cveId": "CVE-2025-10149",
+      "assigningCna": "WSO2",
+      "datePublished": "2026-10-19",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2025-10470",
       "assigningCna": "WSO2",
       "datePublished": "2026-05-11",
@@ -360,6 +412,19 @@
       }
     },
     {
+      "cveId": "CVE-2025-6623",
+      "assigningCna": "WSO2",
+      "datePublished": "2026-10-19",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
       "cveId": "CVE-2025-6508",
       "assigningCna": "WSO2",
       "datePublished": "2026-08-06",
@@ -406,6 +471,32 @@
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-7043",
+      "assigningCna": "WSO2",
+      "datePublished": "2026-10-19",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-7203",
+      "assigningCna": "WSO2",
+      "datePublished": "2026-10-19",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 0
