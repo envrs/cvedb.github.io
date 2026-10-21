@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "EDB",
-    "total_cves": 6,
-    "total_cves_scored": 6,
+    "total_cves": 9,
+    "total_cves_scored": 9,
     "organizationName": "EnterpriseDB Corporation",
     "scope": "All EnterpriseDB products and vulnerabilities identified in open source libraries used by EnterpriseDB products unless covered by another CNA’s scope.",
     "advisories": [
@@ -34,14 +34,14 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 76,
-  "active_cna_count": 353,
-  "percentile": 78.8,
+  "rank": 77,
+  "active_cna_count": 354,
+  "percentile": 78.5,
   "cna_scoring": [
     {
-      "total_cves": 6,
-      "total_cves_scored": 6,
-      "recent_cves_count": 6,
+      "total_cves": 9,
+      "total_cves_scored": 9,
+      "recent_cves_count": 9,
       "overall_average_score": 80.0,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
@@ -60,9 +60,9 @@
   ],
   "recent_cves": [
     {
-      "cveId": "CVE-2026-93853",
+      "cveId": "CVE-2026-96538",
       "assigningCna": "EDB",
-      "datePublished": "2026-09-29",
+      "datePublished": "2026-09-28",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -73,9 +73,35 @@
       }
     },
     {
-      "cveId": "CVE-2026-96538",
+      "cveId": "CVE-2026-104949",
       "assigningCna": "EDB",
-      "datePublished": "2026-09-28",
+      "datePublished": "2026-10-21",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-104947",
+      "assigningCna": "EDB",
+      "datePublished": "2026-10-21",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-104948",
+      "assigningCna": "EDB",
+      "datePublished": "2026-10-21",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -128,6 +154,19 @@
       "cveId": "CVE-2026-50736",
       "assigningCna": "EDB",
       "datePublished": "2026-07-28",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-93853",
+      "assigningCna": "EDB",
+      "datePublished": "2026-09-29",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
