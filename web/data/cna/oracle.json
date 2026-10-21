@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "oracle",
-    "total_cves": 4083,
-    "total_cves_scored": 4083,
+    "total_cves": 4084,
+    "total_cves_scored": 4084,
     "organizationName": "Oracle",
     "scope": "Oracle supported version product issues only; CVE IDs will not be assigned for unsupported products or versions (Oracle will confirm support status and notify researcher).",
     "advisories": [
@@ -35,14 +35,14 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 322,
-  "active_cna_count": 354,
+  "rank": 323,
+  "active_cna_count": 355,
   "percentile": 9.3,
   "cna_scoring": [
     {
-      "total_cves": 4083,
-      "total_cves_scored": 4083,
-      "recent_cves_count": 4083,
+      "total_cves": 4084,
+      "total_cves_scored": 4084,
+      "recent_cves_count": 4084,
       "overall_average_score": 65.0,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 0.0,
@@ -49061,6 +49061,19 @@
       "cveId": "CVE-2026-91547",
       "assigningCna": "oracle",
       "datePublished": "2026-10-20",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-91403",
+      "assigningCna": "oracle",
+      "datePublished": "2026-10-21",
       "totalCveScore": 65,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
