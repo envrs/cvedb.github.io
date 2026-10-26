@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "Qt",
-    "total_cves": 22,
-    "total_cves_scored": 22,
+    "total_cves": 23,
+    "total_cves_scored": 23,
     "organizationName": "Qt Group",
     "scope": "All supported Qt Group products. Excludes third-party redistributions and downstream packaging of Qt open source releases not published by Qt Group.",
     "advisories": [
@@ -33,25 +33,25 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 31,
-  "active_cna_count": 356,
-  "percentile": 91.6,
+  "rank": 25,
+  "active_cna_count": 358,
+  "percentile": 93.3,
   "cna_scoring": [
     {
-      "total_cves": 22,
-      "total_cves_scored": 22,
-      "recent_cves_count": 22,
-      "overall_average_score": 89.09,
+      "total_cves": 23,
+      "total_cves_scored": 23,
+      "recent_cves_count": 23,
+      "overall_average_score": 89.57,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
-      "average_software_identification": 1.82,
+      "average_software_identification": 2.17,
       "average_severity_context": 15.0,
-      "average_patchinfo": 7.27,
+      "average_patchinfo": 7.39,
       "percent_foundational_completeness": 100.0,
       "percent_root_cause_analysis": 100.0,
-      "percent_software_identification": 18.18,
+      "percent_software_identification": 21.74,
       "percent_severity_and_impact": 100.0,
-      "percent_patchinfo": 72.73,
+      "percent_patchinfo": 73.91,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -172,6 +172,19 @@
         "rootCauseAnalysis": 15,
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-96432",
+      "assigningCna": "Qt",
+      "datePublished": "2026-10-26",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
         "patchinfo": 10
       }
     },
