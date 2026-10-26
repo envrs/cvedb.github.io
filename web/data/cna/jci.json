@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "jci",
-    "total_cves": 29,
-    "total_cves_scored": 29,
+    "total_cves": 31,
+    "total_cves_scored": 31,
     "organizationName": "Johnson Controls",
     "scope": "Johnson Controls products only.",
     "advisories": [
@@ -38,17 +38,17 @@
   "percentile": 17.3,
   "cna_scoring": [
     {
-      "total_cves": 29,
-      "total_cves_scored": 29,
-      "recent_cves_count": 29,
-      "overall_average_score": 77.41,
+      "total_cves": 31,
+      "total_cves_scored": 31,
+      "recent_cves_count": 31,
+      "overall_average_score": 77.58,
       "average_foundational_completeness": 50.0,
-      "average_root_cause_analysis": 12.41,
+      "average_root_cause_analysis": 12.58,
       "average_software_identification": 0.0,
       "average_severity_context": 15.0,
       "average_patchinfo": 0.0,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 82.76,
+      "percent_root_cause_analysis": 83.87,
       "percent_software_identification": 0.0,
       "percent_severity_and_impact": 100.0,
       "percent_patchinfo": 0.0,
@@ -231,6 +231,32 @@
       "cveId": "CVE-2026-71454",
       "assigningCna": "jci",
       "datePublished": "2026-10-01",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-71455",
+      "assigningCna": "jci",
+      "datePublished": "2026-10-26",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-71456",
+      "assigningCna": "jci",
+      "datePublished": "2026-10-26",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,

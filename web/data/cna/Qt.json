@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "Qt",
-    "total_cves": 23,
-    "total_cves_scored": 23,
+    "total_cves": 24,
+    "total_cves_scored": 24,
     "organizationName": "Qt Group",
     "scope": "All supported Qt Group products. Excludes third-party redistributions and downstream packaging of Qt open source releases not published by Qt Group.",
     "advisories": [
@@ -33,25 +33,25 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 25,
+  "rank": 9,
   "active_cna_count": 358,
-  "percentile": 93.3,
+  "percentile": 97.8,
   "cna_scoring": [
     {
-      "total_cves": 23,
-      "total_cves_scored": 23,
-      "recent_cves_count": 23,
-      "overall_average_score": 89.57,
+      "total_cves": 24,
+      "total_cves_scored": 24,
+      "recent_cves_count": 24,
+      "overall_average_score": 90.0,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
-      "average_software_identification": 2.17,
+      "average_software_identification": 2.5,
       "average_severity_context": 15.0,
-      "average_patchinfo": 7.39,
+      "average_patchinfo": 7.5,
       "percent_foundational_completeness": 100.0,
       "percent_root_cause_analysis": 100.0,
-      "percent_software_identification": 21.74,
+      "percent_software_identification": 25.0,
       "percent_severity_and_impact": 100.0,
-      "percent_patchinfo": 73.91,
+      "percent_patchinfo": 75.0,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -348,6 +348,19 @@
       "cveId": "CVE-2026-105923",
       "assigningCna": "Qt",
       "datePublished": "2026-10-21",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-107157",
+      "assigningCna": "Qt",
+      "datePublished": "2026-10-26",
       "totalCveScore": 100,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,

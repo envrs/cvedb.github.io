@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "fortinet",
-    "total_cves": 56,
-    "total_cves_scored": 56,
+    "total_cves": 57,
+    "total_cves_scored": 57,
     "organizationName": "Fortinet, Inc.",
     "scope": "Fortinet issues only.",
     "advisories": [
@@ -33,9 +33,9 @@
   "percentile": 97.8,
   "cna_scoring": [
     {
-      "total_cves": 56,
-      "total_cves_scored": 56,
-      "recent_cves_count": 56,
+      "total_cves": 57,
+      "total_cves_scored": 57,
+      "recent_cves_count": 57,
       "overall_average_score": 90.0,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
@@ -486,6 +486,19 @@
       "cveId": "CVE-2026-22575",
       "assigningCna": "fortinet",
       "datePublished": "2026-09-08",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-107656",
+      "assigningCna": "fortinet",
+      "datePublished": "2026-10-26",
       "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
