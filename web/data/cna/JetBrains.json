@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "JetBrains",
-    "total_cves": 155,
-    "total_cves_scored": 155,
+    "total_cves": 156,
+    "total_cves_scored": 156,
     "organizationName": "JetBrains s.r.o.",
     "scope": "JetBrains products only.",
     "advisories": [
@@ -34,14 +34,14 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 77,
-  "active_cna_count": 359,
-  "percentile": 78.8,
+  "rank": 78,
+  "active_cna_count": 360,
+  "percentile": 78.6,
   "cna_scoring": [
     {
-      "total_cves": 155,
-      "total_cves_scored": 155,
-      "recent_cves_count": 155,
+      "total_cves": 156,
+      "total_cves_scored": 156,
+      "recent_cves_count": 156,
       "overall_average_score": 80.0,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
@@ -804,6 +804,19 @@
       "cveId": "CVE-2026-65907",
       "assigningCna": "JetBrains",
       "datePublished": "2026-07-23",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-117530",
+      "assigningCna": "JetBrains",
+      "datePublished": "2026-10-27",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
