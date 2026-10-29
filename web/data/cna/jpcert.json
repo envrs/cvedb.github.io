@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "jpcert",
-    "total_cves": 186,
-    "total_cves_scored": 186,
+    "total_cves": 190,
+    "total_cves_scored": 190,
     "organizationName": "JPCERT/CC",
     "scope": "<strong>Root Scope:</strong> Japan organizations.<br/><strong>CNA Scope:</strong> Vulnerability assignment related to its vulnerability coordination role.",
     "advisories": [
@@ -34,13 +34,13 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 80,
-  "active_cna_count": 360,
-  "percentile": 78.1,
+  "active_cna_count": 358,
+  "percentile": 77.9,
   "cna_scoring": [
     {
-      "total_cves": 186,
-      "total_cves_scored": 186,
-      "recent_cves_count": 186,
+      "total_cves": 190,
+      "total_cves_scored": 190,
+      "recent_cves_count": 190,
       "overall_average_score": 80.0,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
@@ -72,9 +72,35 @@
       }
     },
     {
+      "cveId": "CVE-2026-97860",
+      "assigningCna": "jpcert",
+      "datePublished": "2026-10-29",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-97627",
       "assigningCna": "jpcert",
       "datePublished": "2026-10-20",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-97854",
+      "assigningCna": "jpcert",
+      "datePublished": "2026-10-29",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -387,6 +413,19 @@
       "cveId": "CVE-2026-109831",
       "assigningCna": "jpcert",
       "datePublished": "2026-10-20",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-109822",
+      "assigningCna": "jpcert",
+      "datePublished": "2026-10-29",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -2324,6 +2363,19 @@
       "cveId": "CVE-2026-44387",
       "assigningCna": "jpcert",
       "datePublished": "2026-07-28",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-103665",
+      "assigningCna": "jpcert",
+      "datePublished": "2026-10-29",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
