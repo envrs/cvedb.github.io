@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "adobe",
-    "total_cves": 817,
-    "total_cves_scored": 817,
+    "total_cves": 818,
+    "total_cves_scored": 818,
     "organizationName": "Adobe Systems Incorporated",
     "scope": "Adobe issues only.",
     "advisories": [
@@ -34,13 +34,13 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 80,
-  "active_cna_count": 358,
-  "percentile": 77.9,
+  "active_cna_count": 361,
+  "percentile": 78.1,
   "cna_scoring": [
     {
-      "total_cves": 817,
-      "total_cves_scored": 817,
-      "recent_cves_count": 817,
+      "total_cves": 818,
+      "total_cves_scored": 818,
+      "recent_cves_count": 818,
       "overall_average_score": 80.0,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
@@ -1115,6 +1115,19 @@
       "cveId": "CVE-2026-102502",
       "assigningCna": "adobe",
       "datePublished": "2026-10-13",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-113576",
+      "assigningCna": "adobe",
+      "datePublished": "2026-10-29",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
