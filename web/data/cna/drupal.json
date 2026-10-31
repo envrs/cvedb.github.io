@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "drupal",
-    "total_cves": 279,
-    "total_cves_scored": 279,
+    "total_cves": 281,
+    "total_cves_scored": 281,
     "organizationName": "Drupal.org",
     "scope": "All projects hosted under <a href='https://www.drupal.org' target='_blank'>drupal.org</a>, including End of Life (EOL) code.",
     "advisories": [
@@ -34,24 +34,24 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 351,
-  "active_cna_count": 363,
+  "rank": 352,
+  "active_cna_count": 364,
   "percentile": 3.6,
   "cna_scoring": [
     {
-      "total_cves": 279,
-      "total_cves_scored": 279,
-      "recent_cves_count": 279,
-      "overall_average_score": 63.92,
+      "total_cves": 281,
+      "total_cves_scored": 281,
+      "recent_cves_count": 281,
+      "overall_average_score": 64.04,
       "average_foundational_completeness": 50.0,
-      "average_root_cause_analysis": 13.71,
+      "average_root_cause_analysis": 13.72,
       "average_software_identification": 0.0,
-      "average_severity_context": 0.22,
+      "average_severity_context": 0.32,
       "average_patchinfo": 0.0,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 91.4,
+      "percent_root_cause_analysis": 91.46,
       "percent_software_identification": 0.0,
-      "percent_severity_and_impact": 1.43,
+      "percent_severity_and_impact": 2.14,
       "percent_patchinfo": 0.0,
       "trend_direction": "steady",
       "trend_description": "No significant change",
@@ -1776,6 +1776,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-77152",
+      "assigningCna": "drupal",
+      "datePublished": "2026-10-30",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-6871",
       "assigningCna": "drupal",
       "datePublished": "2026-05-19",
@@ -2213,6 +2226,19 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 15,
         "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-110176",
+      "assigningCna": "drupal",
+      "datePublished": "2026-10-31",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 0
       }
