@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "mitre",
-    "total_cves": 2330,
-    "total_cves_scored": 2330,
+    "total_cves": 2331,
+    "total_cves_scored": 2331,
     "organizationName": "MITRE Corporation",
     "scope": "<strong>Top-Level Root Hierarchy:</strong> Roots, CNA-LRs, and CNAs formally assigned to the MITRE TL-Root hierarchy, including global, cross-sector, and other participants assigned through CVE Program processes.<br/><strong>CNA-LR Scope:</strong> All vulnerabilities, and Open Source software product vulnerabilities, not already covered by a CNA listed on this website.",
     "advisories": [
@@ -28,25 +28,25 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 354,
-  "active_cna_count": 363,
-  "percentile": 2.8,
+  "rank": 355,
+  "active_cna_count": 364,
+  "percentile": 2.7,
   "cna_scoring": [
     {
-      "total_cves": 2330,
-      "total_cves_scored": 2330,
-      "recent_cves_count": 2330,
+      "total_cves": 2331,
+      "total_cves_scored": 2331,
+      "recent_cves_count": 2331,
       "overall_average_score": 57.71,
       "average_foundational_completeness": 50.0,
-      "average_root_cause_analysis": 3.57,
+      "average_root_cause_analysis": 3.56,
       "average_software_identification": 0.0,
       "average_severity_context": 3.96,
       "average_patchinfo": 0.18,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 23.78,
+      "percent_root_cause_analysis": 23.77,
       "percent_software_identification": 0.0,
-      "percent_severity_and_impact": 26.39,
-      "percent_patchinfo": 1.85,
+      "percent_severity_and_impact": 26.38,
+      "percent_patchinfo": 1.84,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -2449,6 +2449,19 @@
       "cveId": "CVE-2025-68710",
       "assigningCna": "mitre",
       "datePublished": "2026-05-26",
+      "totalCveScore": 50,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-62819",
+      "assigningCna": "mitre",
+      "datePublished": "2026-11-02",
       "totalCveScore": 50,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
