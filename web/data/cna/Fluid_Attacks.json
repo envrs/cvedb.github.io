@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "Fluid_Attacks",
-    "total_cves": 58,
-    "total_cves_scored": 58,
+    "total_cves": 59,
+    "total_cves_scored": 59,
     "organizationName": "Fluid Attacks",
     "scope": "Vulnerabilities in third-party software discovered by or reported to Fluid Attacks that are not in another CNA’s scope.",
     "advisories": [
@@ -38,20 +38,20 @@
   "percentile": 85.8,
   "cna_scoring": [
     {
-      "total_cves": 58,
-      "total_cves_scored": 58,
-      "recent_cves_count": 58,
-      "overall_average_score": 84.14,
+      "total_cves": 59,
+      "total_cves_scored": 59,
+      "recent_cves_count": 59,
+      "overall_average_score": 84.24,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
       "average_software_identification": 0.17,
       "average_severity_context": 15.0,
-      "average_patchinfo": 3.97,
+      "average_patchinfo": 4.07,
       "percent_foundational_completeness": 100.0,
       "percent_root_cause_analysis": 100.0,
-      "percent_software_identification": 1.72,
+      "percent_software_identification": 1.69,
       "percent_severity_and_impact": 100.0,
-      "percent_patchinfo": 39.66,
+      "percent_patchinfo": 40.68,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -628,6 +628,19 @@
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-115541",
+      "assigningCna": "Fluid_Attacks",
+      "datePublished": "2026-11-03",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
       }
     },
     {
