@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "WSO2",
-    "total_cves": 69,
-    "total_cves_scored": 69,
+    "total_cves": 70,
+    "total_cves_scored": 70,
     "organizationName": "WSO2 LLC",
     "scope": "WSO2 products and services scoped under Responsible Disclosure Program <a href='https://security.docs.wso2.com/en/latest/security-reporting/reward-and-acknowledgement-program/#products-services-in-scope' target='_blank'>https://security.docs.wso2.com/en/latest/security-reporting/reward-and-acknowledgement-program/#products-services-in-scope</a>.",
     "advisories": [
@@ -35,25 +35,25 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 280,
+  "rank": 283,
   "active_cna_count": 364,
-  "percentile": 23.4,
+  "percentile": 22.5,
   "cna_scoring": [
     {
-      "total_cves": 69,
-      "total_cves_scored": 69,
-      "recent_cves_count": 69,
-      "overall_average_score": 79.64,
+      "total_cves": 70,
+      "total_cves_scored": 70,
+      "recent_cves_count": 70,
+      "overall_average_score": 79.43,
       "average_foundational_completeness": 50.0,
-      "average_root_cause_analysis": 14.57,
+      "average_root_cause_analysis": 14.36,
       "average_software_identification": 0.0,
-      "average_severity_context": 14.35,
-      "average_patchinfo": 0.72,
+      "average_severity_context": 14.36,
+      "average_patchinfo": 0.71,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 97.1,
+      "percent_root_cause_analysis": 95.71,
       "percent_software_identification": 0.0,
-      "percent_severity_and_impact": 95.65,
-      "percent_patchinfo": 7.25,
+      "percent_severity_and_impact": 95.71,
+      "percent_patchinfo": 7.14,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -172,6 +172,19 @@
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2024-12139",
+      "assigningCna": "WSO2",
+      "datePublished": "2026-11-02",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 0
