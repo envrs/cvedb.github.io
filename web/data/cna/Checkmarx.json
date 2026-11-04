@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "Checkmarx",
-    "total_cves": 10,
-    "total_cves_scored": 10,
+    "total_cves": 11,
+    "total_cves_scored": 11,
     "organizationName": "Checkmarx",
     "scope": "Vulnerabilities in Checkmarx products and open source vulnerabilities discovered by, or reported to, Checkmarx, that are not in another CNA’s scope.",
     "advisories": [
@@ -35,25 +35,25 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 37,
-  "active_cna_count": 366,
-  "percentile": 90.2,
+  "rank": 38,
+  "active_cna_count": 368,
+  "percentile": 89.9,
   "cna_scoring": [
     {
-      "total_cves": 10,
-      "total_cves_scored": 10,
-      "recent_cves_count": 10,
-      "overall_average_score": 88.0,
+      "total_cves": 11,
+      "total_cves_scored": 11,
+      "recent_cves_count": 11,
+      "overall_average_score": 88.18,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
       "average_software_identification": 0.0,
       "average_severity_context": 15.0,
-      "average_patchinfo": 8.0,
+      "average_patchinfo": 8.18,
       "percent_foundational_completeness": 100.0,
       "percent_root_cause_analysis": 100.0,
       "percent_software_identification": 0.0,
       "percent_severity_and_impact": 100.0,
-      "percent_patchinfo": 80.0,
+      "percent_patchinfo": 81.82,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -166,6 +166,19 @@
     },
     {
       "cveId": "CVE-2026-121373",
+      "assigningCna": "Checkmarx",
+      "datePublished": "2026-11-04",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-121971",
       "assigningCna": "Checkmarx",
       "datePublished": "2026-11-04",
       "totalCveScore": 90,

@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "ibm",
-    "total_cves": 1308,
-    "total_cves_scored": 1308,
+    "total_cves": 1335,
+    "total_cves_scored": 1335,
     "organizationName": "IBM Corporation",
     "scope": "All IBM branded products (IBM will confirm support status and notify researcher).",
     "advisories": [
@@ -35,24 +35,24 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 4,
-  "active_cna_count": 366,
+  "active_cna_count": 368,
   "percentile": 99.2,
   "cna_scoring": [
     {
-      "total_cves": 1308,
-      "total_cves_scored": 1308,
-      "recent_cves_count": 1308,
-      "overall_average_score": 99.2,
+      "total_cves": 1335,
+      "total_cves_scored": 1335,
+      "recent_cves_count": 1335,
+      "overall_average_score": 99.21,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 14.72,
       "average_software_identification": 9.72,
-      "average_severity_context": 14.77,
+      "average_severity_context": 14.78,
       "average_patchinfo": 9.99,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 98.17,
-      "percent_software_identification": 97.17,
-      "percent_severity_and_impact": 98.47,
-      "percent_patchinfo": 99.92,
+      "percent_root_cause_analysis": 98.13,
+      "percent_software_identification": 97.23,
+      "percent_severity_and_impact": 98.5,
+      "percent_patchinfo": 99.93,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -1135,6 +1135,19 @@
         "rootCauseAnalysis": 15,
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-10859",
+      "assigningCna": "ibm",
+      "datePublished": "2026-11-04",
+      "totalCveScore": 85,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
         "patchinfo": 10
       }
     },
@@ -2468,6 +2481,19 @@
       "cveId": "CVE-2026-17440",
       "assigningCna": "ibm",
       "datePublished": "2026-09-04",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-17493",
+      "assigningCna": "ibm",
+      "datePublished": "2026-11-04",
       "totalCveScore": 100,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -5936,9 +5962,35 @@
       }
     },
     {
+      "cveId": "CVE-2026-110281",
+      "assigningCna": "ibm",
+      "datePublished": "2026-11-04",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
       "cveId": "CVE-2026-110245",
       "assigningCna": "ibm",
       "datePublished": "2026-10-29",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-110283",
+      "assigningCna": "ibm",
+      "datePublished": "2026-11-04",
       "totalCveScore": 100,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -6004,6 +6056,19 @@
       "cveId": "CVE-2026-110309",
       "assigningCna": "ibm",
       "datePublished": "2026-10-29",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-110282",
+      "assigningCna": "ibm",
+      "datePublished": "2026-11-04",
       "totalCveScore": 100,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -6508,6 +6573,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-12550",
+      "assigningCna": "ibm",
+      "datePublished": "2026-11-04",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
       "cveId": "CVE-2026-12751",
       "assigningCna": "ibm",
       "datePublished": "2026-09-15",
@@ -6547,6 +6625,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-12538",
+      "assigningCna": "ibm",
+      "datePublished": "2026-11-04",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
       "cveId": "CVE-2026-12767",
       "assigningCna": "ibm",
       "datePublished": "2026-09-14",
@@ -6576,6 +6667,19 @@
       "cveId": "CVE-2026-12763",
       "assigningCna": "ibm",
       "datePublished": "2026-09-14",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-12356",
+      "assigningCna": "ibm",
+      "datePublished": "2026-11-04",
       "totalCveScore": 100,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -7314,6 +7418,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-14252",
+      "assigningCna": "ibm",
+      "datePublished": "2026-11-04",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
       "cveId": "CVE-2026-14499",
       "assigningCna": "ibm",
       "datePublished": "2026-07-17",
@@ -7691,6 +7808,71 @@
       }
     },
     {
+      "cveId": "CVE-2026-108838",
+      "assigningCna": "ibm",
+      "datePublished": "2026-11-04",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-108588",
+      "assigningCna": "ibm",
+      "datePublished": "2026-11-04",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-108536",
+      "assigningCna": "ibm",
+      "datePublished": "2026-11-04",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-108767",
+      "assigningCna": "ibm",
+      "datePublished": "2026-11-04",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-108910",
+      "assigningCna": "ibm",
+      "datePublished": "2026-11-04",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
       "cveId": "CVE-2026-105442",
       "assigningCna": "ibm",
       "datePublished": "2026-10-13",
@@ -7756,6 +7938,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-105991",
+      "assigningCna": "ibm",
+      "datePublished": "2026-11-04",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
       "cveId": "CVE-2026-105465",
       "assigningCna": "ibm",
       "datePublished": "2026-10-12",
@@ -7772,6 +7967,19 @@
       "cveId": "CVE-2026-105052",
       "assigningCna": "ibm",
       "datePublished": "2026-10-12",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-105702",
+      "assigningCna": "ibm",
+      "datePublished": "2026-11-04",
       "totalCveScore": 100,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -11292,6 +11500,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-16725",
+      "assigningCna": "ibm",
+      "datePublished": "2026-11-04",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
       "cveId": "CVE-2026-16836",
       "assigningCna": "ibm",
       "datePublished": "2026-08-19",
@@ -11594,6 +11815,19 @@
       "cveId": "CVE-2026-18148",
       "assigningCna": "ibm",
       "datePublished": "2026-08-12",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-18142",
+      "assigningCna": "ibm",
+      "datePublished": "2026-11-04",
       "totalCveScore": 100,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -13034,6 +13268,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-116376",
+      "assigningCna": "ibm",
+      "datePublished": "2026-11-04",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
       "cveId": "CVE-2026-15824",
       "assigningCna": "ibm",
       "datePublished": "2026-10-08",
@@ -13801,6 +14048,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-82418",
+      "assigningCna": "ibm",
+      "datePublished": "2026-11-04",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
       "cveId": "CVE-2026-82094",
       "assigningCna": "ibm",
       "datePublished": "2026-09-24",
@@ -14220,6 +14480,19 @@
       "cveId": "CVE-2026-19492",
       "assigningCna": "ibm",
       "datePublished": "2026-09-24",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-19319",
+      "assigningCna": "ibm",
+      "datePublished": "2026-11-04",
       "totalCveScore": 100,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -15283,6 +15556,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-13292",
+      "assigningCna": "ibm",
+      "datePublished": "2026-11-04",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
       "cveId": "CVE-2026-13277",
       "assigningCna": "ibm",
       "datePublished": "2026-09-14",
@@ -15569,6 +15855,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-13289",
+      "assigningCna": "ibm",
+      "datePublished": "2026-11-04",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
       "cveId": "CVE-2026-13094",
       "assigningCna": "ibm",
       "datePublished": "2026-08-12",
@@ -15621,9 +15920,35 @@
       }
     },
     {
+      "cveId": "CVE-2026-13271",
+      "assigningCna": "ibm",
+      "datePublished": "2026-11-04",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
       "cveId": "CVE-2026-13107",
       "assigningCna": "ibm",
       "datePublished": "2026-09-14",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-13284",
+      "assigningCna": "ibm",
+      "datePublished": "2026-11-04",
       "totalCveScore": 100,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -16154,6 +16479,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-11724",
+      "assigningCna": "ibm",
+      "datePublished": "2026-11-04",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
       "cveId": "CVE-2026-11549",
       "assigningCna": "ibm",
       "datePublished": "2026-09-18",
@@ -16599,6 +16937,19 @@
       "cveId": "CVE-2026-11906",
       "assigningCna": "ibm",
       "datePublished": "2026-06-30",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-11376",
+      "assigningCna": "ibm",
+      "datePublished": "2026-11-04",
       "totalCveScore": 100,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
