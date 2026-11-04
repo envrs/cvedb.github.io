@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-11-03T13:35:30.158850",
+  "generated_at": "2026-11-04T04:03:18.441322",
   "year": 2026,
-  "total_unique_cpes": 18994,
-  "total_cpe_entries": 239400,
-  "total_cves_with_cpes": 40458,
-  "total_unique_vendors": 2874,
-  "total_unique_products": 8505,
+  "total_unique_cpes": 19001,
+  "total_cpe_entries": 240310,
+  "total_cves_with_cpes": 40850,
+  "total_unique_vendors": 2877,
+  "total_unique_products": 8513,
   "top_cpes": [
     {
       "cpe": "cpe:2.3:o:linux:linux_kernel:*:*:*:*:*:*:*:*",
-      "count": 13966,
+      "count": 13970,
       "vendor": "linux",
       "product": "linux_kernel",
       "type": "Operating System"
     },
     {
       "cpe": "cpe:2.3:a:google:chrome:*:*:*:*:*:*:*:*",
-      "count": 3750,
+      "count": 3752,
       "vendor": "google",
       "product": "chrome",
       "type": "Application"
@@ -148,6 +148,13 @@
       "type": "Operating System"
     },
     {
+      "cpe": "cpe:2.3:o:apple:macos:*:*:*:*:*:*:*:*",
+      "count": 1721,
+      "vendor": "apple",
+      "product": "macos",
+      "type": "Operating System"
+    },
+    {
       "cpe": "cpe:2.3:o:microsoft:windows_server_2012:r2:*:*:*:*:*:*:*",
       "count": 1643,
       "vendor": "microsoft",
@@ -173,13 +180,6 @@
       "count": 1554,
       "vendor": "microsoft",
       "product": "windows_server_2019",
-      "type": "Operating System"
-    },
-    {
-      "cpe": "cpe:2.3:o:apple:macos:*:*:*:*:*:*:*:*",
-      "count": 1513,
-      "vendor": "apple",
-      "product": "macos",
       "type": "Operating System"
     },
     {
@@ -221,11 +221,11 @@
   "top_vendors": [
     {
       "vendor": "microsoft",
-      "count": 65484
+      "count": 65500
     },
     {
       "vendor": "linux",
-      "count": 25930
+      "count": 25935
     },
     {
       "vendor": "adobe",
@@ -241,7 +241,7 @@
     },
     {
       "vendor": "ibm",
-      "count": 7048
+      "count": 7063
     },
     {
       "vendor": "samsung",
@@ -249,23 +249,23 @@
     },
     {
       "vendor": "google",
-      "count": 5127
+      "count": 5129
     },
     {
       "vendor": "oracle",
-      "count": 5007
+      "count": 5113
     },
     {
       "vendor": "paloaltonetworks",
       "count": 4932
     },
     {
-      "vendor": "coollabs",
-      "count": 4211
+      "vendor": "apple",
+      "count": 4265
     },
     {
-      "vendor": "apple",
-      "count": 3753
+      "vendor": "coollabs",
+      "count": 4211
     },
     {
       "vendor": "juniper",
@@ -283,7 +283,7 @@
   "top_products": [
     {
       "product": "linux_kernel",
-      "count": 25930
+      "count": 25935
     },
     {
       "product": "android",
@@ -335,7 +335,7 @@
     },
     {
       "product": "chrome",
-      "count": 3757
+      "count": 3759
     },
     {
       "product": "commerce_b2b",
@@ -345,12 +345,12 @@
   "cpe_type_distribution": [
     {
       "type": "Operating System",
-      "count": 141664,
+      "count": 142167,
       "percentage": 59.2
     },
     {
       "type": "Application",
-      "count": 97688,
+      "count": 98095,
       "percentage": 40.8
     },
     {
