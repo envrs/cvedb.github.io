@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "THA-PSIRT",
-    "total_cves": 5,
-    "total_cves_scored": 5,
+    "total_cves": 8,
+    "total_cves_scored": 8,
     "organizationName": "Thales Group",
     "scope": "<strong>Root Scope:</strong> Products and technologies of subsidiaries of Thales Group.<br/><strong>CNA Scope:</strong> Thales branded products and technologies, products and technologies of subsidiaries of Thales Group, unless covered by the scope of another CNA as well as vulnerabilities in third-party software discovered by Thales Group and subsidiaries that are not in another CNA’s scope.",
     "advisories": [
@@ -34,14 +34,14 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 84,
-  "active_cna_count": 367,
-  "percentile": 77.4,
+  "rank": 85,
+  "active_cna_count": 369,
+  "percentile": 77.2,
   "cna_scoring": [
     {
-      "total_cves": 5,
-      "total_cves_scored": 5,
-      "recent_cves_count": 5,
+      "total_cves": 8,
+      "total_cves_scored": 8,
+      "recent_cves_count": 8,
       "overall_average_score": 80.0,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
@@ -60,9 +60,9 @@
   ],
   "recent_cves": [
     {
-      "cveId": "CVE-2026-78403",
+      "cveId": "CVE-2026-18397",
       "assigningCna": "THA-PSIRT",
-      "datePublished": "2026-10-30",
+      "datePublished": "2026-10-01",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -73,9 +73,48 @@
       }
     },
     {
-      "cveId": "CVE-2026-78402",
+      "cveId": "CVE-2026-13014",
       "assigningCna": "THA-PSIRT",
-      "datePublished": "2026-10-30",
+      "datePublished": "2026-07-13",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-94395",
+      "assigningCna": "THA-PSIRT",
+      "datePublished": "2026-11-05",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-112110",
+      "assigningCna": "THA-PSIRT",
+      "datePublished": "2026-11-05",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-112109",
+      "assigningCna": "THA-PSIRT",
+      "datePublished": "2026-11-05",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -99,9 +138,9 @@
       }
     },
     {
-      "cveId": "CVE-2026-18397",
+      "cveId": "CVE-2026-78402",
       "assigningCna": "THA-PSIRT",
-      "datePublished": "2026-10-01",
+      "datePublished": "2026-10-30",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -112,9 +151,9 @@
       }
     },
     {
-      "cveId": "CVE-2026-13014",
+      "cveId": "CVE-2026-78403",
       "assigningCna": "THA-PSIRT",
-      "datePublished": "2026-07-13",
+      "datePublished": "2026-10-30",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
