@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "total_cves": 93055,
+  "total_cves": 93080,
   "date_data": {
     "monthly_distribution": {
       "1": 4302,
@@ -13,12 +13,12 @@
       "8": 12256,
       "9": 14928,
       "10": 17052,
-      "11": 3209,
+      "11": 3234,
       "12": 0
     },
     "daily_analysis": {
       "total_days": 310,
-      "avg_per_day": 300.18,
+      "avg_per_day": 300.26,
       "highest_day": {
         "date": "2026-10-13",
         "count": 2303
@@ -339,7 +339,7 @@
         "2026-11-05": 453,
         "2026-11-06": 445,
         "2026-11-07": 474,
-        "2026-11-08": 125
+        "2026-11-08": 150
       }
     }
   },
@@ -409,9 +409,9 @@
       }
     },
     "v3.1": {
-      "total": 59991,
+      "total": 59992,
       "severity_distribution": {
-        "HIGH": 26491,
+        "HIGH": 26492,
         "CRITICAL": 7196,
         "MEDIUM": 24125,
         "LOW": 2150,
@@ -444,7 +444,7 @@
         "7.1": 2204,
         "3.5": 186,
         "4.6": 188,
-        "8.6": 500,
+        "8.6": 501,
         "7.2": 1167,
         "2.0": 21,
         "9.0": 177,
@@ -503,19 +503,20 @@
       }
     },
     "v4.0": {
-      "total": 29393,
+      "total": 29395,
       "severity_distribution": {
-        "CRITICAL": 2829,
         "HIGH": 11199,
+        "CRITICAL": 2829,
         "MEDIUM": 10885,
-        "LOW": 4426,
+        "LOW": 4428,
         "NONE": 54
       },
       "score_distribution": {
-        "9.3": 1476,
         "8.7": 2788,
+        "9.3": 1476,
         "5.1": 1411,
         "6.9": 2165,
+        "5.5": 1669,
         "8.2": 591,
         "8.8": 697,
         "5.3": 2030,
@@ -523,7 +524,6 @@
         "8.5": 872,
         "8.6": 1038,
         "7.1": 1786,
-        "5.5": 1669,
         "9.2": 467,
         "7.7": 398,
         "7.0": 346,
@@ -551,7 +551,7 @@
         "5.7": 133,
         "5.2": 50,
         "7.5": 158,
-        "2.1": 2162,
+        "2.1": 2164,
         "7.6": 227,
         "1.9": 538,
         "7.4": 544,
@@ -599,12 +599,12 @@
       }
     },
     "unknown": {
-      "total": 3261,
+      "total": 3283,
       "severity_distribution": {
-        "UNKNOWN": 3261
+        "UNKNOWN": 3283
       },
       "score_distribution": {
-        "0.0": 3261
+        "0.0": 3283
       }
     }
   },
@@ -624,7 +624,7 @@
       },
       {
         "name": "vuldb.com",
-        "count": 6279
+        "count": 6281
       },
       {
         "name": "patchstack.com",
@@ -648,11 +648,11 @@
       },
       {
         "name": "MITRE Corporation",
-        "count": 3763
+        "count": 3764
       },
       {
         "name": "wpscan.com",
-        "count": 2143
+        "count": 2165
       },
       {
         "name": "IBM Corporation",
@@ -798,7 +798,7 @@
       },
       {
         "cwe": "CWE-22",
-        "count": 3162
+        "count": 3163
       },
       {
         "cwe": "CWE-125",
@@ -834,7 +834,7 @@
       },
       {
         "cwe": "CWE-94",
-        "count": 2087
+        "count": 2088
       },
       {
         "cwe": "CWE-306",
@@ -846,7 +846,7 @@
       },
       {
         "cwe": "CWE-74",
-        "count": 1927
+        "count": 1928
       },
       {
         "cwe": "CWE-400",
@@ -862,7 +862,7 @@
     "vulnerability_status": [
       {
         "status": "Deferred",
-        "count": 35707
+        "count": 35710
       },
       {
         "status": "Analyzed",
@@ -878,7 +878,7 @@
       },
       {
         "status": "Received",
-        "count": 5246
+        "count": 5268
       },
       {
         "status": "Undergoing Analysis",
@@ -958,7 +958,7 @@
     ]
   },
   "processing_stats": {
-    "processed_at": "2026-11-08T03:20:18.816557",
+    "processed_at": "2026-11-08T12:42:23.105547",
     "data_source": "data/cache/nvd.jsonl"
   }
 }
