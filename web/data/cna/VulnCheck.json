@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "VulnCheck",
-    "total_cves": 7692,
-    "total_cves_scored": 7692,
+    "total_cves": 7694,
+    "total_cves_scored": 7694,
     "organizationName": "VulnCheck",
     "scope": "Vulnerabilities observed by, discovered by, or reported to VulnCheck that are not in another CNA’s scope.",
     "advisories": [
@@ -35,13 +35,13 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 59,
-  "active_cna_count": 370,
-  "percentile": 84.3,
+  "active_cna_count": 368,
+  "percentile": 84.2,
   "cna_scoring": [
     {
-      "total_cves": 7692,
-      "total_cves_scored": 7692,
-      "recent_cves_count": 7692,
+      "total_cves": 7694,
+      "total_cves_scored": 7694,
+      "recent_cves_count": 7694,
       "overall_average_score": 83.22,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 14.99,
@@ -52,7 +52,7 @@
       "percent_root_cause_analysis": 99.96,
       "percent_software_identification": 0.01,
       "percent_severity_and_impact": 100.0,
-      "percent_patchinfo": 32.23,
+      "percent_patchinfo": 32.25,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -26297,6 +26297,19 @@
       "cveId": "CVE-2026-119421",
       "assigningCna": "VulnCheck",
       "datePublished": "2026-10-30",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-119743",
+      "assigningCna": "VulnCheck",
+      "datePublished": "2026-11-09",
       "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -82230,6 +82243,19 @@
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-124079",
+      "assigningCna": "VulnCheck",
+      "datePublished": "2026-11-09",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
       }
     },
     {
