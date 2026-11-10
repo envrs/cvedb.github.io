@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "GitLab",
-    "total_cves": 304,
-    "total_cves_scored": 304,
+    "total_cves": 305,
+    "total_cves_scored": 305,
     "organizationName": "GitLab Inc.",
     "scope": "The GitLab application, any project hosted on GitLab.com in a public repository, and any vulnerabilities discovered by GitLab that are not in another CNA’s scope.",
     "advisories": [
@@ -34,23 +34,23 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 47,
-  "active_cna_count": 372,
-  "percentile": 87.6,
+  "rank": 46,
+  "active_cna_count": 371,
+  "percentile": 87.9,
   "cna_scoring": [
     {
-      "total_cves": 304,
-      "total_cves_scored": 304,
-      "recent_cves_count": 304,
-      "overall_average_score": 85.41,
+      "total_cves": 305,
+      "total_cves_scored": 305,
+      "recent_cves_count": 305,
+      "overall_average_score": 85.43,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 14.95,
-      "average_software_identification": 5.46,
+      "average_software_identification": 5.48,
       "average_severity_context": 15.0,
       "average_patchinfo": 0.0,
       "percent_foundational_completeness": 100.0,
       "percent_root_cause_analysis": 99.67,
-      "percent_software_identification": 54.61,
+      "percent_software_identification": 54.75,
       "percent_severity_and_impact": 100.0,
       "percent_patchinfo": 0.0,
       "trend_direction": "steady",
@@ -947,6 +947,19 @@
       "cveId": "CVE-2026-105711",
       "assigningCna": "GitLab",
       "datePublished": "2026-10-21",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-105437",
+      "assigningCna": "GitLab",
+      "datePublished": "2026-11-10",
       "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,

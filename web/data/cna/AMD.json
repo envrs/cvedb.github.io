@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "AMD",
-    "total_cves": 79,
-    "total_cves_scored": 79,
+    "total_cves": 103,
+    "total_cves_scored": 103,
     "organizationName": "Advanced Micro Devices Inc.",
     "scope": "AMD branded products and technologies only. AMD does not evaluate, remediate, or issue CVE IDs for vulnerabilities that only affect End-of-Life/End-of-Support products and technologies.",
     "advisories": [
@@ -33,22 +33,22 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 299,
-  "active_cna_count": 372,
-  "percentile": 19.9,
+  "rank": 294,
+  "active_cna_count": 371,
+  "percentile": 21.0,
   "cna_scoring": [
     {
-      "total_cves": 79,
-      "total_cves_scored": 79,
-      "recent_cves_count": 79,
-      "overall_average_score": 78.67,
+      "total_cves": 103,
+      "total_cves_scored": 103,
+      "recent_cves_count": 103,
+      "overall_average_score": 78.98,
       "average_foundational_completeness": 50.0,
-      "average_root_cause_analysis": 13.67,
+      "average_root_cause_analysis": 13.98,
       "average_software_identification": 0.0,
       "average_severity_context": 15.0,
       "average_patchinfo": 0.0,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 91.14,
+      "percent_root_cause_analysis": 93.2,
       "percent_software_identification": 0.0,
       "percent_severity_and_impact": 100.0,
       "percent_patchinfo": 0.0,
@@ -205,6 +205,19 @@
       "cveId": "CVE-2023-31309",
       "assigningCna": "AMD",
       "datePublished": "2026-05-15",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2024-36309",
+      "assigningCna": "AMD",
+      "datePublished": "2026-11-10",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -410,6 +423,19 @@
       }
     },
     {
+      "cveId": "CVE-2025-48504",
+      "assigningCna": "AMD",
+      "datePublished": "2026-11-10",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2025-48519",
       "assigningCna": "AMD",
       "datePublished": "2026-05-15",
@@ -475,9 +501,35 @@
       }
     },
     {
+      "cveId": "CVE-2025-54508",
+      "assigningCna": "AMD",
+      "datePublished": "2026-11-10",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2025-54511",
       "assigningCna": "AMD",
       "datePublished": "2026-05-15",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-54506",
+      "assigningCna": "AMD",
+      "datePublished": "2026-11-10",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -501,9 +553,35 @@
       }
     },
     {
+      "cveId": "CVE-2025-54504",
+      "assigningCna": "AMD",
+      "datePublished": "2026-11-10",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2025-54517",
       "assigningCna": "AMD",
       "datePublished": "2026-05-15",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-54503",
+      "assigningCna": "AMD",
+      "datePublished": "2026-11-10",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -530,6 +608,32 @@
       "cveId": "CVE-2025-52540",
       "assigningCna": "AMD",
       "datePublished": "2026-05-15",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-52537",
+      "assigningCna": "AMD",
+      "datePublished": "2026-11-10",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-52535",
+      "assigningCna": "AMD",
+      "datePublished": "2026-11-10",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -595,6 +699,32 @@
       "cveId": "CVE-2025-61972",
       "assigningCna": "AMD",
       "datePublished": "2026-05-13",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-29940",
+      "assigningCna": "AMD",
+      "datePublished": "2026-11-10",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-29941",
+      "assigningCna": "AMD",
+      "datePublished": "2026-11-10",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -683,6 +813,19 @@
       }
     },
     {
+      "cveId": "CVE-2025-62621",
+      "assigningCna": "AMD",
+      "datePublished": "2026-11-10",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2025-62624",
       "assigningCna": "AMD",
       "datePublished": "2026-05-13",
@@ -712,6 +855,19 @@
       "cveId": "CVE-2025-62628",
       "assigningCna": "AMD",
       "datePublished": "2026-05-14",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-62620",
+      "assigningCna": "AMD",
+      "datePublished": "2026-11-10",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -787,6 +943,19 @@
       }
     },
     {
+      "cveId": "CVE-2025-0008",
+      "assigningCna": "AMD",
+      "datePublished": "2026-11-10",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2025-0044",
       "assigningCna": "AMD",
       "datePublished": "2026-05-15",
@@ -803,6 +972,19 @@
       "cveId": "CVE-2025-0040",
       "assigningCna": "AMD",
       "datePublished": "2026-05-15",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2025-0027",
+      "assigningCna": "AMD",
+      "datePublished": "2026-11-10",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -852,6 +1034,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-40669",
+      "assigningCna": "AMD",
+      "datePublished": "2026-11-10",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-40660",
       "assigningCna": "AMD",
       "datePublished": "2026-11-03",
@@ -891,6 +1086,32 @@
       }
     },
     {
+      "cveId": "CVE-2026-40668",
+      "assigningCna": "AMD",
+      "datePublished": "2026-11-10",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-40670",
+      "assigningCna": "AMD",
+      "datePublished": "2026-11-10",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-40659",
       "assigningCna": "AMD",
       "datePublished": "2026-11-03",
@@ -904,9 +1125,61 @@
       }
     },
     {
+      "cveId": "CVE-2026-28248",
+      "assigningCna": "AMD",
+      "datePublished": "2026-11-10",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-28247",
+      "assigningCna": "AMD",
+      "datePublished": "2026-11-10",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-28249",
+      "assigningCna": "AMD",
+      "datePublished": "2026-11-10",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-28237",
       "assigningCna": "AMD",
       "datePublished": "2026-06-09",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-0435",
+      "assigningCna": "AMD",
+      "datePublished": "2026-11-10",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -956,6 +1229,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-0454",
+      "assigningCna": "AMD",
+      "datePublished": "2026-11-10",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-0438",
       "assigningCna": "AMD",
       "datePublished": "2026-05-15",
@@ -995,9 +1281,35 @@
       }
     },
     {
+      "cveId": "CVE-2026-0003",
+      "assigningCna": "AMD",
+      "datePublished": "2026-11-10",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-0482",
       "assigningCna": "AMD",
       "datePublished": "2026-10-05",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-0480",
+      "assigningCna": "AMD",
+      "datePublished": "2026-11-10",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
