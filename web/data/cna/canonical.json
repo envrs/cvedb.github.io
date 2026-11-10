@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "canonical",
-    "total_cves": 60,
-    "total_cves_scored": 60,
+    "total_cves": 62,
+    "total_cves_scored": 62,
     "organizationName": "Canonical Ltd.",
     "scope": "All Canonical issues (including Ubuntu Linux) only.",
     "advisories": [
@@ -34,25 +34,25 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 51,
-  "active_cna_count": 368,
-  "percentile": 86.4,
+  "rank": 48,
+  "active_cna_count": 371,
+  "percentile": 87.3,
   "cna_scoring": [
     {
-      "total_cves": 60,
-      "total_cves_scored": 60,
-      "recent_cves_count": 60,
-      "overall_average_score": 84.92,
+      "total_cves": 62,
+      "total_cves_scored": 62,
+      "recent_cves_count": 62,
+      "overall_average_score": 85.08,
       "average_foundational_completeness": 50.0,
-      "average_root_cause_analysis": 14.75,
+      "average_root_cause_analysis": 14.76,
       "average_software_identification": 0.0,
       "average_severity_context": 15.0,
-      "average_patchinfo": 5.17,
+      "average_patchinfo": 5.32,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 98.33,
+      "percent_root_cause_analysis": 98.39,
       "percent_software_identification": 0.0,
       "percent_severity_and_impact": 100.0,
-      "percent_patchinfo": 51.67,
+      "percent_patchinfo": 53.23,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -271,6 +271,19 @@
       "cveId": "CVE-2026-86335",
       "assigningCna": "canonical",
       "datePublished": "2026-09-28",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-86692",
+      "assigningCna": "canonical",
+      "datePublished": "2026-11-09",
       "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -707,6 +720,19 @@
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-84410",
+      "assigningCna": "canonical",
+      "datePublished": "2026-11-09",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
       }
     },
     {

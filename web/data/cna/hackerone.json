@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "hackerone",
-    "total_cves": 213,
-    "total_cves_scored": 213,
+    "total_cves": 220,
+    "total_cves_scored": 220,
     "organizationName": "HackerOne",
     "scope": "Provides CVE IDs for its customers as part of its bug bounty and vulnerability coordination platform.",
     "advisories": [
@@ -28,24 +28,24 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 295,
-  "active_cna_count": 368,
-  "percentile": 20.1,
+  "rank": 299,
+  "active_cna_count": 371,
+  "percentile": 19.7,
   "cna_scoring": [
     {
-      "total_cves": 213,
-      "total_cves_scored": 213,
-      "recent_cves_count": 213,
-      "overall_average_score": 78.66,
+      "total_cves": 220,
+      "total_cves_scored": 220,
+      "recent_cves_count": 220,
+      "overall_average_score": 78.57,
       "average_foundational_completeness": 50.0,
-      "average_root_cause_analysis": 14.44,
+      "average_root_cause_analysis": 14.45,
       "average_software_identification": 0.0,
-      "average_severity_context": 14.23,
+      "average_severity_context": 14.11,
       "average_patchinfo": 0.0,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 96.24,
+      "percent_root_cause_analysis": 96.36,
       "percent_software_identification": 0.0,
-      "percent_severity_and_impact": 94.84,
+      "percent_severity_and_impact": 94.09,
       "percent_patchinfo": 0.0,
       "trend_direction": "steady",
       "trend_description": "No significant change",
@@ -1575,6 +1575,45 @@
       }
     },
     {
+      "cveId": "CVE-2026-107244",
+      "assigningCna": "hackerone",
+      "datePublished": "2026-11-10",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-107243",
+      "assigningCna": "hackerone",
+      "datePublished": "2026-11-10",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-107246",
+      "assigningCna": "hackerone",
+      "datePublished": "2026-11-10",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-107238",
       "assigningCna": "hackerone",
       "datePublished": "2026-10-29",
@@ -1596,6 +1635,58 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 15,
         "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-107240",
+      "assigningCna": "hackerone",
+      "datePublished": "2026-11-10",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-107241",
+      "assigningCna": "hackerone",
+      "datePublished": "2026-11-10",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-107242",
+      "assigningCna": "hackerone",
+      "datePublished": "2026-11-10",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-107245",
+      "assigningCna": "hackerone",
+      "datePublished": "2026-11-10",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 0,
         "softwareIdentification": 0,
         "patchinfo": 0
       }
