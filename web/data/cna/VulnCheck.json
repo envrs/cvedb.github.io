@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "VulnCheck",
-    "total_cves": 7885,
-    "total_cves_scored": 7885,
+    "total_cves": 7915,
+    "total_cves_scored": 7915,
     "organizationName": "VulnCheck",
     "scope": "Vulnerabilities observed by, discovered by, or reported to VulnCheck that are not in another CNA’s scope.",
     "advisories": [
@@ -35,24 +35,24 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 57,
-  "active_cna_count": 374,
+  "active_cna_count": 373,
   "percentile": 85.0,
   "cna_scoring": [
     {
-      "total_cves": 7885,
-      "total_cves_scored": 7885,
-      "recent_cves_count": 7885,
-      "overall_average_score": 83.43,
+      "total_cves": 7915,
+      "total_cves_scored": 7915,
+      "recent_cves_count": 7915,
+      "overall_average_score": 83.45,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 14.99,
       "average_software_identification": 0.0,
       "average_severity_context": 15.0,
-      "average_patchinfo": 3.43,
+      "average_patchinfo": 3.45,
       "percent_foundational_completeness": 100.0,
       "percent_root_cause_analysis": 99.96,
       "percent_software_identification": 0.01,
       "percent_severity_and_impact": 100.0,
-      "percent_patchinfo": 34.31,
+      "percent_patchinfo": 34.52,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -1103,13 +1103,13 @@
       "cveId": "CVE-2017-20251",
       "assigningCna": "VulnCheck",
       "datePublished": "2026-06-09",
-      "totalCveScore": 80,
+      "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 15,
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
-        "patchinfo": 0
+        "patchinfo": 10
       }
     },
     {
@@ -21770,6 +21770,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-70642",
+      "assigningCna": "VulnCheck",
+      "datePublished": "2026-11-12",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
       "cveId": "CVE-2026-70616",
       "assigningCna": "VulnCheck",
       "datePublished": "2026-08-05",
@@ -36941,6 +36954,32 @@
       }
     },
     {
+      "cveId": "CVE-2026-127202",
+      "assigningCna": "VulnCheck",
+      "datePublished": "2026-11-12",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-127204",
+      "assigningCna": "VulnCheck",
+      "datePublished": "2026-11-12",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
       "cveId": "CVE-2026-127056",
       "assigningCna": "VulnCheck",
       "datePublished": "2026-11-12",
@@ -36951,6 +36990,45 @@
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-127203",
+      "assigningCna": "VulnCheck",
+      "datePublished": "2026-11-12",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-127206",
+      "assigningCna": "VulnCheck",
+      "datePublished": "2026-11-12",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-127209",
+      "assigningCna": "VulnCheck",
+      "datePublished": "2026-11-12",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
       }
     },
     {
@@ -36967,7 +37045,137 @@
       }
     },
     {
+      "cveId": "CVE-2026-127145",
+      "assigningCna": "VulnCheck",
+      "datePublished": "2026-11-12",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-127208",
+      "assigningCna": "VulnCheck",
+      "datePublished": "2026-11-12",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-127111",
+      "assigningCna": "VulnCheck",
+      "datePublished": "2026-11-12",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-127211",
+      "assigningCna": "VulnCheck",
+      "datePublished": "2026-11-12",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-127207",
+      "assigningCna": "VulnCheck",
+      "datePublished": "2026-11-12",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-127141",
+      "assigningCna": "VulnCheck",
+      "datePublished": "2026-11-12",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
       "cveId": "CVE-2026-127058",
+      "assigningCna": "VulnCheck",
+      "datePublished": "2026-11-12",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-127212",
+      "assigningCna": "VulnCheck",
+      "datePublished": "2026-11-12",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-127131",
+      "assigningCna": "VulnCheck",
+      "datePublished": "2026-11-12",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-127135",
+      "assigningCna": "VulnCheck",
+      "datePublished": "2026-11-12",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-127121",
       "assigningCna": "VulnCheck",
       "datePublished": "2026-11-12",
       "totalCveScore": 90,
@@ -83949,6 +84157,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-124014",
+      "assigningCna": "VulnCheck",
+      "datePublished": "2026-11-12",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
       "cveId": "CVE-2026-124494",
       "assigningCna": "VulnCheck",
       "datePublished": "2026-11-08",
@@ -83959,6 +84180,32 @@
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-124012",
+      "assigningCna": "VulnCheck",
+      "datePublished": "2026-11-12",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-124006",
+      "assigningCna": "VulnCheck",
+      "datePublished": "2026-11-12",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
       }
     },
     {
@@ -84053,6 +84300,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-124011",
+      "assigningCna": "VulnCheck",
+      "datePublished": "2026-11-12",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
       "cveId": "CVE-2026-124490",
       "assigningCna": "VulnCheck",
       "datePublished": "2026-11-08",
@@ -84121,6 +84381,19 @@
       "cveId": "CVE-2026-124078",
       "assigningCna": "VulnCheck",
       "datePublished": "2026-11-06",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-124007",
+      "assigningCna": "VulnCheck",
+      "datePublished": "2026-11-12",
       "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -84300,6 +84573,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-124003",
+      "assigningCna": "VulnCheck",
+      "datePublished": "2026-11-12",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
       "cveId": "CVE-2026-124464",
       "assigningCna": "VulnCheck",
       "datePublished": "2026-11-08",
@@ -84336,6 +84622,19 @@
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-124015",
+      "assigningCna": "VulnCheck",
+      "datePublished": "2026-11-12",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
       }
     },
     {
@@ -84391,6 +84690,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-124005",
+      "assigningCna": "VulnCheck",
+      "datePublished": "2026-11-12",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
       "cveId": "CVE-2026-124459",
       "assigningCna": "VulnCheck",
       "datePublished": "2026-11-08",
@@ -84433,6 +84745,19 @@
       "cveId": "CVE-2026-124551",
       "assigningCna": "VulnCheck",
       "datePublished": "2026-11-08",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-124008",
+      "assigningCna": "VulnCheck",
+      "datePublished": "2026-11-12",
       "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -84755,6 +85080,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-124004",
+      "assigningCna": "VulnCheck",
+      "datePublished": "2026-11-12",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
       "cveId": "CVE-2026-124030",
       "assigningCna": "VulnCheck",
       "datePublished": "2026-11-06",
@@ -84804,6 +85142,19 @@
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-124010",
+      "assigningCna": "VulnCheck",
+      "datePublished": "2026-11-12",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
       }
     },
     {
@@ -84875,6 +85226,19 @@
       "cveId": "CVE-2026-124313",
       "assigningCna": "VulnCheck",
       "datePublished": "2026-11-07",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-124013",
+      "assigningCna": "VulnCheck",
+      "datePublished": "2026-11-12",
       "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -84960,6 +85324,19 @@
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-124009",
+      "assigningCna": "VulnCheck",
+      "datePublished": "2026-11-12",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
       }
     },
     {
@@ -85207,6 +85584,19 @@
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-124002",
+      "assigningCna": "VulnCheck",
+      "datePublished": "2026-11-12",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
       }
     },
     {
