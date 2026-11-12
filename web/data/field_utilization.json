@@ -153,8 +153,8 @@
   },
   {
     "field": "metrics.cvssV3_1",
-    "percent": 56.3,
-    "unique_cnas": 213,
+    "percent": 56.6,
+    "unique_cnas": 214,
     "importance": "High",
     "description": "CVSS v3.1 metrics",
     "cna_scorecard_category": "severityAndImpactContext"
@@ -216,14 +216,6 @@
     "cna_scorecard_category": null
   },
   {
-    "field": "containers.cna.tags",
-    "percent": 11.9,
-    "unique_cnas": 45,
-    "importance": "Low",
-    "description": "CNA-provided tags",
-    "cna_scorecard_category": null
-  },
-  {
     "field": "containers.cna.timeline",
     "percent": 11.9,
     "unique_cnas": 45,
@@ -232,9 +224,17 @@
     "cna_scorecard_category": null
   },
   {
+    "field": "containers.cna.tags",
+    "percent": 11.6,
+    "unique_cnas": 44,
+    "importance": "Low",
+    "description": "CNA-provided tags",
+    "cna_scorecard_category": null
+  },
+  {
     "field": "affected.programFiles",
-    "percent": 11.1,
-    "unique_cnas": 42,
+    "percent": 11.4,
+    "unique_cnas": 43,
     "importance": "Medium",
     "description": "Affected program files",
     "cna_scorecard_category": null
@@ -273,8 +273,8 @@
   },
   {
     "field": "metrics.cvssV3_0",
-    "percent": 3.4,
-    "unique_cnas": 13,
+    "percent": 3.7,
+    "unique_cnas": 14,
     "importance": "High",
     "description": "CVSS v3.0 metrics",
     "cna_scorecard_category": "severityAndImpactContext"

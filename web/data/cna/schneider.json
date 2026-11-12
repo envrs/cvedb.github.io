@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "schneider",
-    "total_cves": 23,
-    "total_cves_scored": 23,
+    "total_cves": 24,
+    "total_cves_scored": 24,
     "organizationName": "Schneider Electric",
     "scope": "Products supported by Schneider Electric and its affiliates, including products branded Schneider Electric or any other brands owned or controlled by Schneider Electric (such as but not limited to APC, Eliwell, Proface, ProLeit, Lauritz Knudsen Electrical & Automation, etc.), excluding Aveva and RIB products.",
     "advisories": [
@@ -42,9 +42,9 @@
   "percentile": 77.4,
   "cna_scoring": [
     {
-      "total_cves": 23,
-      "total_cves_scored": 23,
-      "recent_cves_count": 23,
+      "total_cves": 24,
+      "total_cves_scored": 24,
+      "recent_cves_count": 24,
       "overall_average_score": 80.0,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
@@ -66,6 +66,19 @@
       "cveId": "CVE-2024-10085",
       "assigningCna": "schneider",
       "datePublished": "2026-09-01",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-119055",
+      "assigningCna": "schneider",
+      "datePublished": "2026-11-11",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
