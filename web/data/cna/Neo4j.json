@@ -34,9 +34,9 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 62,
-  "active_cna_count": 374,
-  "percentile": 83.7,
+  "rank": 61,
+  "active_cna_count": 375,
+  "percentile": 84.0,
   "cna_scoring": [
     {
       "total_cves": 7,
@@ -60,32 +60,6 @@
   ],
   "recent_cves": [
     {
-      "cveId": "CVE-2026-5423",
-      "assigningCna": "Neo4j",
-      "datePublished": "2026-08-06",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-19869",
-      "assigningCna": "Neo4j",
-      "datePublished": "2026-08-18",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2026-14587",
       "assigningCna": "Neo4j",
       "datePublished": "2026-08-05",
@@ -99,9 +73,35 @@
       }
     },
     {
-      "cveId": "CVE-2026-92684",
+      "cveId": "CVE-2026-5423",
       "assigningCna": "Neo4j",
-      "datePublished": "2026-11-10",
+      "datePublished": "2026-08-06",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-92682",
+      "assigningCna": "Neo4j",
+      "datePublished": "2026-10-12",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-92683",
+      "assigningCna": "Neo4j",
+      "datePublished": "2026-11-09",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -125,22 +125,22 @@
       }
     },
     {
-      "cveId": "CVE-2026-92682",
+      "cveId": "CVE-2026-92684",
       "assigningCna": "Neo4j",
-      "datePublished": "2026-10-12",
-      "totalCveScore": 90,
+      "datePublished": "2026-11-10",
+      "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 15,
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
-        "patchinfo": 10
+        "patchinfo": 0
       }
     },
     {
-      "cveId": "CVE-2026-92683",
+      "cveId": "CVE-2026-19869",
       "assigningCna": "Neo4j",
-      "datePublished": "2026-11-09",
+      "datePublished": "2026-08-18",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,

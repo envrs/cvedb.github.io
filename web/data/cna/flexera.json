@@ -36,7 +36,7 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 74,
-  "active_cna_count": 374,
+  "active_cna_count": 375,
   "percentile": 80.5,
   "cna_scoring": [
     {
@@ -74,29 +74,16 @@
       }
     },
     {
-      "cveId": "CVE-2026-19572",
+      "cveId": "CVE-2026-110390",
       "assigningCna": "flexera",
-      "datePublished": "2026-10-07",
-      "totalCveScore": 80,
+      "datePublished": "2026-11-05",
+      "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 15,
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-4027",
-      "assigningCna": "flexera",
-      "datePublished": "2026-06-19",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
+        "patchinfo": 10
       }
     },
     {
@@ -126,16 +113,29 @@
       }
     },
     {
-      "cveId": "CVE-2026-110390",
+      "cveId": "CVE-2026-4027",
       "assigningCna": "flexera",
-      "datePublished": "2026-11-05",
-      "totalCveScore": 90,
+      "datePublished": "2026-06-19",
+      "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 15,
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
-        "patchinfo": 10
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-19572",
+      "assigningCna": "flexera",
+      "datePublished": "2026-10-07",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
       }
     }
   ]

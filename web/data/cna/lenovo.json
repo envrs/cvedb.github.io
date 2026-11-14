@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "lenovo",
-    "total_cves": 53,
-    "total_cves_scored": 53,
+    "total_cves": 51,
+    "total_cves_scored": 51,
     "organizationName": "Lenovo Group Ltd.",
     "scope": "Lenovo general-purpose computers, software for general-purpose operating systems, mobile devices, enterprise storage, and networking products only.",
     "advisories": [
@@ -34,43 +34,30 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 83,
-  "active_cna_count": 374,
+  "active_cna_count": 375,
   "percentile": 78.1,
   "cna_scoring": [
     {
-      "total_cves": 53,
-      "total_cves_scored": 53,
-      "recent_cves_count": 53,
-      "overall_average_score": 80.19,
+      "total_cves": 51,
+      "total_cves_scored": 51,
+      "recent_cves_count": 51,
+      "overall_average_score": 80.2,
       "average_foundational_completeness": 50.0,
-      "average_root_cause_analysis": 13.3,
+      "average_root_cause_analysis": 13.24,
       "average_software_identification": 0.0,
       "average_severity_context": 15.0,
-      "average_patchinfo": 1.89,
+      "average_patchinfo": 1.96,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 88.68,
+      "percent_root_cause_analysis": 88.24,
       "percent_software_identification": 0.0,
       "percent_severity_and_impact": 100.0,
-      "percent_patchinfo": 18.87,
+      "percent_patchinfo": 19.61,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
     }
   ],
   "recent_cves": [
-    {
-      "cveId": "CVE-2025-10238",
-      "assigningCna": "lenovo",
-      "datePublished": "2026-06-10",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
     {
       "cveId": "CVE-2025-10237",
       "assigningCna": "lenovo",
@@ -85,22 +72,9 @@
       }
     },
     {
-      "cveId": "CVE-2026-5804",
+      "cveId": "CVE-2025-10238",
       "assigningCna": "lenovo",
-      "datePublished": "2026-05-19",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-19136",
-      "assigningCna": "lenovo",
-      "datePublished": "2026-09-10",
+      "datePublished": "2026-06-10",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -111,9 +85,100 @@
       }
     },
     {
-      "cveId": "CVE-2026-16792",
+      "cveId": "CVE-2026-119238",
       "assigningCna": "lenovo",
-      "datePublished": "2026-08-04",
+      "datePublished": "2026-11-11",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-10588",
+      "assigningCna": "lenovo",
+      "datePublished": "2026-07-16",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-10590",
+      "assigningCna": "lenovo",
+      "datePublished": "2026-07-16",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-10587",
+      "assigningCna": "lenovo",
+      "datePublished": "2026-07-16",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-10589",
+      "assigningCna": "lenovo",
+      "datePublished": "2026-07-16",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-77882",
+      "assigningCna": "lenovo",
+      "datePublished": "2026-11-11",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-77873",
+      "assigningCna": "lenovo",
+      "datePublished": "2026-11-11",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-63426",
+      "assigningCna": "lenovo",
+      "datePublished": "2026-08-13",
       "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -124,9 +189,48 @@
       }
     },
     {
-      "cveId": "CVE-2026-16791",
+      "cveId": "CVE-2026-63425",
       "assigningCna": "lenovo",
-      "datePublished": "2026-08-04",
+      "datePublished": "2026-08-13",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-63424",
+      "assigningCna": "lenovo",
+      "datePublished": "2026-08-13",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-63423",
+      "assigningCna": "lenovo",
+      "datePublished": "2026-08-13",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-63427",
+      "assigningCna": "lenovo",
+      "datePublished": "2026-09-10",
       "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -176,9 +280,35 @@
       }
     },
     {
-      "cveId": "CVE-2026-8637",
+      "cveId": "CVE-2026-16791",
       "assigningCna": "lenovo",
-      "datePublished": "2026-06-10",
+      "datePublished": "2026-08-04",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-16792",
+      "assigningCna": "lenovo",
+      "datePublished": "2026-08-04",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-12036",
+      "assigningCna": "lenovo",
+      "datePublished": "2026-08-13",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -189,59 +319,33 @@
       }
     },
     {
-      "cveId": "CVE-2026-10589",
+      "cveId": "CVE-2026-14256",
       "assigningCna": "lenovo",
-      "datePublished": "2026-07-16",
-      "totalCveScore": 65,
+      "datePublished": "2026-08-13",
+      "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
+        "rootCauseAnalysis": 15,
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 0
       }
     },
     {
-      "cveId": "CVE-2026-10588",
+      "cveId": "CVE-2026-14371",
       "assigningCna": "lenovo",
       "datePublished": "2026-07-16",
-      "totalCveScore": 65,
+      "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
+        "rootCauseAnalysis": 15,
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 0
       }
     },
     {
-      "cveId": "CVE-2026-10590",
-      "assigningCna": "lenovo",
-      "datePublished": "2026-07-16",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-10587",
-      "assigningCna": "lenovo",
-      "datePublished": "2026-07-16",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-65950",
+      "cveId": "CVE-2026-65952",
       "assigningCna": "lenovo",
       "datePublished": "2026-11-11",
       "totalCveScore": 80,
@@ -254,7 +358,7 @@
       }
     },
     {
-      "cveId": "CVE-2026-65952",
+      "cveId": "CVE-2026-65950",
       "assigningCna": "lenovo",
       "datePublished": "2026-11-11",
       "totalCveScore": 80,
@@ -293,48 +397,9 @@
       }
     },
     {
-      "cveId": "CVE-2026-11813",
+      "cveId": "CVE-2026-7516",
       "assigningCna": "lenovo",
-      "datePublished": "2026-09-10",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-81936",
-      "assigningCna": "lenovo",
-      "datePublished": "2026-11-11",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-116633",
-      "assigningCna": "lenovo",
-      "datePublished": "2026-11-11",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-119238",
-      "assigningCna": "lenovo",
-      "datePublished": "2026-11-11",
+      "datePublished": "2026-06-10",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -371,20 +436,7 @@
       }
     },
     {
-      "cveId": "CVE-2026-14371",
-      "assigningCna": "lenovo",
-      "datePublished": "2026-07-16",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-14256",
+      "cveId": "CVE-2026-15994",
       "assigningCna": "lenovo",
       "datePublished": "2026-08-13",
       "totalCveScore": 80,
@@ -397,9 +449,61 @@
       }
     },
     {
-      "cveId": "CVE-2026-7516",
+      "cveId": "CVE-2026-9046",
+      "assigningCna": "lenovo",
+      "datePublished": "2026-07-16",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-9045",
       "assigningCna": "lenovo",
       "datePublished": "2026-06-10",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-11813",
+      "assigningCna": "lenovo",
+      "datePublished": "2026-09-10",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-5804",
+      "assigningCna": "lenovo",
+      "datePublished": "2026-05-19",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 0,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-13103",
+      "assigningCna": "lenovo",
+      "datePublished": "2026-07-16",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -423,20 +527,7 @@
       }
     },
     {
-      "cveId": "CVE-2026-13103",
-      "assigningCna": "lenovo",
-      "datePublished": "2026-07-16",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-77882",
+      "cveId": "CVE-2026-81936",
       "assigningCna": "lenovo",
       "datePublished": "2026-11-11",
       "totalCveScore": 80,
@@ -449,9 +540,9 @@
       }
     },
     {
-      "cveId": "CVE-2026-77873",
+      "cveId": "CVE-2026-92629",
       "assigningCna": "lenovo",
-      "datePublished": "2026-11-11",
+      "datePublished": "2026-10-15",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -462,9 +553,9 @@
       }
     },
     {
-      "cveId": "CVE-2026-12036",
+      "cveId": "CVE-2026-92777",
       "assigningCna": "lenovo",
-      "datePublished": "2026-08-13",
+      "datePublished": "2026-10-15",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -475,68 +566,81 @@
       }
     },
     {
-      "cveId": "CVE-2026-63426",
+      "cveId": "CVE-2026-8637",
       "assigningCna": "lenovo",
-      "datePublished": "2026-08-13",
-      "totalCveScore": 90,
+      "datePublished": "2026-06-10",
+      "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 15,
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
-        "patchinfo": 10
+        "patchinfo": 0
       }
     },
     {
-      "cveId": "CVE-2026-63423",
+      "cveId": "CVE-2026-75941",
       "assigningCna": "lenovo",
-      "datePublished": "2026-08-13",
-      "totalCveScore": 90,
+      "datePublished": "2026-10-15",
+      "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 15,
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
-        "patchinfo": 10
+        "patchinfo": 0
       }
     },
     {
-      "cveId": "CVE-2026-63424",
-      "assigningCna": "lenovo",
-      "datePublished": "2026-08-13",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 10
-      }
-    },
-    {
-      "cveId": "CVE-2026-63427",
+      "cveId": "CVE-2026-75940",
       "assigningCna": "lenovo",
       "datePublished": "2026-09-10",
-      "totalCveScore": 90,
+      "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 15,
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
-        "patchinfo": 10
+        "patchinfo": 0
       }
     },
     {
-      "cveId": "CVE-2026-63425",
+      "cveId": "CVE-2026-19136",
       "assigningCna": "lenovo",
-      "datePublished": "2026-08-13",
-      "totalCveScore": 90,
+      "datePublished": "2026-09-10",
+      "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 15,
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
-        "patchinfo": 10
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-93832",
+      "assigningCna": "lenovo",
+      "datePublished": "2026-10-01",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-89062",
+      "assigningCna": "lenovo",
+      "datePublished": "2026-10-15",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
       }
     },
     {
@@ -566,22 +670,9 @@
       }
     },
     {
-      "cveId": "CVE-2026-89062",
+      "cveId": "CVE-2026-6387",
       "assigningCna": "lenovo",
-      "datePublished": "2026-10-15",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-9045",
-      "assigningCna": "lenovo",
-      "datePublished": "2026-06-10",
+      "datePublished": "2026-08-13",
       "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -589,97 +680,6 @@
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 10
-      }
-    },
-    {
-      "cveId": "CVE-2026-9046",
-      "assigningCna": "lenovo",
-      "datePublished": "2026-07-16",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-75940",
-      "assigningCna": "lenovo",
-      "datePublished": "2026-09-10",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-75941",
-      "assigningCna": "lenovo",
-      "datePublished": "2026-10-15",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-92777",
-      "assigningCna": "lenovo",
-      "datePublished": "2026-10-15",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-92629",
-      "assigningCna": "lenovo",
-      "datePublished": "2026-10-15",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-15994",
-      "assigningCna": "lenovo",
-      "datePublished": "2026-08-13",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-93832",
-      "assigningCna": "lenovo",
-      "datePublished": "2026-10-01",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
       }
     },
     {
@@ -696,48 +696,22 @@
       }
     },
     {
-      "cveId": "CVE-2026-6387",
-      "assigningCna": "lenovo",
-      "datePublished": "2026-08-13",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 10
-      }
-    },
-    {
-      "cveId": "CVE-2026-6282",
-      "assigningCna": "lenovo",
-      "datePublished": "2026-05-13",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-6281",
-      "assigningCna": "lenovo",
-      "datePublished": "2026-05-13",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2026-6090",
       "assigningCna": "lenovo",
       "datePublished": "2026-06-10",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-116633",
+      "assigningCna": "lenovo",
+      "datePublished": "2026-11-11",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
