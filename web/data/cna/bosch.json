@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "bosch",
-    "total_cves": 8,
-    "total_cves_scored": 8,
+    "total_cves": 9,
+    "total_cves_scored": 9,
     "organizationName": "Robert Bosch GmbH",
     "scope": "Bosch products only.",
     "advisories": [
@@ -33,14 +33,14 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 86,
-  "active_cna_count": 376,
-  "percentile": 77.4,
+  "rank": 87,
+  "active_cna_count": 375,
+  "percentile": 77.1,
   "cna_scoring": [
     {
-      "total_cves": 8,
-      "total_cves_scored": 8,
-      "recent_cves_count": 8,
+      "total_cves": 9,
+      "total_cves_scored": 9,
+      "recent_cves_count": 9,
       "overall_average_score": 80.0,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
@@ -140,6 +140,19 @@
       "cveId": "CVE-2026-42805",
       "assigningCna": "bosch",
       "datePublished": "2026-09-10",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-102448",
+      "assigningCna": "bosch",
+      "datePublished": "2026-11-16",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
