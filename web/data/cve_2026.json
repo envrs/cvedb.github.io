@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "total_cves": 97802,
+  "total_cves": 97829,
   "date_data": {
     "monthly_distribution": {
       "1": 4302,
@@ -13,12 +13,12 @@
       "8": 12255,
       "9": 14928,
       "10": 17051,
-      "11": 7958,
+      "11": 7985,
       "12": 0
     },
     "daily_analysis": {
-      "total_days": 317,
-      "avg_per_day": 308.52,
+      "total_days": 318,
+      "avg_per_day": 307.64,
       "highest_day": {
         "date": "2026-10-13",
         "count": 2303
@@ -346,7 +346,8 @@
         "2026-11-12": 358,
         "2026-11-13": 792,
         "2026-11-14": 64,
-        "2026-11-15": 94
+        "2026-11-15": 112,
+        "2026-11-16": 9
       }
     }
   },
@@ -420,12 +421,12 @@
       }
     },
     "v3.1": {
-      "total": 63162,
+      "total": 63164,
       "severity_distribution": {
         "HIGH": 28226,
         "CRITICAL": 7405,
-        "MEDIUM": 25234,
-        "LOW": 2268,
+        "MEDIUM": 25235,
+        "LOW": 2269,
         "NONE": 29
       },
       "score_distribution": {
@@ -461,12 +462,12 @@
         "6.2": 355,
         "3.3": 286,
         "2.7": 269,
-        "3.1": 425,
+        "3.1": 426,
         "2.9": 62,
         "6.6": 215,
         "2.8": 19,
         "4.2": 287,
-        "6.4": 1192,
+        "6.4": 1193,
         "2.4": 33,
         "6.3": 469,
         "8.4": 552,
@@ -514,27 +515,27 @@
       }
     },
     "v4.0": {
-      "total": 30944,
+      "total": 30951,
       "severity_distribution": {
-        "HIGH": 11802,
+        "HIGH": 11806,
         "CRITICAL": 2974,
-        "MEDIUM": 11556,
+        "MEDIUM": 11559,
         "LOW": 4557,
         "NONE": 55
       },
       "score_distribution": {
-        "8.7": 2925,
+        "8.7": 2928,
         "9.3": 1544,
-        "5.1": 1476,
+        "5.1": 1478,
         "6.9": 2271,
         "5.5": 1703,
         "8.6": 1115,
         "7.0": 376,
         "4.8": 489,
         "8.2": 619,
-        "7.1": 1906,
+        "7.1": 1907,
         "8.8": 714,
-        "5.3": 2157,
+        "5.3": 2158,
         "6.8": 486,
         "8.5": 914,
         "9.2": 498,
@@ -610,12 +611,12 @@
       }
     },
     "unknown": {
-      "total": 3227,
+      "total": 3245,
       "severity_distribution": {
-        "UNKNOWN": 3227
+        "UNKNOWN": 3245
       },
       "score_distribution": {
-        "0.0": 3227
+        "0.0": 3245
       }
     }
   },
@@ -627,7 +628,7 @@
       },
       {
         "name": "vulncheck.com",
-        "count": 10602
+        "count": 10609
       },
       {
         "name": "Linux Kernel Organization",
@@ -789,19 +790,19 @@
     "top_cwes": [
       {
         "cwe": "CWE-79",
-        "count": 8676
+        "count": 8680
       },
       {
         "cwe": "CWE-862",
-        "count": 5467
+        "count": 5470
       },
       {
         "cwe": "CWE-284",
-        "count": 4656
+        "count": 4657
       },
       {
         "cwe": "CWE-89",
-        "count": 4463
+        "count": 4464
       },
       {
         "cwe": "CWE-416",
@@ -809,7 +810,7 @@
       },
       {
         "cwe": "CWE-22",
-        "count": 3289
+        "count": 3290
       },
       {
         "cwe": "CWE-125",
@@ -817,7 +818,7 @@
       },
       {
         "cwe": "CWE-863",
-        "count": 2644
+        "count": 2648
       },
       {
         "cwe": "CWE-787",
@@ -825,11 +826,11 @@
       },
       {
         "cwe": "CWE-200",
-        "count": 2544
+        "count": 2546
       },
       {
         "cwe": "CWE-639",
-        "count": 2403
+        "count": 2405
       },
       {
         "cwe": "CWE-78",
@@ -853,11 +854,11 @@
       },
       {
         "cwe": "CWE-306",
-        "count": 2055
+        "count": 2056
       },
       {
         "cwe": "CWE-74",
-        "count": 1951
+        "count": 1952
       },
       {
         "cwe": "CWE-400",
@@ -873,7 +874,7 @@
     "vulnerability_status": [
       {
         "status": "Deferred",
-        "count": 37370
+        "count": 37388
       },
       {
         "status": "Analyzed",
@@ -889,7 +890,7 @@
       },
       {
         "status": "Received",
-        "count": 5061
+        "count": 5070
       },
       {
         "status": "Undergoing Analysis",
@@ -969,7 +970,7 @@
     ]
   },
   "processing_stats": {
-    "processed_at": "2026-11-15T22:36:42.769217",
+    "processed_at": "2026-11-16T03:52:12.885280",
     "data_source": "data/cache/nvd.jsonl"
   }
 }
