@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "apache",
-    "total_cves": 1286,
-    "total_cves_scored": 1286,
+    "total_cves": 1287,
+    "total_cves_scored": 1287,
     "organizationName": "Apache Software Foundation",
     "scope": "All Apache Software Foundation issues only.",
     "advisories": [
@@ -35,24 +35,24 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 335,
-  "active_cna_count": 376,
-  "percentile": 11.2,
+  "active_cna_count": 375,
+  "percentile": 10.9,
   "cna_scoring": [
     {
-      "total_cves": 1286,
-      "total_cves_scored": 1286,
-      "recent_cves_count": 1286,
-      "overall_average_score": 70.67,
+      "total_cves": 1287,
+      "total_cves_scored": 1287,
+      "recent_cves_count": 1287,
+      "overall_average_score": 70.7,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 14.35,
       "average_software_identification": 0.05,
-      "average_severity_context": 4.54,
-      "average_patchinfo": 1.74,
+      "average_severity_context": 4.55,
+      "average_patchinfo": 1.75,
       "percent_foundational_completeness": 100.0,
       "percent_root_cause_analysis": 95.65,
-      "percent_software_identification": 0.47,
-      "percent_severity_and_impact": 30.25,
-      "percent_patchinfo": 17.42,
+      "percent_software_identification": 0.54,
+      "percent_severity_and_impact": 30.3,
+      "percent_patchinfo": 17.48,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -3463,6 +3463,19 @@
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-129448",
+      "assigningCna": "apache",
+      "datePublished": "2026-11-17",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
       }
     },
     {

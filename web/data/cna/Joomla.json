@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "Joomla",
-    "total_cves": 381,
-    "total_cves_scored": 381,
+    "total_cves": 382,
+    "total_cves_scored": 382,
     "organizationName": "Joomla! Project",
     "scope": "Core Joomla! CMS, the Joomla Framework, and Joomla! Extensions issues only.",
     "advisories": [
@@ -35,23 +35,23 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 314,
-  "active_cna_count": 376,
-  "percentile": 16.8,
+  "active_cna_count": 375,
+  "percentile": 16.5,
   "cna_scoring": [
     {
-      "total_cves": 381,
-      "total_cves_scored": 381,
-      "recent_cves_count": 381,
-      "overall_average_score": 77.48,
+      "total_cves": 382,
+      "total_cves_scored": 382,
+      "recent_cves_count": 382,
+      "overall_average_score": 77.45,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 14.76,
       "average_software_identification": 0.0,
-      "average_severity_context": 12.72,
+      "average_severity_context": 12.68,
       "average_patchinfo": 0.0,
       "percent_foundational_completeness": 100.0,
       "percent_root_cause_analysis": 98.43,
       "percent_software_identification": 0.0,
-      "percent_severity_and_impact": 84.78,
+      "percent_severity_and_impact": 84.55,
       "percent_patchinfo": 0.0,
       "trend_direction": "steady",
       "trend_description": "No significant change",
@@ -2265,6 +2265,19 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 15,
         "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-107904",
+      "assigningCna": "Joomla",
+      "datePublished": "2026-11-17",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 0,
         "softwareIdentification": 0,
         "patchinfo": 0
       }
