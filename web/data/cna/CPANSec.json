@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "CPANSec",
-    "total_cves": 364,
-    "total_cves_scored": 364,
+    "total_cves": 363,
+    "total_cves_scored": 363,
     "organizationName": "CPAN Security Group",
     "scope": "Vulnerabilities in Perl and CPAN Modules (including End-of-Life Perl versions) found at <a href='https://perl.org' target='_blank'>https://perl.org</a>, <a href='https://cpan.org' target='_blank'>https://cpan.org</a>, or <a href='https://metacpan.org/' target='_blank'>https://metacpan.org/</a>, excluding distributions of Perl or CPAN Modules maintained by third-party redistributors.",
     "advisories": [
@@ -34,24 +34,24 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 334,
-  "active_cna_count": 375,
-  "percentile": 11.2,
+  "active_cna_count": 376,
+  "percentile": 11.4,
   "cna_scoring": [
     {
-      "total_cves": 364,
-      "total_cves_scored": 364,
-      "recent_cves_count": 364,
-      "overall_average_score": 71.25,
+      "total_cves": 363,
+      "total_cves_scored": 363,
+      "recent_cves_count": 363,
+      "overall_average_score": 71.27,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 14.96,
       "average_software_identification": 0.0,
       "average_severity_context": 0.0,
-      "average_patchinfo": 6.29,
+      "average_patchinfo": 6.31,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 99.73,
+      "percent_root_cause_analysis": 99.72,
       "percent_software_identification": 0.0,
       "percent_severity_and_impact": 0.0,
-      "percent_patchinfo": 62.91,
+      "percent_patchinfo": 63.09,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -992,6 +992,32 @@
         "severityAndImpactContext": 0,
         "softwareIdentification": 0,
         "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-129891",
+      "assigningCna": "CPANSec",
+      "datePublished": "2026-11-17",
+      "totalCveScore": 75,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-129892",
+      "assigningCna": "CPANSec",
+      "datePublished": "2026-11-17",
+      "totalCveScore": 75,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 10
       }
     },
     {
@@ -2737,19 +2763,6 @@
       }
     },
     {
-      "cveId": "CVE-2026-46720",
-      "assigningCna": "CPANSec",
-      "datePublished": "2026-05-17",
-      "totalCveScore": 75,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 10
-      }
-    },
-    {
       "cveId": "CVE-2026-46739",
       "assigningCna": "CPANSec",
       "datePublished": "2026-06-04",
@@ -3114,19 +3127,6 @@
       }
     },
     {
-      "cveId": "CVE-2026-8721",
-      "assigningCna": "CPANSec",
-      "datePublished": "2026-05-17",
-      "totalCveScore": 65,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
       "cveId": "CVE-2026-8788",
       "assigningCna": "CPANSec",
       "datePublished": "2026-05-18",
@@ -3176,19 +3176,6 @@
         "severityAndImpactContext": 0,
         "softwareIdentification": 0,
         "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-8507",
-      "assigningCna": "CPANSec",
-      "datePublished": "2026-05-17",
-      "totalCveScore": 75,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 0,
-        "softwareIdentification": 0,
-        "patchinfo": 10
       }
     },
     {

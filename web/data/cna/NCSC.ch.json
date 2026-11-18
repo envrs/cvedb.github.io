@@ -1,14 +1,14 @@
 {
   "cna_info": {
     "cna": "NCSC.ch",
-    "total_cves": 85,
-    "total_cves_scored": 85,
+    "total_cves": 87,
+    "total_cves_scored": 87,
     "organizationName": "Switzerland National Cyber Security Centre (NCSC)",
     "scope": "Vulnerabilities in software reported to the NCSC-CH for coordinated disclosure, which are not in another CNA's scope.",
     "advisories": [
       {
         "label": "Advisories",
-        "url": "https://www.ncsc.admin.ch/ncsc/en/home/infos-fuer/infos-it-spezialisten/themen/schwachstelle-melden/cve-list.html"
+        "url": "https://www.bacs.admin.ch/en/cve-records"
       }
     ],
     "email": [
@@ -26,7 +26,7 @@
       {
         "label": "Policy",
         "language": "English",
-        "url": "https://www.ncsc.admin.ch/ncsc/en/home/infos-fuer/infos-it-spezialisten/themen/schwachstelle-melden.html"
+        "url": ""
       }
     ],
     "rootCnaInfo": {}
@@ -34,21 +34,21 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 294,
-  "active_cna_count": 375,
-  "percentile": 21.9,
+  "active_cna_count": 376,
+  "percentile": 22.1,
   "cna_scoring": [
     {
-      "total_cves": 85,
-      "total_cves_scored": 85,
-      "recent_cves_count": 85,
-      "overall_average_score": 79.47,
+      "total_cves": 87,
+      "total_cves_scored": 87,
+      "recent_cves_count": 87,
+      "overall_average_score": 79.48,
       "average_foundational_completeness": 50.0,
-      "average_root_cause_analysis": 14.47,
+      "average_root_cause_analysis": 14.48,
       "average_software_identification": 0.0,
       "average_severity_context": 15.0,
       "average_patchinfo": 0.0,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 96.47,
+      "percent_root_cause_analysis": 96.55,
       "percent_software_identification": 0.0,
       "percent_severity_and_impact": 100.0,
       "percent_patchinfo": 0.0,
@@ -569,6 +569,32 @@
       "cveId": "CVE-2026-54204",
       "assigningCna": "NCSC.ch",
       "datePublished": "2026-08-07",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-119726",
+      "assigningCna": "NCSC.ch",
+      "datePublished": "2026-11-17",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-119725",
+      "assigningCna": "NCSC.ch",
+      "datePublished": "2026-11-17",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
