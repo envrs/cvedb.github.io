@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "mitre",
-    "total_cves": 2167,
-    "total_cves_scored": 2167,
+    "total_cves": 2168,
+    "total_cves_scored": 2168,
     "organizationName": "MITRE Corporation",
     "scope": "<strong>Top-Level Root Hierarchy:</strong> Roots, CNA-LRs, and CNAs formally assigned to the MITRE TL-Root hierarchy, including global, cross-sector, and other participants assigned through CVE Program processes.<br/><strong>CNA-LR Scope:</strong> All vulnerabilities, and Open Source software product vulnerabilities, not already covered by a CNA listed on this website.",
     "advisories": [
@@ -28,24 +28,24 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 372,
-  "active_cna_count": 381,
+  "rank": 373,
+  "active_cna_count": 382,
   "percentile": 2.6,
   "cna_scoring": [
     {
-      "total_cves": 2167,
-      "total_cves_scored": 2167,
-      "recent_cves_count": 2167,
-      "overall_average_score": 58.15,
+      "total_cves": 2168,
+      "total_cves_scored": 2168,
+      "recent_cves_count": 2168,
+      "overall_average_score": 58.16,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 3.76,
       "average_software_identification": 0.0,
-      "average_severity_context": 4.17,
+      "average_severity_context": 4.18,
       "average_patchinfo": 0.22,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 25.06,
+      "percent_root_cause_analysis": 25.09,
       "percent_software_identification": 0.0,
-      "percent_severity_and_impact": 27.83,
+      "percent_severity_and_impact": 27.86,
       "percent_patchinfo": 2.17,
       "trend_direction": "steady",
       "trend_description": "No significant change",
@@ -27427,6 +27427,19 @@
         "foundationalCompleteness": 50,
         "rootCauseAnalysis": 0,
         "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-132825",
+      "assigningCna": "mitre",
+      "datePublished": "2026-11-19",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 0
       }

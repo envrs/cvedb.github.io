@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "fedora",
-    "total_cves": 44,
-    "total_cves_scored": 44,
+    "total_cves": 45,
+    "total_cves_scored": 45,
     "organizationName": "Fedora Project",
     "scope": "Vulnerabilities in open source projects affecting the Fedora Project, that are not covered by a more specific CNA. CVEs can be assigned to vulnerabilities affecting end-of-life or unsupported releases by the Fedora Project.",
     "advisories": [
@@ -29,25 +29,25 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 67,
-  "active_cna_count": 381,
-  "percentile": 82.7,
+  "rank": 65,
+  "active_cna_count": 382,
+  "percentile": 83.2,
   "cna_scoring": [
     {
-      "total_cves": 44,
-      "total_cves_scored": 44,
-      "recent_cves_count": 44,
-      "overall_average_score": 82.73,
+      "total_cves": 45,
+      "total_cves_scored": 45,
+      "recent_cves_count": 45,
+      "overall_average_score": 83.11,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
-      "average_software_identification": 2.05,
+      "average_software_identification": 2.22,
       "average_severity_context": 15.0,
-      "average_patchinfo": 0.68,
+      "average_patchinfo": 0.89,
       "percent_foundational_completeness": 100.0,
       "percent_root_cause_analysis": 100.0,
-      "percent_software_identification": 20.45,
+      "percent_software_identification": 22.22,
       "percent_severity_and_impact": 100.0,
-      "percent_patchinfo": 6.82,
+      "percent_patchinfo": 8.89,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -559,6 +559,19 @@
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-130888",
+      "assigningCna": "fedora",
+      "datePublished": "2026-11-19",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
       }
     },
     {
