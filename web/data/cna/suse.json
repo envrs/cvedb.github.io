@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "suse",
-    "total_cves": 130,
-    "total_cves_scored": 130,
+    "total_cves": 131,
+    "total_cves_scored": 131,
     "organizationName": "SUSE",
     "scope": "SUSE and Rancher specific security issues, and vulnerabilities discovered by SUSE that are not covered by the scope of another CNA.",
     "advisories": [
@@ -35,25 +35,25 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 60,
-  "active_cna_count": 382,
-  "percentile": 84.6,
+  "rank": 61,
+  "active_cna_count": 380,
+  "percentile": 84.2,
   "cna_scoring": [
     {
-      "total_cves": 130,
-      "total_cves_scored": 130,
-      "recent_cves_count": 130,
-      "overall_average_score": 83.85,
+      "total_cves": 131,
+      "total_cves_scored": 131,
+      "recent_cves_count": 131,
+      "overall_average_score": 83.89,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 14.54,
       "average_software_identification": 0.0,
       "average_severity_context": 15.0,
-      "average_patchinfo": 4.31,
+      "average_patchinfo": 4.35,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 96.92,
+      "percent_root_cause_analysis": 96.95,
       "percent_software_identification": 0.0,
       "percent_severity_and_impact": 100.0,
-      "percent_patchinfo": 43.08,
+      "percent_patchinfo": 43.51,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -1494,6 +1494,19 @@
       "cveId": "CVE-2026-109096",
       "assigningCna": "suse",
       "datePublished": "2026-11-13",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-109920",
+      "assigningCna": "suse",
+      "datePublished": "2026-11-19",
       "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
