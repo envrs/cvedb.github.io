@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "Neo4j",
-    "total_cves": 8,
-    "total_cves_scored": 8,
+    "total_cves": 9,
+    "total_cves_scored": 9,
     "organizationName": "Neo4j",
     "scope": "Neo4j products and Neo4j-maintained projects only, not including end-of-life components or products.",
     "advisories": [
@@ -34,25 +34,25 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 68,
-  "active_cna_count": 380,
-  "percentile": 82.4,
+  "rank": 71,
+  "active_cna_count": 381,
+  "percentile": 81.6,
   "cna_scoring": [
     {
-      "total_cves": 8,
-      "total_cves_scored": 8,
-      "recent_cves_count": 8,
-      "overall_average_score": 82.5,
+      "total_cves": 9,
+      "total_cves_scored": 9,
+      "recent_cves_count": 9,
+      "overall_average_score": 82.22,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
       "average_software_identification": 0.0,
       "average_severity_context": 15.0,
-      "average_patchinfo": 2.5,
+      "average_patchinfo": 2.22,
       "percent_foundational_completeness": 100.0,
       "percent_root_cause_analysis": 100.0,
       "percent_software_identification": 0.0,
       "percent_severity_and_impact": 100.0,
-      "percent_patchinfo": 25.0,
+      "percent_patchinfo": 22.22,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -73,9 +73,9 @@
       }
     },
     {
-      "cveId": "CVE-2026-14587",
+      "cveId": "CVE-2026-125080",
       "assigningCna": "Neo4j",
-      "datePublished": "2026-08-05",
+      "datePublished": "2026-11-20",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -86,35 +86,9 @@
       }
     },
     {
-      "cveId": "CVE-2026-5423",
+      "cveId": "CVE-2026-19869",
       "assigningCna": "Neo4j",
-      "datePublished": "2026-08-06",
-      "totalCveScore": 80,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 0
-      }
-    },
-    {
-      "cveId": "CVE-2026-92682",
-      "assigningCna": "Neo4j",
-      "datePublished": "2026-10-12",
-      "totalCveScore": 90,
-      "scoreBreakdown": {
-        "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 15,
-        "severityAndImpactContext": 15,
-        "softwareIdentification": 0,
-        "patchinfo": 10
-      }
-    },
-    {
-      "cveId": "CVE-2026-92683",
-      "assigningCna": "Neo4j",
-      "datePublished": "2026-11-09",
+      "datePublished": "2026-08-18",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -151,9 +125,48 @@
       }
     },
     {
-      "cveId": "CVE-2026-19869",
+      "cveId": "CVE-2026-92683",
       "assigningCna": "Neo4j",
-      "datePublished": "2026-08-18",
+      "datePublished": "2026-11-09",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-92682",
+      "assigningCna": "Neo4j",
+      "datePublished": "2026-10-12",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-14587",
+      "assigningCna": "Neo4j",
+      "datePublished": "2026-08-05",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-5423",
+      "assigningCna": "Neo4j",
+      "datePublished": "2026-08-06",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,

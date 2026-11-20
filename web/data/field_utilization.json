@@ -161,8 +161,8 @@
   },
   {
     "field": "references.advisory",
-    "percent": 53.0,
-    "unique_cnas": 205,
+    "percent": 53.5,
+    "unique_cnas": 207,
     "importance": "Medium",
     "description": "Advisory references",
     "cna_scorecard_category": null
@@ -193,11 +193,19 @@
   },
   {
     "field": "references.patch",
-    "percent": 25.6,
-    "unique_cnas": 99,
+    "percent": 25.8,
+    "unique_cnas": 100,
     "importance": "High",
     "description": "Patch references",
     "cna_scorecard_category": "patchinfo"
+  },
+  {
+    "field": "containers.cna.workarounds",
+    "percent": 25.6,
+    "unique_cnas": 99,
+    "importance": "Medium",
+    "description": "Workaround information",
+    "cna_scorecard_category": null
   },
   {
     "field": "affected.repo",
@@ -205,14 +213,6 @@
     "unique_cnas": 98,
     "importance": "Medium",
     "description": "Source code repository URL",
-    "cna_scorecard_category": null
-  },
-  {
-    "field": "containers.cna.workarounds",
-    "percent": 25.3,
-    "unique_cnas": 98,
-    "importance": "Medium",
-    "description": "Workaround information",
     "cna_scorecard_category": null
   },
   {
