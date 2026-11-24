@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "microsoft",
-    "total_cves": 4926,
-    "total_cves_scored": 4926,
+    "total_cves": 4928,
+    "total_cves_scored": 4928,
     "organizationName": "Microsoft Corporation",
     "scope": "Microsoft issues only, excluding end-of-life (EOL) as listed in the <a href='https://learn.microsoft.com/en-US/lifecycle/' target='_blank'>Microsoft Lifecycle Policy</a>.",
     "advisories": [
@@ -33,22 +33,22 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 30,
+  "rank": 11,
   "active_cna_count": 379,
-  "percentile": 92.3,
+  "percentile": 97.4,
   "cna_scoring": [
     {
-      "total_cves": 4926,
-      "total_cves_scored": 4926,
-      "recent_cves_count": 4926,
-      "overall_average_score": 89.99,
+      "total_cves": 4928,
+      "total_cves_scored": 4928,
+      "recent_cves_count": 4928,
+      "overall_average_score": 90.0,
       "average_foundational_completeness": 50.0,
-      "average_root_cause_analysis": 14.99,
+      "average_root_cause_analysis": 15.0,
       "average_software_identification": 0.0,
       "average_severity_context": 15.0,
       "average_patchinfo": 10.0,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 99.96,
+      "percent_root_cause_analysis": 99.98,
       "percent_software_identification": 0.0,
       "percent_severity_and_impact": 100.0,
       "percent_patchinfo": 100.0,
@@ -15649,6 +15649,19 @@
       "cveId": "CVE-2026-112979",
       "assigningCna": "microsoft",
       "datePublished": "2026-11-10",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-112732",
+      "assigningCna": "microsoft",
+      "datePublished": "2026-11-24",
       "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
@@ -44402,6 +44415,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-109484",
+      "assigningCna": "microsoft",
+      "datePublished": "2026-11-24",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
       "cveId": "CVE-2026-109480",
       "assigningCna": "microsoft",
       "datePublished": "2026-11-23",
@@ -63242,10 +63268,10 @@
       "cveId": "CVE-2026-118137",
       "assigningCna": "microsoft",
       "datePublished": "2026-11-10",
-      "totalCveScore": 75,
+      "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
-        "rootCauseAnalysis": 0,
+        "rootCauseAnalysis": 15,
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 10
