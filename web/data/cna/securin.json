@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "securin",
-    "total_cves": 33,
-    "total_cves_scored": 33,
+    "total_cves": 37,
+    "total_cves_scored": 37,
     "organizationName": "Securin",
     "scope": "Vulnerabilities found in Securin products and services (including end-of-life/end-of-service products), as well as vulnerabilities in third-party software discovered by Securin that are not in another CNA’s scope.",
     "advisories": [
@@ -35,25 +35,25 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 10,
-  "active_cna_count": 377,
-  "percentile": 97.6,
+  "rank": 9,
+  "active_cna_count": 379,
+  "percentile": 97.9,
   "cna_scoring": [
     {
-      "total_cves": 33,
-      "total_cves_scored": 33,
-      "recent_cves_count": 33,
-      "overall_average_score": 90.91,
+      "total_cves": 37,
+      "total_cves_scored": 37,
+      "recent_cves_count": 37,
+      "overall_average_score": 91.89,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
-      "average_software_identification": 4.55,
+      "average_software_identification": 5.14,
       "average_severity_context": 15.0,
-      "average_patchinfo": 6.36,
+      "average_patchinfo": 6.76,
       "percent_foundational_completeness": 100.0,
       "percent_root_cause_analysis": 100.0,
-      "percent_software_identification": 45.45,
+      "percent_software_identification": 51.35,
       "percent_severity_and_impact": 100.0,
-      "percent_patchinfo": 63.64,
+      "percent_patchinfo": 67.57,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -217,9 +217,61 @@
       }
     },
     {
+      "cveId": "CVE-2026-105431",
+      "assigningCna": "securin",
+      "datePublished": "2026-11-24",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-105430",
+      "assigningCna": "securin",
+      "datePublished": "2026-11-24",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
       "cveId": "CVE-2026-105429",
       "assigningCna": "securin",
       "datePublished": "2026-10-14",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-105428",
+      "assigningCna": "securin",
+      "datePublished": "2026-11-24",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-135779",
+      "assigningCna": "securin",
+      "datePublished": "2026-11-24",
       "totalCveScore": 100,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
