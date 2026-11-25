@@ -57,8 +57,8 @@
   },
   {
     "field": "containers.adp",
-    "percent": 99.2,
-    "unique_cnas": 385,
+    "percent": 99.5,
+    "unique_cnas": 386,
     "importance": "Low",
     "description": "Authorized Data Publisher container",
     "cna_scorecard_category": null
@@ -193,16 +193,16 @@
   },
   {
     "field": "references.patch",
-    "percent": 26.0,
-    "unique_cnas": 101,
+    "percent": 26.3,
+    "unique_cnas": 102,
     "importance": "High",
     "description": "Patch references",
     "cna_scorecard_category": "patchinfo"
   },
   {
     "field": "affected.repo",
-    "percent": 25.8,
-    "unique_cnas": 100,
+    "percent": 26.0,
+    "unique_cnas": 101,
     "importance": "Medium",
     "description": "Source code repository URL",
     "cna_scorecard_category": null
@@ -248,6 +248,14 @@
     "cna_scorecard_category": null
   },
   {
+    "field": "affected.programRoutines",
+    "percent": 6.4,
+    "unique_cnas": 25,
+    "importance": "Medium",
+    "description": "Affected functions or methods",
+    "cna_scorecard_category": null
+  },
+  {
     "field": "affected.cpes",
     "percent": 6.2,
     "unique_cnas": 24,
@@ -256,17 +264,9 @@
     "cna_scorecard_category": "softwareIdentification"
   },
   {
-    "field": "affected.programRoutines",
-    "percent": 6.2,
-    "unique_cnas": 24,
-    "importance": "Medium",
-    "description": "Affected functions or methods",
-    "cna_scorecard_category": null
-  },
-  {
     "field": "containers.cna.exploits",
-    "percent": 4.6,
-    "unique_cnas": 18,
+    "percent": 4.9,
+    "unique_cnas": 19,
     "importance": "Medium",
     "description": "Exploit information",
     "cna_scorecard_category": null
