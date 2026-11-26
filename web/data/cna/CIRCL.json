@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "CIRCL",
-    "total_cves": 341,
-    "total_cves_scored": 341,
+    "total_cves": 342,
+    "total_cves_scored": 342,
     "organizationName": "Computer Incident Response Center Luxembourg (CIRCL)",
     "scope": "Vulnerability assignment related to vulnerability coordination in Luxembourg, which may include reports on software, products, hardware, or services submitted to CIRCL in its role as the national authority for vulnerability coordination in Luxembourg and within the CSIRTs network.",
     "advisories": [
@@ -34,24 +34,24 @@
   "trend_direction": "steady",
   "trend_description": "No significant change",
   "rank": 7,
-  "active_cna_count": 379,
+  "active_cna_count": 382,
   "percentile": 98.4,
   "cna_scoring": [
     {
-      "total_cves": 341,
-      "total_cves_scored": 341,
-      "recent_cves_count": 341,
-      "overall_average_score": 93.46,
+      "total_cves": 342,
+      "total_cves_scored": 342,
+      "recent_cves_count": 342,
+      "overall_average_score": 93.48,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
-      "average_software_identification": 3.9,
+      "average_software_identification": 3.92,
       "average_severity_context": 15.0,
       "average_patchinfo": 9.56,
       "percent_foundational_completeness": 100.0,
       "percent_root_cause_analysis": 100.0,
-      "percent_software_identification": 39.0,
+      "percent_software_identification": 39.18,
       "percent_severity_and_impact": 100.0,
-      "percent_patchinfo": 95.6,
+      "percent_patchinfo": 95.61,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -2980,6 +2980,19 @@
         "rootCauseAnalysis": 15,
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
+        "patchinfo": 10
+      }
+    },
+    {
+      "cveId": "CVE-2026-137594",
+      "assigningCna": "CIRCL",
+      "datePublished": "2026-11-26",
+      "totalCveScore": 100,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
         "patchinfo": 10
       }
     },

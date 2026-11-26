@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "apache",
-    "total_cves": 1338,
-    "total_cves_scored": 1338,
+    "total_cves": 1340,
+    "total_cves_scored": 1340,
     "organizationName": "Apache Software Foundation",
     "scope": "All Apache Software Foundation issues only.",
     "advisories": [
@@ -34,25 +34,25 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 341,
-  "active_cna_count": 379,
-  "percentile": 10.3,
+  "rank": 343,
+  "active_cna_count": 382,
+  "percentile": 10.5,
   "cna_scoring": [
     {
-      "total_cves": 1338,
-      "total_cves_scored": 1338,
-      "recent_cves_count": 1338,
+      "total_cves": 1340,
+      "total_cves_scored": 1340,
+      "recent_cves_count": 1340,
       "overall_average_score": 70.57,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 14.36,
       "average_software_identification": 0.05,
-      "average_severity_context": 4.44,
+      "average_severity_context": 4.43,
       "average_patchinfo": 1.72,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 95.74,
+      "percent_root_cause_analysis": 95.75,
       "percent_software_identification": 0.52,
-      "percent_severity_and_impact": 29.6,
-      "percent_patchinfo": 17.19,
+      "percent_severity_and_impact": 29.55,
+      "percent_patchinfo": 17.24,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -8627,6 +8627,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-86470",
+      "assigningCna": "apache",
+      "datePublished": "2026-11-26",
+      "totalCveScore": 65,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-86466",
       "assigningCna": "apache",
       "datePublished": "2026-09-16",
@@ -13265,6 +13278,19 @@
         "severityAndImpactContext": 15,
         "softwareIdentification": 0,
         "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-120353",
+      "assigningCna": "apache",
+      "datePublished": "2026-11-26",
+      "totalCveScore": 75,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 0,
+        "softwareIdentification": 0,
+        "patchinfo": 10
       }
     },
     {
