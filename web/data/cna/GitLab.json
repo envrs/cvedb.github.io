@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "GitLab",
-    "total_cves": 390,
-    "total_cves_scored": 390,
+    "total_cves": 391,
+    "total_cves_scored": 391,
     "organizationName": "GitLab Inc.",
     "scope": "The GitLab application, any project hosted on GitLab.com in a public repository, and any vulnerabilities discovered by GitLab that are not in another CNA’s scope.",
     "advisories": [
@@ -34,23 +34,23 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 54,
-  "active_cna_count": 382,
-  "percentile": 86.1,
+  "rank": 53,
+  "active_cna_count": 379,
+  "percentile": 86.3,
   "cna_scoring": [
     {
-      "total_cves": 390,
-      "total_cves_scored": 390,
-      "recent_cves_count": 390,
-      "overall_average_score": 84.97,
+      "total_cves": 391,
+      "total_cves_scored": 391,
+      "recent_cves_count": 391,
+      "overall_average_score": 84.99,
       "average_foundational_completeness": 50.0,
       "average_root_cause_analysis": 15.0,
-      "average_software_identification": 4.97,
+      "average_software_identification": 4.99,
       "average_severity_context": 15.0,
       "average_patchinfo": 0.0,
       "percent_foundational_completeness": 100.0,
       "percent_root_cause_analysis": 100.0,
-      "percent_software_identification": 49.74,
+      "percent_software_identification": 49.87,
       "percent_severity_and_impact": 100.0,
       "percent_patchinfo": 0.0,
       "trend_direction": "steady",
@@ -4093,6 +4093,19 @@
       "cveId": "CVE-2026-11379",
       "assigningCna": "GitLab",
       "datePublished": "2026-06-25",
+      "totalCveScore": 90,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 10,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-17194",
+      "assigningCna": "GitLab",
+      "datePublished": "2026-11-26",
       "totalCveScore": 90,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
