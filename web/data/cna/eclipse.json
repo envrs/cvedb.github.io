@@ -1,8 +1,8 @@
 {
   "cna_info": {
     "cna": "eclipse",
-    "total_cves": 248,
-    "total_cves_scored": 248,
+    "total_cves": 250,
+    "total_cves_scored": 250,
     "organizationName": "Eclipse Foundation",
     "scope": "All projects hosted by the Eclipse Foundation as listed at <a href='https://www.eclipse.org/projects/' target='_blank'>https://www.eclipse.org/projects/</a> and services provided by the Eclipse Foundation to support open source projects as listed at <a href='https://www.eclipsestatus.io/' target='_blank'>https://www.eclipsestatus.io/</a>.",
     "advisories": [
@@ -34,25 +34,25 @@
   },
   "trend_direction": "steady",
   "trend_description": "No significant change",
-  "rank": 318,
-  "active_cna_count": 382,
+  "rank": 319,
+  "active_cna_count": 383,
   "percentile": 17.0,
   "cna_scoring": [
     {
-      "total_cves": 248,
-      "total_cves_scored": 248,
-      "recent_cves_count": 248,
-      "overall_average_score": 78.02,
+      "total_cves": 250,
+      "total_cves_scored": 250,
+      "recent_cves_count": 250,
+      "overall_average_score": 78.04,
       "average_foundational_completeness": 50.0,
-      "average_root_cause_analysis": 13.85,
+      "average_root_cause_analysis": 13.86,
       "average_software_identification": 0.0,
-      "average_severity_context": 13.97,
+      "average_severity_context": 13.98,
       "average_patchinfo": 0.2,
       "percent_foundational_completeness": 100.0,
-      "percent_root_cause_analysis": 92.34,
+      "percent_root_cause_analysis": 92.4,
       "percent_software_identification": 0.0,
-      "percent_severity_and_impact": 93.15,
-      "percent_patchinfo": 2.02,
+      "percent_severity_and_impact": 93.2,
+      "percent_patchinfo": 2.0,
       "trend_direction": "steady",
       "trend_description": "No significant change",
       "monthly_trends": []
@@ -2244,6 +2244,19 @@
       }
     },
     {
+      "cveId": "CVE-2026-137609",
+      "assigningCna": "eclipse",
+      "datePublished": "2026-11-27",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
       "cveId": "CVE-2026-79653",
       "assigningCna": "eclipse",
       "datePublished": "2026-08-27",
@@ -2975,6 +2988,19 @@
       "cveId": "CVE-2026-132039",
       "assigningCna": "eclipse",
       "datePublished": "2026-11-19",
+      "totalCveScore": 80,
+      "scoreBreakdown": {
+        "foundationalCompleteness": 50,
+        "rootCauseAnalysis": 15,
+        "severityAndImpactContext": 15,
+        "softwareIdentification": 0,
+        "patchinfo": 0
+      }
+    },
+    {
+      "cveId": "CVE-2026-132890",
+      "assigningCna": "eclipse",
+      "datePublished": "2026-11-27",
       "totalCveScore": 80,
       "scoreBreakdown": {
         "foundationalCompleteness": 50,
